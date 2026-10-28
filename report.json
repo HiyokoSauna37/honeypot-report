@@ -1,29 +1,29 @@
 {
   "schema_version": 4,
-  "generated_utc": "2026-10-28T14:01:17+00:00",
+  "generated_utc": "2026-10-28T14:13:06+00:00",
   "campaign": {
     "profile": "web-app-v1",
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 0,
-    "iot_requests": 1,
-    "unclassified_requests": 6,
-    "routine_requests": 37,
+    "classified_requests": 1,
+    "iot_requests": 3,
+    "unclassified_requests": 39,
+    "routine_requests": 44,
     "excluded_checks": 330
   },
   "counts": {
     "commands": 10,
-    "login_attempts": 32,
-    "login_successes": 25,
-    "ssh_connections": 82,
-    "web_requests": 44
+    "login_attempts": 33,
+    "login_successes": 26,
+    "ssh_connections": 84,
+    "web_requests": 87
   },
   "daily": [
     {
       "date": "2026-10-28",
-      "ssh_connections": 82,
-      "web_requests": 44
+      "ssh_connections": 84,
+      "web_requests": 87
     }
   ],
   "http_requests": [
@@ -31,17 +31,17 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 11,
+      "count": 15,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-28T13:59:11+00:00"
+      "last_seen": "2026-10-28T14:05:59+00:00"
     },
     {
       "method": "GET",
       "path": "/favicon.ico",
       "status": 200,
-      "count": 10,
+      "count": 12,
       "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-28T13:58:19+00:00"
+      "last_seen": "2026-10-28T14:03:21+00:00"
     },
     {
       "method": "GET",
@@ -146,6 +146,22 @@
       "count": 1,
       "first_seen": "2026-10-28T13:59:20+00:00",
       "last_seen": "2026-10-28T13:59:20+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-28T14:00:23+00:00",
+      "last_seen": "2026-10-28T14:00:23+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-10-28T14:02:20+00:00",
+      "last_seen": "2026-10-28T14:02:20+00:00"
     }
   ],
   "findings": [
@@ -156,6 +172,14 @@
       "count": 1,
       "first_seen": "2026-10-28T13:14:48+00:00",
       "last_seen": "2026-10-28T13:14:48+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json",
+      "count": 1,
+      "first_seen": "2026-10-28T14:02:20+00:00",
+      "last_seen": "2026-10-28T14:02:20+00:00"
     }
   ],
   "outbound": [],
@@ -168,6 +192,6 @@
     "invalid_events": 6,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 0
+    "pending_indicators": 35
   }
 }
