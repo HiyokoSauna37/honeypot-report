@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_utc": "2026-10-28T13:57:10+00:00",
+  "generated_utc": "2026-10-28T13:59:55+00:00",
   "campaign": {
     "profile": "web-app-v1",
     "started_utc": "2026-10-28T11:48:35+00:00"
@@ -8,22 +8,22 @@
   "web_summary": {
     "classified_requests": 0,
     "iot_requests": 1,
-    "unclassified_requests": 4,
-    "routine_requests": 17,
+    "unclassified_requests": 6,
+    "routine_requests": 37,
     "excluded_checks": 330
   },
   "counts": {
     "commands": 10,
-    "login_attempts": 31,
-    "login_successes": 24,
-    "ssh_connections": 80,
-    "web_requests": 22
+    "login_attempts": 32,
+    "login_successes": 25,
+    "ssh_connections": 82,
+    "web_requests": 44
   },
   "daily": [
     {
       "date": "2026-10-28",
-      "ssh_connections": 80,
-      "web_requests": 22
+      "ssh_connections": 82,
+      "web_requests": 44
     }
   ],
   "http_requests": [
@@ -31,17 +31,25 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 8,
+      "count": 11,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-28T13:55:09+00:00"
+      "last_seen": "2026-10-28T13:59:11+00:00"
     },
     {
       "method": "GET",
       "path": "/favicon.ico",
       "status": 200,
-      "count": 4,
+      "count": 10,
       "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-28T12:22:45+00:00"
+      "last_seen": "2026-10-28T13:58:19+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/site.css",
+      "status": 200,
+      "count": 8,
+      "first_seen": "2026-10-28T12:09:48+00:00",
+      "last_seen": "2026-10-28T13:58:19+00:00"
     },
     {
       "method": "",
@@ -53,19 +61,11 @@
     },
     {
       "method": "GET",
-      "path": "/assets/site.css",
-      "status": 200,
-      "count": 2,
-      "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-28T12:09:58+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/news",
       "status": 200,
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-10-28T12:09:58+00:00",
-      "last_seen": "2026-10-28T12:09:58+00:00"
+      "last_seen": "2026-10-28T13:58:10+00:00"
     },
     {
       "method": "GET",
@@ -90,6 +90,22 @@
       "count": 1,
       "first_seen": "2026-10-28T13:43:07+00:00",
       "last_seen": "2026-10-28T13:43:07+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/autodiscover/autodiscover.xml",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-10-28T13:55:10+00:00",
+      "last_seen": "2026-10-28T13:55:10+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/ews/exchange.asmx",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-10-28T13:55:10+00:00",
+      "last_seen": "2026-10-28T13:55:10+00:00"
     }
   ],
   "findings": [
@@ -112,6 +128,6 @@
     "invalid_events": 6,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 2
+    "pending_indicators": 5
   }
 }
