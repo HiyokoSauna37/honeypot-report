@@ -1,12 +1,12 @@
 {
   "schema_version": 5,
-  "generated_utc": "2026-10-28T15:30:13+00:00",
+  "generated_utc": "2026-10-28T16:30:13+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 1,
-    "sessions": 1,
-    "sources": 1,
-    "largest_source_requests": 1,
+    "requests": 49,
+    "sessions": 49,
+    "sources": 23,
+    "largest_source_requests": 23,
     "behaviors": {
       "cookie": 0,
       "redirect": 0,
@@ -16,19 +16,19 @@
       "login": 0,
       "upload": 0,
       "action": 0,
-      "robots": 0
+      "robots": 1
     },
     "transport": {
-      "http": 1,
-      "https": 0,
+      "http": 37,
+      "https": 12,
       "http2": 0,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "aster",
-        "requests": 1,
-        "sessions": 1,
+        "requests": 49,
+        "sessions": 49,
         "actions": 0
       },
       {
@@ -76,23 +76,23 @@
   },
   "web_summary": {
     "classified_requests": 1,
-    "iot_requests": 4,
-    "unclassified_requests": 47,
-    "routine_requests": 62,
+    "iot_requests": 5,
+    "unclassified_requests": 82,
+    "routine_requests": 77,
     "excluded_checks": 466
   },
   "counts": {
-    "commands": 11,
-    "login_attempts": 51,
-    "login_successes": 38,
-    "ssh_connections": 120,
-    "web_requests": 114
+    "commands": 75,
+    "login_attempts": 97,
+    "login_successes": 61,
+    "ssh_connections": 191,
+    "web_requests": 165
   },
   "daily": [
     {
       "date": "2026-10-28",
-      "ssh_connections": 120,
-      "web_requests": 114
+      "ssh_connections": 191,
+      "web_requests": 165
     }
   ],
   "http_requests": [
@@ -100,17 +100,17 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 20,
+      "count": 29,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-28T15:26:30+00:00"
+      "last_seen": "2026-10-28T16:23:19+00:00"
     },
     {
       "method": "GET",
       "path": "/favicon.ico",
       "status": 200,
-      "count": 17,
+      "count": 20,
       "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-28T15:10:28+00:00"
+      "last_seen": "2026-10-28T16:23:18+00:00"
     },
     {
       "method": "GET",
@@ -124,9 +124,9 @@
       "method": "",
       "path": "",
       "status": 400,
-      "count": 7,
+      "count": 10,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-10-28T15:28:47+00:00"
+      "last_seen": "2026-10-28T16:20:08+00:00"
     },
     {
       "method": "GET",
@@ -140,9 +140,17 @@
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-28T14:59:05+00:00"
+      "last_seen": "2026-10-28T15:58:25+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/login",
+      "status": 200,
+      "count": 2,
+      "first_seen": "2026-10-28T13:43:07+00:00",
+      "last_seen": "2026-10-28T16:10:31+00:00"
     },
     {
       "method": "GET",
@@ -159,14 +167,6 @@
       "count": 1,
       "first_seen": "2026-10-28T12:10:08+00:00",
       "last_seen": "2026-10-28T12:10:08+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/login",
-      "status": 200,
-      "count": 1,
-      "first_seen": "2026-10-28T13:43:07+00:00",
-      "last_seen": "2026-10-28T13:43:07+00:00"
     },
     {
       "method": "GET",
@@ -543,6 +543,22 @@
       "count": 1,
       "first_seen": "2026-10-28T15:10:28+00:00",
       "last_seen": "2026-10-28T15:10:28+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/robots.txt",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-28T16:14:25+00:00",
+      "last_seen": "2026-10-28T16:14:25+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sitemap.xml",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-28T16:14:27+00:00",
+      "last_seen": "2026-10-28T16:14:27+00:00"
     }
   ],
   "findings": [
@@ -550,9 +566,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-28T14:59:05+00:00"
+      "last_seen": "2026-10-28T15:58:25+00:00"
     },
     {
       "rule_id": "wordpress-probe",
@@ -566,13 +582,13 @@
   "outbound": [],
   "samples": [],
   "coverage": {
-    "web_bodies_read": 0,
-    "web_bodies_skipped": 58,
+    "web_bodies_read": 1,
+    "web_bodies_skipped": 59,
     "manifest_read": true,
     "dionaea_lines_read": 0,
     "invalid_events": 7,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 3
+    "pending_indicators": 16
   }
 }
