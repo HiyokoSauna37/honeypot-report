@@ -1,37 +1,47 @@
-# Honeypot Observation Report
+# Hiyoko Honeypot Observatory
 
 Public dashboard: https://hiyokosauna37.github.io/honeypot-report/
 
-This repository contains a sanitized observation report, not raw logs or samples.
+This repository contains a sanitized observation report and the owner's chick/server
+mascot. Raw logs, credentials, source IPs, request bodies, full command input, sensor
+configuration and sample binaries are not published.
 
-## Published information
+## Observations
 
-- Aggregate SSH/Telnet and HTTP counters, with daily counts in UTC.
-- Requested HTTP paths, methods, status codes, counts and observation times.
-- Rule-based product/vulnerability clues, explicitly distinguishing path probes
-  from suspected exploit expressions. A CVE association does not prove successful exploitation.
-- Defanged URLs mentioned in shell input, transfer events, SSH forwarding requests,
-  saved HTTP request bodies and Dionaea text logs, with their observation context.
-- SHA-256 hashes recorded for captured files, deduplicated across file events and
-  the sensor sample manifest. TTY recording hashes are excluded.
+- SSH/Telnet and HTTP counts, with daily counts in UTC.
+- Approved HTTP paths, methods, status codes, counts and observation times.
+- Rule-based product/vulnerability clues. Path probes and suspected exploit
+  expressions have different confidence labels; a CVE association does not prove
+  successful exploitation.
+- Approved, defanged destination URLs, labeled as mentions, failed downloads,
+  recorded file transfers or SSH forwarding requests.
+- Approved SHA-256 hashes from captured-file events and the sample manifest.
+  TTY recording hashes are excluded. A file hash is not a malware verdict.
 
-URL userinfo, fragments, most query values and internal destinations are redacted.
-Source IPs, credentials, cookies, full command input, request bodies, sensor
-configuration and sample binaries are not published. URLs are never fetched as
-part of report generation. An observed URL is not necessarily a successful connection.
-A captured file hash is not a malware verdict.
+New paths, destination URLs and hashes are held for local approval before their
+first publication. Aggregate counts include held observations. URL userinfo,
+fragments, most query values and internal destinations are redacted. The report
+generator does not visit observed URLs or execute captured content.
 
-## Updates and coverage
+## Updates and health
 
-The dashboard is updated after the collector's daily 07:30 JST run succeeds.
-The Windows collector must be powered on and signed in. A failed or missed run
-leaves the previous report visible; check the generation timestamp on the page.
+Daily collection runs at 07:30 JST on the Windows collector, including when signed
+out. Its power and network must remain available. Publication uses a dedicated,
+repository-scoped SSH deploy key.
 
-Each report summarizes current logs in the latest collection, not a cumulative
-sum of repeated snapshots. Log rotation or sensor resets can change the observation
-window. Lists are limited to 100 rows and the coverage section shows truncation.
-Only saved request bodies are inspected with size limits, in memory; bodies and
-samples are not extracted or executed. Unknown patterns, encrypted traffic and
-obfuscated payloads may not be classified. Operational tests may be included.
+Current and rotated logs are deduplicated into a local 90-day history. Records
+deleted on the sensor before collection cannot be recovered. Each public table
+is limited to 100 rows. Coverage and pending-indicator counts appear on the page.
+Operational checks may be included in observation counts.
 
-Public data: [report.json](report.json), schema version 2.
+An hourly collector-side monitor publishes [health.json](health.json), containing
+only a check timestamp, a healthy flag and fixed problem codes. Private diagnostics
+are kept on the collector.
+
+The [Report freshness workflow](../../actions/workflows/check-freshness.yml) checks
+the public report and health status hourly. It fails if the daily report is older
+than 27 hours, the health check is older than 2.5 hours, or the sensor reports an
+unhealthy state. GitHub scheduling may be delayed. Email and other failure
+notifications depend on the user's GitHub Actions notification settings.
+
+Public observation data: [report.json](report.json), schema version 3.
