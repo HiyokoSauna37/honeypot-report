@@ -38,7 +38,7 @@ An hourly collector-side monitor publishes [health.json](health.json), containin
 only a check timestamp, a healthy flag and fixed problem codes. Private diagnostics
 are kept on the collector.
 
-The [Report freshness workflow](../../actions/workflows/check-freshness.yml) checks
+The [Report freshness workflow](https://github.com/HiyokoSauna37/honeypot-report/actions/workflows/check-freshness.yml) checks
 the public report and health status hourly. It fails if the daily report is older
 than 27 hours, the health check is older than 2.5 hours, or the sensor reports an
 unhealthy state. GitHub scheduling may be delayed. Email and other failure
