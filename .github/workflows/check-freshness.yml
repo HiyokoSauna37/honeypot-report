@@ -24,5 +24,12 @@ jobs:
           print('Published report age: %.1f hours' % (age / 3600))
           if age < -300 or age > 27 * 3600:
               raise SystemExit('Report freshness check failed: collector, publication or sensor may be unavailable.')
+          health_url = 'https://hiyokosauna37.github.io/honeypot-report/health.json?freshness=' + str(time.time_ns())
+          with urllib.request.urlopen(urllib.request.Request(health_url, headers={'Cache-Control': 'no-cache'}), timeout=30) as response:
+              health = json.load(response)
+          checked = datetime.fromisoformat(health['checked_utc'].replace('Z', '+00:00'))
+          health_age = (datetime.now(timezone.utc) - checked).total_seconds()
+          if health_age < -300 or health_age > 2.5 * 3600 or health['healthy'] is not True:
+              raise SystemExit('Sensor health or hourly monitor is unhealthy/stale.')
           print('Report is current.')
           PY
