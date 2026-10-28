@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_utc": "2026-10-28T15:20:12+00:00",
+  "generated_utc": "2026-10-28T15:24:30+00:00",
   "engagement": {
     "started_utc": null,
     "requests": 0,
@@ -514,6 +514,14 @@
     },
     {
       "method": "GET",
+      "path": "/actuator/health",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-10-28T15:00:06+00:00",
+      "last_seen": "2026-10-28T15:00:06+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/article?id=[REDACTED]",
       "status": 200,
       "count": 1,
@@ -565,6 +573,6 @@
     "invalid_events": 7,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 1
+    "pending_indicators": 0
   }
 }
