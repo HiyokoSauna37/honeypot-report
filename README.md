@@ -25,7 +25,7 @@ generator does not visit observed URLs or execute captured content.
 
 ## Updates and health
 
-Daily collection runs at 07:30 JST on the Windows collector, including when signed
+Hourly collection runs at 30 minutes past each hour (JST) on the Windows collector, including when signed
 out. Its power and network must remain available. Publication uses a dedicated,
 repository-scoped SSH deploy key.
 
@@ -39,8 +39,8 @@ only a check timestamp, a healthy flag and fixed problem codes. Private diagnost
 are kept on the collector.
 
 The [Report freshness workflow](https://github.com/HiyokoSauna37/honeypot-report/actions/workflows/check-freshness.yml) checks
-the public report and health status hourly. It fails if the daily report is older
-than 27 hours, the health check is older than 2.5 hours, or the sensor reports an
+the public report and health status hourly. It fails if the report is older
+than 2.5 hours, the health check is older than 2.5 hours, or the sensor reports an
 unhealthy state. GitHub scheduling may be delayed. Email and other failure
 notifications depend on the user's GitHub Actions notification settings.
 
