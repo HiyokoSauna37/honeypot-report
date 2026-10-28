@@ -1,21 +1,29 @@
 {
   "schema_version": 3,
-  "generated_utc": "2026-10-28T06:48:38+00:00",
+  "generated_utc": "2026-10-28T06:55:46+00:00",
   "counts": {
     "commands": 52,
-    "login_attempts": 84,
-    "login_successes": 47,
-    "ssh_connections": 200,
-    "web_requests": 69
+    "login_attempts": 85,
+    "login_successes": 48,
+    "ssh_connections": 203,
+    "web_requests": 72
   },
   "daily": [
     {
       "date": "2026-10-28",
-      "ssh_connections": 200,
-      "web_requests": 69
+      "ssh_connections": 203,
+      "web_requests": 72
     }
   ],
   "http_requests": [
+    {
+      "method": "OTHER",
+      "path": "/[unparsed]",
+      "status": 400,
+      "count": 17,
+      "first_seen": "2026-10-28T02:51:26+00:00",
+      "last_seen": "2026-10-28T06:54:32+00:00"
+    },
     {
       "method": "GET",
       "path": "/",
@@ -23,14 +31,6 @@
       "count": 16,
       "first_seen": "2026-10-28T02:46:40+00:00",
       "last_seen": "2026-10-28T05:28:25+00:00"
-    },
-    {
-      "method": "OTHER",
-      "path": "/[unparsed]",
-      "status": 400,
-      "count": 15,
-      "first_seen": "2026-10-28T02:51:26+00:00",
-      "last_seen": "2026-10-28T06:44:33+00:00"
     },
     {
       "method": "GET",
@@ -253,6 +253,6 @@
     "invalid_events": 6,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 2
+    "pending_indicators": 3
   }
 }
