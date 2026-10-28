@@ -19,11 +19,11 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{.section-nav,.hero-art,.github-link{display:none}body{background:white}.container{width:100%}.scroll{overflow:visible}.metrics{break-inside:avoid}.report-section{break-inside:avoid}.methodology{border:0}.footer{margin-top:20px}}
 </style></head><body><div class="container">
 <header class="masthead" id="top"><a class="brand" href="#top" aria-label="hiyoko observatory トップ"><img class="brand-mark" src="hiyoko-server.png" width="1280" height="1280" alt="卵の殻をかぶったひよこサーバのロゴ" decoding="async"><span><span class="wordmark">hiyoko<span> / observatory</span></span><span class="brand-caption">A LITTLE HONEYPOT ON THE INTERNET</span></span></a>
-<div class="masthead-right"><span class="schedule">毎朝 07:30 JST 更新</span><a class="github-link" href="https://github.com/HiyokoSauna37/honeypot-report" rel="noreferrer">GitHub ↗</a></div></header>
+<div class="masthead-right"><span class="schedule">毎時30分 JST 回収・更新</span><a class="github-link" href="https://github.com/HiyokoSauna37/honeypot-report" rel="noreferrer">GitHub ↗</a></div></header>
 <main><div class="hero"><div class="hero-copy"><p class="eyebrow">HIYOKO'S HONEYPOT JOURNAL</p>
 <h1>ひよこの<br><span class="highlight">ハニーポット観測室。</span></h1>
 <p class="hero-description">小さなサーバに届く、世界からのノック。<br>通信の跡をたどって、狙われた脆弱性や<br>URL、検体の手がかりを記録しています。</p>
-<div class="snapshot"><span class="snapshot-label">LATEST SNAPSHOT</span><time datetime="2026-10-28T06:47:36+00:00">2026.10.28  15:47 JST</time></div></div>
+<div class="snapshot"><span class="snapshot-label">LATEST SNAPSHOT</span><time datetime="2026-10-28T06:48:38+00:00">2026.10.28  15:48 JST</time></div></div>
 <div class="hero-art"><img class="hero-illustration" src="hiyoko-server.png" width="1280" height="1280" alt="卵の殻をかぶり、サーバを抱えたひよこ" fetchpriority="high"><span class="art-caption">CURIOUS BY NATURE. WATCHFUL BY DESIGN.</span></div></div>
 <nav class="section-nav" aria-label="レポート内の移動"><div class="links"><a href="#targets"><span class="nav-number">01</span>脆弱性・探索</a><a href="#requests"><span class="nav-number">02</span>要求URL</a><a href="#outbound"><span class="nav-number">03</span>接続先URL</a><a href="#samples"><span class="nav-number">04</span>検体ハッシュ</a><a href="#daily"><span class="nav-number">05</span>日別の観測</a></div><span class="nav-note">SMALL CHICK, BIG CURIOSITY.</span></nav>
 <div class="overview-head"><h2 class="small-title">観測サマリー</h2><p>回収済みの過去90日 / 重複除外 / UTC</p></div>
@@ -46,7 +46,7 @@
 <p class="section-description">世界から届いたノックを日ごとに。日付の区切りはUTCです。</p><div class="daily-layout">
 <div class="scroll"><table><thead><tr><th scope="col">日付（UTC）</th><th scope="col">SSH / Telnet</th><th scope="col">HTTP</th></tr></thead><tbody><tr><td><code>2026-10-28</code></td><td><span class="count-cell">200</span></td><td><span class="count-cell">69</span></td></tr></tbody></table></div><div class="daily-chart"><div class="chart-head">観測日のトラフィック<div class="chart-legend"><span><i></i>SSH / Telnet</span><span><i></i>HTTP</span></div></div><div class="chart-row"><span class="chart-day">2026-10-28</span><div class="bar-pair"><div class="bar-line"><div class="bar-track" aria-hidden="true"><div class="bar ssh" style="width:100.00%"></div></div><span class="bar-value">200</span></div><div class="bar-line"><div class="bar-track" aria-hidden="true"><div class="bar web" style="width:34.50%"></div></div><span class="bar-value">69</span></div></div></div><p class="chart-note">最新7観測日を同じ目盛りで比較しています。</p></div></div></section>
 <details class="methodology"><summary>集計範囲と読み方 / このレポートについて</summary><div class="method-content">
-<p>毎朝07:30（日本時間）の回収成功後に更新します。サインアウト中も回収できますが、Windows端末の電源とネットワークが必要です。時刻・日別集計はUTCです。
+<p>毎時30分（日本時間）の回収成功後に更新します。サインアウト中も回収できますが、Windows端末の電源とネットワークが必要です。時刻・日別集計はUTCです。
 回収した現行・ローテーション済みログを過去90日間蓄積し、同一イベントの重複を除いて集計します。回収される前にセンサから削除されたログは復元できません。運用者の動作確認が含まれる場合があります。</p>
 <dl class="coverage-grid"><div><dt>保存済みHTTP本文の参照</dt><dd>5 件</dd></div><div><dt>サイズ等による本文除外</dt><dd>0 件</dd></div><div><dt>検体一覧の参照</dt><dd>参照済み</dd></div><div><dt>解析不能イベント</dt><dd>6 件</dd></div></dl>
 <p>各一覧は最大100行です。全件表示できないデータ: なし。冒頭の生成日時は日本時間、データの観測日時はUTCで表示します。</p>
