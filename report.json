@@ -1,18 +1,18 @@
 {
-  "schema_version": 2,
-  "generated_utc": "2026-10-28T05:00:34+00:00",
+  "schema_version": 3,
+  "generated_utc": "2026-10-28T06:06:27+00:00",
   "counts": {
-    "commands": 28,
-    "login_attempts": 53,
-    "login_successes": 26,
-    "ssh_connections": 112,
-    "web_requests": 41
+    "commands": 38,
+    "login_attempts": 71,
+    "login_successes": 36,
+    "ssh_connections": 166,
+    "web_requests": 52
   },
   "daily": [
     {
       "date": "2026-10-28",
-      "ssh_connections": 112,
-      "web_requests": 41
+      "ssh_connections": 166,
+      "web_requests": 52
     }
   ],
   "http_requests": [
@@ -20,25 +20,25 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 12,
+      "count": 16,
       "first_seen": "2026-10-28T02:46:40+00:00",
-      "last_seen": "2026-10-28T04:53:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/favicon.ico",
-      "status": 200,
-      "count": 4,
-      "first_seen": "2026-10-28T02:46:40+00:00",
-      "last_seen": "2026-10-28T04:57:40+00:00"
+      "last_seen": "2026-10-28T05:28:25+00:00"
     },
     {
       "method": "OTHER",
       "path": "/[unparsed]",
       "status": 400,
-      "count": 4,
+      "count": 6,
       "first_seen": "2026-10-28T02:51:26+00:00",
-      "last_seen": "2026-10-28T04:52:52+00:00"
+      "last_seen": "2026-10-28T05:28:25+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/favicon.ico",
+      "status": 200,
+      "count": 5,
+      "first_seen": "2026-10-28T02:46:40+00:00",
+      "last_seen": "2026-10-28T05:28:25+00:00"
     },
     {
       "method": "GET",
@@ -47,6 +47,14 @@
       "count": 2,
       "first_seen": "2026-10-28T02:51:53+00:00",
       "last_seen": "2026-10-28T04:59:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/SDK/webLanguage",
+      "status": 200,
+      "count": 2,
+      "first_seen": "2026-10-28T04:05:33+00:00",
+      "last_seen": "2026-10-28T05:52:34+00:00"
     },
     {
       "method": "GET",
@@ -71,14 +79,6 @@
       "count": 1,
       "first_seen": "2026-10-28T02:51:12+00:00",
       "last_seen": "2026-10-28T02:51:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/SDK/webLanguage",
-      "status": 200,
-      "count": 1,
-      "first_seen": "2026-10-28T04:05:33+00:00",
-      "last_seen": "2026-10-28T04:05:33+00:00"
     },
     {
       "method": "GET",
@@ -191,6 +191,22 @@
       "count": 1,
       "first_seen": "2026-10-28T04:55:42+00:00",
       "last_seen": "2026-10-28T04:55:42+00:00"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/",
+      "status": 405,
+      "count": 1,
+      "first_seen": "2026-10-28T05:28:36+00:00",
+      "last_seen": "2026-10-28T05:28:36+00:00"
+    },
+    {
+      "method": "OTHER",
+      "path": "/",
+      "status": 405,
+      "count": 1,
+      "first_seen": "2026-10-28T05:28:36+00:00",
+      "last_seen": "2026-10-28T05:28:36+00:00"
     }
   ],
   "findings": [
@@ -206,9 +222,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-10-28T04:05:33+00:00",
-      "last_seen": "2026-10-28T04:05:33+00:00"
+      "last_seen": "2026-10-28T05:52:34+00:00"
     }
   ],
   "outbound": [],
@@ -217,8 +233,10 @@
     "web_bodies_read": 1,
     "web_bodies_skipped": 0,
     "manifest_read": true,
-    "dionaea_lines_read": 9288,
+    "dionaea_lines_read": 24506,
     "invalid_events": 0,
-    "rows_limited": false
+    "rows_limited": false,
+    "history_days": 90,
+    "pending_indicators": 1
   }
 }
