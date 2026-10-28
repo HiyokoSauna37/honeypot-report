@@ -1,29 +1,98 @@
 {
-  "schema_version": 4,
-  "generated_utc": "2026-10-28T14:30:18+00:00",
+  "schema_version": 5,
+  "generated_utc": "2026-10-28T15:20:12+00:00",
+  "engagement": {
+    "started_utc": null,
+    "requests": 0,
+    "sessions": 0,
+    "sources": 0,
+    "largest_source_requests": 0,
+    "behaviors": {
+      "cookie": 0,
+      "redirect": 0,
+      "resource": 0,
+      "javascript": 0,
+      "revisit": 0,
+      "login": 0,
+      "upload": 0,
+      "action": 0,
+      "robots": 0
+    },
+    "transport": {
+      "http": 0,
+      "https": 0,
+      "http2": 0,
+      "unknown": 0
+    },
+    "profiles": [
+      {
+        "profile": "aster",
+        "requests": 0,
+        "sessions": 0,
+        "actions": 0
+      },
+      {
+        "profile": "wordpress",
+        "requests": 0,
+        "sessions": 0,
+        "actions": 0
+      },
+      {
+        "profile": "jenkins",
+        "requests": 0,
+        "sessions": 0,
+        "actions": 0
+      },
+      {
+        "profile": "phpmyadmin",
+        "requests": 0,
+        "sessions": 0,
+        "actions": 0
+      },
+      {
+        "profile": "node-import",
+        "requests": 0,
+        "sessions": 0,
+        "actions": 0
+      },
+      {
+        "profile": "telerik",
+        "requests": 0,
+        "sessions": 0,
+        "actions": 0
+      },
+      {
+        "profile": "coldfusion",
+        "requests": 0,
+        "sessions": 0,
+        "actions": 0
+      }
+    ],
+    "limited": false
+  },
   "campaign": {
     "profile": "web-app-v1",
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
     "classified_requests": 1,
-    "iot_requests": 3,
-    "unclassified_requests": 39,
-    "routine_requests": 44,
-    "excluded_checks": 330
+    "iot_requests": 4,
+    "unclassified_requests": 42,
+    "routine_requests": 61,
+    "excluded_checks": 440
   },
   "counts": {
     "commands": 10,
-    "login_attempts": 39,
-    "login_successes": 29,
-    "ssh_connections": 97,
-    "web_requests": 87
+    "login_attempts": 49,
+    "login_successes": 36,
+    "ssh_connections": 116,
+    "web_requests": 108
   },
   "daily": [
     {
       "date": "2026-10-28",
-      "ssh_connections": 97,
-      "web_requests": 87
+      "ssh_connections": 116,
+      "web_requests": 108
     }
   ],
   "http_requests": [
@@ -31,25 +100,33 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 15,
+      "count": 19,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-28T14:05:59+00:00"
+      "last_seen": "2026-10-28T15:02:24+00:00"
     },
     {
       "method": "GET",
       "path": "/favicon.ico",
       "status": 200,
-      "count": 12,
+      "count": 17,
       "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-28T14:03:21+00:00"
+      "last_seen": "2026-10-28T15:10:28+00:00"
     },
     {
       "method": "GET",
       "path": "/assets/site.css",
       "status": 200,
-      "count": 8,
+      "count": 13,
       "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-28T13:58:19+00:00"
+      "last_seen": "2026-10-28T15:10:28+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/news",
+      "status": 200,
+      "count": 4,
+      "first_seen": "2026-10-28T12:09:58+00:00",
+      "last_seen": "2026-10-28T15:10:10+00:00"
     },
     {
       "method": "",
@@ -61,11 +138,11 @@
     },
     {
       "method": "GET",
-      "path": "/news",
-      "status": 200,
+      "path": "/SDK/webLanguage",
+      "status": 404,
       "count": 2,
-      "first_seen": "2026-10-28T12:09:58+00:00",
-      "last_seen": "2026-10-28T13:58:10+00:00"
+      "first_seen": "2026-10-28T13:14:48+00:00",
+      "last_seen": "2026-10-28T14:59:05+00:00"
     },
     {
       "method": "GET",
@@ -82,14 +159,6 @@
       "count": 1,
       "first_seen": "2026-10-28T12:10:08+00:00",
       "last_seen": "2026-10-28T12:10:08+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/SDK/webLanguage",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-28T13:14:48+00:00"
     },
     {
       "method": "GET",
@@ -442,6 +511,30 @@
       "count": 1,
       "first_seen": "2026-10-28T14:03:22+00:00",
       "last_seen": "2026-10-28T14:03:22+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/article?id=[REDACTED]",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-28T15:10:05+00:00",
+      "last_seen": "2026-10-28T15:10:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/search",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-28T15:10:18+00:00",
+      "last_seen": "2026-10-28T15:10:18+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/search?q=[REDACTED]",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-28T15:10:28+00:00",
+      "last_seen": "2026-10-28T15:10:28+00:00"
     }
   ],
   "findings": [
@@ -449,9 +542,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-28T13:14:48+00:00"
+      "last_seen": "2026-10-28T14:59:05+00:00"
     },
     {
       "rule_id": "wordpress-probe",
@@ -466,12 +559,12 @@
   "samples": [],
   "coverage": {
     "web_bodies_read": 0,
-    "web_bodies_skipped": 19,
+    "web_bodies_skipped": 52,
     "manifest_read": true,
     "dionaea_lines_read": 0,
-    "invalid_events": 6,
+    "invalid_events": 7,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 0
+    "pending_indicators": 1
   }
 }
