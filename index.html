@@ -1,18 +1,36 @@
 <!doctype html>
-<html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
-<meta name="referrer" content="no-referrer">
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
 <title>Honeypot Observation Report</title>
 <style>
-body{font:16px/1.7 system-ui,sans-serif;max-width:960px;margin:60px auto;padding:0 24px;color:#dce5ef;background:#101923}
-h1{font-size:clamp(24px,5vw,40px);line-height:1.3}p{color:#a9b9c9}ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:12px}
-li{background:#1a2938;border:1px solid #314354;border-radius:8px;padding:20px;flex:1;min-width:140px;font-size:14px}strong{display:block;font-size:32px;color:#7bd8c2}
-table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}th,td{text-align:left;padding:12px;border-bottom:1px solid #314354}a{color:#7bd8c2}
-</style>
-<main><p>SECURITY OBSERVATIONS</p><h1>ハニーポット観測レポート</h1>
-<p>公開用の集計値です。IP・認証情報・URL・操作本文・検体は掲載しません。</p>
-<ul><li><strong>91</strong>SSH / Telnet 接続</li><li><strong>41</strong>認証試行</li><li><strong>23</strong>エミュレータ認証成功</li><li><strong>24</strong>コマンド入力</li><li><strong>12</strong>HTTP リクエスト</li></ul><h2>日別の観測数（UTC）</h2>
-<table><thead><tr><th>日付</th><th>SSH / Telnet 接続</th><th>HTTP</th></tr></thead>
-<tbody><tr><td>2026-10-28</td><td>91</td><td>12</td></tr></tbody></table>
-<p>最新の回収に含まれる現行ログを集計しています。過去の回収を足し合わせないため、重複計上はありません。
-ローテーション・初期化により集計対象は変わります。数値は実サービスへの侵入成功数を示しません。</p>
-<p>集計生成: 2026-10-28T04:24:08+00:00</p><a href="report.json">集計データ（JSON）</a></main></html>
+:root{color-scheme:dark}*{box-sizing:border-box}body{font:15px/1.7 system-ui,sans-serif;max-width:1320px;margin:48px auto;padding:0 24px;color:#dce5ef;background:#101923}
+h1{font-size:clamp(26px,5vw,42px);line-height:1.3}h2{font-size:22px}p{color:#a9b9c9}nav{display:flex;flex-wrap:wrap;gap:12px 24px;margin:24px 0}
+.metrics{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:12px}.metrics li{background:#1a2938;border:1px solid #314354;border-radius:8px;padding:18px;flex:1;min-width:160px;font-size:13px}strong{display:block;font-size:32px;color:#7bd8c2}
+section{margin:48px 0;scroll-margin-top:24px}.scroll{overflow-x:auto;border:1px solid #314354;border-radius:8px}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font-size:13px}th,td{text-align:left;padding:14px;vertical-align:top;border-bottom:1px solid #314354}th{background:#1a2938;white-space:nowrap}td{min-width:70px;max-width:480px}code{font:12px/1.7 ui-monospace,Consolas,monospace;overflow-wrap:anywhere;white-space:pre-wrap}a{color:#7bd8c2}.badge{display:inline-block;background:#293c4d;border-radius:4px;padding:2px 6px;white-space:nowrap}.detail{font-size:12px;min-width:220px;margin:8px 0 0}.empty{padding:24px;color:#a9b9c9}footer{border-top:1px solid #314354;margin-top:48px;font-size:13px}.eyebrow{letter-spacing:.15em;color:#7bd8c2;font-size:12px}
+</style></head><body><main><p class="eyebrow">SECURITY OBSERVATIONS / OFFLINE ANALYSIS</p>
+<h1>ハニーポット観測レポート</h1><p>観測した通信の手がかりと集計。生成日時: <time>2026-10-28T04:30:29+00:00</time></p>
+<nav><a href="#targets">脆弱性・探索</a><a href="#requests">要求されたURL</a><a href="#outbound">接続先URL</a><a href="#samples">検体ハッシュ</a></nav>
+<ul class="metrics"><li><strong>99</strong>SSH / Telnet 接続</li><li><strong>47</strong>認証試行</li><li><strong>24</strong>エミュレータ認証成功</li><li><strong>24</strong>コマンド入力</li><li><strong>14</strong>HTTP リクエスト</li></ul>
+<section id="targets"><h2>狙われた製品・脆弱性の手がかり</h2>
+<p>観測したパス・本文からのルール分類です。関連パスの探索と、攻撃式を伴う通信を区別します。CVE の表示は対象候補であり、侵入や悪用の成功を意味しません。</p>
+<div class="scroll"><table><thead><tr><th scope="col">対象・観測根拠</th><th scope="col">判定の確度 / 関連CVE</th><th scope="col">要求パス</th><th scope="col">件数</th><th scope="col">最終観測（UTC）</th></tr></thead><tbody><tr><td><b>GeoServer の探索</b><p class="detail">GeoServer パスへのアクセス。CVE-2024-36401 を狙った通信とは断定できません。</p></td><td><span class="badge">製品パスのみ</span><br>未特定<br><a href="https://github.com/geoserver/geoserver/security/advisories/GHSA-6jj6-gm7p-fcvv" rel="noreferrer">判定の参考</a></td><td><code>GET /geoserver/web/</code></td><td>1</td><td>2026-10-28T02:51:53+00:00</td></tr><tr><td><b>Hikvision webLanguage の探索</b><p class="detail">関連エンドポイントへのアクセス。パスだけではコマンド注入を確認できません。</p></td><td><span class="badge">関連パスのみ</span><br><a href="https://www.snort.org/rule_docs/1-58555" rel="noreferrer">CVE-2021-36260</a></td><td><code>GET /SDK/webLanguage</code></td><td>1</td><td>2026-10-28T04:05:33+00:00</td></tr></tbody></table></div></section>
+<section id="requests"><h2>実際に要求されたURL・パス</h2>
+<p>公開先センサのホスト名は省略しています。クエリの値・認証情報らしいパスは伏せています。HTTP ステータスはセンサが返した値です。</p>
+<div class="scroll"><table><thead><tr><th scope="col">メソッド</th><th scope="col">要求パス</th><th scope="col">HTTP</th><th scope="col">件数</th><th scope="col">最終観測（UTC）</th></tr></thead><tbody><tr><td><code>GET</code></td><td><code>/</code></td><td>200</td><td>6</td><td>2026-10-28T04:29:08+00:00</td></tr><tr><td><code>GET</code></td><td><code>/favicon.ico</code></td><td>200</td><td>2</td><td>2026-10-28T02:49:30+00:00</td></tr><tr><td><code>OTHER</code></td><td><code>/[unparsed]</code></td><td>400</td><td>2</td><td>2026-10-28T04:25:30+00:00</td></tr><tr><td><code>POST</code></td><td><code>/login</code></td><td>401</td><td>1</td><td>2026-10-28T02:46:57+00:00</td></tr><tr><td><code>GET</code></td><td><code>/?format=json</code></td><td>200</td><td>1</td><td>2026-10-28T02:51:12+00:00</td></tr><tr><td><code>GET</code></td><td><code>/geoserver/web/</code></td><td>200</td><td>1</td><td>2026-10-28T02:51:53+00:00</td></tr><tr><td><code>GET</code></td><td><code>/SDK/webLanguage</code></td><td>200</td><td>1</td><td>2026-10-28T04:05:33+00:00</td></tr></tbody></table></div></section>
+<section id="outbound"><h2>接続・ダウンロードを指示されたURL</h2>
+<p>シェル入力、取得イベント、SSH 転送要求、HTTP の保存済み本文、Dionaea ログから抽出します。URL の記載だけでは接続したとは限りません。調査のために接続や検体取得を行う処理はありません。</p>
+<div class="scroll"><table><thead><tr><th scope="col">接続先（無害化表記）</th><th scope="col">観測箇所 / 結果</th><th scope="col">件数</th><th scope="col">最終観測（UTC）</th><th scope="col">関連SHA-256</th></tr></thead><tbody><tr><td colspan="5" class="empty">現在の回収ログには対象URLが記録されていません。記録され次第、自動表示します。</td></tr></tbody></table></div></section>
+<section id="samples"><h2>記録された検体のSHA-256</h2>
+<p>検体本体は公開しません。ファイル取得・アップロードのイベントとセンサの検体一覧だけを使い、TTY録画のハッシュは検体として扱いません。ハッシュの存在はマルウェア判定を意味しません。</p>
+<div class="scroll"><table><thead><tr><th scope="col">SHA-256</th><th scope="col">記録元</th><th scope="col">サイズ（bytes）</th></tr></thead><tbody><tr><td colspan="3" class="empty">現在の回収では検体の記録がありません。取得失敗のURLからハッシュを推測・生成することはありません。</td></tr></tbody></table></div></section>
+<section><h2>日別の観測数（UTC）</h2>
+<div class="scroll"><table><thead><tr><th scope="col">日付</th><th scope="col">SSH / Telnet 接続</th><th scope="col">HTTP</th></tr></thead><tbody><tr><td>2026-10-28</td><td>99</td><td>14</td></tr></tbody></table></div></section>
+<footer><h2>集計範囲と読み方</h2>
+<p>毎朝07:30（日本時間）の回収成功後に更新します。回収端末が停止・サインアウト中は更新されません。時刻・日別集計はUTCです。
+最新の回収に含まれる現行ログが対象で、回収ごとのログを合算しません。ログのローテーション・初期化で対象期間は変わります。運用者の動作確認が含まれる場合があります。</p>
+<p>各一覧は最大100行。全件表示できないデータ: なし。
+保存済みHTTP本文の参照: 1 件、サイズ等による除外: 0 件。
+検体一覧: 参照済み。解析不能イベント: 0 件。</p>
+<p>本文は取得できたものだけをメモリ上で参照し、検体・本文のファイルを展開・実行しません。TLS通信や未保存の本文、難読化された文字列は解析できない場合があります。
+URLは hxxp / [.] 表記にし、ユーザー情報・フラグメント・クエリの大半を伏せます。内部ネットワークの宛先は非公開です。接続元IP、認証情報、操作全文、Cookie、検体本体は公開しません。</p>
+<a href="report.json">公開データ（JSON）</a></footer></main></body></html>
