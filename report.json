@@ -1,11 +1,11 @@
 {
   "schema_version": 5,
-  "generated_utc": "2026-10-28T16:30:13+00:00",
+  "generated_utc": "2026-10-28T17:30:14+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 49,
-    "sessions": 49,
-    "sources": 23,
+    "requests": 55,
+    "sessions": 55,
+    "sources": 28,
     "largest_source_requests": 23,
     "behaviors": {
       "cookie": 0,
@@ -19,16 +19,16 @@
       "robots": 1
     },
     "transport": {
-      "http": 37,
-      "https": 12,
+      "http": 39,
+      "https": 16,
       "http2": 0,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "aster",
-        "requests": 49,
-        "sessions": 49,
+        "requests": 55,
+        "sessions": 55,
         "actions": 0
       },
       {
@@ -76,23 +76,23 @@
   },
   "web_summary": {
     "classified_requests": 1,
-    "iot_requests": 5,
-    "unclassified_requests": 82,
-    "routine_requests": 77,
+    "iot_requests": 6,
+    "unclassified_requests": 83,
+    "routine_requests": 82,
     "excluded_checks": 466
   },
   "counts": {
-    "commands": 75,
-    "login_attempts": 97,
-    "login_successes": 61,
-    "ssh_connections": 191,
-    "web_requests": 165
+    "commands": 79,
+    "login_attempts": 233,
+    "login_successes": 75,
+    "ssh_connections": 345,
+    "web_requests": 172
   },
   "daily": [
     {
       "date": "2026-10-28",
-      "ssh_connections": 191,
-      "web_requests": 165
+      "ssh_connections": 345,
+      "web_requests": 172
     }
   ],
   "http_requests": [
@@ -100,9 +100,9 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 29,
+      "count": 33,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-28T16:23:19+00:00"
+      "last_seen": "2026-10-28T17:07:09+00:00"
     },
     {
       "method": "GET",
@@ -140,9 +140,9 @@
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-28T15:58:25+00:00"
+      "last_seen": "2026-10-28T17:19:45+00:00"
     },
     {
       "method": "GET",
@@ -559,6 +559,14 @@
       "count": 1,
       "first_seen": "2026-10-28T16:14:27+00:00",
       "last_seen": "2026-10-28T16:14:27+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 400,
+      "count": 1,
+      "first_seen": "2026-10-28T16:46:40+00:00",
+      "last_seen": "2026-10-28T16:46:40+00:00"
     }
   ],
   "findings": [
@@ -566,9 +574,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-28T15:58:25+00:00"
+      "last_seen": "2026-10-28T17:19:45+00:00"
     },
     {
       "rule_id": "wordpress-probe",
@@ -589,6 +597,6 @@
     "invalid_events": 7,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 16
+    "pending_indicators": 17
   }
 }
