@@ -1,47 +1,33 @@
-# Hiyoko Honeypot Observatory
+# Hiyoko Web Attack Observatory
 
-Public dashboard: https://hiyokosauna37.github.io/honeypot-report/
+Public report: https://hiyokosauna37.github.io/honeypot-report/
 
-This repository contains a sanitized observation report and the owner's chick/server
-mascot. Raw logs, credentials, source IPs, request bodies, full command input, sensor
-configuration and sample binaries are not published.
+A new observation period focused on web application traffic. Earlier evidence is
+preserved privately; earlier public commits remain in Git history.
 
-## Observations
+The fictional site has articles, search, documents, contact, login, upload and API
+routes. Its independent implementation is inspired by TANNER's input inspection
+and response emulation: https://github.com/mushorg/tanner
 
-- SSH/Telnet and HTTP counts, with daily counts in UTC.
-- Approved HTTP paths, methods, status codes, counts and observation times.
-- Rule-based product/vulnerability clues. Path probes and suspected exploit
-  expressions have different confidence labels; a CVE association does not prove
-  successful exploitation.
-- Approved, defanged destination URLs, labeled as mentions, failed downloads,
-  recorded file transfers or SSH forwarding requests.
-- Approved SHA-256 hashes from captured-file events and the sample manifest.
-  TTY recording hashes are excluded. A file hash is not a malware verdict.
+The report shows web attack patterns, paths, related CVEs or CWEs, unclassified
+requests, defanged URLs and upload hashes. IoT-like paths are secondary.
+Classification is heuristic and does not establish successful exploitation.
+AI analysis is performed later when requested, not on a schedule.
 
-New paths, destination URLs and hashes are held for local approval before their
-first publication. Aggregate counts include held observations. URL userinfo,
-fragments, most query values and internal destinations are redacted. The report
-generator does not visit observed URLs or execute captured content.
+New indicators require local review. Summary counts include pending observations;
+tables show reviewed values only, up to 100 rows. Several rules can match a request.
+Identified operational checks are excluded. Raw evidence remains private.
 
-## Updates and health
+Collection runs hourly at 30 minutes past the hour (JST), including when signed out.
+The Windows collector needs power and network. A repository-scoped deploy key
+publishes generated files. Rotated logs are deduplicated in a local 90-day history.
 
-Hourly collection runs at 30 minutes past each hour (JST) on the Windows collector, including when signed
-out. Its power and network must remain available. Publication uses a dedicated,
-repository-scoped SSH deploy key.
+An hourly monitor publishes coarse health.json. The Report freshness workflow
+checks report and health age and fails if either exceeds 2.5 hours or health is bad.
+Schedules may be delayed; notifications depend on GitHub notification settings.
 
-Current and rotated logs are deduplicated into a local 90-day history. Records
-deleted on the sensor before collection cannot be recovered. Each public table
-is limited to 100 rows. Coverage and pending-indicator counts appear on the page.
-Operational checks may be included in observation counts.
+The emulator never executes submitted code, SQL or commands, fetches submitted
+URLs, or serves uploaded files. Apparent execution output is synthetic.
+Raw logs, source IPs, credentials, cookies, payloads and sample files are private.
 
-An hourly collector-side monitor publishes [health.json](health.json), containing
-only a check timestamp, a healthy flag and fixed problem codes. Private diagnostics
-are kept on the collector.
-
-The [Report freshness workflow](https://github.com/HiyokoSauna37/honeypot-report/actions/workflows/check-freshness.yml) checks
-the public report and health status hourly. It fails if the report is older
-than 2.5 hours, the health check is older than 2.5 hours, or the sensor reports an
-unhealthy state. GitHub scheduling may be delayed. Email and other failure
-notifications depend on the user's GitHub Actions notification settings.
-
-Public observation data: [report.json](report.json), schema version 3.
+Public data: report.json, schema version 4.
