@@ -1,0 +1,28 @@
+name: Report freshness
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check published report age
+        run: |
+          python3 - <<'PY'
+          import json, time, urllib.request
+          from datetime import datetime, timezone
+          url = 'https://hiyokosauna37.github.io/honeypot-report/report.json?freshness=' + str(time.time_ns())
+          request = urllib.request.Request(url, headers={'Cache-Control': 'no-cache', 'User-Agent': 'HiyokoFreshnessMonitor/1.0'})
+          with urllib.request.urlopen(request, timeout=30) as response:
+              report = json.load(response)
+          generated = datetime.fromisoformat(report['generated_utc'].replace('Z', '+00:00'))
+          age = (datetime.now(timezone.utc) - generated).total_seconds()
+          print('Published report age: %.1f hours' % (age / 3600))
+          if age < -300 or age > 27 * 3600:
+              raise SystemExit('Report freshness check failed: collector, publication or sensor may be unavailable.')
+          print('Report is current.')
+          PY
