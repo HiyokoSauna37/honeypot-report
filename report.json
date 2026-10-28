@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_utc": "2026-10-28T12:53:28+00:00",
+  "generated_utc": "2026-10-28T13:12:46+00:00",
   "campaign": {
     "profile": "web-app-v1",
     "started_utc": "2026-10-28T11:48:35+00:00"
@@ -8,25 +8,66 @@
   "web_summary": {
     "classified_requests": 0,
     "iot_requests": 0,
-    "unclassified_requests": 1,
-    "routine_requests": 13,
+    "unclassified_requests": 2,
+    "routine_requests": 14,
     "excluded_checks": 148
   },
   "counts": {
     "commands": 7,
-    "login_attempts": 21,
-    "login_successes": 17,
-    "ssh_connections": 50,
-    "web_requests": 14
+    "login_attempts": 23,
+    "login_successes": 18,
+    "ssh_connections": 59,
+    "web_requests": 16
   },
   "daily": [
     {
       "date": "2026-10-28",
-      "ssh_connections": 50,
-      "web_requests": 14
+      "ssh_connections": 59,
+      "web_requests": 16
     }
   ],
-  "http_requests": [],
+  "http_requests": [
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 200,
+      "count": 6,
+      "first_seen": "2026-10-28T12:03:41+00:00",
+      "last_seen": "2026-10-28T12:59:29+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/favicon.ico",
+      "status": 200,
+      "count": 4,
+      "first_seen": "2026-10-28T12:09:48+00:00",
+      "last_seen": "2026-10-28T12:22:45+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/site.css",
+      "status": 200,
+      "count": 2,
+      "first_seen": "2026-10-28T12:09:48+00:00",
+      "last_seen": "2026-10-28T12:09:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/news",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-28T12:09:58+00:00",
+      "last_seen": "2026-10-28T12:09:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-28T12:10:08+00:00",
+      "last_seen": "2026-10-28T12:10:08+00:00"
+    }
+  ],
   "findings": [],
   "outbound": [],
   "samples": [],
@@ -38,6 +79,6 @@
     "invalid_events": 6,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 6
+    "pending_indicators": 1
   }
 }
