@@ -1,18 +1,18 @@
 {
   "schema_version": 3,
-  "generated_utc": "2026-10-28T06:21:58+00:00",
+  "generated_utc": "2026-10-28T06:29:22+00:00",
   "counts": {
     "commands": 47,
     "login_attempts": 83,
     "login_successes": 46,
-    "ssh_connections": 192,
-    "web_requests": 55
+    "ssh_connections": 193,
+    "web_requests": 60
   },
   "daily": [
     {
       "date": "2026-10-28",
-      "ssh_connections": 192,
-      "web_requests": 55
+      "ssh_connections": 193,
+      "web_requests": 60
     }
   ],
   "http_requests": [
@@ -28,9 +28,9 @@
       "method": "OTHER",
       "path": "/[unparsed]",
       "status": 400,
-      "count": 7,
+      "count": 9,
       "first_seen": "2026-10-28T02:51:26+00:00",
-      "last_seen": "2026-10-28T06:15:48+00:00"
+      "last_seen": "2026-10-28T06:26:00+00:00"
     },
     {
       "method": "GET",
@@ -207,6 +207,14 @@
       "count": 1,
       "first_seen": "2026-10-28T05:28:36+00:00",
       "last_seen": "2026-10-28T05:28:36+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-10-28T06:22:04+00:00",
+      "last_seen": "2026-10-28T06:22:04+00:00"
     }
   ],
   "findings": [
@@ -230,11 +238,11 @@
   "outbound": [],
   "samples": [],
   "coverage": {
-    "web_bodies_read": 3,
+    "web_bodies_read": 5,
     "web_bodies_skipped": 0,
     "manifest_read": true,
-    "dionaea_lines_read": 27114,
-    "invalid_events": 0,
+    "dionaea_lines_read": 0,
+    "invalid_events": 6,
     "rows_limited": false,
     "history_days": 90,
     "pending_indicators": 2
