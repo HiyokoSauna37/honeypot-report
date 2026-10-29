@@ -1,11 +1,11 @@
 {
   "schema_version": 5,
-  "generated_utc": "2026-10-29T05:30:33+00:00",
+  "generated_utc": "2026-10-29T06:30:41+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 640,
-    "sessions": 640,
-    "sources": 117,
+    "requests": 653,
+    "sessions": 653,
+    "sources": 128,
     "largest_source_requests": 373,
     "behaviors": {
       "cookie": 0,
@@ -19,16 +19,16 @@
       "robots": 5
     },
     "transport": {
-      "http": 508,
-      "https": 132,
+      "http": 519,
+      "https": 134,
       "http2": 3,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "aster",
-        "requests": 640,
-        "sessions": 640,
+        "requests": 653,
+        "sessions": 653,
         "actions": 0
       },
       {
@@ -75,18 +75,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 117,
+    "classified_requests": 121,
     "iot_requests": 19,
-    "unclassified_requests": 679,
-    "routine_requests": 207,
+    "unclassified_requests": 681,
+    "routine_requests": 217,
     "excluded_checks": 582
   },
   "counts": {
-    "commands": 2690,
-    "login_attempts": 4229,
-    "login_successes": 2191,
-    "ssh_connections": 4632,
-    "web_requests": 1022
+    "commands": 3241,
+    "login_attempts": 4742,
+    "login_successes": 2470,
+    "ssh_connections": 5164,
+    "web_requests": 1038
   },
   "daily": [
     {
@@ -96,8 +96,8 @@
     },
     {
       "date": "2026-10-29",
-      "ssh_connections": 2226,
-      "web_requests": 131
+      "ssh_connections": 2758,
+      "web_requests": 147
     }
   ],
   "http_requests": [
@@ -121,25 +121,25 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 106,
+      "count": 113,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-29T05:22:05+00:00"
+      "last_seen": "2026-10-29T06:17:50+00:00"
     },
     {
       "method": "",
       "path": "",
       "status": 400,
-      "count": 35,
+      "count": 37,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-10-29T05:08:31+00:00"
+      "last_seen": "2026-10-29T06:29:50+00:00"
     },
     {
       "method": "GET",
       "path": "/favicon.ico",
       "status": 200,
-      "count": 34,
+      "count": 36,
       "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-29T05:10:43+00:00"
+      "last_seen": "2026-10-29T06:20:32+00:00"
     },
     {
       "method": "CONNECT",
@@ -169,9 +169,41 @@
       "method": "GET",
       "path": "/",
       "status": 400,
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-10-28T16:46:40+00:00",
-      "last_seen": "2026-10-29T05:22:05+00:00"
+      "last_seen": "2026-10-29T06:13:27+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/mcp",
+      "status": 404,
+      "count": 5,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-29T06:17:40+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mcp",
+      "status": 404,
+      "count": 5,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-29T06:17:40+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mcp/",
+      "status": 404,
+      "count": 5,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-29T06:17:40+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sse",
+      "status": 404,
+      "count": 5,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-29T06:17:41+00:00"
     },
     {
       "method": "GET",
@@ -188,38 +220,6 @@
       "count": 4,
       "first_seen": "2026-10-28T12:09:58+00:00",
       "last_seen": "2026-10-28T15:10:10+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/mcp",
-      "status": 404,
-      "count": 4,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T03:12:04+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mcp",
-      "status": 404,
-      "count": 4,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T03:12:04+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mcp/",
-      "status": 404,
-      "count": 4,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T03:12:04+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sse",
-      "status": 404,
-      "count": 4,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T03:12:05+00:00"
     },
     {
       "method": "GET",
@@ -1235,33 +1235,33 @@
       "rule_id": "mcp-probe",
       "method": "GET",
       "path": "/api/mcp",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T03:12:04+00:00"
+      "last_seen": "2026-10-29T06:17:40+00:00"
     },
     {
       "rule_id": "mcp-probe",
       "method": "GET",
       "path": "/mcp",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T03:12:04+00:00"
+      "last_seen": "2026-10-29T06:17:40+00:00"
     },
     {
       "rule_id": "mcp-probe",
       "method": "GET",
       "path": "/mcp/",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T03:12:04+00:00"
+      "last_seen": "2026-10-29T06:17:40+00:00"
     },
     {
       "rule_id": "mcp-probe",
       "method": "GET",
       "path": "/sse",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T03:12:05+00:00"
+      "last_seen": "2026-10-29T06:17:41+00:00"
     },
     {
       "rule_id": "sensitive-file",
