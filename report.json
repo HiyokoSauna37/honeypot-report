@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_utc": "2026-10-29T12:30:48+00:00",
+  "generated_utc": "2026-10-29T12:50:01+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
     "requests": 903,
@@ -75,9 +75,9 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 216,
+    "classified_requests": 302,
     "iot_requests": 24,
-    "unclassified_requests": 801,
+    "unclassified_requests": 715,
     "routine_requests": 279,
     "excluded_checks": 582
   },
@@ -3720,6 +3720,14 @@
       "last_seen": "2026-10-29T07:39:32+00:00"
     },
     {
+      "rule_id": "sap-metadata-probe",
+      "method": "GET",
+      "path": "/developmentserver/metadatauploader",
+      "count": 2,
+      "first_seen": "2026-10-29T02:31:54+00:00",
+      "last_seen": "2026-10-29T12:07:29+00:00"
+    },
+    {
       "rule_id": "exchange-probe",
       "method": "GET",
       "path": "/autodiscover/autodiscover.xml",
@@ -3928,6 +3936,110 @@
       "last_seen": "2026-10-28T20:33:51+00:00"
     },
     {
+      "rule_id": "tomcat-manager-probe",
+      "method": "GET",
+      "path": "/manager/html",
+      "count": 1,
+      "first_seen": "2026-10-29T05:18:54+00:00",
+      "last_seen": "2026-10-29T05:18:54+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:31+00:00",
+      "last_seen": "2026-10-29T11:00:31+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/dbadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:31+00:00",
+      "last_seen": "2026-10-29T11:00:31+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/websql/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:31+00:00",
+      "last_seen": "2026-10-29T11:00:31+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/sysadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T11:00:32+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/myadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T11:00:32+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/php-my-admin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T11:00:32+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T11:00:32+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-latest/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T11:00:32+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyAdmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T11:00:32+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2020/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T11:00:32+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin5/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T11:00:32+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/pma/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T11:00:32+00:00"
+    },
+    {
       "rule_id": "web-product-probe",
       "method": "GET",
       "path": "/phpMyAdmin-5.2/index.php?param=[REDACTED]",
@@ -3968,6 +4080,78 @@
       "last_seen": "2026-10-29T11:00:32+00:00"
     },
     {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/web/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T11:00:33+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpmyadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T11:00:33+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1-english/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T11:00:33+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin3/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T11:00:33+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin5/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T11:00:33+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T11:00:33+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpmy-admin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T11:00:33+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpmyadmin5/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T11:00:33+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/webadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T11:00:33+00:00"
+    },
+    {
       "rule_id": "web-product-probe",
       "method": "GET",
       "path": "/phpMyAdmin-5.2.1-english/index.php?param=[REDACTED]",
@@ -4000,6 +4184,54 @@
       "last_seen": "2026-10-29T11:00:33+00:00"
     },
     {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/2phpmyadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T11:00:34+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/_phpmyadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T11:00:34+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/phpmyadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T11:00:34+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.2/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T11:00:34+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2021/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T11:00:34+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/myadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T11:00:34+00:00"
+    },
+    {
       "rule_id": "web-product-probe",
       "method": "GET",
       "path": "/phpMyAdmin-5.1.2/index.php?param=[REDACTED]",
@@ -4014,6 +4246,94 @@
       "count": 1,
       "first_seen": "2026-10-29T11:00:34+00:00",
       "last_seen": "2026-10-29T11:00:34+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/web/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T11:00:35+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/sqlmanager/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T11:00:35+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-4.9.10-all-languages/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T11:00:35+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-4.9.7/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T11:00:35+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-latest-all-languages/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T11:00:35+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin2/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T11:00:35+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T11:00:35+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin3/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T11:00:35+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/program/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T11:00:35+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/sql-admin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T11:00:35+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T11:00:35+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -4064,6 +4384,54 @@
       "last_seen": "2026-10-29T11:00:35+00:00"
     },
     {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/pma/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T11:00:36+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpMyAdmin3/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T11:00:36+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/webdb/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T11:00:36+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/mysqlmanager/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T11:00:36+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2017/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T11:00:36+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/pmahomme/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T11:00:36+00:00"
+    },
+    {
       "rule_id": "web-product-probe",
       "method": "GET",
       "path": "/phpmyadmin2017/index.php?param=[REDACTED]",
@@ -4072,12 +4440,148 @@
       "last_seen": "2026-10-29T11:00:36+00:00"
     },
     {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/dbadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T11:00:37+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpMyAdmin-3/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T11:00:37+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/pMA/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T11:00:37+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysqladmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T11:00:37+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.0-all-languages/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T11:00:37+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phppma/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T11:00:37+00:00"
+    },
+    {
       "rule_id": "web-product-probe",
       "method": "GET",
       "path": "/phpMyAdmin-5.2.0-all-languages/index.php?param=[REDACTED]",
       "count": 1,
       "first_seen": "2026-10-29T11:00:37+00:00",
       "last_seen": "2026-10-29T11:00:37+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/__phpmyadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T11:00:38+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/_phpmyadmin_/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T11:00:38+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T11:00:38+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpMyAdmin-4/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T11:00:38+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysqlmanager/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T11:00:38+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmy-admin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T11:00:38+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2019/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T11:00:38+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin4/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T11:00:38+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpmanager/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T11:00:38+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/sqladmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T11:00:38+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sqlmanager/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T11:00:38+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -4094,6 +4598,94 @@
       "count": 1,
       "first_seen": "2026-10-29T11:00:38+00:00",
       "last_seen": "2026-10-29T11:00:38+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/PMA/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T11:00:39+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T11:00:39+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/myadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T11:00:39+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpMyAdmin-5/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T11:00:39+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql-admin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T11:00:39+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T11:00:39+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin1/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T11:00:39+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin5.1/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T11:00:39+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin5.2/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T11:00:39+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin6/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T11:00:39+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpmyadmin4/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T11:00:39+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -4134,6 +4726,70 @@
       "count": 1,
       "first_seen": "2026-10-29T11:00:39+00:00",
       "last_seen": "2026-10-29T11:00:39+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/db/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T11:00:40+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/php-myadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T11:00:40+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.3/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T11:00:40+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.0/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T11:00:40+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin6/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T11:00:40+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin_/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T11:00:40+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin1/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T11:00:40+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin_/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T11:00:40+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -4184,6 +4840,86 @@
       "last_seen": "2026-10-29T11:00:40+00:00"
     },
     {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/1phpmyadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T11:00:41+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/MyAdmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T11:00:41+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/PMA/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T11:00:41+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/phpmyadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T11:00:41+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/db-admin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T11:00:41+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T11:00:41+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.0/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T11:00:41+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1-all-languages/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T11:00:41+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/php-myadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T11:00:41+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T11:00:41+00:00"
+    },
+    {
       "rule_id": "web-product-probe",
       "method": "GET",
       "path": "/phpMyAdmin-5.1.0/index.php?param=[REDACTED]",
@@ -4200,12 +4936,124 @@
       "last_seen": "2026-10-29T11:00:41+00:00"
     },
     {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/sqladmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T11:00:42+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpmyadmin3/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T11:00:42+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpmyadmin4/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T11:00:42+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/db/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T11:00:42+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/web/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T11:00:42+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin4/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T11:00:42+00:00"
+    },
+    {
       "rule_id": "web-product-probe",
       "method": "GET",
       "path": "/phpMyAdmin4/index.php?param=[REDACTED]",
       "count": 1,
       "first_seen": "2026-10-29T11:00:42+00:00",
       "last_seen": "2026-10-29T11:00:42+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/admin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T11:00:43+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/webadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T11:00:43+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T11:00:43+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.1/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T11:00:43+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T11:00:43+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpMyAdmin2/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T11:00:43+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpmyadmin3/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T11:00:43+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/webdb/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T11:00:43+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -4224,12 +5072,156 @@
       "last_seen": "2026-10-29T11:00:43+00:00"
     },
     {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/dbweb/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T11:00:44+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T11:00:44+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/websql/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T11:00:44+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/dbadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T11:00:44+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmy/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T11:00:44+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/shopdb/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T11:00:44+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/sqlweb/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T11:00:44+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/_phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T11:00:45+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/db/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T11:00:45+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/pma/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T11:00:45+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpmyadmin5/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T11:00:45+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/pma/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T11:00:45+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-4/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T11:00:45+00:00"
+    },
+    {
       "rule_id": "web-product-probe",
       "method": "GET",
       "path": "/phpMyAdmin-4/index.php?param=[REDACTED]",
       "count": 1,
       "first_seen": "2026-10-29T11:00:45+00:00",
       "last_seen": "2026-10-29T11:00:45+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/admin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T11:00:46+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-3/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T11:00:46+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-latest-english/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T11:00:46+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin6.0/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T11:00:46+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/sql/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T11:00:46+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -4254,6 +5246,54 @@
       "count": 1,
       "first_seen": "2026-10-29T11:00:46+00:00",
       "last_seen": "2026-10-29T11:00:46+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/database/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T11:00:47+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T11:00:47+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T11:00:47+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T11:00:47+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2018/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T11:00:47+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2022/index.php?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T11:00:47+00:00"
     },
     {
       "rule_id": "web-product-probe",
