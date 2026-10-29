@@ -1,11 +1,11 @@
 {
   "schema_version": 5,
-  "generated_utc": "2026-10-28T23:47:36+00:00",
+  "generated_utc": "2026-10-29T00:30:22+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 533,
-    "sessions": 533,
-    "sources": 62,
+    "requests": 545,
+    "sessions": 545,
+    "sources": 68,
     "largest_source_requests": 373,
     "behaviors": {
       "cookie": 0,
@@ -19,16 +19,16 @@
       "robots": 4
     },
     "transport": {
-      "http": 446,
-      "https": 87,
+      "http": 453,
+      "https": 92,
       "http2": 1,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "aster",
-        "requests": 533,
-        "sessions": 533,
+        "requests": 545,
+        "sessions": 545,
         "actions": 0
       },
       {
@@ -76,23 +76,28 @@
   },
   "web_summary": {
     "classified_requests": 88,
-    "iot_requests": 13,
-    "unclassified_requests": 645,
-    "routine_requests": 134,
-    "excluded_checks": 466
+    "iot_requests": 14,
+    "unclassified_requests": 646,
+    "routine_requests": 147,
+    "excluded_checks": 582
   },
   "counts": {
-    "commands": 1481,
-    "login_attempts": 2026,
-    "login_successes": 1087,
-    "ssh_connections": 2270,
-    "web_requests": 880
+    "commands": 1596,
+    "login_attempts": 2259,
+    "login_successes": 1228,
+    "ssh_connections": 2530,
+    "web_requests": 895
   },
   "daily": [
     {
       "date": "2026-10-28",
-      "ssh_connections": 2270,
-      "web_requests": 880
+      "ssh_connections": 2406,
+      "web_requests": 891
+    },
+    {
+      "date": "2026-10-29",
+      "ssh_connections": 124,
+      "web_requests": 4
     }
   ],
   "http_requests": [
@@ -116,25 +121,25 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 62,
+      "count": 71,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-28T22:52:42+00:00"
+      "last_seen": "2026-10-29T00:29:20+00:00"
     },
     {
       "method": "GET",
       "path": "/favicon.ico",
       "status": 200,
-      "count": 24,
+      "count": 26,
       "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-28T22:32:06+00:00"
+      "last_seen": "2026-10-28T23:45:29+00:00"
     },
     {
       "method": "",
       "path": "",
       "status": 400,
-      "count": 16,
+      "count": 17,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-10-28T22:32:01+00:00"
+      "last_seen": "2026-10-28T23:47:08+00:00"
     },
     {
       "method": "GET",
@@ -145,20 +150,20 @@
       "last_seen": "2026-10-28T15:10:28+00:00"
     },
     {
+      "method": "GET",
+      "path": "/SDK/webLanguage",
+      "status": 404,
+      "count": 8,
+      "first_seen": "2026-10-28T13:14:48+00:00",
+      "last_seen": "2026-10-28T23:42:42+00:00"
+    },
+    {
       "method": "CONNECT",
       "path": "/",
       "status": 405,
       "count": 8,
       "first_seen": "2026-10-28T19:40:48+00:00",
       "last_seen": "2026-10-28T22:45:27+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/SDK/webLanguage",
-      "status": 404,
-      "count": 7,
-      "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-28T21:39:51+00:00"
     },
     {
       "method": "GET",
@@ -183,6 +188,14 @@
       "count": 3,
       "first_seen": "2026-10-28T13:43:07+00:00",
       "last_seen": "2026-10-28T19:56:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 400,
+      "count": 3,
+      "first_seen": "2026-10-28T16:46:40+00:00",
+      "last_seen": "2026-10-29T00:03:29+00:00"
     },
     {
       "method": "GET",
@@ -671,14 +684,6 @@
       "count": 1,
       "first_seen": "2026-10-28T16:33:35+00:00",
       "last_seen": "2026-10-28T16:33:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-10-28T16:46:40+00:00",
-      "last_seen": "2026-10-28T16:46:40+00:00"
     },
     {
       "method": "GET",
@@ -1174,9 +1179,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-28T21:39:51+00:00"
+      "last_seen": "2026-10-28T23:42:42+00:00"
     },
     {
       "rule_id": "mcp-probe",
@@ -2363,7 +2368,7 @@
   ],
   "coverage": {
     "web_bodies_read": 43,
-    "web_bodies_skipped": 101,
+    "web_bodies_skipped": 138,
     "manifest_read": true,
     "dionaea_lines_read": 0,
     "invalid_events": 7,
