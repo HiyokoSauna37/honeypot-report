@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_utc": "2026-10-29T12:50:01+00:00",
+  "generated_utc": "2026-10-29T12:57:39+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
     "requests": 903,
@@ -75,9 +75,9 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 302,
+    "classified_requests": 1017,
     "iot_requests": 24,
-    "unclassified_requests": 715,
+    "unclassified_requests": 0,
     "routine_requests": 279,
     "excluded_checks": 582
   },
@@ -2816,6 +2816,22 @@
   ],
   "findings": [
     {
+      "rule_id": "traffic-jenkins-console",
+      "method": "GET",
+      "path": "/script",
+      "count": 605,
+      "first_seen": "2026-10-28T16:10:32+00:00",
+      "last_seen": "2026-10-28T19:56:44+00:00"
+    },
+    {
+      "rule_id": "traffic-empty-target",
+      "method": "",
+      "path": "",
+      "count": 55,
+      "first_seen": "2026-10-28T12:00:02+00:00",
+      "last_seen": "2026-10-29T11:35:49+00:00"
+    },
+    {
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
@@ -2854,6 +2870,30 @@
       "count": 5,
       "first_seen": "2026-10-28T15:42:43+00:00",
       "last_seen": "2026-10-29T06:17:41+00:00"
+    },
+    {
+      "rule_id": "traffic-version-query",
+      "method": "GET",
+      "path": "/version",
+      "count": 5,
+      "first_seen": "2026-10-28T22:13:13+00:00",
+      "last_seen": "2026-10-29T10:06:41+00:00"
+    },
+    {
+      "rule_id": "traffic-legacy-script",
+      "method": "GET",
+      "path": "/dispatch.asp",
+      "count": 4,
+      "first_seen": "2026-10-28T19:09:49+00:00",
+      "last_seen": "2026-10-29T08:35:08+00:00"
+    },
+    {
+      "rule_id": "traffic-empty-target",
+      "method": "POST",
+      "path": "",
+      "count": 4,
+      "first_seen": "2026-10-28T21:27:00+00:00",
+      "last_seen": "2026-10-29T07:39:13+00:00"
     },
     {
       "rule_id": "web-lfi",
@@ -3008,12 +3048,28 @@
       "last_seen": "2026-10-29T04:41:03+00:00"
     },
     {
+      "rule_id": "traffic-console-page",
+      "method": "GET",
+      "path": "/webui/",
+      "count": 3,
+      "first_seen": "2026-10-29T03:11:18+00:00",
+      "last_seen": "2026-10-29T10:29:21+00:00"
+    },
+    {
       "rule_id": "geoserver-probe",
       "method": "GET",
       "path": "/geoserver/web/",
       "count": 3,
       "first_seen": "2026-10-29T05:12:06+00:00",
       "last_seen": "2026-10-29T10:52:21+00:00"
+    },
+    {
+      "rule_id": "traffic-pki-update",
+      "method": "GET",
+      "path": "/.well-known/pki-validation/update",
+      "count": 3,
+      "first_seen": "2026-10-29T10:12:54+00:00",
+      "last_seen": "2026-10-29T11:48:04+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -3720,12 +3776,36 @@
       "last_seen": "2026-10-29T07:39:32+00:00"
     },
     {
+      "rule_id": "traffic-legacy-script",
+      "method": "GET",
+      "path": "/hachk.php",
+      "count": 2,
+      "first_seen": "2026-10-29T01:20:42+00:00",
+      "last_seen": "2026-10-29T11:41:09+00:00"
+    },
+    {
+      "rule_id": "traffic-speed-api",
+      "method": "HEAD",
+      "path": "/__down?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T02:12:48+00:00",
+      "last_seen": "2026-10-29T02:12:48+00:00"
+    },
+    {
       "rule_id": "sap-metadata-probe",
       "method": "GET",
       "path": "/developmentserver/metadatauploader",
       "count": 2,
       "first_seen": "2026-10-29T02:31:54+00:00",
       "last_seen": "2026-10-29T12:07:29+00:00"
+    },
+    {
+      "rule_id": "traffic-generic-api",
+      "method": "GET",
+      "path": "/get",
+      "count": 2,
+      "first_seen": "2026-10-29T04:35:11+00:00",
+      "last_seen": "2026-10-29T04:35:12+00:00"
     },
     {
       "rule_id": "exchange-probe",
@@ -3742,6 +3822,14 @@
       "count": 1,
       "first_seen": "2026-10-28T13:55:10+00:00",
       "last_seen": "2026-10-28T13:55:10+00:00"
+    },
+    {
+      "rule_id": "traffic-console-page",
+      "method": "GET",
+      "path": "/console",
+      "count": 1,
+      "first_seen": "2026-10-28T13:58:56+00:00",
+      "last_seen": "2026-10-28T13:58:56+00:00"
     },
     {
       "rule_id": "zabbix-probe",
@@ -3808,6 +3896,22 @@
       "last_seen": "2026-10-28T14:00:42+00:00"
     },
     {
+      "rule_id": "traffic-solr-probe",
+      "method": "GET",
+      "path": "/solr/",
+      "count": 1,
+      "first_seen": "2026-10-28T14:00:46+00:00",
+      "last_seen": "2026-10-28T14:00:46+00:00"
+    },
+    {
+      "rule_id": "traffic-auth-page",
+      "method": "GET",
+      "path": "/login.html",
+      "count": 1,
+      "first_seen": "2026-10-28T14:00:50+00:00",
+      "last_seen": "2026-10-28T14:00:50+00:00"
+    },
+    {
       "rule_id": "jasper-probe",
       "method": "GET",
       "path": "/jasperserver/login.html",
@@ -3840,6 +3944,22 @@
       "last_seen": "2026-10-28T14:01:04+00:00"
     },
     {
+      "rule_id": "traffic-auth-page",
+      "method": "GET",
+      "path": "/Web/Auth",
+      "count": 1,
+      "first_seen": "2026-10-28T14:01:05+00:00",
+      "last_seen": "2026-10-28T14:01:05+00:00"
+    },
+    {
+      "rule_id": "traffic-web-page",
+      "method": "GET",
+      "path": "/progs/homepage",
+      "count": 1,
+      "first_seen": "2026-10-28T14:01:11+00:00",
+      "last_seen": "2026-10-28T14:01:11+00:00"
+    },
+    {
       "rule_id": "zyxel-fingerprint-probe",
       "method": "GET",
       "path": "/ext-js/app/common/zld_product_spec.js",
@@ -3856,12 +3976,44 @@
       "last_seen": "2026-10-28T14:01:16+00:00"
     },
     {
+      "rule_id": "traffic-static-fingerprint",
+      "method": "GET",
+      "path": "/identity/jsLibs/IdmBrandingBar.js",
+      "count": 1,
+      "first_seen": "2026-10-28T14:01:17+00:00",
+      "last_seen": "2026-10-28T14:01:17+00:00"
+    },
+    {
+      "rule_id": "traffic-auth-page",
+      "method": "GET",
+      "path": "/api/session/[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-28T14:01:23+00:00",
+      "last_seen": "2026-10-28T14:01:23+00:00"
+    },
+    {
       "rule_id": "oracle-ebs-probe",
       "method": "GET",
       "path": "/OA_HTML/AppsLocalLogin.jsp",
       "count": 1,
       "first_seen": "2026-10-28T14:01:31+00:00",
       "last_seen": "2026-10-28T14:01:31+00:00"
+    },
+    {
+      "rule_id": "traffic-auth-page",
+      "method": "GET",
+      "path": "/ssi.cgi/Login.htm",
+      "count": 1,
+      "first_seen": "2026-10-28T14:01:37+00:00",
+      "last_seen": "2026-10-28T14:01:37+00:00"
+    },
+    {
+      "rule_id": "traffic-auth-page",
+      "method": "GET",
+      "path": "/identity",
+      "count": 1,
+      "first_seen": "2026-10-28T14:01:43+00:00",
+      "last_seen": "2026-10-28T14:01:43+00:00"
     },
     {
       "rule_id": "crushftp-probe",
@@ -3888,6 +4040,14 @@
       "last_seen": "2026-10-28T14:02:00+00:00"
     },
     {
+      "rule_id": "traffic-crm-version",
+      "method": "GET",
+      "path": "/sugar_version.json",
+      "count": 1,
+      "first_seen": "2026-10-28T14:02:08+00:00",
+      "last_seen": "2026-10-28T14:02:08+00:00"
+    },
+    {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-json",
@@ -3896,12 +4056,44 @@
       "last_seen": "2026-10-28T14:02:20+00:00"
     },
     {
+      "rule_id": "traffic-static-fingerprint",
+      "method": "GET",
+      "path": "/license.txt",
+      "count": 1,
+      "first_seen": "2026-10-28T14:02:29+00:00",
+      "last_seen": "2026-10-28T14:02:29+00:00"
+    },
+    {
+      "rule_id": "traffic-auth-page",
+      "method": "GET",
+      "path": "/login.do",
+      "count": 1,
+      "first_seen": "2026-10-28T14:02:44+00:00",
+      "last_seen": "2026-10-28T14:02:44+00:00"
+    },
+    {
       "rule_id": "sitecore-version-probe",
       "method": "GET",
       "path": "/sitecore/shell/sitecore.version.xml",
       "count": 1,
       "first_seen": "2026-10-28T14:02:53+00:00",
       "last_seen": "2026-10-28T14:02:53+00:00"
+    },
+    {
+      "rule_id": "traffic-auth-page",
+      "method": "GET",
+      "path": "/login/login",
+      "count": 1,
+      "first_seen": "2026-10-28T14:03:06+00:00",
+      "last_seen": "2026-10-28T14:03:06+00:00"
+    },
+    {
+      "rule_id": "traffic-legacy-script",
+      "method": "GET",
+      "path": "/index.jsp",
+      "count": 1,
+      "first_seen": "2026-10-28T14:03:07+00:00",
+      "last_seen": "2026-10-28T14:03:07+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -3928,6 +4120,22 @@
       "last_seen": "2026-10-28T16:33:35+00:00"
     },
     {
+      "rule_id": "traffic-static-fingerprint",
+      "method": "GET",
+      "path": "/Public/home/js/check.js",
+      "count": 1,
+      "first_seen": "2026-10-28T18:01:19+00:00",
+      "last_seen": "2026-10-28T18:01:19+00:00"
+    },
+    {
+      "rule_id": "traffic-static-fingerprint",
+      "method": "GET",
+      "path": "/static/admin/javascript/hetong.js",
+      "count": 1,
+      "first_seen": "2026-10-28T18:01:20+00:00",
+      "last_seen": "2026-10-28T18:01:20+00:00"
+    },
+    {
       "rule_id": "ssrs-probe",
       "method": "GET",
       "path": "/ReportServer",
@@ -3936,12 +4144,124 @@
       "last_seen": "2026-10-28T20:33:51+00:00"
     },
     {
+      "rule_id": "traffic-generic-api",
+      "method": "GET",
+      "path": "/zc?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T02:22:53+00:00",
+      "last_seen": "2026-10-29T02:22:53+00:00"
+    },
+    {
+      "rule_id": "traffic-generic-api",
+      "method": "GET",
+      "path": "/ping",
+      "count": 1,
+      "first_seen": "2026-10-29T03:12:04+00:00",
+      "last_seen": "2026-10-29T03:12:04+00:00"
+    },
+    {
+      "rule_id": "traffic-legacy-script",
+      "method": "GET",
+      "path": "/filefuns.php",
+      "count": 1,
+      "first_seen": "2026-10-29T03:39:53+00:00",
+      "last_seen": "2026-10-29T03:39:53+00:00"
+    },
+    {
+      "rule_id": "traffic-legacy-script",
+      "method": "GET",
+      "path": "/txets.php",
+      "count": 1,
+      "first_seen": "2026-10-29T03:40:01+00:00",
+      "last_seen": "2026-10-29T03:40:01+00:00"
+    },
+    {
+      "rule_id": "traffic-legacy-script",
+      "method": "GET",
+      "path": "/postnews.php",
+      "count": 1,
+      "first_seen": "2026-10-29T03:40:25+00:00",
+      "last_seen": "2026-10-29T03:40:25+00:00"
+    },
+    {
       "rule_id": "tomcat-manager-probe",
       "method": "GET",
       "path": "/manager/html",
       "count": 1,
       "first_seen": "2026-10-29T05:18:54+00:00",
       "last_seen": "2026-10-29T05:18:54+00:00"
+    },
+    {
+      "rule_id": "traffic-config-page",
+      "method": "GET",
+      "path": "/admin/config.php",
+      "count": 1,
+      "first_seen": "2026-10-29T06:32:05+00:00",
+      "last_seen": "2026-10-29T06:32:05+00:00"
+    },
+    {
+      "rule_id": "traffic-auth-page",
+      "method": "GET",
+      "path": "/manage/account/login",
+      "count": 1,
+      "first_seen": "2026-10-29T07:02:30+00:00",
+      "last_seen": "2026-10-29T07:02:30+00:00"
+    },
+    {
+      "rule_id": "traffic-console-page",
+      "method": "GET",
+      "path": "/admin/index.html",
+      "count": 1,
+      "first_seen": "2026-10-29T07:02:31+00:00",
+      "last_seen": "2026-10-29T07:02:31+00:00"
+    },
+    {
+      "rule_id": "traffic-web-page",
+      "method": "GET",
+      "path": "/index.html",
+      "count": 1,
+      "first_seen": "2026-10-29T07:02:31+00:00",
+      "last_seen": "2026-10-29T07:02:31+00:00"
+    },
+    {
+      "rule_id": "traffic-download-listing",
+      "method": "GET",
+      "path": "/files/",
+      "count": 1,
+      "first_seen": "2026-10-29T08:27:34+00:00",
+      "last_seen": "2026-10-29T08:27:34+00:00"
+    },
+    {
+      "rule_id": "traffic-download-listing",
+      "method": "GET",
+      "path": "/pub/",
+      "count": 1,
+      "first_seen": "2026-10-29T08:27:34+00:00",
+      "last_seen": "2026-10-29T08:27:34+00:00"
+    },
+    {
+      "rule_id": "traffic-download-listing",
+      "method": "GET",
+      "path": "/downloads/",
+      "count": 1,
+      "first_seen": "2026-10-29T08:27:35+00:00",
+      "last_seen": "2026-10-29T08:27:35+00:00"
+    },
+    {
+      "rule_id": "traffic-ip-info-api",
+      "method": "GET",
+      "path": "/json/?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-29T09:18:45+00:00",
+      "last_seen": "2026-10-29T09:18:45+00:00"
+    },
+    {
+      "rule_id": "traffic-web-page",
+      "method": "GET",
+      "path": "/?format=json",
+      "count": 1,
+      "first_seen": "2026-10-29T10:35:06+00:00",
+      "last_seen": "2026-10-29T10:35:06+00:00"
     },
     {
       "rule_id": "db-admin-sweep",
