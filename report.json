@@ -1,17 +1,17 @@
 {
   "schema_version": 5,
-  "generated_utc": "2026-10-29T14:30:55+00:00",
+  "generated_utc": "2026-10-29T15:30:50+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 938,
-    "sessions": 935,
-    "sources": 177,
+    "requests": 987,
+    "sessions": 949,
+    "sources": 186,
     "largest_source_requests": 373,
     "behaviors": {
-      "cookie": 2,
+      "cookie": 4,
       "redirect": 0,
-      "resource": 0,
-      "javascript": 1,
+      "resource": 2,
+      "javascript": 3,
       "revisit": 0,
       "login": 0,
       "upload": 0,
@@ -19,16 +19,16 @@
       "robots": 10
     },
     "transport": {
-      "http": 714,
-      "https": 224,
-      "http2": 5,
+      "http": 736,
+      "https": 251,
+      "http2": 31,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "aster",
-        "requests": 923,
-        "sessions": 920,
+        "requests": 972,
+        "sessions": 934,
         "actions": 0
       },
       {
@@ -75,18 +75,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 1023,
+    "classified_requests": 1025,
     "iot_requests": 25,
-    "unclassified_requests": 3,
-    "routine_requests": 316,
-    "excluded_checks": 598
+    "unclassified_requests": 15,
+    "routine_requests": 365,
+    "excluded_checks": 617
   },
   "counts": {
-    "commands": 6059,
-    "login_attempts": 9029,
-    "login_successes": 4540,
-    "ssh_connections": 9685,
-    "web_requests": 1367
+    "commands": 6403,
+    "login_attempts": 9673,
+    "login_successes": 4887,
+    "ssh_connections": 10341,
+    "web_requests": 1430
   },
   "daily": [
     {
@@ -96,8 +96,8 @@
     },
     {
       "date": "2026-10-29",
-      "ssh_connections": 7279,
-      "web_requests": 476
+      "ssh_connections": 7935,
+      "web_requests": 539
     }
   ],
   "http_requests": [
@@ -121,25 +121,25 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 164,
+      "count": 175,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-29T14:16:48+00:00"
+      "last_seen": "2026-10-29T15:27:33+00:00"
     },
     {
       "method": "",
       "path": "",
       "status": 400,
-      "count": 58,
+      "count": 60,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-10-29T14:20:44+00:00"
+      "last_seen": "2026-10-29T15:28:49+00:00"
     },
     {
       "method": "GET",
       "path": "/favicon.ico",
       "status": 200,
-      "count": 50,
+      "count": 54,
       "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-29T14:16:48+00:00"
+      "last_seen": "2026-10-29T15:08:37+00:00"
     },
     {
       "method": "CONNECT",
@@ -151,19 +151,19 @@
     },
     {
       "method": "GET",
+      "path": "/assets/site.css",
+      "status": 200,
+      "count": 22,
+      "first_seen": "2026-10-28T12:09:48+00:00",
+      "last_seen": "2026-10-29T15:15:22+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
       "count": 17,
       "first_seen": "2026-10-28T13:14:48+00:00",
       "last_seen": "2026-10-29T13:29:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/assets/site.css",
-      "status": 200,
-      "count": 14,
-      "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-29T00:41:47+00:00"
     },
     {
       "method": "GET",
@@ -180,6 +180,38 @@
       "count": 10,
       "first_seen": "2026-10-28T16:14:25+00:00",
       "last_seen": "2026-10-29T14:06:23+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/visit.js",
+      "status": 200,
+      "count": 9,
+      "first_seen": "2026-10-29T06:37:43+00:00",
+      "last_seen": "2026-10-29T15:15:22+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/assets/metrics/[REDACTED]/js",
+      "status": 204,
+      "count": 8,
+      "first_seen": "2026-10-29T06:37:45+00:00",
+      "last_seen": "2026-10-29T15:15:22+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/metrics/[REDACTED]/pixel",
+      "status": 200,
+      "count": 7,
+      "first_seen": "2026-10-29T15:07:47+00:00",
+      "last_seen": "2026-10-29T15:15:22+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/news",
+      "status": 200,
+      "count": 6,
+      "first_seen": "2026-10-28T12:09:58+00:00",
+      "last_seen": "2026-10-29T15:15:22+00:00"
     },
     {
       "method": "GET",
@@ -231,14 +263,6 @@
     },
     {
       "method": "GET",
-      "path": "/news",
-      "status": 200,
-      "count": 4,
-      "first_seen": "2026-10-28T12:09:58+00:00",
-      "last_seen": "2026-10-28T15:10:10+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/dispatch.asp",
       "status": 404,
       "count": 4,
@@ -260,6 +284,14 @@
       "count": 3,
       "first_seen": "2026-10-28T13:43:07+00:00",
       "last_seen": "2026-10-28T19:56:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/products",
+      "status": 200,
+      "count": 3,
+      "first_seen": "2026-10-28T13:58:08+00:00",
+      "last_seen": "2026-10-29T15:15:18+00:00"
     },
     {
       "method": "GET",
@@ -327,11 +359,19 @@
     },
     {
       "method": "GET",
-      "path": "/products",
+      "path": "/contact",
       "status": 200,
       "count": 2,
-      "first_seen": "2026-10-28T13:58:08+00:00",
-      "last_seen": "2026-10-28T13:58:19+00:00"
+      "first_seen": "2026-10-28T13:58:13+00:00",
+      "last_seen": "2026-10-29T15:15:14+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/search?q=[REDACTED]",
+      "status": 200,
+      "count": 2,
+      "first_seen": "2026-10-28T15:10:28+00:00",
+      "last_seen": "2026-10-29T15:07:47+00:00"
     },
     {
       "method": "GET",
@@ -462,14 +502,6 @@
       "last_seen": "2026-10-29T04:35:12+00:00"
     },
     {
-      "method": "GET",
-      "path": "/assets/visit.js",
-      "status": 200,
-      "count": 2,
-      "first_seen": "2026-10-29T06:37:43+00:00",
-      "last_seen": "2026-10-29T12:45:47+00:00"
-    },
-    {
       "method": "POST",
       "path": "/index.php?param=[REDACTED]",
       "status": 200,
@@ -548,14 +580,6 @@
       "count": 1,
       "first_seen": "2026-10-28T13:58:12+00:00",
       "last_seen": "2026-10-28T13:58:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/contact",
-      "status": 200,
-      "count": 1,
-      "first_seen": "2026-10-28T13:58:13+00:00",
-      "last_seen": "2026-10-28T13:58:13+00:00"
     },
     {
       "method": "GET",
@@ -892,14 +916,6 @@
       "count": 1,
       "first_seen": "2026-10-28T15:10:18+00:00",
       "last_seen": "2026-10-28T15:10:18+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/search?q=[REDACTED]",
-      "status": 200,
-      "count": 1,
-      "first_seen": "2026-10-28T15:10:28+00:00",
-      "last_seen": "2026-10-28T15:10:28+00:00"
     },
     {
       "method": "POST",
@@ -1388,14 +1404,6 @@
       "count": 1,
       "first_seen": "2026-10-29T06:32:05+00:00",
       "last_seen": "2026-10-29T06:32:05+00:00"
-    },
-    {
-      "method": "POST",
-      "path": "/assets/metrics/[REDACTED]/js",
-      "status": 204,
-      "count": 1,
-      "first_seen": "2026-10-29T06:37:45+00:00",
-      "last_seen": "2026-10-29T06:37:45+00:00"
     },
     {
       "method": "GET",
@@ -2827,9 +2835,9 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 60,
+      "count": 62,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-10-29T14:20:44+00:00"
+      "last_seen": "2026-10-29T15:28:49+00:00"
     },
     {
       "rule_id": "hikvision-probe",
@@ -5698,12 +5706,12 @@
   "samples": [],
   "coverage": {
     "web_bodies_read": 85,
-    "web_bodies_skipped": 181,
+    "web_bodies_skipped": 195,
     "manifest_read": true,
     "dionaea_lines_read": 13,
-    "invalid_events": 39,
+    "invalid_events": 41,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 2
+    "pending_indicators": 3
   }
 }
