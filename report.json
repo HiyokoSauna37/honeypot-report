@@ -1,11 +1,11 @@
 {
   "schema_version": 5,
-  "generated_utc": "2026-10-29T02:30:26+00:00",
+  "generated_utc": "2026-10-29T03:30:28+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 572,
-    "sessions": 572,
-    "sources": 89,
+    "requests": 593,
+    "sessions": 593,
+    "sources": 104,
     "largest_source_requests": 373,
     "behaviors": {
       "cookie": 0,
@@ -19,16 +19,16 @@
       "robots": 4
     },
     "transport": {
-      "http": 476,
-      "https": 96,
+      "http": 484,
+      "https": 109,
       "http2": 1,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "aster",
-        "requests": 572,
-        "sessions": 572,
+        "requests": 593,
+        "sessions": 593,
         "actions": 0
       },
       {
@@ -75,18 +75,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 92,
-    "iot_requests": 16,
-    "unclassified_requests": 657,
-    "routine_requests": 169,
+    "classified_requests": 96,
+    "iot_requests": 17,
+    "unclassified_requests": 665,
+    "routine_requests": 184,
     "excluded_checks": 582
   },
   "counts": {
-    "commands": 2166,
-    "login_attempts": 3229,
-    "login_successes": 1819,
-    "ssh_connections": 3567,
-    "web_requests": 934
+    "commands": 2402,
+    "login_attempts": 3497,
+    "login_successes": 1955,
+    "ssh_connections": 3855,
+    "web_requests": 962
   },
   "daily": [
     {
@@ -96,8 +96,8 @@
     },
     {
       "date": "2026-10-29",
-      "ssh_connections": 1161,
-      "web_requests": 43
+      "ssh_connections": 1449,
+      "web_requests": 71
     }
   ],
   "http_requests": [
@@ -121,25 +121,25 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 84,
+      "count": 95,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-29T02:26:11+00:00"
+      "last_seen": "2026-10-29T03:27:06+00:00"
     },
     {
       "method": "GET",
       "path": "/favicon.ico",
       "status": 200,
-      "count": 28,
+      "count": 30,
       "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-29T02:23:00+00:00"
+      "last_seen": "2026-10-29T03:13:07+00:00"
     },
     {
       "method": "",
       "path": "",
       "status": 400,
-      "count": 23,
+      "count": 28,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-10-29T01:59:38+00:00"
+      "last_seen": "2026-10-29T03:23:43+00:00"
     },
     {
       "method": "GET",
@@ -153,17 +153,25 @@
       "method": "CONNECT",
       "path": "/",
       "status": 405,
-      "count": 13,
+      "count": 14,
       "first_seen": "2026-10-28T19:40:48+00:00",
-      "last_seen": "2026-10-29T01:50:12+00:00"
+      "last_seen": "2026-10-29T03:20:47+00:00"
     },
     {
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 9,
+      "count": 10,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-29T01:00:58+00:00"
+      "last_seen": "2026-10-29T02:30:39+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 400,
+      "count": 5,
+      "first_seen": "2026-10-28T16:46:40+00:00",
+      "last_seen": "2026-10-29T03:12:02+00:00"
     },
     {
       "method": "GET",
@@ -175,6 +183,38 @@
     },
     {
       "method": "GET",
+      "path": "/api/mcp",
+      "status": 404,
+      "count": 4,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-29T03:12:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mcp",
+      "status": 404,
+      "count": 4,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-29T03:12:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mcp/",
+      "status": 404,
+      "count": 4,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-29T03:12:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sse",
+      "status": 404,
+      "count": 4,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-29T03:12:05+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/robots.txt",
       "status": 200,
       "count": 4,
@@ -183,51 +223,11 @@
     },
     {
       "method": "GET",
-      "path": "/",
-      "status": 400,
-      "count": 4,
-      "first_seen": "2026-10-28T16:46:40+00:00",
-      "last_seen": "2026-10-29T01:25:03+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/login",
       "status": 200,
       "count": 3,
       "first_seen": "2026-10-28T13:43:07+00:00",
       "last_seen": "2026-10-28T19:56:09+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/mcp",
-      "status": 404,
-      "count": 3,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T02:23:00+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mcp",
-      "status": 404,
-      "count": 3,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T02:23:00+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mcp/",
-      "status": 404,
-      "count": 3,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T02:23:00+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sse",
-      "status": 404,
-      "count": 3,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T02:23:01+00:00"
     },
     {
       "method": "GET",
@@ -1179,41 +1179,41 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 9,
+      "count": 10,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-29T01:00:58+00:00"
+      "last_seen": "2026-10-29T02:30:39+00:00"
     },
     {
       "rule_id": "mcp-probe",
       "method": "GET",
       "path": "/api/mcp",
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T02:23:00+00:00"
+      "last_seen": "2026-10-29T03:12:04+00:00"
     },
     {
       "rule_id": "mcp-probe",
       "method": "GET",
       "path": "/mcp",
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T02:23:00+00:00"
+      "last_seen": "2026-10-29T03:12:04+00:00"
     },
     {
       "rule_id": "mcp-probe",
       "method": "GET",
       "path": "/mcp/",
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T02:23:00+00:00"
+      "last_seen": "2026-10-29T03:12:04+00:00"
     },
     {
       "rule_id": "mcp-probe",
       "method": "GET",
       "path": "/sse",
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-29T02:23:01+00:00"
+      "last_seen": "2026-10-29T03:12:05+00:00"
     },
     {
       "rule_id": "web-lfi",
@@ -2374,6 +2374,6 @@
     "invalid_events": 10,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 4
+    "pending_indicators": 7
   }
 }
