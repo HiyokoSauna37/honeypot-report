@@ -1,11 +1,11 @@
 {
   "schema_version": 5,
-  "generated_utc": "2026-10-29T07:30:51+00:00",
+  "generated_utc": "2026-10-29T08:30:39+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 674,
-    "sessions": 671,
-    "sources": 137,
+    "requests": 731,
+    "sessions": 728,
+    "sources": 142,
     "largest_source_requests": 373,
     "behaviors": {
       "cookie": 2,
@@ -19,16 +19,16 @@
       "robots": 5
     },
     "transport": {
-      "http": 540,
-      "https": 134,
+      "http": 549,
+      "https": 182,
       "http2": 3,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "aster",
-        "requests": 674,
-        "sessions": 671,
+        "requests": 731,
+        "sessions": 728,
         "actions": 0
       },
       {
@@ -75,18 +75,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 121,
-    "iot_requests": 21,
-    "unclassified_requests": 689,
-    "routine_requests": 231,
+    "classified_requests": 168,
+    "iot_requests": 22,
+    "unclassified_requests": 694,
+    "routine_requests": 239,
     "excluded_checks": 582
   },
   "counts": {
-    "commands": 4361,
-    "login_attempts": 5998,
-    "login_successes": 3166,
-    "ssh_connections": 6447,
-    "web_requests": 1062
+    "commands": 4830,
+    "login_attempts": 6820,
+    "login_successes": 3642,
+    "ssh_connections": 7317,
+    "web_requests": 1123
   },
   "daily": [
     {
@@ -96,8 +96,8 @@
     },
     {
       "date": "2026-10-29",
-      "ssh_connections": 4041,
-      "web_requests": 171
+      "ssh_connections": 4911,
+      "web_requests": 232
     }
   ],
   "http_requests": [
@@ -121,9 +121,9 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 123,
+      "count": 127,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-29T07:14:19+00:00"
+      "last_seen": "2026-10-29T08:28:11+00:00"
     },
     {
       "method": "",
@@ -137,17 +137,17 @@
       "method": "GET",
       "path": "/favicon.ico",
       "status": 200,
-      "count": 38,
+      "count": 39,
       "first_seen": "2026-10-28T12:09:48+00:00",
-      "last_seen": "2026-10-29T07:13:03+00:00"
+      "last_seen": "2026-10-29T08:27:38+00:00"
     },
     {
       "method": "CONNECT",
       "path": "/",
       "status": 405,
-      "count": 16,
+      "count": 17,
       "first_seen": "2026-10-28T19:40:48+00:00",
-      "last_seen": "2026-10-29T04:35:12+00:00"
+      "last_seen": "2026-10-29T08:29:18+00:00"
     },
     {
       "method": "GET",
@@ -161,9 +161,9 @@
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 13,
+      "count": 14,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-29T06:52:22+00:00"
+      "last_seen": "2026-10-29T08:25:43+00:00"
     },
     {
       "method": "GET",
@@ -220,6 +220,14 @@
       "count": 4,
       "first_seen": "2026-10-28T12:09:58+00:00",
       "last_seen": "2026-10-28T15:10:10+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "",
+      "status": 400,
+      "count": 4,
+      "first_seen": "2026-10-28T21:27:00+00:00",
+      "last_seen": "2026-10-29T07:39:13+00:00"
     },
     {
       "method": "GET",
@@ -303,19 +311,27 @@
     },
     {
       "method": "POST",
-      "path": "",
-      "status": 400,
-      "count": 2,
-      "first_seen": "2026-10-28T21:27:00+00:00",
-      "last_seen": "2026-10-28T21:27:00+00:00"
-    },
-    {
-      "method": "POST",
       "path": "/index.php?param=[REDACTED]",
       "status": 404,
       "count": 2,
       "first_seen": "2026-10-28T21:27:02+00:00",
       "last_seen": "2026-10-28T21:27:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 200,
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:16+00:00",
+      "last_seen": "2026-10-29T07:39:31+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/containers/json",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:17+00:00",
+      "last_seen": "2026-10-29T07:39:33+00:00"
     },
     {
       "method": "GET",
@@ -372,6 +388,14 @@
       "count": 2,
       "first_seen": "2026-10-29T03:39:15+00:00",
       "last_seen": "2026-10-29T04:41:03+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/index.php?param=[REDACTED]",
+      "status": 200,
+      "count": 2,
+      "first_seen": "2026-10-29T07:39:14+00:00",
+      "last_seen": "2026-10-29T07:39:15+00:00"
     },
     {
       "method": "GET",
@@ -1127,14 +1151,6 @@
     },
     {
       "method": "GET",
-      "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 200,
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:16+00:00",
-      "last_seen": "2026-10-28T21:27:16+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "status": 404,
       "count": 1,
@@ -1148,14 +1164,6 @@
       "count": 1,
       "first_seen": "2026-10-28T21:27:16+00:00",
       "last_seen": "2026-10-28T21:27:16+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/containers/json",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:17+00:00",
-      "last_seen": "2026-10-28T21:27:17+00:00"
     },
     {
       "method": "GET",
@@ -1236,6 +1244,374 @@
       "count": 1,
       "first_seen": "2026-10-29T06:37:45+00:00",
       "last_seen": "2026-10-29T06:37:45+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/hello.world?param=[REDACTED]",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:13+00:00",
+      "last_seen": "2026-10-29T07:39:13+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/?param=[REDACTED]",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:14+00:00",
+      "last_seen": "2026-10-29T07:39:14+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/test.hello?param=[REDACTED]",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:15+00:00",
+      "last_seen": "2026-10-29T07:39:15+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:16+00:00",
+      "last_seen": "2026-10-29T07:39:16+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:16+00:00",
+      "last_seen": "2026-10-29T07:39:16+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/phpunit/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:17+00:00",
+      "last_seen": "2026-10-29T07:39:17+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/phpunit/phpunit/LICENSE/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:17+00:00",
+      "last_seen": "2026-10-29T07:39:17+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:17+00:00",
+      "last_seen": "2026-10-29T07:39:17+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:18+00:00",
+      "last_seen": "2026-10-29T07:39:18+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:18+00:00",
+      "last_seen": "2026-10-29T07:39:18+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpunit/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:19+00:00",
+      "last_seen": "2026-10-29T07:39:19+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpunit/phpunit/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:19+00:00",
+      "last_seen": "2026-10-29T07:39:19+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:19+00:00",
+      "last_seen": "2026-10-29T07:39:19+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/lib/phpunit/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:20+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/lib/phpunit/phpunit/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:20+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:20+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/lib/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:20+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:21+00:00",
+      "last_seen": "2026-10-29T07:39:21+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:21+00:00",
+      "last_seen": "2026-10-29T07:39:21+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:22+00:00",
+      "last_seen": "2026-10-29T07:39:22+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:22+00:00",
+      "last_seen": "2026-10-29T07:39:22+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:22+00:00",
+      "last_seen": "2026-10-29T07:39:22+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:23+00:00",
+      "last_seen": "2026-10-29T07:39:23+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:24+00:00",
+      "last_seen": "2026-10-29T07:39:24+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:24+00:00",
+      "last_seen": "2026-10-29T07:39:24+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:24+00:00",
+      "last_seen": "2026-10-29T07:39:24+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:25+00:00",
+      "last_seen": "2026-10-29T07:39:25+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:25+00:00",
+      "last_seen": "2026-10-29T07:39:25+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:26+00:00",
+      "last_seen": "2026-10-29T07:39:26+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:26+00:00",
+      "last_seen": "2026-10-29T07:39:26+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:26+00:00",
+      "last_seen": "2026-10-29T07:39:26+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:27+00:00",
+      "last_seen": "2026-10-29T07:39:27+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:28+00:00",
+      "last_seen": "2026-10-29T07:39:28+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:28+00:00",
+      "last_seen": "2026-10-29T07:39:28+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:29+00:00",
+      "last_seen": "2026-10-29T07:39:29+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:29+00:00",
+      "last_seen": "2026-10-29T07:39:29+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:30+00:00",
+      "last_seen": "2026-10-29T07:39:30+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:30+00:00",
+      "last_seen": "2026-10-29T07:39:30+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:31+00:00",
+      "last_seen": "2026-10-29T07:39:31+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:31+00:00",
+      "last_seen": "2026-10-29T07:39:31+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:32+00:00",
+      "last_seen": "2026-10-29T07:39:32+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/index.php?param=[REDACTED]",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:32+00:00",
+      "last_seen": "2026-10-29T07:39:32+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/public/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T07:39:32+00:00",
+      "last_seen": "2026-10-29T07:39:32+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/files/",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T08:27:34+00:00",
+      "last_seen": "2026-10-29T08:27:34+00:00"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/",
+      "status": 204,
+      "count": 1,
+      "first_seen": "2026-10-29T08:27:37+00:00",
+      "last_seen": "2026-10-29T08:27:37+00:00"
+    },
+    {
+      "method": "OTHER",
+      "path": "/",
+      "status": 501,
+      "count": 1,
+      "first_seen": "2026-10-29T08:27:38+00:00",
+      "last_seen": "2026-10-29T08:27:38+00:00"
     }
   ],
   "findings": [
@@ -1243,9 +1619,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 13,
+      "count": 14,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-10-29T06:52:22+00:00"
+      "last_seen": "2026-10-29T08:25:43+00:00"
     },
     {
       "rule_id": "mcp-probe",
@@ -1278,6 +1654,22 @@
       "count": 5,
       "first_seen": "2026-10-28T15:42:43+00:00",
       "last_seen": "2026-10-29T06:17:41+00:00"
+    },
+    {
+      "rule_id": "web-lfi",
+      "method": "POST",
+      "path": "/index.php?param=[REDACTED]",
+      "count": 4,
+      "first_seen": "2026-10-28T21:27:02+00:00",
+      "last_seen": "2026-10-29T07:39:15+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "POST",
+      "path": "/index.php?param=[REDACTED]",
+      "count": 4,
+      "first_seen": "2026-10-28T21:27:02+00:00",
+      "last_seen": "2026-10-29T07:39:15+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -1418,18 +1810,690 @@
     {
       "rule_id": "web-lfi",
       "method": "POST",
-      "path": "/index.php?param=[REDACTED]",
+      "path": "/hello.world?param=[REDACTED]",
       "count": 2,
-      "first_seen": "2026-10-28T21:27:02+00:00",
-      "last_seen": "2026-10-28T21:27:03+00:00"
+      "first_seen": "2026-10-28T21:27:01+00:00",
+      "last_seen": "2026-10-29T07:39:13+00:00"
     },
     {
       "rule_id": "web-upload",
       "method": "POST",
-      "path": "/index.php?param=[REDACTED]",
+      "path": "/hello.world?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:01+00:00",
+      "last_seen": "2026-10-29T07:39:13+00:00"
+    },
+    {
+      "rule_id": "web-lfi",
+      "method": "POST",
+      "path": "/?param=[REDACTED]",
       "count": 2,
       "first_seen": "2026-10-28T21:27:02+00:00",
-      "last_seen": "2026-10-28T21:27:03+00:00"
+      "last_seen": "2026-10-29T07:39:14+00:00"
+    },
+    {
+      "rule_id": "web-lfi",
+      "method": "POST",
+      "path": "/test.hello?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:02+00:00",
+      "last_seen": "2026-10-29T07:39:15+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "POST",
+      "path": "/?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:02+00:00",
+      "last_seen": "2026-10-29T07:39:14+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "POST",
+      "path": "/test.hello?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:02+00:00",
+      "last_seen": "2026-10-29T07:39:15+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:03+00:00",
+      "last_seen": "2026-10-29T07:39:16+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:03+00:00",
+      "last_seen": "2026-10-29T07:39:16+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/vendor/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:04+00:00",
+      "last_seen": "2026-10-29T07:39:17+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:04+00:00",
+      "last_seen": "2026-10-29T07:39:16+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/vendor/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:04+00:00",
+      "last_seen": "2026-10-29T07:39:17+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/vendor/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:04+00:00",
+      "last_seen": "2026-10-29T07:39:17+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:04+00:00",
+      "last_seen": "2026-10-29T07:39:16+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/vendor/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:04+00:00",
+      "last_seen": "2026-10-29T07:39:17+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:05+00:00",
+      "last_seen": "2026-10-29T07:39:18+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/vendor/phpunit/phpunit/LICENSE/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:05+00:00",
+      "last_seen": "2026-10-29T07:39:17+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:05+00:00",
+      "last_seen": "2026-10-29T07:39:18+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:05+00:00",
+      "last_seen": "2026-10-29T07:39:18+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/vendor/phpunit/phpunit/LICENSE/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:05+00:00",
+      "last_seen": "2026-10-29T07:39:17+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:05+00:00",
+      "last_seen": "2026-10-29T07:39:18+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:06+00:00",
+      "last_seen": "2026-10-29T07:39:19+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/phpunit/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:06+00:00",
+      "last_seen": "2026-10-29T07:39:19+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:06+00:00",
+      "last_seen": "2026-10-29T07:39:19+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:06+00:00",
+      "last_seen": "2026-10-29T07:39:19+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/phpunit/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:06+00:00",
+      "last_seen": "2026-10-29T07:39:19+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:06+00:00",
+      "last_seen": "2026-10-29T07:39:19+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/lib/phpunit/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:07+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:07+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/lib/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:07+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/lib/phpunit/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:07+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:07+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/lib/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:07+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:08+00:00",
+      "last_seen": "2026-10-29T07:39:21+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/lib/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:08+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:08+00:00",
+      "last_seen": "2026-10-29T07:39:21+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:08+00:00",
+      "last_seen": "2026-10-29T07:39:21+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/lib/phpunit/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:08+00:00",
+      "last_seen": "2026-10-29T07:39:20+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:08+00:00",
+      "last_seen": "2026-10-29T07:39:21+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:09+00:00",
+      "last_seen": "2026-10-29T07:39:22+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:09+00:00",
+      "last_seen": "2026-10-29T07:39:22+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:09+00:00",
+      "last_seen": "2026-10-29T07:39:22+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:09+00:00",
+      "last_seen": "2026-10-29T07:39:22+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:10+00:00",
+      "last_seen": "2026-10-29T07:39:22+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:10+00:00",
+      "last_seen": "2026-10-29T07:39:23+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:10+00:00",
+      "last_seen": "2026-10-29T07:39:22+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:10+00:00",
+      "last_seen": "2026-10-29T07:39:23+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:11+00:00",
+      "last_seen": "2026-10-29T07:39:24+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:11+00:00",
+      "last_seen": "2026-10-29T07:39:24+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:11+00:00",
+      "last_seen": "2026-10-29T07:39:24+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:11+00:00",
+      "last_seen": "2026-10-29T07:39:24+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:11+00:00",
+      "last_seen": "2026-10-29T07:39:24+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:11+00:00",
+      "last_seen": "2026-10-29T07:39:24+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:12+00:00",
+      "last_seen": "2026-10-29T07:39:26+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:12+00:00",
+      "last_seen": "2026-10-29T07:39:25+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:12+00:00",
+      "last_seen": "2026-10-29T07:39:25+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:12+00:00",
+      "last_seen": "2026-10-29T07:39:26+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:12+00:00",
+      "last_seen": "2026-10-29T07:39:25+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:12+00:00",
+      "last_seen": "2026-10-29T07:39:25+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:13+00:00",
+      "last_seen": "2026-10-29T07:39:28+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:13+00:00",
+      "last_seen": "2026-10-29T07:39:26+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:13+00:00",
+      "last_seen": "2026-10-29T07:39:27+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:13+00:00",
+      "last_seen": "2026-10-29T07:39:26+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:13+00:00",
+      "last_seen": "2026-10-29T07:39:28+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:13+00:00",
+      "last_seen": "2026-10-29T07:39:26+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:13+00:00",
+      "last_seen": "2026-10-29T07:39:27+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:13+00:00",
+      "last_seen": "2026-10-29T07:39:26+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:14+00:00",
+      "last_seen": "2026-10-29T07:39:28+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:14+00:00",
+      "last_seen": "2026-10-29T07:39:29+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:14+00:00",
+      "last_seen": "2026-10-29T07:39:30+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:14+00:00",
+      "last_seen": "2026-10-29T07:39:29+00:00"
+    },
+    {
+      "rule_id": "web-exposure",
+      "method": "GET",
+      "path": "/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:14+00:00",
+      "last_seen": "2026-10-29T07:39:28+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:14+00:00",
+      "last_seen": "2026-10-29T07:39:28+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:14+00:00",
+      "last_seen": "2026-10-29T07:39:29+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:14+00:00",
+      "last_seen": "2026-10-29T07:39:30+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:14+00:00",
+      "last_seen": "2026-10-29T07:39:29+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:15+00:00",
+      "last_seen": "2026-10-29T07:39:31+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:15+00:00",
+      "last_seen": "2026-10-29T07:39:31+00:00"
+    },
+    {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:15+00:00",
+      "last_seen": "2026-10-29T07:39:30+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:15+00:00",
+      "last_seen": "2026-10-29T07:39:31+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:15+00:00",
+      "last_seen": "2026-10-29T07:39:31+00:00"
+    },
+    {
+      "rule_id": "web-upload",
+      "method": "GET",
+      "path": "/public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:15+00:00",
+      "last_seen": "2026-10-29T07:39:30+00:00"
+    },
+    {
+      "rule_id": "thinkphp-invoke",
+      "method": "GET",
+      "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:16+00:00",
+      "last_seen": "2026-10-29T07:39:31+00:00"
+    },
+    {
+      "rule_id": "thinkphp-invoke",
+      "method": "GET",
+      "path": "/public/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:16+00:00",
+      "last_seen": "2026-10-29T07:39:32+00:00"
+    },
+    {
+      "rule_id": "web-lfi",
+      "method": "GET",
+      "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:16+00:00",
+      "last_seen": "2026-10-29T07:39:32+00:00"
+    },
+    {
+      "rule_id": "docker-api-probe",
+      "method": "GET",
+      "path": "/containers/json",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:17+00:00",
+      "last_seen": "2026-10-29T07:39:33+00:00"
+    },
+    {
+      "rule_id": "web-lfi",
+      "method": "GET",
+      "path": "/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-28T21:27:17+00:00",
+      "last_seen": "2026-10-29T07:39:32+00:00"
     },
     {
       "rule_id": "exchange-probe",
@@ -1654,694 +2718,6 @@
       "count": 1,
       "first_seen": "2026-10-28T20:33:51+00:00",
       "last_seen": "2026-10-28T20:33:51+00:00"
-    },
-    {
-      "rule_id": "web-lfi",
-      "method": "POST",
-      "path": "/hello.world?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:01+00:00",
-      "last_seen": "2026-10-28T21:27:01+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "POST",
-      "path": "/hello.world?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:01+00:00",
-      "last_seen": "2026-10-28T21:27:01+00:00"
-    },
-    {
-      "rule_id": "web-lfi",
-      "method": "POST",
-      "path": "/?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:02+00:00",
-      "last_seen": "2026-10-28T21:27:02+00:00"
-    },
-    {
-      "rule_id": "web-lfi",
-      "method": "POST",
-      "path": "/test.hello?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:02+00:00",
-      "last_seen": "2026-10-28T21:27:02+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "POST",
-      "path": "/?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:02+00:00",
-      "last_seen": "2026-10-28T21:27:02+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "POST",
-      "path": "/test.hello?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:02+00:00",
-      "last_seen": "2026-10-28T21:27:02+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:03+00:00",
-      "last_seen": "2026-10-28T21:27:03+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:03+00:00",
-      "last_seen": "2026-10-28T21:27:03+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/vendor/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:04+00:00",
-      "last_seen": "2026-10-28T21:27:04+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:04+00:00",
-      "last_seen": "2026-10-28T21:27:04+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/vendor/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:04+00:00",
-      "last_seen": "2026-10-28T21:27:04+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/vendor/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:04+00:00",
-      "last_seen": "2026-10-28T21:27:04+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:04+00:00",
-      "last_seen": "2026-10-28T21:27:04+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/vendor/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:04+00:00",
-      "last_seen": "2026-10-28T21:27:04+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:05+00:00",
-      "last_seen": "2026-10-28T21:27:05+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/vendor/phpunit/phpunit/LICENSE/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:05+00:00",
-      "last_seen": "2026-10-28T21:27:05+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:05+00:00",
-      "last_seen": "2026-10-28T21:27:05+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:05+00:00",
-      "last_seen": "2026-10-28T21:27:05+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/vendor/phpunit/phpunit/LICENSE/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:05+00:00",
-      "last_seen": "2026-10-28T21:27:05+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:05+00:00",
-      "last_seen": "2026-10-28T21:27:05+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:06+00:00",
-      "last_seen": "2026-10-28T21:27:06+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/phpunit/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:06+00:00",
-      "last_seen": "2026-10-28T21:27:06+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:06+00:00",
-      "last_seen": "2026-10-28T21:27:06+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:06+00:00",
-      "last_seen": "2026-10-28T21:27:06+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/phpunit/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:06+00:00",
-      "last_seen": "2026-10-28T21:27:06+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:06+00:00",
-      "last_seen": "2026-10-28T21:27:06+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/lib/phpunit/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:07+00:00",
-      "last_seen": "2026-10-28T21:27:07+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:07+00:00",
-      "last_seen": "2026-10-28T21:27:07+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/lib/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:07+00:00",
-      "last_seen": "2026-10-28T21:27:07+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/lib/phpunit/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:07+00:00",
-      "last_seen": "2026-10-28T21:27:07+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:07+00:00",
-      "last_seen": "2026-10-28T21:27:07+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/lib/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:07+00:00",
-      "last_seen": "2026-10-28T21:27:07+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:08+00:00",
-      "last_seen": "2026-10-28T21:27:08+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/lib/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:08+00:00",
-      "last_seen": "2026-10-28T21:27:08+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:08+00:00",
-      "last_seen": "2026-10-28T21:27:08+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:08+00:00",
-      "last_seen": "2026-10-28T21:27:08+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/lib/phpunit/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:08+00:00",
-      "last_seen": "2026-10-28T21:27:08+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:08+00:00",
-      "last_seen": "2026-10-28T21:27:08+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:09+00:00",
-      "last_seen": "2026-10-28T21:27:09+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:09+00:00",
-      "last_seen": "2026-10-28T21:27:09+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:09+00:00",
-      "last_seen": "2026-10-28T21:27:09+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:09+00:00",
-      "last_seen": "2026-10-28T21:27:09+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:10+00:00",
-      "last_seen": "2026-10-28T21:27:10+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:10+00:00",
-      "last_seen": "2026-10-28T21:27:10+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:10+00:00",
-      "last_seen": "2026-10-28T21:27:10+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:10+00:00",
-      "last_seen": "2026-10-28T21:27:10+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:11+00:00",
-      "last_seen": "2026-10-28T21:27:11+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:11+00:00",
-      "last_seen": "2026-10-28T21:27:11+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:11+00:00",
-      "last_seen": "2026-10-28T21:27:11+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:11+00:00",
-      "last_seen": "2026-10-28T21:27:11+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:11+00:00",
-      "last_seen": "2026-10-28T21:27:11+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:11+00:00",
-      "last_seen": "2026-10-28T21:27:11+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:12+00:00",
-      "last_seen": "2026-10-28T21:27:12+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:12+00:00",
-      "last_seen": "2026-10-28T21:27:12+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:12+00:00",
-      "last_seen": "2026-10-28T21:27:12+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:12+00:00",
-      "last_seen": "2026-10-28T21:27:12+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:12+00:00",
-      "last_seen": "2026-10-28T21:27:12+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:12+00:00",
-      "last_seen": "2026-10-28T21:27:12+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:13+00:00",
-      "last_seen": "2026-10-28T21:27:13+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:13+00:00",
-      "last_seen": "2026-10-28T21:27:13+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:13+00:00",
-      "last_seen": "2026-10-28T21:27:13+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:13+00:00",
-      "last_seen": "2026-10-28T21:27:13+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:13+00:00",
-      "last_seen": "2026-10-28T21:27:13+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:13+00:00",
-      "last_seen": "2026-10-28T21:27:13+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:13+00:00",
-      "last_seen": "2026-10-28T21:27:13+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:13+00:00",
-      "last_seen": "2026-10-28T21:27:13+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-28T21:27:14+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-28T21:27:14+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-28T21:27:14+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-28T21:27:14+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-28T21:27:14+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-28T21:27:14+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-28T21:27:14+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-28T21:27:14+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-28T21:27:14+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:15+00:00",
-      "last_seen": "2026-10-28T21:27:15+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:15+00:00",
-      "last_seen": "2026-10-28T21:27:15+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:15+00:00",
-      "last_seen": "2026-10-28T21:27:15+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:15+00:00",
-      "last_seen": "2026-10-28T21:27:15+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:15+00:00",
-      "last_seen": "2026-10-28T21:27:15+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:15+00:00",
-      "last_seen": "2026-10-28T21:27:15+00:00"
-    },
-    {
-      "rule_id": "thinkphp-invoke",
-      "method": "GET",
-      "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:16+00:00",
-      "last_seen": "2026-10-28T21:27:16+00:00"
-    },
-    {
-      "rule_id": "thinkphp-invoke",
-      "method": "GET",
-      "path": "/public/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:16+00:00",
-      "last_seen": "2026-10-28T21:27:16+00:00"
-    },
-    {
-      "rule_id": "web-lfi",
-      "method": "GET",
-      "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:16+00:00",
-      "last_seen": "2026-10-28T21:27:16+00:00"
-    },
-    {
-      "rule_id": "docker-api-probe",
-      "method": "GET",
-      "path": "/containers/json",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:17+00:00",
-      "last_seen": "2026-10-28T21:27:17+00:00"
-    },
-    {
-      "rule_id": "web-lfi",
-      "method": "GET",
-      "path": "/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-28T21:27:17+00:00",
-      "last_seen": "2026-10-28T21:27:17+00:00"
     }
   ],
   "outbound": [
@@ -2431,13 +2807,13 @@
     }
   ],
   "coverage": {
-    "web_bodies_read": 43,
-    "web_bodies_skipped": 139,
+    "web_bodies_read": 85,
+    "web_bodies_skipped": 181,
     "manifest_read": true,
     "dionaea_lines_read": 13,
-    "invalid_events": 10,
+    "invalid_events": 12,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 18
+    "pending_indicators": 20
   }
 }
