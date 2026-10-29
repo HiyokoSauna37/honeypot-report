@@ -1,14 +1,14 @@
 {
   "schema_version": 5,
-  "generated_utc": "2026-10-29T18:31:43+00:00",
+  "generated_utc": "2026-10-29T19:31:37+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 1699,
-    "sessions": 1421,
-    "sources": 296,
+    "requests": 2104,
+    "sessions": 1598,
+    "sources": 302,
     "largest_source_requests": 373,
     "behaviors": {
-      "cookie": 38,
+      "cookie": 50,
       "redirect": 1,
       "resource": 26,
       "javascript": 25,
@@ -19,40 +19,40 @@
       "robots": 26
     },
     "transport": {
-      "http": 948,
-      "https": 751,
-      "http2": 282,
+      "http": 1082,
+      "https": 1022,
+      "http2": 334,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "aster",
-        "requests": 1632,
-        "sessions": 1383,
+        "requests": 2014,
+        "sessions": 1539,
         "actions": 0
       },
       {
         "profile": "wordpress",
-        "requests": 25,
-        "sessions": 19,
+        "requests": 27,
+        "sessions": 21,
         "actions": 0
       },
       {
         "profile": "jenkins",
-        "requests": 20,
-        "sessions": 10,
+        "requests": 25,
+        "sessions": 15,
         "actions": 0
       },
       {
         "profile": "phpmyadmin",
-        "requests": 14,
-        "sessions": 14,
+        "requests": 28,
+        "sessions": 28,
         "actions": 0
       },
       {
         "profile": "node-import",
-        "requests": 8,
-        "sessions": 5,
+        "requests": 10,
+        "sessions": 7,
         "actions": 0
       },
       {
@@ -75,18 +75,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 1375,
+    "classified_requests": 1517,
     "iot_requests": 28,
-    "unclassified_requests": 230,
-    "routine_requests": 793,
-    "excluded_checks": 774
+    "unclassified_requests": 464,
+    "routine_requests": 834,
+    "excluded_checks": 965
   },
   "counts": {
-    "commands": 7361,
-    "login_attempts": 11173,
-    "login_successes": 5776,
-    "ssh_connections": 11897,
-    "web_requests": 2426
+    "commands": 7373,
+    "login_attempts": 11226,
+    "login_successes": 5778,
+    "ssh_connections": 11956,
+    "web_requests": 2843
   },
   "daily": [
     {
@@ -96,8 +96,8 @@
     },
     {
       "date": "2026-10-29",
-      "ssh_connections": 9491,
-      "web_requests": 1535
+      "ssh_connections": 9550,
+      "web_requests": 1952
     }
   ],
   "http_requests": [
@@ -113,9 +113,9 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 291,
+      "count": 299,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-29T18:11:40+00:00"
+      "last_seen": "2026-10-29T19:26:46+00:00"
     },
     {
       "method": "GET",
@@ -145,9 +145,9 @@
       "method": "GET",
       "path": "/assets/metrics/[REDACTED]/pixel",
       "status": 200,
-      "count": 60,
+      "count": 75,
       "first_seen": "2026-10-29T15:07:47+00:00",
-      "last_seen": "2026-10-29T18:11:40+00:00"
+      "last_seen": "2026-10-29T19:28:35+00:00"
     },
     {
       "method": "GET",
@@ -185,9 +185,9 @@
       "method": "GET",
       "path": "/robots.txt",
       "status": 200,
-      "count": 26,
+      "count": 28,
       "first_seen": "2026-10-28T16:14:25+00:00",
-      "last_seen": "2026-10-29T18:02:04+00:00"
+      "last_seen": "2026-10-29T18:56:05+00:00"
     },
     {
       "method": "GET",
@@ -199,11 +199,27 @@
     },
     {
       "method": "GET",
+      "path": "/article?id=[REDACTED]",
+      "status": 200,
+      "count": 21,
+      "first_seen": "2026-10-28T15:10:05+00:00",
+      "last_seen": "2026-10-29T19:26:25+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
       "count": 19,
       "first_seen": "2026-10-28T13:14:48+00:00",
       "last_seen": "2026-10-29T17:47:33+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 400,
+      "count": 15,
+      "first_seen": "2026-10-28T16:46:40+00:00",
+      "last_seen": "2026-10-29T18:52:29+00:00"
     },
     {
       "method": "GET",
@@ -215,19 +231,11 @@
     },
     {
       "method": "GET",
-      "path": "/",
-      "status": 400,
-      "count": 14,
-      "first_seen": "2026-10-28T16:46:40+00:00",
-      "last_seen": "2026-10-29T17:39:57+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/article?id=[REDACTED]",
+      "path": "/.env",
       "status": 200,
-      "count": 13,
-      "first_seen": "2026-10-28T15:10:05+00:00",
-      "last_seen": "2026-10-29T17:13:47+00:00"
+      "count": 14,
+      "first_seen": "2026-10-28T22:47:29+00:00",
+      "last_seen": "2026-10-29T19:20:28+00:00"
     },
     {
       "method": "GET",
@@ -239,11 +247,11 @@
     },
     {
       "method": "GET",
-      "path": "/.env",
+      "path": "/assets/ethan-mercer.png",
       "status": 200,
-      "count": 13,
-      "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-10-29T16:46:23+00:00"
+      "count": 11,
+      "first_seen": "2026-10-29T16:45:06+00:00",
+      "last_seen": "2026-10-29T19:22:52+00:00"
     },
     {
       "method": "GET",
@@ -252,14 +260,6 @@
       "count": 10,
       "first_seen": "2026-10-28T13:58:08+00:00",
       "last_seen": "2026-10-29T17:45:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/assets/ethan-mercer.png",
-      "status": 200,
-      "count": 10,
-      "first_seen": "2026-10-29T16:45:06+00:00",
-      "last_seen": "2026-10-29T18:11:41+00:00"
     },
     {
       "method": "GET",
@@ -287,6 +287,14 @@
     },
     {
       "method": "GET",
+      "path": "/server-status",
+      "status": 200,
+      "count": 8,
+      "first_seen": "2026-10-29T15:44:34+00:00",
+      "last_seen": "2026-10-29T18:41:29+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/downloads",
       "status": 200,
       "count": 7,
@@ -303,11 +311,11 @@
     },
     {
       "method": "GET",
-      "path": "/server-status",
+      "path": "/sitemap.xml",
       "status": 200,
       "count": 7,
-      "first_seen": "2026-10-29T15:44:34+00:00",
-      "last_seen": "2026-10-29T17:13:45+00:00"
+      "first_seen": "2026-10-28T16:14:27+00:00",
+      "last_seen": "2026-10-29T19:24:06+00:00"
     },
     {
       "method": "GET",
@@ -316,6 +324,14 @@
       "count": 7,
       "first_seen": "2026-10-29T15:44:52+00:00",
       "last_seen": "2026-10-29T17:47:00+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/company/leadership",
+      "status": 200,
+      "count": 7,
+      "first_seen": "2026-10-29T16:51:12+00:00",
+      "last_seen": "2026-10-29T18:40:22+00:00"
     },
     {
       "method": "GET",
@@ -367,11 +383,35 @@
     },
     {
       "method": "GET",
+      "path": "/files/",
+      "status": 200,
+      "count": 6,
+      "first_seen": "2026-10-29T08:27:34+00:00",
+      "last_seen": "2026-10-29T18:44:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config.json",
+      "status": 404,
+      "count": 6,
+      "first_seen": "2026-10-29T12:45:48+00:00",
+      "last_seen": "2026-10-29T18:52:08+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/wp-json/",
       "status": 200,
       "count": 6,
       "first_seen": "2026-10-29T15:44:07+00:00",
       "last_seen": "2026-10-29T17:41:31+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.vscode/sftp.json",
+      "status": 404,
+      "count": 6,
+      "first_seen": "2026-10-29T15:44:09+00:00",
+      "last_seen": "2026-10-29T18:52:52+00:00"
     },
     {
       "method": "GET",
@@ -423,19 +463,11 @@
     },
     {
       "method": "GET",
-      "path": "/company/leadership",
+      "path": "/about",
       "status": 200,
       "count": 6,
-      "first_seen": "2026-10-29T16:51:12+00:00",
-      "last_seen": "2026-10-29T17:13:49+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sitemap.xml",
-      "status": 200,
-      "count": 5,
-      "first_seen": "2026-10-28T16:14:27+00:00",
-      "last_seen": "2026-10-29T12:45:47+00:00"
+      "first_seen": "2026-10-29T16:51:11+00:00",
+      "last_seen": "2026-10-29T18:40:07+00:00"
     },
     {
       "method": "GET",
@@ -444,14 +476,6 @@
       "count": 5,
       "first_seen": "2026-10-28T19:09:49+00:00",
       "last_seen": "2026-10-29T18:13:54+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/files/",
-      "status": 200,
-      "count": 5,
-      "first_seen": "2026-10-29T08:27:34+00:00",
-      "last_seen": "2026-10-29T17:13:46+00:00"
     },
     {
       "method": "OPTIONS",
@@ -471,11 +495,67 @@
     },
     {
       "method": "GET",
-      "path": "/about",
+      "path": "/download?param=[REDACTED]",
       "status": 200,
       "count": 5,
-      "first_seen": "2026-10-29T16:51:11+00:00",
-      "last_seen": "2026-10-29T17:13:19+00:00"
+      "first_seen": "2026-10-29T16:51:13+00:00",
+      "last_seen": "2026-10-29T18:44:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/attachments.php",
+      "status": 200,
+      "count": 5,
+      "first_seen": "2026-10-29T16:51:14+00:00",
+      "last_seen": "2026-10-29T18:41:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/import",
+      "status": 200,
+      "count": 5,
+      "first_seen": "2026-10-29T16:51:15+00:00",
+      "last_seen": "2026-10-29T18:43:16+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runtime",
+      "status": 200,
+      "count": 5,
+      "first_seen": "2026-10-29T16:51:15+00:00",
+      "last_seen": "2026-10-29T18:42:39+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/jenkins/api/json",
+      "status": 200,
+      "count": 5,
+      "first_seen": "2026-10-29T16:51:15+00:00",
+      "last_seen": "2026-10-29T18:41:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/jenkins/job/aster-web/",
+      "status": 200,
+      "count": 5,
+      "first_seen": "2026-10-29T16:51:16+00:00",
+      "last_seen": "2026-10-29T18:41:20+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/jenkins/login",
+      "status": 200,
+      "count": 5,
+      "first_seen": "2026-10-29T16:51:16+00:00",
+      "last_seen": "2026-10-29T18:43:29+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-login.php",
+      "status": 200,
+      "count": 5,
+      "first_seen": "2026-10-29T16:51:16+00:00",
+      "last_seen": "2026-10-29T18:53:28+00:00"
     },
     {
       "method": "GET",
@@ -535,27 +615,11 @@
     },
     {
       "method": "GET",
-      "path": "/config.json",
-      "status": 404,
-      "count": 4,
-      "first_seen": "2026-10-29T12:45:48+00:00",
-      "last_seen": "2026-10-29T15:45:16+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/.git/HEAD",
       "status": 200,
       "count": 4,
       "first_seen": "2026-10-29T15:44:08+00:00",
       "last_seen": "2026-10-29T16:31:08+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/.vscode/sftp.json",
-      "status": 404,
-      "count": 4,
-      "first_seen": "2026-10-29T15:44:09+00:00",
-      "last_seen": "2026-10-29T15:45:25+00:00"
     },
     {
       "method": "GET",
@@ -572,70 +636,6 @@
       "count": 4,
       "first_seen": "2026-10-29T15:44:45+00:00",
       "last_seen": "2026-10-29T16:33:16+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/download?param=[REDACTED]",
-      "status": 200,
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:13+00:00",
-      "last_seen": "2026-10-29T17:14:00+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/attachments.php",
-      "status": 200,
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:14+00:00",
-      "last_seen": "2026-10-29T17:13:48+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/import",
-      "status": 200,
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:15+00:00",
-      "last_seen": "2026-10-29T17:13:49+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/runtime",
-      "status": 200,
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:15+00:00",
-      "last_seen": "2026-10-29T17:13:51+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/jenkins/api/json",
-      "status": 200,
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:15+00:00",
-      "last_seen": "2026-10-29T17:13:58+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/jenkins/job/aster-web/",
-      "status": 200,
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-10-29T17:13:58+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/jenkins/login",
-      "status": 200,
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-10-29T17:13:59+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-login.php",
-      "status": 200,
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-10-29T17:13:51+00:00"
     },
     {
       "method": "GET",
@@ -708,6 +708,14 @@
       "count": 3,
       "first_seen": "2026-10-29T05:12:06+00:00",
       "last_seen": "2026-10-29T10:52:21+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/index.php?param=[REDACTED]",
+      "status": 200,
+      "count": 3,
+      "first_seen": "2026-10-29T07:39:32+00:00",
+      "last_seen": "2026-10-29T18:53:51+00:00"
     },
     {
       "method": "GET",
@@ -839,6 +847,22 @@
     },
     {
       "method": "GET",
+      "path": "/jenkins/job/aster-web/lastBuild/consoleText",
+      "status": 200,
+      "count": 3,
+      "first_seen": "2026-10-29T16:52:14+00:00",
+      "last_seen": "2026-10-29T19:23:08+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/upload-progress.php?id=[REDACTED]",
+      "status": 200,
+      "count": 3,
+      "first_seen": "2026-10-29T16:52:14+00:00",
+      "last_seen": "2026-10-29T19:21:44+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/search?q=[REDACTED]",
       "status": 200,
       "count": 2,
@@ -935,14 +959,6 @@
     },
     {
       "method": "GET",
-      "path": "/index.php?param=[REDACTED]",
-      "status": 200,
-      "count": 2,
-      "first_seen": "2026-10-29T07:39:32+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/pub/",
       "status": 404,
       "count": 2,
@@ -964,6 +980,1022 @@
       "count": 2,
       "first_seen": "2026-10-29T10:12:54+00:00",
       "last_seen": "2026-10-29T10:59:48+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:31+00:00",
+      "last_seen": "2026-10-29T18:54:14+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/dbadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:31+00:00",
+      "last_seen": "2026-10-29T18:53:49+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/websql/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:31+00:00",
+      "last_seen": "2026-10-29T18:54:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/sysadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:53:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/myadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:53:52+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/php-my-admin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:16+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:15+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-latest/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:00+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyAdmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:53:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin2020/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:08+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin5/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:02+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/pma/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:53:54+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/administrator/web/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/phpmyadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:54:17+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1-english/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:51+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin3/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:47+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin5/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:46+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin2/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:54:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/phpmy-admin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:54:11+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/phpmyadmin5/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:46+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/webadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:54:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/2phpmyadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:54:10+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/_phpmyadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:54:18+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/phpmyadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:53:49+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.2/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:54:00+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin2021/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:53:51+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/myadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:54:18+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/web/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:55+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysql/sqlmanager/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:54:00+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-4.9.10-all-languages/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:54:08+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-4.9.7/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:54:11+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-latest-all-languages/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:56+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin2/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:54:11+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:54+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin3/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:56+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/program/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:52+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/sql-admin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:52+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:48+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/pma/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:54:17+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/phpMyAdmin3/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:54:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/webdb/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:53:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysql/mysqlmanager/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:54:02+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin2017/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:54:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/pmahomme/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:53:55+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/dbadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:53:55+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/phpMyAdmin-3/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:53:56+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysql/pMA/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:54:16+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysqladmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:54:01+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.0-all-languages/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:53:45+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phppma/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:53:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/__phpmyadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:53+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/_phpmyadmin_/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:54:10+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/phpMyAdmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:54+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/phpMyAdmin-4/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:54:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysqlmanager/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmy-admin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:47+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin2019/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:54:14+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin4/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:46+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/phpmanager/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/sqladmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:54:07+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sqlmanager/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:54:01+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/PMA/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:53:48+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/administrator/phpMyAdmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/myadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:00+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/phpMyAdmin-5/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:19+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysql-admin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:11+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-5/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin1/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:53:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin5.1/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin5.2/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin6/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:07+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/phpmyadmin4/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:01+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/administrator/db/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/php-myadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:07+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.3/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:14+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.0/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin6/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:53:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin_/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:15+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin1/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:18+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin_/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:14+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/1phpmyadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:54:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/MyAdmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:53+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/administrator/PMA/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:53+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/administrator/phpmyadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:54:02+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/db-admin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:53+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.0/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:56+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1-all-languages/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:54:18+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/php-myadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:47+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/phpMyAdmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:54:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/sqladmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:53:45+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/phpmyadmin3/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:54:10+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/phpmyadmin4/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:54:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysql/db/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:54:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysql/web/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:53:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin4/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:54:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/administrator/admin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:53:52+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/webadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:54:02+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysql/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:53:49+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.1/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:53:48+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:54:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/phpMyAdmin2/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:54:16+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/phpmyadmin3/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:54:08+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/webdb/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:53:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/dbweb/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:54:08+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:54:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/websql/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:54:16+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysql/dbadmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:53:48+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmy/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:53:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/shopdb/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:54:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/sqlweb/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:53:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/_phpMyAdmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:53:46+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/db/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:54:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/administrator/pma/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:54:10+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/phpmyadmin5/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:53:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysql/pma/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:53:51+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-4/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:53:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mysql/admin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:53:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-3/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:54:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-latest-english/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:53:55+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin6.0/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:54:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sql/sql/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:54:17+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/database/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:54:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db/phpMyAdmin/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:54:17+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:54:15+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin/index.php?param=[REDACTED]",
+      "status": 200,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:53:54+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin2018/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:53:49+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpmyadmin2022/index.php?param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:54:09+00:00"
     },
     {
       "method": "GET",
@@ -1151,19 +2183,11 @@
     },
     {
       "method": "GET",
-      "path": "/jenkins/job/aster-web/lastBuild/consoleText",
+      "path": "/favicon.svg",
       "status": 200,
       "count": 2,
-      "first_seen": "2026-10-29T16:52:14+00:00",
-      "last_seen": "2026-10-29T17:14:01+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/upload-progress.php?id=[REDACTED]",
-      "status": 200,
-      "count": 2,
-      "first_seen": "2026-10-29T16:52:14+00:00",
-      "last_seen": "2026-10-29T17:13:57+00:00"
+      "first_seen": "2026-10-29T18:56:03+00:00",
+      "last_seen": "2026-10-29T19:22:42+00:00"
     },
     {
       "method": "GET",
@@ -2351,1022 +3375,6 @@
     },
     {
       "method": "GET",
-      "path": "/admin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:31+00:00",
-      "last_seen": "2026-10-29T11:00:31+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/dbadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:31+00:00",
-      "last_seen": "2026-10-29T11:00:31+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/websql/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:31+00:00",
-      "last_seen": "2026-10-29T11:00:31+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/admin/sysadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/myadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/php-my-admin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-latest/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyAdmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin2020/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin5/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/pma/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/administrator/web/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/phpmyadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.1-english/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin3/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin5/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin2/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/phpmy-admin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/phpmyadmin5/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/webadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/2phpmyadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/_phpmyadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/admin/phpmyadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.2/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin2021/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/myadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/admin/web/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysql/sqlmanager/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-4.9.10-all-languages/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-4.9.7/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-latest-all-languages/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin2/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin3/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/program/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/sql-admin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/admin/pma/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/phpMyAdmin3/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/webdb/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysql/mysqlmanager/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin2017/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/pmahomme/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/dbadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/phpMyAdmin-3/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysql/pMA/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysqladmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.0-all-languages/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phppma/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/__phpmyadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/_phpmyadmin_/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/admin/phpMyAdmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/phpMyAdmin-4/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysqlmanager/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmy-admin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin2019/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin4/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/phpmanager/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/sqladmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sqlmanager/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/PMA/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/administrator/phpMyAdmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/myadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/phpMyAdmin-5/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysql-admin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-5/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin1/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin5.1/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin5.2/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin6/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/phpmyadmin4/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/administrator/db/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/php-myadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.3/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.0/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin6/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin_/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin1/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin_/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/1phpmyadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/MyAdmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/administrator/PMA/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/administrator/phpmyadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/db-admin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.0/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.1-all-languages/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/php-myadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/phpMyAdmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/admin/sqladmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/phpmyadmin3/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/phpmyadmin4/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysql/db/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysql/web/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin4/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/administrator/admin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/webadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysql/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.1/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/phpMyAdmin2/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/phpmyadmin3/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/webdb/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/dbweb/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/websql/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysql/dbadmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmy/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/shopdb/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/sqlweb/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/_phpMyAdmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/admin/db/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/administrator/pma/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/phpmyadmin5/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysql/pma/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-4/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mysql/admin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-3/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-latest-english/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin6.0/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sql/sql/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/database/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/db/phpMyAdmin/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.1/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin/index.php?param=[REDACTED]",
-      "status": 200,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin2018/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpmyadmin2022/index.php?param=[REDACTED]",
-      "status": 404,
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/.well-known/pki-validation/update",
       "status": 400,
       "count": 1,
@@ -3732,6 +3740,14 @@
       "count": 1,
       "first_seen": "2026-10-29T18:13:58+00:00",
       "last_seen": "2026-10-29T18:13:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/security.txt",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-29T18:56:07+00:00",
+      "last_seen": "2026-10-29T18:56:07+00:00"
     }
   ],
   "findings": [
@@ -3771,17 +3787,25 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env",
-      "count": 14,
+      "count": 15,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-10-29T16:46:25+00:00"
+      "last_seen": "2026-10-29T19:20:28+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env",
-      "count": 14,
+      "count": 15,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-10-29T16:46:25+00:00"
+      "last_seen": "2026-10-29T19:20:28+00:00"
+    },
+    {
+      "rule_id": "review-discovery-page",
+      "method": "GET",
+      "path": "/about",
+      "count": 9,
+      "first_seen": "2026-10-29T15:44:36+00:00",
+      "last_seen": "2026-10-29T18:40:07+00:00"
     },
     {
       "rule_id": "web-graphql",
@@ -3792,12 +3816,28 @@
       "last_seen": "2026-10-29T15:45:10+00:00"
     },
     {
-      "rule_id": "review-discovery-page",
+      "rule_id": "traffic-json-config",
       "method": "GET",
-      "path": "/about",
+      "path": "/config.json",
       "count": 8,
-      "first_seen": "2026-10-29T15:44:36+00:00",
-      "last_seen": "2026-10-29T17:13:19+00:00"
+      "first_seen": "2026-10-29T12:45:48+00:00",
+      "last_seen": "2026-10-29T18:52:08+00:00"
+    },
+    {
+      "rule_id": "review-file-exposure",
+      "method": "GET",
+      "path": "/.vscode/sftp.json",
+      "count": 8,
+      "first_seen": "2026-10-29T15:44:09+00:00",
+      "last_seen": "2026-10-29T18:52:52+00:00"
+    },
+    {
+      "rule_id": "review-debug-endpoint",
+      "method": "GET",
+      "path": "/server-status",
+      "count": 8,
+      "first_seen": "2026-10-29T15:44:34+00:00",
+      "last_seen": "2026-10-29T18:41:29+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -3814,14 +3854,6 @@
       "count": 7,
       "first_seen": "2026-10-28T18:07:13+00:00",
       "last_seen": "2026-10-29T16:46:26+00:00"
-    },
-    {
-      "rule_id": "review-debug-endpoint",
-      "method": "GET",
-      "path": "/server-status",
-      "count": 7,
-      "first_seen": "2026-10-29T15:44:34+00:00",
-      "last_seen": "2026-10-29T17:13:45+00:00"
     },
     {
       "rule_id": "mcp-probe",
@@ -3880,12 +3912,12 @@
       "last_seen": "2026-10-29T16:46:25+00:00"
     },
     {
-      "rule_id": "traffic-json-config",
+      "rule_id": "traffic-download-listing",
       "method": "GET",
-      "path": "/config.json",
+      "path": "/files/",
       "count": 6,
-      "first_seen": "2026-10-29T12:45:48+00:00",
-      "last_seen": "2026-10-29T16:46:26+00:00"
+      "first_seen": "2026-10-29T08:27:34+00:00",
+      "last_seen": "2026-10-29T18:44:03+00:00"
     },
     {
       "rule_id": "wordpress-probe",
@@ -3894,14 +3926,6 @@
       "count": 6,
       "first_seen": "2026-10-29T15:44:07+00:00",
       "last_seen": "2026-10-29T17:41:31+00:00"
-    },
-    {
-      "rule_id": "review-file-exposure",
-      "method": "GET",
-      "path": "/.vscode/sftp.json",
-      "count": 6,
-      "first_seen": "2026-10-29T15:44:09+00:00",
-      "last_seen": "2026-10-29T16:46:26+00:00"
     },
     {
       "rule_id": "traffic-web-page",
@@ -4056,14 +4080,6 @@
       "last_seen": "2026-10-29T16:46:26+00:00"
     },
     {
-      "rule_id": "traffic-download-listing",
-      "method": "GET",
-      "path": "/files/",
-      "count": 5,
-      "first_seen": "2026-10-29T08:27:34+00:00",
-      "last_seen": "2026-10-29T17:13:46+00:00"
-    },
-    {
       "rule_id": "traffic-security-contact",
       "method": "GET",
       "path": "/security.txt",
@@ -4094,6 +4110,38 @@
       "count": 5,
       "first_seen": "2026-10-29T15:44:59+00:00",
       "last_seen": "2026-10-29T16:46:27+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/jenkins/api/json",
+      "count": 5,
+      "first_seen": "2026-10-29T16:51:15+00:00",
+      "last_seen": "2026-10-29T18:41:06+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/jenkins/job/aster-web/",
+      "count": 5,
+      "first_seen": "2026-10-29T16:51:16+00:00",
+      "last_seen": "2026-10-29T18:41:20+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/jenkins/login",
+      "count": 5,
+      "first_seen": "2026-10-29T16:51:16+00:00",
+      "last_seen": "2026-10-29T18:43:29+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-login.php",
+      "count": 5,
+      "first_seen": "2026-10-29T16:51:16+00:00",
+      "last_seen": "2026-10-29T18:53:28+00:00"
     },
     {
       "rule_id": "traffic-empty-target",
@@ -4166,38 +4214,6 @@
       "count": 4,
       "first_seen": "2026-10-29T15:45:14+00:00",
       "last_seen": "2026-10-29T15:45:30+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/jenkins/api/json",
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:15+00:00",
-      "last_seen": "2026-10-29T17:13:58+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/jenkins/job/aster-web/",
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-10-29T17:13:58+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/jenkins/login",
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-10-29T17:13:59+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-login.php",
-      "count": 4,
-      "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-10-29T17:13:51+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -4430,6 +4446,14 @@
       "count": 3,
       "first_seen": "2026-10-29T15:45:12+00:00",
       "last_seen": "2026-10-29T15:45:34+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/jenkins/job/aster-web/lastBuild/consoleText",
+      "count": 3,
+      "first_seen": "2026-10-29T16:52:14+00:00",
+      "last_seen": "2026-10-29T19:23:08+00:00"
     },
     {
       "rule_id": "web-lfi",
@@ -5256,6 +5280,1390 @@
       "last_seen": "2026-10-29T13:50:47+00:00"
     },
     {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:31+00:00",
+      "last_seen": "2026-10-29T18:54:14+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/dbadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:31+00:00",
+      "last_seen": "2026-10-29T18:53:49+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/websql/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:31+00:00",
+      "last_seen": "2026-10-29T18:54:09+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/sysadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:53:59+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/myadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:53:52+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/php-my-admin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:16+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:15+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-latest/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:00+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyAdmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:53:50+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2020/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:08+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin5/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:02+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/pma/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:53:54+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:15+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-latest/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:00+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyAdmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:53:50+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin2020/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:08+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin5/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:32+00:00",
+      "last_seen": "2026-10-29T18:54:02+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/web/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:50+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpmyadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:54:17+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1-english/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:51+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:47+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin5/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:46+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:54:06+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpmy-admin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:54:11+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpmyadmin5/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:46+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/webadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:54:12+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1-english/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:51+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:47+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin5/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:53:46+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin2/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:33+00:00",
+      "last_seen": "2026-10-29T18:54:06+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/2phpmyadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:54:10+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/_phpmyadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:54:18+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/phpmyadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:53:49+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.2/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:54:00+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2021/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:53:51+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/myadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:54:18+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.2/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:54:00+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin2021/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:34+00:00",
+      "last_seen": "2026-10-29T18:53:51+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/web/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:55+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/sqlmanager/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:54:00+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-4.9.10-all-languages/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:54:08+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-4.9.7/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:54:11+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-latest-all-languages/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:56+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin2/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:54:11+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:54+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:56+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/program/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:52+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/sql-admin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:52+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:48+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-4.9.10-all-languages/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:54:08+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-4.9.7/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:54:11+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-latest-all-languages/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:56+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin2/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:54:11+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:54+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:35+00:00",
+      "last_seen": "2026-10-29T18:53:56+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/pma/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:54:17+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpMyAdmin3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:54:04+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/webdb/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:53:50+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/mysqlmanager/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:54:02+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2017/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:54:13+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/pmahomme/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:53:55+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin2017/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:36+00:00",
+      "last_seen": "2026-10-29T18:54:13+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/dbadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:53:55+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpMyAdmin-3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:53:56+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/pMA/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:54:16+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysqladmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:54:01+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.0-all-languages/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:53:45+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phppma/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:53:50+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.0-all-languages/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:37+00:00",
+      "last_seen": "2026-10-29T18:53:45+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/__phpmyadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:53+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/_phpmyadmin_/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:54:10+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:54+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpMyAdmin-4/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:54:03+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysqlmanager/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:57+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmy-admin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:47+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2019/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:54:14+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin4/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:46+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpmanager/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:57+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/sqladmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:54:07+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sqlmanager/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:54:01+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin2019/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:54:14+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin4/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:38+00:00",
+      "last_seen": "2026-10-29T18:53:46+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/PMA/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:53:48+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:04+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/myadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:00+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpMyAdmin-5/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:19+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql-admin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:11+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:13+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin1/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:53:57+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin5.1/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:03+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin5.2/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:03+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin6/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:07+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpmyadmin4/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:01+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-5/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:13+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin1/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:53:57+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin5.1/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:03+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin5.2/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:03+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin6/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:39+00:00",
+      "last_seen": "2026-10-29T18:54:07+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/db/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:04+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/php-myadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:07+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:14+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.0/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:05+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin6/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:53:57+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin_/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:15+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin1/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:18+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin_/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:14+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:14+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.0/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:05+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin6/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:53:57+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin_/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:15+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin1/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:18+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin_/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:40+00:00",
+      "last_seen": "2026-10-29T18:54:14+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/1phpmyadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:54:09+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/MyAdmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:53+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/PMA/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:53+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/phpmyadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:54:02+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/db-admin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:53+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:51+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.0/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:56+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1-all-languages/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:54:18+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/php-myadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:47+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:54:05+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.0/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:53:56+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1-all-languages/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:41+00:00",
+      "last_seen": "2026-10-29T18:54:18+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/sqladmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:53:45+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpmyadmin3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:54:10+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpmyadmin4/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:54:12+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/db/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:54:06+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/web/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:53:58+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin4/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:54:06+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin4/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:42+00:00",
+      "last_seen": "2026-10-29T18:54:06+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/admin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:53:52+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/webadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:54:02+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:53:49+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.1/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:53:48+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:54:12+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpMyAdmin2/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:54:16+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/phpmyadmin3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:54:08+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/webdb/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:53:58+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.1.1/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:53:48+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:43+00:00",
+      "last_seen": "2026-10-29T18:54:12+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/dbweb/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:54:08+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:54:04+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/websql/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:54:16+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/dbadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:53:48+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmy/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:53:58+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/shopdb/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:54:06+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/sqlweb/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:44+00:00",
+      "last_seen": "2026-10-29T18:53:59+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/_phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:53:46+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/admin/db/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:54:13+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/administrator/pma/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:54:10+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpmyadmin5/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:53:59+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/pma/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:53:51+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-4/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:53:58+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-4/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:45+00:00",
+      "last_seen": "2026-10-29T18:53:58+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/mysql/admin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:53:59+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:54:13+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-latest-english/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:53:55+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin6.0/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:54:09+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/sql/sql/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:54:17+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-3/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:54:13+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-latest-english/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:53:55+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin6.0/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:46+00:00",
+      "last_seen": "2026-10-29T18:54:09+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/database/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:54:12+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/db/phpMyAdmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:54:17+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:54:15+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:53:54+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2018/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:53:49+00:00"
+    },
+    {
+      "rule_id": "db-admin-sweep",
+      "method": "GET",
+      "path": "/phpmyadmin2022/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:54:09+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpMyAdmin-5.2.1/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:54:15+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:53:54+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin2018/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:53:49+00:00"
+    },
+    {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/phpmyadmin2022/index.php?param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-10-29T11:00:47+00:00",
+      "last_seen": "2026-10-29T18:54:09+00:00"
+    },
+    {
       "rule_id": "web-lfi",
       "method": "POST",
       "path": "/php-cgi/php-cgi.exe?param=[REDACTED]",
@@ -5294,14 +6702,6 @@
       "count": 2,
       "first_seen": "2026-10-29T16:46:25+00:00",
       "last_seen": "2026-10-29T16:46:27+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/jenkins/job/aster-web/lastBuild/consoleText",
-      "count": 2,
-      "first_seen": "2026-10-29T16:52:14+00:00",
-      "last_seen": "2026-10-29T17:14:01+00:00"
     },
     {
       "rule_id": "exchange-probe",
@@ -5736,1390 +7136,6 @@
       "last_seen": "2026-10-29T10:35:06+00:00"
     },
     {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/admin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:31+00:00",
-      "last_seen": "2026-10-29T11:00:31+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/dbadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:31+00:00",
-      "last_seen": "2026-10-29T11:00:31+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/websql/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:31+00:00",
-      "last_seen": "2026-10-29T11:00:31+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/admin/sysadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/myadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/php-my-admin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-latest/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyAdmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin2020/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin5/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/pma/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-latest/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyAdmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin2020/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin5/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:32+00:00",
-      "last_seen": "2026-10-29T11:00:32+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/administrator/web/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/phpmyadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.1-english/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin5/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin2/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/phpmy-admin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/phpmyadmin5/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/webadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.1-english/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin5/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin2/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:33+00:00",
-      "last_seen": "2026-10-29T11:00:33+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/2phpmyadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/_phpmyadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/admin/phpmyadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.2/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin2021/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/myadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.2/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin2021/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:34+00:00",
-      "last_seen": "2026-10-29T11:00:34+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/admin/web/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysql/sqlmanager/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-4.9.10-all-languages/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-4.9.7/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-latest-all-languages/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin2/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/program/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/sql-admin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-4.9.10-all-languages/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-4.9.7/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-latest-all-languages/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin2/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:35+00:00",
-      "last_seen": "2026-10-29T11:00:35+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/admin/pma/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/phpMyAdmin3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/webdb/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysql/mysqlmanager/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin2017/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/pmahomme/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin2017/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:36+00:00",
-      "last_seen": "2026-10-29T11:00:36+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/dbadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/phpMyAdmin-3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysql/pMA/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysqladmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.0-all-languages/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phppma/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.0-all-languages/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:37+00:00",
-      "last_seen": "2026-10-29T11:00:37+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/__phpmyadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/_phpmyadmin_/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/admin/phpMyAdmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/phpMyAdmin-4/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysqlmanager/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmy-admin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin2019/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin4/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/phpmanager/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/sqladmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sqlmanager/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin2019/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin4/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:38+00:00",
-      "last_seen": "2026-10-29T11:00:38+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/PMA/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/administrator/phpMyAdmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/myadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/phpMyAdmin-5/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysql-admin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-5/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin1/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin5.1/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin5.2/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin6/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/phpmyadmin4/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-5/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin1/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin5.1/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin5.2/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin6/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:39+00:00",
-      "last_seen": "2026-10-29T11:00:39+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/administrator/db/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/php-myadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.0/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin6/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin_/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin1/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin_/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.0/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin6/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin_/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin1/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin_/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:40+00:00",
-      "last_seen": "2026-10-29T11:00:40+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/1phpmyadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/MyAdmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/administrator/PMA/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/administrator/phpmyadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/db-admin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.0/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.1-all-languages/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/php-myadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/phpMyAdmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.0/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.1-all-languages/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:41+00:00",
-      "last_seen": "2026-10-29T11:00:41+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/admin/sqladmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/phpmyadmin3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/phpmyadmin4/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysql/db/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysql/web/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin4/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin4/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:42+00:00",
-      "last_seen": "2026-10-29T11:00:42+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/administrator/admin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/webadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysql/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.1/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/phpMyAdmin2/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/phpmyadmin3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/webdb/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.1.1/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:43+00:00",
-      "last_seen": "2026-10-29T11:00:43+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/dbweb/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/websql/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysql/dbadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmy/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/shopdb/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/sqlweb/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:44+00:00",
-      "last_seen": "2026-10-29T11:00:44+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/_phpMyAdmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/admin/db/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/administrator/pma/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/phpmyadmin5/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysql/pma/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-4/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-4/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:45+00:00",
-      "last_seen": "2026-10-29T11:00:45+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/mysql/admin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-latest-english/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin6.0/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/sql/sql/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-3/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-latest-english/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin6.0/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:46+00:00",
-      "last_seen": "2026-10-29T11:00:46+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/database/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/db/phpMyAdmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.1/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin2018/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "rule_id": "db-admin-sweep",
-      "method": "GET",
-      "path": "/phpmyadmin2022/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpMyAdmin-5.2.1/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin2018/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/phpmyadmin2022/index.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-10-29T11:00:47+00:00",
-      "last_seen": "2026-10-29T11:00:47+00:00"
-    },
-    {
       "rule_id": "review-canary-path",
       "method": "GET",
       "path": "/.git/zzcanary-3e14d70857892bf8",
@@ -7306,12 +7322,12 @@
   "samples": [],
   "coverage": {
     "web_bodies_read": 78,
-    "web_bodies_skipped": 294,
+    "web_bodies_skipped": 357,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 44,
     "rows_limited": false,
     "history_days": 90,
-    "pending_indicators": 132
+    "pending_indicators": 254
   }
 }
