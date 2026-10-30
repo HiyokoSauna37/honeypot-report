@@ -1,6 +1,6 @@
 {
-  "schema_version": 5,
-  "generated_utc": "2026-10-30T03:32:35+00:00",
+  "schema_version": 6,
+  "generated_utc": "2026-10-30T04:03:02+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
     "requests": 5523,
@@ -69,6 +69,59 @@
       }
     ],
     "limited": false
+  },
+  "notable_activity": {
+    "react2shell": {
+      "requests": 1,
+      "first_seen": "2026-10-30T00:08:59+00:00",
+      "last_seen": "2026-10-30T00:08:59+00:00",
+      "responses": [
+        {
+          "status": 405,
+          "count": 1
+        }
+      ],
+      "unknown_responses": 0,
+      "signals": {
+        "command": 1,
+        "download": 1,
+        "cron_removal": 1
+      }
+    },
+    "wp2shell": {
+      "requests": 12,
+      "first_seen": "2026-10-29T15:45:07+00:00",
+      "last_seen": "2026-10-29T15:45:32+00:00",
+      "responses": [
+        {
+          "status": 200,
+          "count": 6
+        },
+        {
+          "status": 404,
+          "count": 6
+        }
+      ],
+      "unknown_responses": 0,
+      "signals": {
+        "nested_batch": 12,
+        "sql_condition": 12
+      }
+    },
+    "ssh_environment": {
+      "sessions": 71,
+      "upload_sessions": 71,
+      "first_seen": "2026-10-28T15:30:11+00:00",
+      "last_seen": "2026-10-30T02:00:18+00:00",
+      "signals": {
+        "arithmetic": 71,
+        "pid": 71,
+        "function": 71,
+        "positional": 71,
+        "control": 71
+      },
+      "limited": false
+    }
   },
   "campaign": {
     "profile": "web-app-v1",
@@ -9325,7 +9378,23 @@
       "last_seen": "2026-10-29T15:45:30+00:00"
     },
     {
+      "rule_id": "review-wordpress-wp2shell",
+      "method": "POST",
+      "path": "/?param=[REDACTED]",
+      "count": 6,
+      "first_seen": "2026-10-29T15:45:07+00:00",
+      "last_seen": "2026-10-29T15:45:30+00:00"
+    },
+    {
       "rule_id": "review-wordpress-rest",
+      "method": "POST",
+      "path": "/wp-json/batch/v1",
+      "count": 6,
+      "first_seen": "2026-10-29T15:45:09+00:00",
+      "last_seen": "2026-10-29T15:45:32+00:00"
+    },
+    {
+      "rule_id": "review-wordpress-wp2shell",
       "method": "POST",
       "path": "/wp-json/batch/v1",
       "count": 6,
@@ -9707,22 +9776,6 @@
       "count": 4,
       "first_seen": "2026-10-29T15:44:45+00:00",
       "last_seen": "2026-10-29T16:33:16+00:00"
-    },
-    {
-      "rule_id": "review-wordpress-wp2shell",
-      "method": "POST",
-      "path": "/wp-json/batch/v1",
-      "count": 4,
-      "first_seen": "2026-10-29T15:45:09+00:00",
-      "last_seen": "2026-10-29T15:45:32+00:00"
-    },
-    {
-      "rule_id": "review-wordpress-wp2shell",
-      "method": "POST",
-      "path": "/?param=[REDACTED]",
-      "count": 4,
-      "first_seen": "2026-10-29T15:45:14+00:00",
-      "last_seen": "2026-10-29T15:45:30+00:00"
     },
     {
       "rule_id": "oct30-file-config",
