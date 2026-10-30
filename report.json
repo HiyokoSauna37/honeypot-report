@@ -1,6 +1,6 @@
 {
   "schema_version": 8,
-  "generated_utc": "2026-10-30T16:30:44+00:00",
+  "generated_utc": "2026-10-30T16:48:55+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
     "requests": 6844,
@@ -595,9 +595,25 @@
           "count": 3,
           "first_seen": "2026-10-29T16:52:14+00:00",
           "last_seen": "2026-10-29T19:21:44+00:00"
+        },
+        {
+          "method": "POST",
+          "path": "/bitsight/internet_census/probe",
+          "query": [],
+          "status": 404,
+          "body_format": "multipart",
+          "body_fields": [
+            {
+              "name": "PHP_SESSION_UPLOAD_PROGRESS",
+              "value": "[REDACTED]"
+            }
+          ],
+          "count": 2,
+          "first_seen": "2026-10-30T16:06:40+00:00",
+          "last_seen": "2026-10-30T16:12:11+00:00"
         }
       ],
-      "unlisted_requests": 2
+      "unlisted_requests": 0
     },
     "ssh_environment": {
       "sessions": 87,
@@ -619,9 +635,9 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 6586,
+    "classified_requests": 6590,
     "iot_requests": 50,
-    "unclassified_requests": 4,
+    "unclassified_requests": 0,
     "routine_requests": 1387,
     "excluded_checks": 1071
   },
@@ -6332,30 +6348,6 @@
     },
     {
       "method": "GET",
-      "path": "/sftp.json.old",
-      "status": 404,
-      "count": 2,
-      "first_seen": "2026-10-29T18:35:33+00:00",
-      "last_seen": "2026-10-29T18:52:30+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/ftp.json.old",
-      "status": 404,
-      "count": 2,
-      "first_seen": "2026-10-29T18:35:36+00:00",
-      "last_seen": "2026-10-29T18:52:30+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/sftp.json.bak1",
-      "status": 404,
-      "count": 2,
-      "first_seen": "2026-10-29T18:35:37+00:00",
-      "last_seen": "2026-10-29T18:52:30+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/backend/.env",
       "status": 404,
       "count": 2,
@@ -6849,6 +6841,14 @@
       "count": 2,
       "first_seen": "2026-10-30T15:40:14+00:00",
       "last_seen": "2026-10-30T15:44:12+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/bitsight/internet_census/probe",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-10-30T16:06:40+00:00",
+      "last_seen": "2026-10-30T16:12:11+00:00"
     },
     {
       "method": "GET",
@@ -8617,6 +8617,54 @@
       "count": 1,
       "first_seen": "2026-10-30T12:27:57+00:00",
       "last_seen": "2026-10-30T12:27:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/blog/",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:39+00:00",
+      "last_seen": "2026-10-30T16:14:39+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wordpress/wp-json/",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:39+00:00",
+      "last_seen": "2026-10-30T16:14:39+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp/",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:39+00:00",
+      "last_seen": "2026-10-30T16:14:39+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wordpress/?param=[REDACTED]",
+      "status": 200,
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:40+00:00",
+      "last_seen": "2026-10-30T16:14:40+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wordpress/wp-content/plugins/gravitysmtp/change_log.txt",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:41+00:00",
+      "last_seen": "2026-10-30T16:14:41+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wordpress/wp-content/plugins/gravitysmtp/readme.txt",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:41+00:00",
+      "last_seen": "2026-10-30T16:14:41+00:00"
     }
   ],
   "findings": [
@@ -11773,14 +11821,6 @@
       "last_seen": "2026-10-30T15:35:58+00:00"
     },
     {
-      "rule_id": "web-upload",
-      "method": "GET",
-      "path": "/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 4,
-      "first_seen": "2026-10-28T21:27:13+00:00",
-      "last_seen": "2026-10-30T15:35:50+00:00"
-    },
-    {
       "rule_id": "phpunit-code",
       "method": "GET",
       "path": "/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
@@ -11811,30 +11851,6 @@
       "count": 4,
       "first_seen": "2026-10-28T21:27:14+00:00",
       "last_seen": "2026-10-30T15:36:12+00:00"
-    },
-    {
-      "rule_id": "phpunit-probe",
-      "method": "GET",
-      "path": "/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 4,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-30T15:36:05+00:00"
-    },
-    {
-      "rule_id": "phpunit-probe",
-      "method": "GET",
-      "path": "/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 4,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-30T15:36:09+00:00"
-    },
-    {
-      "rule_id": "phpunit-probe",
-      "method": "GET",
-      "path": "/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 4,
-      "first_seen": "2026-10-28T21:27:14+00:00",
-      "last_seen": "2026-10-30T15:36:16+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -14685,30 +14701,6 @@
       "last_seen": "2026-10-29T18:52:30+00:00"
     },
     {
-      "rule_id": "oct30-transfer",
-      "method": "GET",
-      "path": "/sftp.json.old",
-      "count": 2,
-      "first_seen": "2026-10-29T18:35:33+00:00",
-      "last_seen": "2026-10-29T18:52:30+00:00"
-    },
-    {
-      "rule_id": "oct30-transfer",
-      "method": "GET",
-      "path": "/ftp.json.old",
-      "count": 2,
-      "first_seen": "2026-10-29T18:35:36+00:00",
-      "last_seen": "2026-10-29T18:52:30+00:00"
-    },
-    {
-      "rule_id": "oct30-transfer",
-      "method": "GET",
-      "path": "/sftp.json.bak1",
-      "count": 2,
-      "first_seen": "2026-10-29T18:35:37+00:00",
-      "last_seen": "2026-10-29T18:52:30+00:00"
-    },
-    {
       "rule_id": "hikvision-probe",
       "method": "PUT",
       "path": "/SDK/webLanguage",
@@ -15003,6 +14995,14 @@
       "count": 2,
       "first_seen": "2026-10-30T15:40:14+00:00",
       "last_seen": "2026-10-30T15:44:12+00:00"
+    },
+    {
+      "rule_id": "web-php-session",
+      "method": "POST",
+      "path": "/bitsight/internet_census/probe",
+      "count": 2,
+      "first_seen": "2026-10-30T16:06:40+00:00",
+      "last_seen": "2026-10-30T16:12:11+00:00"
     },
     {
       "rule_id": "sitecore-version-probe",
@@ -16619,6 +16619,54 @@
       "count": 1,
       "first_seen": "2026-10-30T12:27:57+00:00",
       "last_seen": "2026-10-30T12:27:57+00:00"
+    },
+    {
+      "rule_id": "oct30-discovery",
+      "method": "GET",
+      "path": "/blog/",
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:39+00:00",
+      "last_seen": "2026-10-30T16:14:39+00:00"
+    },
+    {
+      "rule_id": "oct30-discovery",
+      "method": "GET",
+      "path": "/wp/",
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:39+00:00",
+      "last_seen": "2026-10-30T16:14:39+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wordpress/wp-json/",
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:39+00:00",
+      "last_seen": "2026-10-30T16:14:39+00:00"
+    },
+    {
+      "rule_id": "oct30-wordpress-rest-discovery",
+      "method": "GET",
+      "path": "/wordpress/?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:40+00:00",
+      "last_seen": "2026-10-30T16:14:40+00:00"
+    },
+    {
+      "rule_id": "oct30-cms-metadata",
+      "method": "GET",
+      "path": "/wordpress/wp-content/plugins/gravitysmtp/change_log.txt",
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:41+00:00",
+      "last_seen": "2026-10-30T16:14:41+00:00"
+    },
+    {
+      "rule_id": "oct30-cms-metadata",
+      "method": "GET",
+      "path": "/wordpress/wp-content/plugins/gravitysmtp/readme.txt",
+      "count": 1,
+      "first_seen": "2026-10-30T16:14:41+00:00",
+      "last_seen": "2026-10-30T16:14:41+00:00"
     }
   ],
   "outbound": [
@@ -16695,6 +16743,6 @@
     "invalid_events": 32,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 5
+    "pending_indicators": 0
   }
 }
