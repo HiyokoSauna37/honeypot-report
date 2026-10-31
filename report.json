@@ -1,11 +1,11 @@
 {
   "schema_version": 9,
-  "generated_utc": "2026-10-31T06:32:20+00:00",
+  "generated_utc": "2026-10-31T07:32:20+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 11843,
-    "sessions": 7281,
-    "sources": 742,
+    "requests": 11869,
+    "sessions": 7307,
+    "sources": 753,
     "largest_source_requests": 3021,
     "behaviors": {
       "cookie": 109,
@@ -19,16 +19,16 @@
       "robots": 26
     },
     "transport": {
-      "http": 5708,
-      "https": 6135,
-      "http2": 1355,
+      "http": 5715,
+      "https": 6154,
+      "http2": 1357,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "aster",
-        "requests": 6303,
-        "sessions": 5361,
+        "requests": 6323,
+        "sessions": 5381,
         "actions": 0
       },
       {
@@ -739,9 +739,9 @@
       "unlisted_requests": 0
     },
     "php2shell": {
-      "requests": 16,
+      "requests": 17,
       "first_seen": "2026-10-29T16:51:14+00:00",
-      "last_seen": "2026-10-31T02:55:01+00:00",
+      "last_seen": "2026-10-31T06:37:51+00:00",
       "responses": [
         {
           "status": 200,
@@ -749,13 +749,13 @@
         },
         {
           "status": 404,
-          "count": 5
+          "count": 6
         }
       ],
       "unknown_responses": 0,
       "signals": {
         "related_endpoint": 11,
-        "session_input": 5,
+        "session_input": 6,
         "field_pressure": 0
       },
       "request_details": [
@@ -801,9 +801,9 @@
               "value": "[REDACTED]"
             }
           ],
-          "count": 5,
+          "count": 6,
           "first_seen": "2026-10-30T16:06:40+00:00",
-          "last_seen": "2026-10-30T18:15:21+00:00"
+          "last_seen": "2026-10-31T06:37:51+00:00"
         }
       ],
       "unlisted_requests": 0
@@ -824,16 +824,16 @@
       "unlisted_requests": 0
     },
     "ssh_environment": {
-      "sessions": 97,
-      "upload_sessions": 97,
+      "sessions": 98,
+      "upload_sessions": 98,
       "first_seen": "2026-10-28T15:30:11+00:00",
-      "last_seen": "2026-10-31T06:13:30+00:00",
+      "last_seen": "2026-10-31T06:35:20+00:00",
       "signals": {
-        "arithmetic": 97,
-        "pid": 97,
-        "function": 97,
-        "positional": 97,
-        "control": 97
+        "arithmetic": 98,
+        "pid": 98,
+        "function": 98,
+        "positional": 98,
+        "control": 98
       },
       "limited": false
     }
@@ -843,18 +843,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 11802,
+    "classified_requests": 11821,
     "iot_requests": 65,
     "unclassified_requests": 562,
-    "routine_requests": 2382,
+    "routine_requests": 2404,
     "excluded_checks": 1112
   },
   "counts": {
-    "commands": 9299,
-    "login_attempts": 20468,
-    "login_successes": 5960,
-    "ssh_connections": 20920,
-    "web_requests": 14811
+    "commands": 9331,
+    "login_attempts": 20575,
+    "login_successes": 5962,
+    "ssh_connections": 21047,
+    "web_requests": 14852
   },
   "daily": [
     {
@@ -874,8 +874,8 @@
     },
     {
       "date": "2026-10-31",
-      "ssh_connections": 891,
-      "web_requests": 2201
+      "ssh_connections": 1018,
+      "web_requests": 2242
     }
   ],
   "http_requests": [
@@ -891,9 +891,9 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 886,
+      "count": 896,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-10-31T06:27:35+00:00"
+      "last_seen": "2026-10-31T07:25:32+00:00"
     },
     {
       "method": "GET",
@@ -907,9 +907,9 @@
       "method": "",
       "path": "",
       "status": 400,
-      "count": 222,
+      "count": 226,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-10-31T06:09:27+00:00"
+      "last_seen": "2026-10-31T06:42:11+00:00"
     },
     {
       "method": "GET",
@@ -923,9 +923,9 @@
       "method": "GET",
       "path": "/favicon.svg",
       "status": 200,
-      "count": 141,
+      "count": 144,
       "first_seen": "2026-10-29T18:56:03+00:00",
-      "last_seen": "2026-10-31T05:55:16+00:00"
+      "last_seen": "2026-10-31T07:16:46+00:00"
     },
     {
       "method": "GET",
@@ -939,9 +939,17 @@
       "method": "POST",
       "path": "/",
       "status": 405,
-      "count": 110,
+      "count": 112,
       "first_seen": "2026-10-30T00:08:59+00:00",
-      "last_seen": "2026-10-31T06:27:11+00:00"
+      "last_seen": "2026-10-31T07:22:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.git/config",
+      "status": 200,
+      "count": 99,
+      "first_seen": "2026-10-28T18:07:13+00:00",
+      "last_seen": "2026-10-31T07:03:33+00:00"
     },
     {
       "method": "GET",
@@ -950,14 +958,6 @@
       "count": 95,
       "first_seen": "2026-10-28T22:47:29+00:00",
       "last_seen": "2026-10-31T06:27:11+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/.git/config",
-      "status": 200,
-      "count": 92,
-      "first_seen": "2026-10-28T18:07:13+00:00",
-      "last_seen": "2026-10-31T06:28:43+00:00"
     },
     {
       "method": "GET",
@@ -977,6 +977,14 @@
     },
     {
       "method": "GET",
+      "path": "/robots.txt",
+      "status": 200,
+      "count": 84,
+      "first_seen": "2026-10-28T16:14:25+00:00",
+      "last_seen": "2026-10-31T06:31:39+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/.well-known/acme-challenge/[REDACTED]",
       "status": 200,
       "count": 84,
@@ -985,19 +993,11 @@
     },
     {
       "method": "GET",
-      "path": "/robots.txt",
-      "status": 200,
-      "count": 83,
-      "first_seen": "2026-10-28T16:14:25+00:00",
-      "last_seen": "2026-10-31T05:31:17+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/favicon.ico",
       "status": 301,
-      "count": 80,
+      "count": 81,
       "first_seen": "2026-10-29T18:05:33+00:00",
-      "last_seen": "2026-10-31T06:25:01+00:00"
+      "last_seen": "2026-10-31T07:16:10+00:00"
     },
     {
       "method": "GET",
@@ -1019,9 +1019,9 @@
       "method": "CONNECT",
       "path": "/",
       "status": 405,
-      "count": 57,
+      "count": 58,
       "first_seen": "2026-10-28T19:40:48+00:00",
-      "last_seen": "2026-10-31T06:09:27+00:00"
+      "last_seen": "2026-10-31T06:42:11+00:00"
     },
     {
       "method": "GET",
@@ -1328,6 +1328,14 @@
       "last_seen": "2026-10-31T06:27:11+00:00"
     },
     {
+      "method": "OPTIONS",
+      "path": "/",
+      "status": 204,
+      "count": 22,
+      "first_seen": "2026-10-29T08:27:37+00:00",
+      "last_seen": "2026-10-31T07:22:07+00:00"
+    },
+    {
       "method": "GET",
       "path": "/assets/ethan-mercer.png",
       "status": 200,
@@ -1342,14 +1350,6 @@
       "count": 22,
       "first_seen": "2026-10-29T22:08:16+00:00",
       "last_seen": "2026-10-31T04:06:48+00:00"
-    },
-    {
-      "method": "OPTIONS",
-      "path": "/",
-      "status": 204,
-      "count": 21,
-      "first_seen": "2026-10-29T08:27:37+00:00",
-      "last_seen": "2026-10-31T05:05:46+00:00"
     },
     {
       "method": "GET",
@@ -1529,6 +1529,22 @@
     },
     {
       "method": "GET",
+      "path": "/_next/static/chunks/app/page-a12f4e.js",
+      "status": 200,
+      "count": 17,
+      "first_seen": "2026-10-30T19:20:05+00:00",
+      "last_seen": "2026-10-31T07:26:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/_next/static/chunks/webpack-7d3a9c.js",
+      "status": 200,
+      "count": 17,
+      "first_seen": "2026-10-30T19:20:05+00:00",
+      "last_seen": "2026-10-31T07:26:12+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application",
       "status": 404,
       "count": 16,
@@ -1561,19 +1577,11 @@
     },
     {
       "method": "GET",
-      "path": "/_next/static/chunks/app/page-a12f4e.js",
-      "status": 200,
-      "count": 16,
-      "first_seen": "2026-10-30T19:20:05+00:00",
-      "last_seen": "2026-10-30T22:21:15+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/_next/static/chunks/webpack-7d3a9c.js",
-      "status": 200,
-      "count": 16,
-      "first_seen": "2026-10-30T19:20:05+00:00",
-      "last_seen": "2026-10-30T22:21:15+00:00"
+      "path": "/sse",
+      "status": 404,
+      "count": 15,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-31T07:16:12+00:00"
     },
     {
       "method": "GET",
@@ -1752,14 +1760,6 @@
       "last_seen": "2026-10-30T20:35:05+00:00"
     },
     {
-      "method": "GET",
-      "path": "/sse",
-      "status": 404,
-      "count": 14,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-31T04:51:44+00:00"
-    },
-    {
       "method": "POST",
       "path": "",
       "status": 400,
@@ -1806,6 +1806,30 @@
       "count": 14,
       "first_seen": "2026-10-30T00:52:18+00:00",
       "last_seen": "2026-10-31T02:51:24+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/mcp",
+      "status": 404,
+      "count": 13,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-31T07:16:11+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mcp",
+      "status": 404,
+      "count": 13,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-31T07:16:11+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mcp/",
+      "status": 404,
+      "count": 13,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-31T07:16:11+00:00"
     },
     {
       "method": "GET",
@@ -1921,27 +1945,11 @@
     },
     {
       "method": "GET",
-      "path": "/api/mcp",
-      "status": 404,
+      "path": "/files/",
+      "status": 200,
       "count": 12,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-31T04:51:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mcp",
-      "status": 404,
-      "count": 12,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-31T04:51:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mcp/",
-      "status": 404,
-      "count": 12,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-31T04:51:43+00:00"
+      "first_seen": "2026-10-29T08:27:34+00:00",
+      "last_seen": "2026-10-31T07:22:09+00:00"
     },
     {
       "method": "GET",
@@ -2238,14 +2246,6 @@
       "count": 11,
       "first_seen": "2026-10-28T15:00:06+00:00",
       "last_seen": "2026-10-31T05:01:08+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/files/",
-      "status": 200,
-      "count": 11,
-      "first_seen": "2026-10-29T08:27:34+00:00",
-      "last_seen": "2026-10-31T02:55:04+00:00"
     },
     {
       "method": "GET",
@@ -3552,6 +3552,14 @@
       "last_seen": "2026-10-31T05:48:16+00:00"
     },
     {
+      "method": "OTHER",
+      "path": "/",
+      "status": 501,
+      "count": 7,
+      "first_seen": "2026-10-29T08:27:38+00:00",
+      "last_seen": "2026-10-31T07:22:08+00:00"
+    },
+    {
       "method": "GET",
       "path": "/.github/workflows/main.yml",
       "status": 404,
@@ -3730,14 +3738,6 @@
     {
       "method": "GET",
       "path": "/serverless.yml",
-      "status": 429,
-      "count": 7,
-      "first_seen": "2026-10-29T16:46:25+00:00",
-      "last_seen": "2026-10-30T20:20:28+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/smtp/.env",
       "status": 429,
       "count": 7,
       "first_seen": "2026-10-29T16:46:25+00:00",
@@ -4078,6 +4078,14 @@
       "count": 6,
       "first_seen": "2026-10-30T14:25:21+00:00",
       "last_seen": "2026-10-30T20:19:01+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/bitsight/internet_census/probe",
+      "status": 404,
+      "count": 6,
+      "first_seen": "2026-10-30T16:06:40+00:00",
+      "last_seen": "2026-10-31T06:37:51+00:00"
     },
     {
       "method": "GET",
@@ -4622,14 +4630,6 @@
       "count": 5,
       "first_seen": "2026-10-30T13:41:35+00:00",
       "last_seen": "2026-10-31T02:53:16+00:00"
-    },
-    {
-      "method": "POST",
-      "path": "/bitsight/internet_census/probe",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-10-30T16:06:40+00:00",
-      "last_seen": "2026-10-30T18:15:21+00:00"
     },
     {
       "method": "GET",
@@ -7045,9 +7045,25 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 225,
+      "count": 229,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-10-31T06:09:27+00:00"
+      "last_seen": "2026-10-31T06:42:11+00:00"
+    },
+    {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/.git/config",
+      "count": 112,
+      "first_seen": "2026-10-28T18:07:13+00:00",
+      "last_seen": "2026-10-31T07:03:33+00:00"
+    },
+    {
+      "rule_id": "web-exposure",
+      "method": "GET",
+      "path": "/.git/config",
+      "count": 112,
+      "first_seen": "2026-10-28T18:07:13+00:00",
+      "last_seen": "2026-10-31T07:03:33+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -7064,22 +7080,6 @@
       "count": 107,
       "first_seen": "2026-10-28T22:47:29+00:00",
       "last_seen": "2026-10-31T06:27:11+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/config",
-      "count": 105,
-      "first_seen": "2026-10-28T18:07:13+00:00",
-      "last_seen": "2026-10-31T06:28:43+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/config",
-      "count": 105,
-      "first_seen": "2026-10-28T18:07:13+00:00",
-      "last_seen": "2026-10-31T06:28:43+00:00"
     },
     {
       "rule_id": "traffic-acme-validation",
@@ -8330,6 +8330,14 @@
       "last_seen": "2026-10-31T04:17:44+00:00"
     },
     {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/sse",
+      "count": 15,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-31T07:16:12+00:00"
+    },
+    {
       "rule_id": "review-file-exposure",
       "method": "GET",
       "path": "/.ssh/id_rsa",
@@ -8514,14 +8522,6 @@
       "last_seen": "2026-10-31T06:27:19+00:00"
     },
     {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/sse",
-      "count": 14,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-31T04:51:44+00:00"
-    },
-    {
       "rule_id": "traffic-empty-target",
       "method": "POST",
       "path": "",
@@ -8592,6 +8592,30 @@
       "count": 14,
       "first_seen": "2026-10-30T00:52:18+00:00",
       "last_seen": "2026-10-31T02:51:24+00:00"
+    },
+    {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/api/mcp",
+      "count": 13,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-31T07:16:11+00:00"
+    },
+    {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/mcp",
+      "count": 13,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-31T07:16:11+00:00"
+    },
+    {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/mcp/",
+      "count": 13,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-10-31T07:16:11+00:00"
     },
     {
       "rule_id": "traffic-web-page",
@@ -8690,28 +8714,12 @@
       "last_seen": "2026-10-31T01:59:45+00:00"
     },
     {
-      "rule_id": "mcp-probe",
+      "rule_id": "traffic-download-listing",
       "method": "GET",
-      "path": "/api/mcp",
+      "path": "/files/",
       "count": 12,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-31T04:51:43+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/mcp",
-      "count": 12,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-31T04:51:43+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/mcp/",
-      "count": 12,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-10-31T04:51:43+00:00"
+      "first_seen": "2026-10-29T08:27:34+00:00",
+      "last_seen": "2026-10-31T07:22:09+00:00"
     },
     {
       "rule_id": "review-wordpress-wp2shell",
@@ -8808,14 +8816,6 @@
       "count": 11,
       "first_seen": "2026-10-28T21:27:02+00:00",
       "last_seen": "2026-10-30T16:30:56+00:00"
-    },
-    {
-      "rule_id": "traffic-download-listing",
-      "method": "GET",
-      "path": "/files/",
-      "count": 11,
-      "first_seen": "2026-10-29T08:27:34+00:00",
-      "last_seen": "2026-10-31T02:55:04+00:00"
     },
     {
       "rule_id": "traffic-web-page",
@@ -10242,6 +10242,14 @@
       "last_seen": "2026-10-31T05:48:16+00:00"
     },
     {
+      "rule_id": "traffic-pki-update",
+      "method": "GET",
+      "path": "/.well-known/pki-validation/update",
+      "count": 7,
+      "first_seen": "2026-10-29T10:12:54+00:00",
+      "last_seen": "2026-10-31T07:25:35+00:00"
+    },
+    {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/objects/70/[REDACTED]",
@@ -10456,14 +10464,6 @@
       "count": 6,
       "first_seen": "2026-10-29T05:12:06+00:00",
       "last_seen": "2026-10-31T02:35:42+00:00"
-    },
-    {
-      "rule_id": "traffic-pki-update",
-      "method": "GET",
-      "path": "/.well-known/pki-validation/update",
-      "count": 6,
-      "first_seen": "2026-10-29T10:12:54+00:00",
-      "last_seen": "2026-10-30T11:47:31+00:00"
     },
     {
       "rule_id": "traffic-security-contact",
@@ -10736,6 +10736,14 @@
       "count": 6,
       "first_seen": "2026-10-30T14:24:48+00:00",
       "last_seen": "2026-10-30T20:18:34+00:00"
+    },
+    {
+      "rule_id": "web-php-session",
+      "method": "POST",
+      "path": "/bitsight/internet_census/probe",
+      "count": 6,
+      "first_seen": "2026-10-30T16:06:40+00:00",
+      "last_seen": "2026-10-31T06:37:51+00:00"
     },
     {
       "rule_id": "oct30-build",
@@ -11584,6 +11592,14 @@
       "count": 5,
       "first_seen": "2026-10-29T07:02:31+00:00",
       "last_seen": "2026-10-30T20:29:51+00:00"
+    },
+    {
+      "rule_id": "traffic-download-listing",
+      "method": "GET",
+      "path": "/pub/",
+      "count": 5,
+      "first_seen": "2026-10-29T08:27:34+00:00",
+      "last_seen": "2026-10-31T07:22:07+00:00"
     },
     {
       "rule_id": "review-file-exposure",
@@ -12498,14 +12514,6 @@
       "last_seen": "2026-10-31T06:27:34+00:00"
     },
     {
-      "rule_id": "web-php-session",
-      "method": "POST",
-      "path": "/bitsight/internet_census/probe",
-      "count": 5,
-      "first_seen": "2026-10-30T16:06:40+00:00",
-      "last_seen": "2026-10-30T18:15:21+00:00"
-    },
-    {
       "rule_id": "oct30-service-config",
       "method": "GET",
       "path": "/.s3cfg",
@@ -12688,14 +12696,6 @@
       "count": 4,
       "first_seen": "2026-10-29T01:20:01+00:00",
       "last_seen": "2026-10-30T01:56:25+00:00"
-    },
-    {
-      "rule_id": "traffic-download-listing",
-      "method": "GET",
-      "path": "/pub/",
-      "count": 4,
-      "first_seen": "2026-10-29T08:27:34+00:00",
-      "last_seen": "2026-10-30T06:08:40+00:00"
     },
     {
       "rule_id": "oct30-transfer",
@@ -15055,7 +15055,7 @@
   "samples": [],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 3927,
+    "web_bodies_skipped": 3930,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 33,
