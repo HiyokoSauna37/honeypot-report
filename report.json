@@ -1,6 +1,6 @@
 {
   "schema_version": 9,
-  "generated_utc": "2026-10-31T08:33:30+00:00",
+  "generated_utc": "2026-10-31T08:50:54+00:00",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
     "requests": 12358,
@@ -12226,102 +12226,6 @@
       "last_seen": "2026-10-31T08:26:15+00:00"
     },
     {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/objects/70/[REDACTED]",
-      "count": 7,
-      "first_seen": "2026-10-29T22:09:30+00:00",
-      "last_seen": "2026-10-30T23:43:34+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/objects/70/[REDACTED]",
-      "count": 7,
-      "first_seen": "2026-10-29T22:09:30+00:00",
-      "last_seen": "2026-10-30T23:43:34+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/objects/70/[REDACTED]",
-      "count": 7,
-      "first_seen": "2026-10-29T22:09:30+00:00",
-      "last_seen": "2026-10-30T23:43:34+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/objects/info/packs",
-      "count": 7,
-      "first_seen": "2026-10-29T22:09:31+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/objects/info/packs",
-      "count": 7,
-      "first_seen": "2026-10-29T22:09:31+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/objects/info/packs",
-      "count": 7,
-      "first_seen": "2026-10-29T22:09:31+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/db.sqlite3",
-      "count": 7,
-      "first_seen": "2026-10-29T23:36:43+00:00",
-      "last_seen": "2026-10-30T03:47:22+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/wp-content/uploads/database-backups/",
-      "count": 7,
-      "first_seen": "2026-10-29T23:37:23+00:00",
-      "last_seen": "2026-10-30T03:44:05+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/wp-content/mysql.sql",
-      "count": 7,
-      "first_seen": "2026-10-29T23:37:24+00:00",
-      "last_seen": "2026-10-30T03:47:48+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/wp-content/w3tc-config/master.php",
-      "count": 7,
-      "first_seen": "2026-10-29T23:37:28+00:00",
-      "last_seen": "2026-10-30T03:47:50+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/wp-content/plugins/backup-backup/backups/",
-      "count": 7,
-      "first_seen": "2026-10-29T23:37:29+00:00",
-      "last_seen": "2026-10-30T03:47:51+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/secrets.js",
-      "count": 7,
-      "first_seen": "2026-10-30T00:13:46+00:00",
-      "last_seen": "2026-10-31T04:36:07+00:00"
-    },
-    {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "//.env",
@@ -12370,244 +12274,12 @@
       "last_seen": "2026-10-31T02:49:30+00:00"
     },
     {
-      "rule_id": "web-lfi",
-      "method": "POST",
-      "path": "/hello.world?param=[REDACTED]",
-      "count": 6,
-      "first_seen": "2026-10-28T21:27:01+00:00",
-      "last_seen": "2026-10-30T16:30:55+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "POST",
-      "path": "/hello.world?param=[REDACTED]",
-      "count": 6,
-      "first_seen": "2026-10-28T21:27:01+00:00",
-      "last_seen": "2026-10-30T16:30:55+00:00"
-    },
-    {
-      "rule_id": "web-lfi",
-      "method": "POST",
-      "path": "/?param=[REDACTED]",
-      "count": 6,
-      "first_seen": "2026-10-28T21:27:02+00:00",
-      "last_seen": "2026-10-30T16:30:55+00:00"
-    },
-    {
-      "rule_id": "web-lfi",
-      "method": "POST",
-      "path": "/test.hello?param=[REDACTED]",
-      "count": 6,
-      "first_seen": "2026-10-28T21:27:02+00:00",
-      "last_seen": "2026-10-30T16:30:56+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "POST",
-      "path": "/?param=[REDACTED]",
-      "count": 6,
-      "first_seen": "2026-10-28T21:27:02+00:00",
-      "last_seen": "2026-10-30T16:30:55+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "POST",
-      "path": "/test.hello?param=[REDACTED]",
-      "count": 6,
-      "first_seen": "2026-10-28T21:27:02+00:00",
-      "last_seen": "2026-10-30T16:30:56+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/laravel/.env",
-      "count": 6,
-      "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-10-30T19:16:55+00:00"
-    },
-    {
-      "rule_id": "geoserver-probe",
-      "method": "GET",
-      "path": "/geoserver/web/",
-      "count": 6,
-      "first_seen": "2026-10-29T05:12:06+00:00",
-      "last_seen": "2026-10-31T02:35:42+00:00"
-    },
-    {
-      "rule_id": "traffic-security-contact",
-      "method": "GET",
-      "path": "/security.txt",
-      "count": 6,
-      "first_seen": "2026-10-29T12:43:00+00:00",
-      "last_seen": "2026-10-30T05:07:56+00:00"
-    },
-    {
       "rule_id": "review-file-exposure",
       "method": "GET",
       "path": "/.ssh/id_ed25519",
       "count": 6,
       "first_seen": "2026-10-29T15:44:08+00:00",
       "last_seen": "2026-10-31T02:00:14+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/jenkins/",
-      "count": 6,
-      "first_seen": "2026-10-29T15:44:52+00:00",
-      "last_seen": "2026-10-29T17:46:48+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/mcp.json",
-      "count": 6,
-      "first_seen": "2026-10-29T22:08:24+00:00",
-      "last_seen": "2026-10-31T04:35:45+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/.cursor/mcp.json",
-      "count": 6,
-      "first_seen": "2026-10-29T22:08:29+00:00",
-      "last_seen": "2026-10-31T04:34:49+00:00"
-    },
-    {
-      "rule_id": "oct30-discovery",
-      "method": "GET",
-      "path": "/settings",
-      "count": 6,
-      "first_seen": "2026-10-29T22:08:38+00:00",
-      "last_seen": "2026-10-31T04:35:23+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/packed-refs",
-      "count": 6,
-      "first_seen": "2026-10-29T22:09:06+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/packed-refs",
-      "count": 6,
-      "first_seen": "2026-10-29T22:09:06+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/packed-refs",
-      "count": 6,
-      "first_seen": "2026-10-29T22:09:06+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/info/refs",
-      "count": 6,
-      "first_seen": "2026-10-29T22:09:07+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/info/refs",
-      "count": 6,
-      "first_seen": "2026-10-29T22:09:07+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/info/refs",
-      "count": 6,
-      "first_seen": "2026-10-29T22:09:07+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/refs/stash",
-      "count": 6,
-      "first_seen": "2026-10-29T22:09:27+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/refs/stash",
-      "count": 6,
-      "first_seen": "2026-10-29T22:09:27+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/refs/stash",
-      "count": 6,
-      "first_seen": "2026-10-29T22:09:27+00:00",
-      "last_seen": "2026-10-30T23:43:31+00:00"
-    },
-    {
-      "rule_id": "oct30-api",
-      "method": "GET",
-      "path": "/api/credentials",
-      "count": 6,
-      "first_seen": "2026-10-29T23:45:41+00:00",
-      "last_seen": "2026-10-30T03:47:26+00:00"
-    },
-    {
-      "rule_id": "oct30-api",
-      "method": "GET",
-      "path": "/api/tokens",
-      "count": 6,
-      "first_seen": "2026-10-29T23:45:41+00:00",
-      "last_seen": "2026-10-30T03:47:25+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/.user.ini",
-      "count": 6,
-      "first_seen": "2026-10-29T23:46:20+00:00",
-      "last_seen": "2026-10-30T03:47:53+00:00"
-    },
-    {
-      "rule_id": "oct30-actuator",
-      "method": "GET",
-      "path": "/actuator/logfile",
-      "count": 6,
-      "first_seen": "2026-10-29T23:46:22+00:00",
-      "last_seen": "2026-10-30T03:47:55+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/actuator/logfile",
-      "count": 6,
-      "first_seen": "2026-10-29T23:46:22+00:00",
-      "last_seen": "2026-10-30T03:47:55+00:00"
-    },
-    {
-      "rule_id": "oct30-actuator",
-      "method": "GET",
-      "path": "/actuator/prometheus",
-      "count": 6,
-      "first_seen": "2026-10-29T23:46:23+00:00",
-      "last_seen": "2026-10-30T03:47:55+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/actuator/prometheus",
-      "count": 6,
-      "first_seen": "2026-10-29T23:46:23+00:00",
-      "last_seen": "2026-10-30T03:47:55+00:00"
     },
     {
       "rule_id": "oct30-service-config",
@@ -16802,6 +16474,14 @@
       "last_seen": "2026-10-31T02:44:49+00:00"
     },
     {
+      "rule_id": "oct30-unidentified-path",
+      "method": "GET",
+      "path": "/?param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-10-31T02:51:24+00:00",
+      "last_seen": "2026-10-31T02:51:24+00:00"
+    },
+    {
       "rule_id": "review-agent-discovery",
       "method": "GET",
       "path": "/.well-known/agent-card.json",
@@ -16876,10 +16556,330 @@
     {
       "rule_id": "oct30-file-config",
       "method": "HEAD",
+      "path": "/backup.sql.gz",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:27+00:00",
+      "last_seen": "2026-10-31T04:00:27+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
       "path": "/backup.sql.zip",
       "count": 1,
       "first_seen": "2026-10-31T04:00:27+00:00",
       "last_seen": "2026-10-31T04:00:27+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/backup-2024.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:28+00:00",
+      "last_seen": "2026-10-31T04:00:28+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/backup.sql.bz2",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:28+00:00",
+      "last_seen": "2026-10-31T04:00:28+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/backup-2025.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:29+00:00",
+      "last_seen": "2026-10-31T04:00:29+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/backup-2026.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:29+00:00",
+      "last_seen": "2026-10-31T04:00:29+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/backup_2024.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:29+00:00",
+      "last_seen": "2026-10-31T04:00:29+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/backup_2025.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:30+00:00",
+      "last_seen": "2026-10-31T04:00:30+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/backup_2026.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:30+00:00",
+      "last_seen": "2026-10-31T04:00:30+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/db.sql.gz",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:31+00:00",
+      "last_seen": "2026-10-31T04:00:31+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/db.sql.zip",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:31+00:00",
+      "last_seen": "2026-10-31T04:00:31+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/database.sql.gz",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:32+00:00",
+      "last_seen": "2026-10-31T04:00:32+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/database.sql.zip",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:32+00:00",
+      "last_seen": "2026-10-31T04:00:32+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/dump.sql.gz",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:33+00:00",
+      "last_seen": "2026-10-31T04:00:33+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/dump.sql.zip",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:33+00:00",
+      "last_seen": "2026-10-31T04:00:33+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/mysql.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:33+00:00",
+      "last_seen": "2026-10-31T04:00:33+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/mysql_dump.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:34+00:00",
+      "last_seen": "2026-10-31T04:00:34+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/mysqldump.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:34+00:00",
+      "last_seen": "2026-10-31T04:00:34+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/postgres.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:34+00:00",
+      "last_seen": "2026-10-31T04:00:34+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/pgdump.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:35+00:00",
+      "last_seen": "2026-10-31T04:00:35+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/prod.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:35+00:00",
+      "last_seen": "2026-10-31T04:00:35+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/prod.sql.gz",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:36+00:00",
+      "last_seen": "2026-10-31T04:00:36+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/production.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:36+00:00",
+      "last_seen": "2026-10-31T04:00:36+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/production.sql.gz",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:36+00:00",
+      "last_seen": "2026-10-31T04:00:36+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/dev.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:37+00:00",
+      "last_seen": "2026-10-31T04:00:37+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/staging.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:37+00:00",
+      "last_seen": "2026-10-31T04:00:37+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/test.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:37+00:00",
+      "last_seen": "2026-10-31T04:00:37+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/old.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:38+00:00",
+      "last_seen": "2026-10-31T04:00:38+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/users.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:38+00:00",
+      "last_seen": "2026-10-31T04:00:38+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/users_dump.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:38+00:00",
+      "last_seen": "2026-10-31T04:00:38+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/all.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:39+00:00",
+      "last_seen": "2026-10-31T04:00:39+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/all_users.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:39+00:00",
+      "last_seen": "2026-10-31T04:00:39+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/user.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:39+00:00",
+      "last_seen": "2026-10-31T04:00:39+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/data.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:40+00:00",
+      "last_seen": "2026-10-31T04:00:40+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/data.sql.gz",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:40+00:00",
+      "last_seen": "2026-10-31T04:00:40+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/init.sql",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:40+00:00",
+      "last_seen": "2026-10-31T04:00:40+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "HEAD",
+      "path": "/backup.tar",
+      "count": 1,
+      "first_seen": "2026-10-31T04:00:41+00:00",
+      "last_seen": "2026-10-31T04:00:41+00:00"
+    },
+    {
+      "rule_id": "review-exchange-login",
+      "method": "GET",
+      "path": "/owa/auth/logon.aspx",
+      "count": 1,
+      "first_seen": "2026-10-31T04:24:39+00:00",
+      "last_seen": "2026-10-31T04:24:39+00:00"
+    },
+    {
+      "rule_id": "review-login-static-fingerprint",
+      "method": "GET",
+      "path": "/login.rsp",
+      "count": 1,
+      "first_seen": "2026-10-31T05:06:26+00:00",
+      "last_seen": "2026-10-31T05:06:26+00:00"
+    },
+    {
+      "rule_id": "review-login-static-fingerprint",
+      "method": "GET",
+      "path": "/nobody/favicon.ico",
+      "count": 1,
+      "first_seen": "2026-10-31T05:06:26+00:00",
+      "last_seen": "2026-10-31T05:06:26+00:00"
+    },
+    {
+      "rule_id": "review-login-static-fingerprint",
+      "method": "GET",
+      "path": "/skin/default_1/images/logo.png",
+      "count": 1,
+      "first_seen": "2026-10-31T05:06:26+00:00",
+      "last_seen": "2026-10-31T05:06:26+00:00"
     }
   ],
   "outbound": [
@@ -16954,6 +16954,15 @@
       "count": 1,
       "first_seen": "2026-10-30T21:00:12+00:00",
       "last_seen": "2026-10-30T21:00:12+00:00"
+    },
+    {
+      "url": "hxxp://api[.]aster-workspace[.]duckdns[.]org/",
+      "context": "http-uri",
+      "outcome": "mentioned",
+      "sha256": "",
+      "count": 1,
+      "first_seen": "2026-10-31T08:26:16+00:00",
+      "last_seen": "2026-10-31T08:26:16+00:00"
     }
   ],
   "samples": [],
@@ -16965,6 +16974,6 @@
     "invalid_events": 33,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 1
+    "pending_indicators": 0
   }
 }
