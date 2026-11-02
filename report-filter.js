@@ -20,6 +20,15 @@
       row.dataset.path = row.querySelector('.request-path').textContent.trim();
       return row;
     });
+    const searchText = new WeakMap();
+    rows.forEach((row) => {
+      const reasons = Array.from(row.querySelectorAll('a.reason-link[href^="#rule-"]'))
+        .map((link) => document.getElementById(link.hash.slice(1)))
+        .filter(Boolean)
+        .map((detail) => detail.textContent)
+        .join(' ');
+      searchText.set(row, normalize(`${row.textContent} ${reasons}`));
+    });
     const result = root.querySelector('[data-filter-result]');
     const empty = root.querySelector('[data-filter-empty]');
     const pageState = root.querySelector('[data-page-state]');
@@ -39,7 +48,7 @@
       const status = String(data.get('status') || 'all');
       const excludeRoutine = data.get('exclude_routine') === 'on';
       return rows.filter((row) => {
-        if (query && !normalize(row.textContent).includes(query)) return false;
+        if (query && !searchText.get(row).includes(query)) return false;
         if (kind !== 'all' && row.dataset.kind !== kind) return false;
         if (cve !== 'all' && row.dataset.cve !== cve) return false;
         if (method !== 'all' && row.dataset.method !== method) return false;
