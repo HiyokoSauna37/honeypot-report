@@ -1,12 +1,12 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-02T19:33:43+00:00",
+  "generated_utc": "2026-11-02T20:34:27+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 85792,
-    "sessions": 22309,
-    "sources": 1524,
+    "requests": 85825,
+    "sessions": 22342,
+    "sources": 1529,
     "largest_source_requests": 24714,
     "behaviors": {
       "cookie": 1172,
@@ -20,22 +20,22 @@
       "robots": 26
     },
     "transport": {
-      "http": 68334,
-      "https": 17458,
-      "http2": 2977,
+      "http": 68358,
+      "https": 17467,
+      "http2": 2979,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "primary-web",
-        "requests": 14201,
-        "sessions": 12438,
+        "requests": 14229,
+        "sessions": 12466,
         "actions": 1
       },
       {
         "profile": "wordpress",
-        "requests": 59525,
-        "sessions": 923,
+        "requests": 59526,
+        "sessions": 924,
         "actions": 0
       },
       {
@@ -5411,16 +5411,16 @@
       "unlisted_requests": 0
     },
     "ssh_environment": {
-      "sessions": 152,
-      "upload_sessions": 150,
+      "sessions": 153,
+      "upload_sessions": 151,
       "first_seen": "2026-10-28T15:30:11+00:00",
-      "last_seen": "2026-11-02T18:34:16+00:00",
+      "last_seen": "2026-11-02T19:53:35+00:00",
       "signals": {
-        "arithmetic": 152,
-        "pid": 152,
-        "function": 152,
-        "positional": 152,
-        "control": 152
+        "arithmetic": 153,
+        "pid": 153,
+        "function": 153,
+        "positional": 153,
+        "control": 153
       },
       "limited": false
     }
@@ -5430,18 +5430,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 88358,
-    "iot_requests": 145,
+    "classified_requests": 88377,
+    "iot_requests": 149,
     "unclassified_requests": 1,
-    "routine_requests": 5699,
+    "routine_requests": 5728,
     "excluded_checks": 1353
   },
   "counts": {
-    "commands": 11993,
-    "login_attempts": 37788,
-    "login_successes": 6149,
-    "ssh_connections": 38750,
-    "web_requests": 94203
+    "commands": 12107,
+    "login_attempts": 38055,
+    "login_successes": 6156,
+    "ssh_connections": 39021,
+    "web_requests": 94255
   },
   "daily": [
     {
@@ -5476,8 +5476,8 @@
     },
     {
       "date": "2026-11-03",
-      "ssh_connections": 463,
-      "web_requests": 1302
+      "ssh_connections": 734,
+      "web_requests": 1354
     }
   ],
   "http_requests": [
@@ -7627,6 +7627,14 @@
     },
     {
       "method": "GET",
+      "path": "/_ignition/execute-solution",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-10-31T13:27:16+00:00",
+      "last_seen": "2026-11-02T19:58:25+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/owa/",
       "status": 404,
       "count": 10,
@@ -8280,14 +8288,6 @@
       "count": 9,
       "first_seen": "2026-10-30T18:30:15+00:00",
       "last_seen": "2026-11-02T07:06:08+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/_ignition/execute-solution",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-10-31T13:27:16+00:00",
-      "last_seen": "2026-11-01T11:19:31+00:00"
     },
     {
       "method": "GET",
@@ -13415,9 +13415,9 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 478,
+      "count": 481,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-02T19:03:44+00:00"
+      "last_seen": "2026-11-02T20:07:47+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -13495,9 +13495,9 @@
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/phpinfo.php",
-      "count": 172,
+      "count": 174,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-02T15:08:58+00:00"
+      "last_seen": "2026-11-02T20:08:56+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -13732,6 +13732,14 @@
       "last_seen": "2026-11-02T06:42:37+00:00"
     },
     {
+      "rule_id": "hikvision-probe",
+      "method": "GET",
+      "path": "/SDK/webLanguage",
+      "count": 97,
+      "first_seen": "2026-10-28T13:14:48+00:00",
+      "last_seen": "2026-11-02T20:21:52+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.test",
@@ -13754,14 +13762,6 @@
       "count": 96,
       "first_seen": "2026-10-29T16:46:24+00:00",
       "last_seen": "2026-11-02T18:56:18+00:00"
-    },
-    {
-      "rule_id": "hikvision-probe",
-      "method": "GET",
-      "path": "/SDK/webLanguage",
-      "count": 94,
-      "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-02T18:11:39+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -15676,6 +15676,14 @@
       "last_seen": "2026-11-01T14:36:10+00:00"
     },
     {
+      "rule_id": "oct30-laravel-ignition",
+      "method": "GET",
+      "path": "/_ignition/execute-solution",
+      "count": 12,
+      "first_seen": "2026-10-31T13:27:16+00:00",
+      "last_seen": "2026-11-02T19:58:25+00:00"
+    },
+    {
       "rule_id": "oct30-auth",
       "method": "GET",
       "path": "/signin",
@@ -15770,14 +15778,6 @@
       "count": 11,
       "first_seen": "2026-10-30T18:30:29+00:00",
       "last_seen": "2026-11-02T07:06:15+00:00"
-    },
-    {
-      "rule_id": "oct30-laravel-ignition",
-      "method": "GET",
-      "path": "/_ignition/execute-solution",
-      "count": 11,
-      "first_seen": "2026-10-31T13:27:16+00:00",
-      "last_seen": "2026-11-01T11:19:31+00:00"
     },
     {
       "rule_id": "oct30-auth",
