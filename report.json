@@ -1,12 +1,12 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-03T03:34:12+00:00",
+  "generated_utc": "2026-11-03T04:34:00+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 89308,
-    "sessions": 24795,
-    "sources": 1602,
+    "requests": 89339,
+    "sessions": 24826,
+    "sources": 1618,
     "largest_source_requests": 24714,
     "behaviors": {
       "cookie": 1183,
@@ -20,22 +20,22 @@
       "robots": 26
     },
     "transport": {
-      "http": 71211,
-      "https": 18097,
-      "http2": 3390,
+      "http": 71223,
+      "https": 18116,
+      "http2": 3391,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "primary-web",
-        "requests": 15354,
-        "sessions": 13581,
+        "requests": 15383,
+        "sessions": 13610,
         "actions": 1
       },
       {
         "profile": "wordpress",
-        "requests": 60689,
-        "sessions": 1085,
+        "requests": 60690,
+        "sessions": 1086,
         "actions": 0
       },
       {
@@ -5430,18 +5430,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 91401,
-    "iot_requests": 170,
-    "unclassified_requests": 679,
-    "routine_requests": 5978,
+    "classified_requests": 91415,
+    "iot_requests": 172,
+    "unclassified_requests": 680,
+    "routine_requests": 6011,
     "excluded_checks": 1353
   },
   "counts": {
-    "commands": 14654,
-    "login_attempts": 48162,
-    "login_successes": 6361,
-    "ssh_connections": 49197,
-    "web_requests": 98228
+    "commands": 14984,
+    "login_attempts": 50012,
+    "login_successes": 6393,
+    "ssh_connections": 51125,
+    "web_requests": 98278
   },
   "daily": [
     {
@@ -5476,8 +5476,8 @@
     },
     {
       "date": "2026-11-03",
-      "ssh_connections": 10910,
-      "web_requests": 5327
+      "ssh_connections": 12838,
+      "web_requests": 5377
     }
   ],
   "http_requests": [
@@ -5485,9 +5485,9 @@
       "method": "GET",
       "path": "/?param=[REDACTED]",
       "status": 200,
-      "count": 146,
+      "count": 147,
       "first_seen": "2026-10-29T15:45:11+00:00",
-      "last_seen": "2026-11-03T02:44:08+00:00"
+      "last_seen": "2026-11-03T03:39:23+00:00"
     },
     {
       "method": "GET",
@@ -11303,25 +11303,25 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 505,
+      "count": 508,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-03T03:23:42+00:00"
+      "last_seen": "2026-11-03T04:13:02+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env",
-      "count": 373,
+      "count": 375,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-03T02:50:49+00:00"
+      "last_seen": "2026-11-03T03:39:53+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env",
-      "count": 373,
+      "count": 375,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-03T02:50:49+00:00"
+      "last_seen": "2026-11-03T03:39:53+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -11615,9 +11615,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 106,
+      "count": 108,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-03T03:19:09+00:00"
+      "last_seen": "2026-11-03T03:43:39+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -13564,6 +13564,14 @@
       "last_seen": "2026-11-01T18:40:25+00:00"
     },
     {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/sse",
+      "count": 32,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-03T04:11:23+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.swp",
@@ -13650,14 +13658,6 @@
       "count": 31,
       "first_seen": "2026-11-01T13:50:20+00:00",
       "last_seen": "2026-11-03T03:25:24+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/sse",
-      "count": 30,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-02T18:30:35+00:00"
     },
     {
       "rule_id": "traffic-empty-target",
@@ -13986,6 +13986,30 @@
       "count": 28,
       "first_seen": "2026-10-31T15:08:03+00:00",
       "last_seen": "2026-11-02T23:13:42+00:00"
+    },
+    {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/api/mcp",
+      "count": 27,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-03T04:11:23+00:00"
+    },
+    {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/mcp",
+      "count": 27,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-03T04:11:23+00:00"
+    },
+    {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/mcp/",
+      "count": 27,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-03T04:11:23+00:00"
     },
     {
       "rule_id": "oct30-build",
@@ -14322,22 +14346,6 @@
       "count": 26,
       "first_seen": "2026-10-31T02:44:14+00:00",
       "last_seen": "2026-11-02T23:14:13+00:00"
-    },
-    {
-      "rule_id": "traffic-empty-target",
-      "method": "GET",
-      "path": "",
-      "count": 26,
-      "first_seen": "2026-10-31T02:44:28+00:00",
-      "last_seen": "2026-11-03T02:44:00+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.env.gz",
-      "count": 26,
-      "first_seen": "2026-11-01T18:38:54+00:00",
-      "last_seen": "2026-11-01T18:40:24+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -19206,7 +19214,7 @@
   "samples": [],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 62744,
+    "web_bodies_skipped": 62748,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 31,
