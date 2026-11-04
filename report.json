@@ -1,41 +1,41 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-04T19:36:42+00:00",
+  "generated_utc": "2026-11-04T20:36:42+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 127346,
-    "sessions": 27857,
-    "sources": 1996,
+    "requests": 127428,
+    "sessions": 27924,
+    "sources": 2018,
     "largest_source_requests": 24714,
     "behaviors": {
-      "cookie": 1264,
+      "cookie": 1269,
       "redirect": 1,
       "resource": 67,
       "javascript": 65,
       "revisit": 1,
-      "login": 1702,
+      "login": 1707,
       "upload": 1,
       "action": 0,
       "robots": 26
     },
     "transport": {
-      "http": 106025,
-      "https": 21321,
-      "http2": 4234,
+      "http": 106065,
+      "https": 21363,
+      "http2": 4270,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "primary-web",
-        "requests": 17312,
-        "sessions": 15319,
+        "requests": 17337,
+        "sessions": 15344,
         "actions": 1
       },
       {
         "profile": "wordpress",
-        "requests": 95120,
-        "sessions": 1258,
+        "requests": 95153,
+        "sessions": 1276,
         "actions": 0
       },
       {
@@ -5411,16 +5411,16 @@
       "unlisted_requests": 0
     },
     "ssh_environment": {
-      "sessions": 206,
+      "sessions": 210,
       "upload_sessions": 187,
       "first_seen": "2026-10-28T15:30:11+00:00",
-      "last_seen": "2026-11-04T17:07:25+00:00",
+      "last_seen": "2026-11-04T19:52:18+00:00",
       "signals": {
-        "arithmetic": 206,
-        "pid": 206,
-        "function": 206,
-        "positional": 206,
-        "control": 206
+        "arithmetic": 210,
+        "pid": 210,
+        "function": 210,
+        "positional": 210,
+        "control": 210
       },
       "limited": false
     }
@@ -5430,18 +5430,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 129951,
-    "iot_requests": 228,
+    "classified_requests": 130030,
+    "iot_requests": 230,
     "unclassified_requests": 6,
-    "routine_requests": 7111,
+    "routine_requests": 7125,
     "excluded_checks": 1356
   },
   "counts": {
-    "commands": 249918,
-    "login_attempts": 150325,
-    "login_successes": 31173,
-    "ssh_connections": 164553,
-    "web_requests": 137296
+    "commands": 250067,
+    "login_attempts": 150884,
+    "login_successes": 31186,
+    "ssh_connections": 165129,
+    "web_requests": 137391
   },
   "daily": [
     {
@@ -5486,8 +5486,8 @@
     },
     {
       "date": "2026-11-05",
-      "ssh_connections": 3792,
-      "web_requests": 790
+      "ssh_connections": 4368,
+      "web_requests": 885
     }
   ],
   "http_requests": [
@@ -5503,9 +5503,9 @@
       "method": "GET",
       "path": "/_profiler/phpinfo",
       "status": 404,
-      "count": 131,
+      "count": 134,
       "first_seen": "2026-10-30T11:02:09+00:00",
-      "last_seen": "2026-11-04T15:58:24+00:00"
+      "last_seen": "2026-11-04T20:17:12+00:00"
     },
     {
       "method": "GET",
@@ -5565,6 +5565,14 @@
     },
     {
       "method": "GET",
+      "path": "/wp-json/wp/v2/users/me",
+      "status": 404,
+      "count": 59,
+      "first_seen": "2026-11-04T09:27:37+00:00",
+      "last_seen": "2026-11-04T20:28:37+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/debug.php",
       "status": 404,
       "count": 57,
@@ -5578,14 +5586,6 @@
       "count": 54,
       "first_seen": "2026-10-30T11:02:05+00:00",
       "last_seen": "2026-11-03T18:23:22+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wp/v2/users/me",
-      "status": 404,
-      "count": 54,
-      "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-04T19:28:45+00:00"
     },
     {
       "method": "GET",
@@ -13281,9 +13281,9 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/xmlrpc.php",
-      "count": 93448,
+      "count": 93461,
       "first_seen": "2026-10-29T19:45:21+00:00",
-      "last_seen": "2026-11-04T19:28:49+00:00"
+      "last_seen": "2026-11-04T20:29:27+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -13305,9 +13305,9 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 679,
+      "count": 680,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-04T19:15:32+00:00"
+      "last_seen": "2026-11-04T20:06:45+00:00"
     },
     {
       "rule_id": "traffic-jenkins-console",
@@ -13321,17 +13321,17 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env",
-      "count": 446,
+      "count": 450,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-04T19:28:03+00:00"
+      "last_seen": "2026-11-04T20:17:12+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env",
-      "count": 446,
+      "count": 450,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-04T19:28:03+00:00"
+      "last_seen": "2026-11-04T20:17:12+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -13377,9 +13377,9 @@
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/phpinfo.php",
-      "count": 212,
+      "count": 216,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-04T17:57:33+00:00"
+      "last_seen": "2026-11-04T20:17:12+00:00"
     },
     {
       "rule_id": "review-debug-endpoint",
@@ -13494,6 +13494,14 @@
       "last_seen": "2026-11-04T15:57:03+00:00"
     },
     {
+      "rule_id": "hikvision-probe",
+      "method": "GET",
+      "path": "/SDK/webLanguage",
+      "count": 154,
+      "first_seen": "2026-10-28T13:14:48+00:00",
+      "last_seen": "2026-11-04T19:50:52+00:00"
+    },
+    {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.backup",
@@ -13510,20 +13518,12 @@
       "last_seen": "2026-11-04T15:57:04+00:00"
     },
     {
-      "rule_id": "hikvision-probe",
-      "method": "GET",
-      "path": "/SDK/webLanguage",
-      "count": 152,
-      "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-04T18:20:12+00:00"
-    },
-    {
       "rule_id": "oct30-php-diagnostic",
       "method": "GET",
       "path": "/_profiler/phpinfo",
-      "count": 148,
+      "count": 152,
       "first_seen": "2026-10-30T11:02:09+00:00",
-      "last_seen": "2026-11-04T15:58:24+00:00"
+      "last_seen": "2026-11-04T20:17:12+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -14134,6 +14134,14 @@
       "last_seen": "2026-11-03T18:23:22+00:00"
     },
     {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wp/v2/users/me",
+      "count": 59,
+      "first_seen": "2026-11-04T09:27:37+00:00",
+      "last_seen": "2026-11-04T20:28:37+00:00"
+    },
+    {
       "rule_id": "oct30-build",
       "method": "GET",
       "path": "/docker-compose.yaml",
@@ -14164,14 +14172,6 @@
       "count": 54,
       "first_seen": "2026-10-30T11:02:05+00:00",
       "last_seen": "2026-11-03T18:23:22+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wp/v2/users/me",
-      "count": 54,
-      "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-04T19:28:45+00:00"
     },
     {
       "rule_id": "review-wordpress-rest",
@@ -21160,7 +21160,7 @@
   "samples": [],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 97050,
+    "web_bodies_skipped": 97073,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
