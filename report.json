@@ -1,15 +1,15 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-07T12:38:34+00:00",
+  "generated_utc": "2026-11-07T13:38:42+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 182292,
-    "sessions": 38948,
-    "sources": 3075,
+    "requests": 182401,
+    "sessions": 38972,
+    "sources": 3085,
     "largest_source_requests": 24714,
     "behaviors": {
-      "cookie": 1606,
+      "cookie": 1609,
       "redirect": 1,
       "resource": 70,
       "javascript": 66,
@@ -20,22 +20,22 @@
       "robots": 26
     },
     "transport": {
-      "http": 149608,
-      "https": 32684,
-      "http2": 7484,
+      "http": 149616,
+      "https": 32785,
+      "http2": 7572,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "primary-web",
-        "requests": 24542,
-        "sessions": 20432,
+        "requests": 24596,
+        "sessions": 20452,
         "actions": 1
       },
       {
         "profile": "wordpress",
-        "requests": 136864,
-        "sessions": 2135,
+        "requests": 136915,
+        "sessions": 2138,
         "actions": 1
       },
       {
@@ -5563,18 +5563,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 185438,
-    "iot_requests": 332,
-    "unclassified_requests": 236,
-    "routine_requests": 9138,
+    "classified_requests": 185535,
+    "iot_requests": 333,
+    "unclassified_requests": 240,
+    "routine_requests": 9163,
     "excluded_checks": 1361
   },
   "counts": {
-    "commands": 254155,
-    "login_attempts": 173634,
-    "login_successes": 31517,
-    "ssh_connections": 189811,
-    "web_requests": 195144
+    "commands": 254270,
+    "login_attempts": 173724,
+    "login_successes": 31522,
+    "ssh_connections": 189901,
+    "web_requests": 195271
   },
   "daily": [
     {
@@ -5629,8 +5629,8 @@
     },
     {
       "date": "2026-11-07",
-      "ssh_connections": 9112,
-      "web_requests": 4507
+      "ssh_connections": 9202,
+      "web_requests": 4634
     }
   ],
   "http_requests": [
@@ -5638,25 +5638,25 @@
       "method": "POST",
       "path": "/",
       "status": 405,
-      "count": 571,
+      "count": 572,
       "first_seen": "2026-10-30T00:08:59+00:00",
-      "last_seen": "2026-11-07T12:08:03+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/SDK/webLanguage",
-      "status": 404,
-      "count": 222,
-      "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-07T12:04:09+00:00"
+      "last_seen": "2026-11-07T12:57:23+00:00"
     },
     {
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
       "status": 404,
-      "count": 222,
+      "count": 227,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-06T10:47:56+00:00"
+      "last_seen": "2026-11-07T12:39:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/SDK/webLanguage",
+      "status": 404,
+      "count": 223,
+      "first_seen": "2026-10-28T13:14:48+00:00",
+      "last_seen": "2026-11-07T13:07:50+00:00"
     },
     {
       "method": "GET",
@@ -5678,9 +5678,9 @@
       "method": "GET",
       "path": "/?param=[REDACTED]&param=[REDACTED]",
       "status": 200,
-      "count": 89,
+      "count": 98,
       "first_seen": "2026-11-02T01:44:41+00:00",
-      "last_seen": "2026-11-06T10:47:44+00:00"
+      "last_seen": "2026-11-07T12:38:58+00:00"
     },
     {
       "method": "GET",
@@ -5758,9 +5758,17 @@
       "method": "GET",
       "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "status": 200,
-      "count": 36,
+      "count": 40,
       "first_seen": "2026-11-04T09:27:27+00:00",
-      "last_seen": "2026-11-06T10:47:42+00:00"
+      "last_seen": "2026-11-07T12:38:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/wemail/v1/subscribers",
+      "status": 404,
+      "count": 37,
+      "first_seen": "2026-11-04T09:27:36+00:00",
+      "last_seen": "2026-11-07T12:39:08+00:00"
     },
     {
       "method": "POST",
@@ -5777,14 +5785,6 @@
       "count": 35,
       "first_seen": "2026-10-30T16:06:40+00:00",
       "last_seen": "2026-11-06T17:07:00+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wemail/v1/subscribers",
-      "status": 404,
-      "count": 33,
-      "first_seen": "2026-11-04T09:27:36+00:00",
-      "last_seen": "2026-11-06T10:47:53+00:00"
     },
     {
       "method": "GET",
@@ -5812,6 +5812,38 @@
     },
     {
       "method": "GET",
+      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 200,
+      "count": 21,
+      "first_seen": "2026-11-04T09:27:20+00:00",
+      "last_seen": "2026-11-07T12:39:00+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-sitemap-users-1.xml",
+      "status": 404,
+      "count": 20,
+      "first_seen": "2026-11-04T09:27:20+00:00",
+      "last_seen": "2026-11-07T12:38:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]",
+      "status": 200,
+      "count": 20,
+      "first_seen": "2026-11-04T09:27:31+00:00",
+      "last_seen": "2026-11-07T12:39:07+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/wp-admin/admin-ajax.php",
+      "status": 404,
+      "count": 20,
+      "first_seen": "2026-11-04T09:27:32+00:00",
+      "last_seen": "2026-11-07T12:39:02+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/developmentserver/metadatauploader",
       "status": 404,
       "count": 19,
@@ -5825,6 +5857,22 @@
       "count": 19,
       "first_seen": "2026-11-03T00:01:16+00:00",
       "last_seen": "2026-11-07T10:19:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 200,
+      "count": 19,
+      "first_seen": "2026-11-04T09:27:19+00:00",
+      "last_seen": "2026-11-07T12:38:53+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/author-sitemap.xml",
+      "status": 404,
+      "count": 19,
+      "first_seen": "2026-11-04T09:27:20+00:00",
+      "last_seen": "2026-11-07T12:38:48+00:00"
     },
     {
       "method": "GET",
@@ -5868,46 +5916,6 @@
     },
     {
       "method": "GET",
-      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 200,
-      "count": 18,
-      "first_seen": "2026-11-04T09:27:19+00:00",
-      "last_seen": "2026-11-06T10:47:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 200,
-      "count": 18,
-      "first_seen": "2026-11-04T09:27:20+00:00",
-      "last_seen": "2026-11-06T10:47:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-sitemap-users-1.xml",
-      "status": 404,
-      "count": 18,
-      "first_seen": "2026-11-04T09:27:20+00:00",
-      "last_seen": "2026-11-06T10:47:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]",
-      "status": 200,
-      "count": 18,
-      "first_seen": "2026-11-04T09:27:31+00:00",
-      "last_seen": "2026-11-06T10:47:51+00:00"
-    },
-    {
-      "method": "POST",
-      "path": "/wp-admin/admin-ajax.php",
-      "status": 404,
-      "count": 18,
-      "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:46+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/download.php?param=[REDACTED]",
       "status": 404,
       "count": 17,
@@ -5937,14 +5945,6 @@
       "count": 17,
       "first_seen": "2026-11-03T00:01:21+00:00",
       "last_seen": "2026-11-06T16:07:04+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/author-sitemap.xml",
-      "status": 404,
-      "count": 17,
-      "first_seen": "2026-11-04T09:27:20+00:00",
-      "last_seen": "2026-11-06T10:47:34+00:00"
     },
     {
       "method": "GET",
@@ -6049,6 +6049,14 @@
       "count": 14,
       "first_seen": "2026-11-06T12:08:42+00:00",
       "last_seen": "2026-11-06T16:07:08+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 200,
+      "count": 13,
+      "first_seen": "2026-11-01T05:06:07+00:00",
+      "last_seen": "2026-11-07T12:38:59+00:00"
     },
     {
       "method": "GET",
@@ -6188,6 +6196,22 @@
     },
     {
       "method": "GET",
+      "path": "/sitemap_index.xml",
+      "status": 404,
+      "count": 11,
+      "first_seen": "2026-11-04T09:27:22+00:00",
+      "last_seen": "2026-11-07T12:38:49+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/peprodev/v1/users",
+      "status": 404,
+      "count": 11,
+      "first_seen": "2026-11-04T09:27:33+00:00",
+      "last_seen": "2026-11-07T12:39:02+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/build/manifest-development.js",
       "status": 404,
       "count": 11,
@@ -6220,11 +6244,11 @@
     },
     {
       "method": "GET",
-      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "status": 200,
       "count": 10,
-      "first_seen": "2026-11-01T05:06:07+00:00",
-      "last_seen": "2026-11-06T10:47:40+00:00"
+      "first_seen": "2026-10-28T21:27:16+00:00",
+      "last_seen": "2026-11-07T12:38:59+00:00"
     },
     {
       "method": "GET",
@@ -6252,19 +6276,275 @@
     },
     {
       "method": "GET",
-      "path": "/sitemap_index.xml",
-      "status": 404,
+      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 200,
       "count": 10,
-      "first_seen": "2026-11-04T09:27:22+00:00",
-      "last_seen": "2026-11-06T10:47:34+00:00"
+      "first_seen": "2026-11-04T09:27:19+00:00",
+      "last_seen": "2026-11-07T12:38:46+00:00"
     },
     {
       "method": "GET",
-      "path": "/wp-json/peprodev/v1/users",
+      "path": "/wp-json/rankmath/v1/getHead?url=[REDACTED]",
       "status": 404,
       "count": 10,
-      "first_seen": "2026-11-04T09:27:33+00:00",
-      "last_seen": "2026-11-06T10:47:48+00:00"
+      "first_seen": "2026-11-04T09:27:21+00:00",
+      "last_seen": "2026-11-07T12:38:49+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/feed/atom/",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:22+00:00",
+      "last_seen": "2026-11-07T12:38:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/rss/",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:22+00:00",
+      "last_seen": "2026-11-07T12:38:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/comments/feed/",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:23+00:00",
+      "last_seen": "2026-11-07T12:38:51+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/oembed/1.0/embed?url=[REDACTED]&format=json",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:23+00:00",
+      "last_seen": "2026-11-07T12:38:51+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/index.php/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:26+00:00",
+      "last_seen": "2026-11-07T12:38:54+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/wp/v2/media?param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:26+00:00",
+      "last_seen": "2026-11-07T12:38:54+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:27+00:00",
+      "last_seen": "2026-11-07T12:38:55+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/feed/json/",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:28+00:00",
+      "last_seen": "2026-11-07T12:38:56+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/buddypress/v1/members?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:29+00:00",
+      "last_seen": "2026-11-07T12:38:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/buddyboss/v1/members?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:30+00:00",
+      "last_seen": "2026-11-07T12:38:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/login-register-forms/v1/lost-password?username=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:30+00:00",
+      "last_seen": "2026-11-07T12:38:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/crm-memberships/v1/reset?username=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:31+00:00",
+      "last_seen": "2026-11-07T12:39:00+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/peprodev/v1/reset-password?username=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:31+00:00",
+      "last_seen": "2026-11-07T12:38:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/authorsy/v1/authors",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:32+00:00",
+      "last_seen": "2026-11-07T12:39:01+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/decent-comments/v1/authors",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:32+00:00",
+      "last_seen": "2026-11-07T12:39:01+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/kirki/v1/forgot-password?username=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:32+00:00",
+      "last_seen": "2026-11-07T12:39:00+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/profilepress/v1/users",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:32+00:00",
+      "last_seen": "2026-11-07T12:39:02+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/buddypress/v1/members",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/crm-memberships/v1/users",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/dokan/v1/wholesale/customers",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/ldlms/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/wc/v1/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/wc/v2/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/wc/v3/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/ldlms/v1/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:35+00:00",
+      "last_seen": "2026-11-07T12:39:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/ultimate-member/v1/users",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:35+00:00",
+      "last_seen": "2026-11-07T12:39:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/ldlms/v2/users",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:36+00:00",
+      "last_seen": "2026-11-07T12:39:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/wc/v3/customers",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:36+00:00",
+      "last_seen": "2026-11-07T12:39:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/wpml/tm/v1/languages",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:36+00:00",
+      "last_seen": "2026-11-07T12:39:07+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/users/v1/users",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:37+00:00",
+      "last_seen": "2026-11-07T12:39:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/wp-user-manager/v1/users",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:37+00:00",
+      "last_seen": "2026-11-07T12:39:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/webmention/1.0",
+      "status": 404,
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:38+00:00",
+      "last_seen": "2026-11-07T12:39:08+00:00"
     },
     {
       "method": "GET",
@@ -6356,275 +6636,11 @@
     },
     {
       "method": "GET",
-      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 200,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:19+00:00",
-      "last_seen": "2026-11-06T10:47:31+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/rankmath/v1/getHead?url=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:21+00:00",
-      "last_seen": "2026-11-06T10:47:34+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/feed/atom/",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:22+00:00",
-      "last_seen": "2026-11-06T10:47:34+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/rss/",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:22+00:00",
-      "last_seen": "2026-11-06T10:47:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/comments/feed/",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:23+00:00",
-      "last_seen": "2026-11-06T10:47:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/oembed/1.0/embed?url=[REDACTED]&format=json",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:23+00:00",
-      "last_seen": "2026-11-06T10:47:36+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/index.php/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:26+00:00",
-      "last_seen": "2026-11-06T10:47:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wp/v2/media?param=[REDACTED]&param=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:26+00:00",
-      "last_seen": "2026-11-06T10:47:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:27+00:00",
-      "last_seen": "2026-11-06T10:47:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/feed/json/",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:28+00:00",
-      "last_seen": "2026-11-06T10:47:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/buddypress/v1/members?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:29+00:00",
-      "last_seen": "2026-11-06T10:47:42+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/buddyboss/v1/members?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:30+00:00",
-      "last_seen": "2026-11-06T10:47:42+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/login-register-forms/v1/lost-password?username=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:30+00:00",
-      "last_seen": "2026-11-06T10:47:43+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/crm-memberships/v1/reset?username=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:31+00:00",
-      "last_seen": "2026-11-06T10:47:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/peprodev/v1/reset-password?username=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:31+00:00",
-      "last_seen": "2026-11-06T10:47:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/authorsy/v1/authors",
+      "path": "/wp-json/wp/v2/comments?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "status": 404,
       "count": 9,
       "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:45+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/decent-comments/v1/authors",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:46+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/kirki/v1/forgot-password?username=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:45+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/profilepress/v1/users",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:47+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/buddypress/v1/members",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:50+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/crm-memberships/v1/users",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:49+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/dokan/v1/wholesale/customers",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:49+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/ldlms/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:50+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wc/v1/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:50+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wc/v2/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:49+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wc/v3/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:49+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/ldlms/v1/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:35+00:00",
-      "last_seen": "2026-11-06T10:47:50+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/ultimate-member/v1/users",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:35+00:00",
-      "last_seen": "2026-11-06T10:47:51+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/ldlms/v2/users",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:36+00:00",
-      "last_seen": "2026-11-06T10:47:52+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wc/v3/customers",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:36+00:00",
-      "last_seen": "2026-11-06T10:47:53+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wpml/tm/v1/languages",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:36+00:00",
-      "last_seen": "2026-11-06T10:47:51+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/users/v1/users",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-06T10:47:54+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wp-user-manager/v1/users",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-06T10:47:55+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/webmention/1.0",
-      "status": 404,
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:38+00:00",
-      "last_seen": "2026-11-06T10:47:53+00:00"
+      "last_seen": "2026-11-07T12:38:47+00:00"
     },
     {
       "method": "GET",
@@ -6745,14 +6761,6 @@
       "count": 8,
       "first_seen": "2026-11-04T02:12:20+00:00",
       "last_seen": "2026-11-07T01:34:06+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-json/wp/v2/comments?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 404,
-      "count": 8,
-      "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:33+00:00"
     },
     {
       "method": "GET",
@@ -6897,14 +6905,6 @@
       "count": 7,
       "first_seen": "2026-10-28T21:27:05+00:00",
       "last_seen": "2026-11-03T17:22:16+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "status": 200,
-      "count": 7,
-      "first_seen": "2026-10-28T21:27:16+00:00",
-      "last_seen": "2026-11-04T13:12:11+00:00"
     },
     {
       "method": "GET",
@@ -10684,14 +10684,6 @@
     },
     {
       "method": "GET",
-      "path": "/kubernetes/secrets.yaml",
-      "status": 404,
-      "count": 3,
-      "first_seen": "2026-11-02T14:29:16+00:00",
-      "last_seen": "2026-11-02T14:29:21+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/admin/ajax.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "status": 404,
       "count": 3,
@@ -11728,9 +11720,9 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/xmlrpc.php",
-      "count": 134054,
+      "count": 134055,
       "first_seen": "2026-10-29T19:45:21+00:00",
-      "last_seen": "2026-11-06T10:47:54+00:00"
+      "last_seen": "2026-11-07T12:39:09+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -11752,25 +11744,25 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 935,
+      "count": 940,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-07T11:39:35+00:00"
+      "last_seen": "2026-11-07T13:21:54+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/config",
-      "count": 704,
+      "count": 706,
       "first_seen": "2026-10-28T18:07:13+00:00",
-      "last_seen": "2026-11-07T10:49:55+00:00"
+      "last_seen": "2026-11-07T13:13:34+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/config",
-      "count": 704,
+      "count": 706,
       "first_seen": "2026-10-28T18:07:13+00:00",
-      "last_seen": "2026-11-07T10:49:55+00:00"
+      "last_seen": "2026-11-07T13:13:34+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -11877,6 +11869,14 @@
       "last_seen": "2026-11-07T10:30:31+00:00"
     },
     {
+      "rule_id": "web-graphql",
+      "method": "POST",
+      "path": "/graphql",
+      "count": 234,
+      "first_seen": "2026-10-29T15:44:48+00:00",
+      "last_seen": "2026-11-07T12:39:03+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.staging",
@@ -11901,14 +11901,6 @@
       "last_seen": "2026-11-07T09:19:56+00:00"
     },
     {
-      "rule_id": "web-graphql",
-      "method": "POST",
-      "path": "/graphql",
-      "count": 232,
-      "first_seen": "2026-10-29T15:44:48+00:00",
-      "last_seen": "2026-11-06T10:47:48+00:00"
-    },
-    {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.bak",
@@ -11925,20 +11917,20 @@
       "last_seen": "2026-11-07T10:07:16+00:00"
     },
     {
-      "rule_id": "hikvision-probe",
-      "method": "GET",
-      "path": "/SDK/webLanguage",
-      "count": 222,
-      "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-07T12:04:09+00:00"
-    },
-    {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
-      "count": 222,
+      "count": 227,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-06T10:47:56+00:00"
+      "last_seen": "2026-11-07T12:39:09+00:00"
+    },
+    {
+      "rule_id": "hikvision-probe",
+      "method": "GET",
+      "path": "/SDK/webLanguage",
+      "count": 223,
+      "first_seen": "2026-10-28T13:14:48+00:00",
+      "last_seen": "2026-11-07T13:07:50+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -12357,6 +12349,14 @@
       "last_seen": "2026-11-07T09:20:14+00:00"
     },
     {
+      "rule_id": "nov01-site-navigation",
+      "method": "GET",
+      "path": "/assets/site.js?param=[REDACTED]",
+      "count": 114,
+      "first_seen": "2026-11-01T13:48:45+00:00",
+      "last_seen": "2026-11-07T12:39:06+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.dist",
@@ -12379,14 +12379,6 @@
       "count": 113,
       "first_seen": "2026-10-29T22:08:19+00:00",
       "last_seen": "2026-11-07T10:07:07+00:00"
-    },
-    {
-      "rule_id": "nov01-site-navigation",
-      "method": "GET",
-      "path": "/assets/site.js?param=[REDACTED]",
-      "count": 113,
-      "first_seen": "2026-11-01T13:48:45+00:00",
-      "last_seen": "2026-11-07T11:38:26+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -12541,20 +12533,20 @@
       "last_seen": "2026-11-07T09:19:56+00:00"
     },
     {
+      "rule_id": "web-product-probe",
+      "method": "GET",
+      "path": "/actuator/health",
+      "count": 95,
+      "first_seen": "2026-10-28T15:00:06+00:00",
+      "last_seen": "2026-11-07T13:00:33+00:00"
+    },
+    {
       "rule_id": "review-debug-endpoint",
       "method": "GET",
       "path": "/server-status",
       "count": 95,
       "first_seen": "2026-10-29T15:44:34+00:00",
       "last_seen": "2026-11-06T12:06:21+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/actuator/health",
-      "count": 94,
-      "first_seen": "2026-10-28T15:00:06+00:00",
-      "last_seen": "2026-11-07T09:19:55+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -12595,6 +12587,14 @@
       "count": 90,
       "first_seen": "2026-10-30T09:57:37+00:00",
       "last_seen": "2026-11-06T23:43:36+00:00"
+    },
+    {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/?param=[REDACTED]&param=[REDACTED]",
+      "count": 90,
+      "first_seen": "2026-11-04T09:27:23+00:00",
+      "last_seen": "2026-11-07T12:38:58+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -12699,14 +12699,6 @@
       "count": 81,
       "first_seen": "2026-10-30T09:57:39+00:00",
       "last_seen": "2026-11-06T23:43:38+00:00"
-    },
-    {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/?param=[REDACTED]&param=[REDACTED]",
-      "count": 81,
-      "first_seen": "2026-11-04T09:27:23+00:00",
-      "last_seen": "2026-11-06T10:47:44+00:00"
     },
     {
       "rule_id": "review-file-exposure",
@@ -13701,6 +13693,14 @@
       "last_seen": "2026-11-07T09:07:54+00:00"
     },
     {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/sse",
+      "count": 54,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-07T13:16:19+00:00"
+    },
+    {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/refs/remotes/origin/production",
@@ -13723,14 +13723,6 @@
       "count": 54,
       "first_seen": "2026-10-30T09:57:39+00:00",
       "last_seen": "2026-11-06T23:43:38+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/sse",
-      "count": 53,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-07T05:40:52+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -13965,6 +13957,30 @@
       "last_seen": "2026-11-06T22:01:21+00:00"
     },
     {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/api/mcp",
+      "count": 48,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-07T13:16:18+00:00"
+    },
+    {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/mcp",
+      "count": 48,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-07T13:16:18+00:00"
+    },
+    {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/mcp/",
+      "count": 48,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-07T13:16:18+00:00"
+    },
+    {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.svn/entries",
@@ -13989,28 +14005,12 @@
       "last_seen": "2026-11-02T23:18:59+00:00"
     },
     {
-      "rule_id": "mcp-probe",
+      "rule_id": "wordpress-probe",
       "method": "GET",
-      "path": "/api/mcp",
+      "path": "/wp-json/",
       "count": 47,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-07T05:40:51+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/mcp",
-      "count": 47,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-07T05:40:51+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/mcp/",
-      "count": 47,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-07T05:40:51+00:00"
+      "first_seen": "2026-10-29T15:44:07+00:00",
+      "last_seen": "2026-11-07T12:38:53+00:00"
     },
     {
       "rule_id": "oct30-site-navigation",
@@ -14037,6 +14037,14 @@
       "last_seen": "2026-11-05T04:52:12+00:00"
     },
     {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 40,
+      "first_seen": "2026-11-04T09:27:27+00:00",
+      "last_seen": "2026-11-07T12:38:57+00:00"
+    },
+    {
       "rule_id": "oct30-owncloud-cve-2023-49103",
       "method": "GET",
       "path": "/owncloud/apps/graphapi/vendor/microsoft/microsoft-graph/tests/GetPhpInfo.php",
@@ -14053,12 +14061,12 @@
       "last_seen": "2026-11-02T08:09:27+00:00"
     },
     {
-      "rule_id": "nov05-wordpress-author-probe",
+      "rule_id": "wordpress-probe",
       "method": "GET",
-      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 36,
-      "first_seen": "2026-11-04T09:27:27+00:00",
-      "last_seen": "2026-11-06T10:47:42+00:00"
+      "path": "/wp-json/wemail/v1/subscribers",
+      "count": 37,
+      "first_seen": "2026-11-04T09:27:36+00:00",
+      "last_seen": "2026-11-07T12:39:08+00:00"
     },
     {
       "rule_id": "web-php-session",
@@ -14071,10 +14079,34 @@
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
-      "path": "/wp-json/wemail/v1/subscribers",
-      "count": 33,
-      "first_seen": "2026-11-04T09:27:36+00:00",
-      "last_seen": "2026-11-06T10:47:53+00:00"
+      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 21,
+      "first_seen": "2026-11-04T09:27:20+00:00",
+      "last_seen": "2026-11-07T12:39:00+00:00"
+    },
+    {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/wp-sitemap-users-1.xml",
+      "count": 20,
+      "first_seen": "2026-11-04T09:27:20+00:00",
+      "last_seen": "2026-11-07T12:38:50+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]",
+      "count": 20,
+      "first_seen": "2026-11-04T09:27:31+00:00",
+      "last_seen": "2026-11-07T12:39:07+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "POST",
+      "path": "/wp-admin/admin-ajax.php",
+      "count": 20,
+      "first_seen": "2026-11-04T09:27:32+00:00",
+      "last_seen": "2026-11-07T12:39:02+00:00"
     },
     {
       "rule_id": "web-lfi",
@@ -14109,6 +14141,22 @@
       "last_seen": "2026-11-06T16:07:09+00:00"
     },
     {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 19,
+      "first_seen": "2026-11-04T09:27:19+00:00",
+      "last_seen": "2026-11-07T12:38:53+00:00"
+    },
+    {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/author-sitemap.xml",
+      "count": 19,
+      "first_seen": "2026-11-04T09:27:20+00:00",
+      "last_seen": "2026-11-07T12:38:48+00:00"
+    },
+    {
       "rule_id": "web-lfi",
       "method": "GET",
       "path": "/cgit/?url=[REDACTED]",
@@ -14141,46 +14189,6 @@
       "last_seen": "2026-11-06T16:07:04+00:00"
     },
     {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 18,
-      "first_seen": "2026-11-04T09:27:19+00:00",
-      "last_seen": "2026-11-06T10:47:39+00:00"
-    },
-    {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/wp-sitemap-users-1.xml",
-      "count": 18,
-      "first_seen": "2026-11-04T09:27:20+00:00",
-      "last_seen": "2026-11-06T10:47:35+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 18,
-      "first_seen": "2026-11-04T09:27:20+00:00",
-      "last_seen": "2026-11-06T10:47:32+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]",
-      "count": 18,
-      "first_seen": "2026-11-04T09:27:31+00:00",
-      "last_seen": "2026-11-06T10:47:51+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "POST",
-      "path": "/wp-admin/admin-ajax.php",
-      "count": 18,
-      "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:46+00:00"
-    },
-    {
       "rule_id": "nov02-js-asset-probe",
       "method": "GET",
       "path": "/js/chunk-vendors.js",
@@ -14211,14 +14219,6 @@
       "count": 17,
       "first_seen": "2026-11-03T00:01:17+00:00",
       "last_seen": "2026-11-06T16:07:11+00:00"
-    },
-    {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/author-sitemap.xml",
-      "count": 17,
-      "first_seen": "2026-11-04T09:27:20+00:00",
-      "last_seen": "2026-11-06T10:47:34+00:00"
     },
     {
       "rule_id": "nov07-client-assets",
@@ -14437,6 +14437,22 @@
       "last_seen": "2026-11-06T16:07:12+00:00"
     },
     {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/sitemap_index.xml",
+      "count": 11,
+      "first_seen": "2026-11-04T09:27:22+00:00",
+      "last_seen": "2026-11-07T12:38:49+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/peprodev/v1/users",
+      "count": 11,
+      "first_seen": "2026-11-04T09:27:33+00:00",
+      "last_seen": "2026-11-07T12:39:02+00:00"
+    },
+    {
       "rule_id": "nov07-client-assets",
       "method": "GET",
       "path": "/build/manifest-development.js",
@@ -14519,18 +14535,282 @@
     {
       "rule_id": "nov05-wordpress-author-probe",
       "method": "GET",
-      "path": "/sitemap_index.xml",
+      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "count": 10,
-      "first_seen": "2026-11-04T09:27:22+00:00",
-      "last_seen": "2026-11-06T10:47:34+00:00"
+      "first_seen": "2026-11-04T09:27:19+00:00",
+      "last_seen": "2026-11-07T12:38:46+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
-      "path": "/wp-json/peprodev/v1/users",
+      "path": "/wp-json/rankmath/v1/getHead?url=[REDACTED]",
       "count": 10,
-      "first_seen": "2026-11-04T09:27:33+00:00",
-      "last_seen": "2026-11-06T10:47:48+00:00"
+      "first_seen": "2026-11-04T09:27:21+00:00",
+      "last_seen": "2026-11-07T12:38:49+00:00"
+    },
+    {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/feed/atom/",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:22+00:00",
+      "last_seen": "2026-11-07T12:38:50+00:00"
+    },
+    {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/rss/",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:22+00:00",
+      "last_seen": "2026-11-07T12:38:50+00:00"
+    },
+    {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/comments/feed/",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:23+00:00",
+      "last_seen": "2026-11-07T12:38:51+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/oembed/1.0/embed?url=[REDACTED]&format=json",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:23+00:00",
+      "last_seen": "2026-11-07T12:38:51+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/index.php/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:26+00:00",
+      "last_seen": "2026-11-07T12:38:54+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wp/v2/media?param=[REDACTED]&param=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:26+00:00",
+      "last_seen": "2026-11-07T12:38:54+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:27+00:00",
+      "last_seen": "2026-11-07T12:38:55+00:00"
+    },
+    {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:28+00:00",
+      "last_seen": "2026-11-07T12:38:56+00:00"
+    },
+    {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/feed/json/",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:28+00:00",
+      "last_seen": "2026-11-07T12:38:56+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/buddypress/v1/members?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:29+00:00",
+      "last_seen": "2026-11-07T12:38:58+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/buddyboss/v1/members?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:30+00:00",
+      "last_seen": "2026-11-07T12:38:59+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/login-register-forms/v1/lost-password?username=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:30+00:00",
+      "last_seen": "2026-11-07T12:38:59+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/crm-memberships/v1/reset?username=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:31+00:00",
+      "last_seen": "2026-11-07T12:39:00+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/peprodev/v1/reset-password?username=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:31+00:00",
+      "last_seen": "2026-11-07T12:38:59+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/authorsy/v1/authors",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:32+00:00",
+      "last_seen": "2026-11-07T12:39:01+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/decent-comments/v1/authors",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:32+00:00",
+      "last_seen": "2026-11-07T12:39:01+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/kirki/v1/forgot-password?username=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:32+00:00",
+      "last_seen": "2026-11-07T12:39:00+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/profilepress/v1/users",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:32+00:00",
+      "last_seen": "2026-11-07T12:39:02+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/buddypress/v1/members",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:04+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/crm-memberships/v1/users",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:03+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/dokan/v1/wholesale/customers",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:03+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/ldlms/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:05+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wc/v1/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:06+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wc/v2/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:05+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wc/v3/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:34+00:00",
+      "last_seen": "2026-11-07T12:39:04+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/ldlms/v1/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:35+00:00",
+      "last_seen": "2026-11-07T12:39:05+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/ultimate-member/v1/users",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:35+00:00",
+      "last_seen": "2026-11-07T12:39:04+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/ldlms/v2/users",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:36+00:00",
+      "last_seen": "2026-11-07T12:39:04+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wc/v3/customers",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:36+00:00",
+      "last_seen": "2026-11-07T12:39:05+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wpml/tm/v1/languages",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:36+00:00",
+      "last_seen": "2026-11-07T12:39:07+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/users/v1/users",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:37+00:00",
+      "last_seen": "2026-11-07T12:39:05+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wp-user-manager/v1/users",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:37+00:00",
+      "last_seen": "2026-11-07T12:39:06+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/webmention/1.0",
+      "count": 10,
+      "first_seen": "2026-11-04T09:27:38+00:00",
+      "last_seen": "2026-11-07T12:39:08+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -14693,284 +14973,12 @@
       "last_seen": "2026-11-06T12:06:23+00:00"
     },
     {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:19+00:00",
-      "last_seen": "2026-11-06T10:47:31+00:00"
-    },
-    {
       "rule_id": "wordpress-probe",
       "method": "GET",
-      "path": "/wp-json/rankmath/v1/getHead?url=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:21+00:00",
-      "last_seen": "2026-11-06T10:47:34+00:00"
-    },
-    {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/feed/atom/",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:22+00:00",
-      "last_seen": "2026-11-06T10:47:34+00:00"
-    },
-    {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/rss/",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:22+00:00",
-      "last_seen": "2026-11-06T10:47:35+00:00"
-    },
-    {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/comments/feed/",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:23+00:00",
-      "last_seen": "2026-11-06T10:47:35+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/oembed/1.0/embed?url=[REDACTED]&format=json",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:23+00:00",
-      "last_seen": "2026-11-06T10:47:36+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/index.php/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:26+00:00",
-      "last_seen": "2026-11-06T10:47:39+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wp/v2/media?param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:26+00:00",
-      "last_seen": "2026-11-06T10:47:39+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:27+00:00",
-      "last_seen": "2026-11-06T10:47:40+00:00"
-    },
-    {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:28+00:00",
-      "last_seen": "2026-11-06T10:47:40+00:00"
-    },
-    {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/feed/json/",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:28+00:00",
-      "last_seen": "2026-11-06T10:47:40+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/buddypress/v1/members?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:29+00:00",
-      "last_seen": "2026-11-06T10:47:42+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/buddyboss/v1/members?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:30+00:00",
-      "last_seen": "2026-11-06T10:47:42+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/login-register-forms/v1/lost-password?username=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:30+00:00",
-      "last_seen": "2026-11-06T10:47:43+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/crm-memberships/v1/reset?username=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:31+00:00",
-      "last_seen": "2026-11-06T10:47:44+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/peprodev/v1/reset-password?username=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:31+00:00",
-      "last_seen": "2026-11-06T10:47:44+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/authorsy/v1/authors",
+      "path": "/wp-json/wp/v2/comments?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "count": 9,
       "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:45+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/decent-comments/v1/authors",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:46+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/kirki/v1/forgot-password?username=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:45+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/profilepress/v1/users",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:47+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/buddypress/v1/members",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:50+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/crm-memberships/v1/users",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:49+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/dokan/v1/wholesale/customers",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:49+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/ldlms/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:50+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wc/v1/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:50+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wc/v2/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:49+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wc/v3/customers?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:34+00:00",
-      "last_seen": "2026-11-06T10:47:49+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/ldlms/v1/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:35+00:00",
-      "last_seen": "2026-11-06T10:47:50+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/ultimate-member/v1/users",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:35+00:00",
-      "last_seen": "2026-11-06T10:47:51+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/ldlms/v2/users",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:36+00:00",
-      "last_seen": "2026-11-06T10:47:52+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wc/v3/customers",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:36+00:00",
-      "last_seen": "2026-11-06T10:47:53+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wpml/tm/v1/languages",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:36+00:00",
-      "last_seen": "2026-11-06T10:47:51+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/users/v1/users",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-06T10:47:54+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wp-user-manager/v1/users",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-06T10:47:55+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/webmention/1.0",
-      "count": 9,
-      "first_seen": "2026-11-04T09:27:38+00:00",
-      "last_seen": "2026-11-06T10:47:53+00:00"
+      "last_seen": "2026-11-07T12:38:47+00:00"
     },
     {
       "rule_id": "oct30-service-config",
@@ -15059,14 +15067,6 @@
       "count": 8,
       "first_seen": "2026-11-04T02:12:20+00:00",
       "last_seen": "2026-11-07T01:34:06+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wp/v2/comments?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 8,
-      "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-06T10:47:33+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -18869,14 +18869,6 @@
       "last_seen": "2026-11-03T03:03:27+00:00"
     },
     {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/kubernetes/secrets.yaml",
-      "count": 3,
-      "first_seen": "2026-11-02T14:29:16+00:00",
-      "last_seen": "2026-11-02T14:29:21+00:00"
-    },
-    {
       "rule_id": "nov03-reflection-probe",
       "method": "GET",
       "path": "/?url=[REDACTED]",
@@ -19639,12 +19631,12 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 138313,
+    "web_bodies_skipped": 138321,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 225
+    "pending_indicators": 226
   }
 }
