@@ -1,6 +1,6 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-08T21:43:30+00:00",
+  "generated_utc": "2026-11-08T21:50:24+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -5612,9 +5612,9 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 191850,
+    "classified_requests": 191855,
     "iot_requests": 405,
-    "unclassified_requests": 5,
+    "unclassified_requests": 0,
     "routine_requests": 10375,
     "excluded_checks": 1422
   },
@@ -11759,11 +11759,35 @@
     },
     {
       "method": "GET",
+      "path": "/aws/config",
+      "status": 404,
+      "count": 4,
+      "first_seen": "2026-11-08T15:53:14+00:00",
+      "last_seen": "2026-11-08T15:54:38+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config/secrets.env",
+      "status": 404,
+      "count": 4,
+      "first_seen": "2026-11-08T15:53:14+00:00",
+      "last_seen": "2026-11-08T15:54:39+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/download?param=[REDACTED]",
       "status": 429,
       "count": 4,
       "first_seen": "2026-11-08T18:40:57+00:00",
       "last_seen": "2026-11-08T20:34:15+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/mta-sts.txt",
+      "status": 404,
+      "count": 4,
+      "first_seen": "2026-11-08T20:29:58+00:00",
+      "last_seen": "2026-11-08T20:30:00+00:00"
     },
     {
       "method": "GET",
@@ -11935,6 +11959,14 @@
     },
     {
       "method": "GET",
+      "path": "/config.swp",
+      "status": 404,
+      "count": 3,
+      "first_seen": "2026-11-02T08:21:45+00:00",
+      "last_seen": "2026-11-04T15:57:51+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/vendor/bin/.phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "status": 404,
       "count": 3,
@@ -11980,6 +12012,54 @@
       "count": 3,
       "first_seen": "2026-11-08T18:41:16+00:00",
       "last_seen": "2026-11-08T18:41:19+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/trust.txt",
+      "status": 404,
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:58+00:00",
+      "last_seen": "2026-11-08T20:29:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/trust.txt",
+      "status": 404,
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:58+00:00",
+      "last_seen": "2026-11-08T20:29:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/apple-app-site-association",
+      "status": 404,
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:59+00:00",
+      "last_seen": "2026-11-08T20:29:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/assetlinks.json",
+      "status": 404,
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:59+00:00",
+      "last_seen": "2026-11-08T20:29:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/gpc.json",
+      "status": 404,
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:59+00:00",
+      "last_seen": "2026-11-08T20:30:00+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/openid-configuration",
+      "status": 404,
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:59+00:00",
+      "last_seen": "2026-11-08T20:29:59+00:00"
     },
     {
       "method": "POST",
@@ -12543,6 +12623,14 @@
     },
     {
       "method": "GET",
+      "path": "/prod-api/basesetting/officeDocument/ingore/getHallSetting?param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T15:21:04+00:00",
+      "last_seen": "2026-11-08T15:21:04+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/vendor/bin/.phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "status": 429,
       "count": 2,
@@ -12574,12 +12662,100 @@
       "last_seen": "2026-11-08T20:04:04+00:00"
     },
     {
+      "method": "POST",
+      "path": "/cgi-bin/cstecgi.cgi",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/ctrlt/DeviceUpgrade_1",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/goform/setUsbUnload",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/soap.cgi?service=[REDACTED]",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/wanipcn.xml",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/ztp/cgi-bin/handler",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/administrator",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T20:22:01+00:00",
+      "last_seen": "2026-11-08T20:22:01+00:00"
+    },
+    {
       "method": "GET",
       "path": "/wp-admin",
       "status": 302,
       "count": 2,
       "first_seen": "2026-11-08T20:22:12+00:00",
       "last_seen": "2026-11-08T20:22:15+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-config.php.back",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T20:22:12+00:00",
+      "last_seen": "2026-11-08T20:22:15+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-config.php.bkp",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T20:22:12+00:00",
+      "last_seen": "2026-11-08T20:22:17+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-json/gravitysmtp/v1/tests/mock-data",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T20:22:13+00:00",
+      "last_seen": "2026-11-08T20:22:18+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/awsconfiguration.json",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-08T21:29:09+00:00",
+      "last_seen": "2026-11-08T21:29:11+00:00"
     },
     {
       "method": "GET",
@@ -13046,6 +13222,14 @@
       "last_seen": "2026-11-08T14:29:53+00:00"
     },
     {
+      "method": "POST",
+      "path": "/wp-json/pm/v2/projects/5/update",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-08T18:14:15+00:00",
+      "last_seen": "2026-11-08T18:14:15+00:00"
+    },
+    {
       "method": "GET",
       "path": "/phpunit/src/Util/PHP/eval-stdin.php",
       "status": 429,
@@ -13100,6 +13284,30 @@
       "count": 1,
       "first_seen": "2026-11-08T18:41:19+00:00",
       "last_seen": "2026-11-08T18:41:19+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/..env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-08T20:21:46+00:00",
+      "last_seen": "2026-11-08T20:21:46+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/awsconfiguration.json",
+      "status": 429,
+      "count": 1,
+      "first_seen": "2026-11-08T21:29:11+00:00",
+      "last_seen": "2026-11-08T21:29:11+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wordpress",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-08T21:29:15+00:00",
+      "last_seen": "2026-11-08T21:29:15+00:00"
     },
     {
       "method": "OTHER",
@@ -14078,30 +14286,6 @@
       "count": 90,
       "first_seen": "2026-10-29T23:36:34+00:00",
       "last_seen": "2026-11-08T19:45:06+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/FETCH_HEAD",
-      "count": 90,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-08T18:41:01+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/FETCH_HEAD",
-      "count": 90,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-08T18:41:01+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/FETCH_HEAD",
-      "count": 90,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-08T18:41:01+00:00"
     },
     {
       "rule_id": "nov05-wordpress-author-probe",
@@ -19712,6 +19896,30 @@
       "last_seen": "2026-11-07T23:52:48+00:00"
     },
     {
+      "rule_id": "nov09-secret-file-probe",
+      "method": "GET",
+      "path": "/aws/config",
+      "count": 4,
+      "first_seen": "2026-11-08T15:53:14+00:00",
+      "last_seen": "2026-11-08T15:54:38+00:00"
+    },
+    {
+      "rule_id": "nov09-secret-file-probe",
+      "method": "GET",
+      "path": "/config/secrets.env",
+      "count": 4,
+      "first_seen": "2026-11-08T15:53:14+00:00",
+      "last_seen": "2026-11-08T15:54:39+00:00"
+    },
+    {
+      "rule_id": "nov09-well-known-probe",
+      "method": "GET",
+      "path": "/.well-known/mta-sts.txt",
+      "count": 4,
+      "first_seen": "2026-11-08T20:29:58+00:00",
+      "last_seen": "2026-11-08T20:30:00+00:00"
+    },
+    {
       "rule_id": "nov02-php-cgi-cve-2024-4577",
       "method": "GET",
       "path": "/php-cgi/php-cgi.exe?param=[REDACTED]",
@@ -19856,6 +20064,14 @@
       "last_seen": "2026-11-04T15:57:52+00:00"
     },
     {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/config.swp",
+      "count": 3,
+      "first_seen": "2026-11-02T08:21:45+00:00",
+      "last_seen": "2026-11-04T15:57:51+00:00"
+    },
+    {
       "rule_id": "phpunit-code",
       "method": "GET",
       "path": "/vendor/bin/.phpunit/phpunit/src/Util/PHP/eval-stdin.php",
@@ -19878,6 +20094,62 @@
       "count": 3,
       "first_seen": "2026-11-05T10:35:01+00:00",
       "last_seen": "2026-11-05T10:35:01+00:00"
+    },
+    {
+      "rule_id": "nov09-well-known-probe",
+      "method": "GET",
+      "path": "/.well-known/trust.txt",
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:58+00:00",
+      "last_seen": "2026-11-08T20:29:58+00:00"
+    },
+    {
+      "rule_id": "nov09-well-known-probe",
+      "method": "GET",
+      "path": "/trust.txt",
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:58+00:00",
+      "last_seen": "2026-11-08T20:29:58+00:00"
+    },
+    {
+      "rule_id": "nov09-well-known-probe",
+      "method": "GET",
+      "path": "/.well-known/apple-app-site-association",
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:59+00:00",
+      "last_seen": "2026-11-08T20:29:59+00:00"
+    },
+    {
+      "rule_id": "nov09-well-known-probe",
+      "method": "GET",
+      "path": "/.well-known/assetlinks.json",
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:59+00:00",
+      "last_seen": "2026-11-08T20:29:59+00:00"
+    },
+    {
+      "rule_id": "nov09-well-known-probe",
+      "method": "GET",
+      "path": "/.well-known/gpc.json",
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:59+00:00",
+      "last_seen": "2026-11-08T20:30:00+00:00"
+    },
+    {
+      "rule_id": "nov09-well-known-probe",
+      "method": "GET",
+      "path": "/.well-known/openid-configuration",
+      "count": 3,
+      "first_seen": "2026-11-08T20:29:59+00:00",
+      "last_seen": "2026-11-08T20:29:59+00:00"
+    },
+    {
+      "rule_id": "nov03-cloud-secret-probe",
+      "method": "GET",
+      "path": "/awsconfiguration.json",
+      "count": 3,
+      "first_seen": "2026-11-08T21:29:09+00:00",
+      "last_seen": "2026-11-08T21:29:11+00:00"
     },
     {
       "rule_id": "telerik-rau-probe",
@@ -20408,6 +20680,14 @@
       "last_seen": "2026-11-06T14:16:09+00:00"
     },
     {
+      "rule_id": "nov09-office-setting-probe",
+      "method": "GET",
+      "path": "/prod-api/basesetting/officeDocument/ingore/getHallSetting?param=[REDACTED]&param=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-11-08T15:21:04+00:00",
+      "last_seen": "2026-11-08T15:21:04+00:00"
+    },
+    {
       "rule_id": "web-command",
       "method": "POST",
       "path": "/HNAP1/",
@@ -20416,12 +20696,92 @@
       "last_seen": "2026-11-08T20:04:04+00:00"
     },
     {
+      "rule_id": "web-command",
+      "method": "POST",
+      "path": "/cgi-bin/cstecgi.cgi",
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "rule_id": "web-command",
+      "method": "POST",
+      "path": "/ctrlt/DeviceUpgrade_1",
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "rule_id": "web-command",
+      "method": "POST",
+      "path": "/goform/setUsbUnload",
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "rule_id": "web-command",
+      "method": "POST",
+      "path": "/soap.cgi?service=[REDACTED]",
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "rule_id": "web-command",
+      "method": "POST",
+      "path": "/wanipcn.xml",
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "rule_id": "web-command",
+      "method": "POST",
+      "path": "/ztp/cgi-bin/handler",
+      "count": 2,
+      "first_seen": "2026-11-08T18:44:52+00:00",
+      "last_seen": "2026-11-08T20:04:04+00:00"
+    },
+    {
+      "rule_id": "nov09-login-probe",
+      "method": "GET",
+      "path": "/administrator",
+      "count": 2,
+      "first_seen": "2026-11-08T20:22:01+00:00",
+      "last_seen": "2026-11-08T20:22:01+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/wp-config.php.back",
+      "count": 2,
+      "first_seen": "2026-11-08T20:22:12+00:00",
+      "last_seen": "2026-11-08T20:22:15+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/wp-config.php.bkp",
+      "count": 2,
+      "first_seen": "2026-11-08T20:22:12+00:00",
+      "last_seen": "2026-11-08T20:22:17+00:00"
+    },
+    {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-admin",
       "count": 2,
       "first_seen": "2026-11-08T20:22:12+00:00",
       "last_seen": "2026-11-08T20:22:15+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/gravitysmtp/v1/tests/mock-data",
+      "count": 2,
+      "first_seen": "2026-11-08T20:22:13+00:00",
+      "last_seen": "2026-11-08T20:22:18+00:00"
     },
     {
       "rule_id": "cisco-wsma-cli",
@@ -20582,6 +20942,30 @@
       "count": 1,
       "first_seen": "2026-11-08T14:29:53+00:00",
       "last_seen": "2026-11-08T14:29:53+00:00"
+    },
+    {
+      "rule_id": "nov09-projectmanager-command",
+      "method": "POST",
+      "path": "/wp-json/pm/v2/projects/5/update",
+      "count": 1,
+      "first_seen": "2026-11-08T18:14:15+00:00",
+      "last_seen": "2026-11-08T18:14:15+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/..env",
+      "count": 1,
+      "first_seen": "2026-11-08T20:21:46+00:00",
+      "last_seen": "2026-11-08T20:21:46+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wordpress",
+      "count": 1,
+      "first_seen": "2026-11-08T21:29:15+00:00",
+      "last_seen": "2026-11-08T21:29:15+00:00"
     }
   ],
   "outbound": [
@@ -20648,6 +21032,6 @@
     "invalid_events": 0,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 56
+    "pending_indicators": 0
   }
 }
