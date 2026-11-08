@@ -1,6 +1,6 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-08T14:47:10+00:00",
+  "generated_utc": "2026-11-08T15:00:10+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -5563,10 +5563,10 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 188230,
+    "classified_requests": 188233,
     "iot_requests": 376,
-    "unclassified_requests": 2,
-    "routine_requests": 9911,
+    "unclassified_requests": 0,
+    "routine_requests": 9910,
     "excluded_checks": 1361
   },
   "counts": {
@@ -5640,6 +5640,14 @@
   ],
   "http_requests": [
     {
+      "method": "GET",
+      "path": "/",
+      "status": 200,
+      "count": 3910,
+      "first_seen": "2026-10-28T12:03:41+00:00",
+      "last_seen": "2026-11-08T14:18:18+00:00"
+    },
+    {
       "method": "POST",
       "path": "/",
       "status": 405,
@@ -5665,11 +5673,35 @@
     },
     {
       "method": "GET",
+      "path": "/",
+      "status": 400,
+      "count": 237,
+      "first_seen": "2026-10-28T16:46:40+00:00",
+      "last_seen": "2026-11-08T13:48:58+00:00"
+    },
+    {
+      "method": "CONNECT",
+      "path": "/",
+      "status": 405,
+      "count": 224,
+      "first_seen": "2026-10-28T19:40:48+00:00",
+      "last_seen": "2026-11-08T13:19:55+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/?param=[REDACTED]",
       "status": 200,
       "count": 221,
       "first_seen": "2026-10-29T15:45:11+00:00",
       "last_seen": "2026-11-06T02:26:05+00:00"
+    },
+    {
+      "method": "HEAD",
+      "path": "/",
+      "status": 200,
+      "count": 160,
+      "first_seen": "2026-10-29T04:41:01+00:00",
+      "last_seen": "2026-11-07T15:46:19+00:00"
     },
     {
       "method": "GET",
@@ -5678,6 +5710,14 @@
       "count": 115,
       "first_seen": "2026-10-29T07:39:32+00:00",
       "last_seen": "2026-11-06T17:05:30+00:00"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/",
+      "status": 204,
+      "count": 104,
+      "first_seen": "2026-10-29T08:27:37+00:00",
+      "last_seen": "2026-11-08T11:33:41+00:00"
     },
     {
       "method": "GET",
@@ -5792,6 +5832,14 @@
       "last_seen": "2026-11-03T17:22:15+00:00"
     },
     {
+      "method": "OTHER",
+      "path": "/",
+      "status": 501,
+      "count": 29,
+      "first_seen": "2026-10-29T08:27:38+00:00",
+      "last_seen": "2026-11-08T11:33:41+00:00"
+    },
+    {
       "method": "GET",
       "path": "/owncloud/apps/graphapi/vendor/microsoft/microsoft-graph/tests/GetPhpInfo.php",
       "status": 404,
@@ -5806,6 +5854,14 @@
       "count": 28,
       "first_seen": "2026-10-30T14:15:05+00:00",
       "last_seen": "2026-11-07T15:48:23+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 429,
+      "count": 23,
+      "first_seen": "2026-10-29T16:46:24+00:00",
+      "last_seen": "2026-11-06T12:06:04+00:00"
     },
     {
       "method": "GET",
@@ -6016,6 +6072,14 @@
       "last_seen": "2026-11-06T23:30:07+00:00"
     },
     {
+      "method": "HEAD",
+      "path": "/",
+      "status": 400,
+      "count": 15,
+      "first_seen": "2026-10-30T14:24:25+00:00",
+      "last_seen": "2026-11-06T00:35:45+00:00"
+    },
+    {
       "method": "GET",
       "path": "/owa/",
       "status": 404,
@@ -6062,6 +6126,14 @@
       "count": 14,
       "first_seen": "2026-11-06T12:08:42+00:00",
       "last_seen": "2026-11-06T16:07:08+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/app",
+      "status": 404,
+      "count": 13,
+      "first_seen": "2026-10-29T22:08:38+00:00",
+      "last_seen": "2026-11-06T19:55:33+00:00"
     },
     {
       "method": "GET",
@@ -8609,118 +8681,6 @@
     },
     {
       "method": "GET",
-      "path": "/env.js.default",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.dev",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.dist",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.example",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.json",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.local",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.map",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.old",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.orig",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.prod",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.sample",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.save",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js.txt",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/env.js~",
-      "status": 404,
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "status": 404,
       "count": 4,
@@ -8758,6 +8718,14 @@
       "count": 4,
       "first_seen": "2026-10-31T14:57:52+00:00",
       "last_seen": "2026-11-01T11:19:30+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 499,
+      "count": 4,
+      "first_seen": "2026-11-05T04:26:29+00:00",
+      "last_seen": "2026-11-06T11:38:48+00:00"
     },
     {
       "method": "POST",
@@ -8798,6 +8766,14 @@
       "count": 3,
       "first_seen": "2026-10-31T02:44:49+00:00",
       "last_seen": "2026-11-06T06:43:32+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api",
+      "status": 404,
+      "count": 3,
+      "first_seen": "2026-11-01T13:32:17+00:00",
+      "last_seen": "2026-11-07T10:21:45+00:00"
     },
     {
       "method": "GET",
@@ -8862,6 +8838,14 @@
       "count": 2,
       "first_seen": "2026-10-31T14:57:52+00:00",
       "last_seen": "2026-10-31T14:57:52+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/app",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-10-31T14:57:52+00:00",
+      "last_seen": "2026-11-01T11:19:30+00:00"
     },
     {
       "method": "POST",
@@ -9334,6 +9318,14 @@
       "count": 2,
       "first_seen": "2026-11-01T13:46:46+00:00",
       "last_seen": "2026-11-01T13:46:46+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 503,
+      "count": 2,
+      "first_seen": "2026-11-02T03:28:31+00:00",
+      "last_seen": "2026-11-06T15:48:11+00:00"
     },
     {
       "method": "POST",
@@ -11414,6 +11406,14 @@
       "count": 1,
       "first_seen": "2026-11-07T05:04:59+00:00",
       "last_seen": "2026-11-07T05:04:59+00:00"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/",
+      "status": 400,
+      "count": 1,
+      "first_seen": "2026-11-07T05:16:29+00:00",
+      "last_seen": "2026-11-07T05:16:29+00:00"
     },
     {
       "method": "GET",
@@ -13922,6 +13922,46 @@
       "last_seen": "2026-11-08T10:04:38+00:00"
     },
     {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/.env.dist",
+      "count": 113,
+      "first_seen": "2026-10-29T22:08:19+00:00",
+      "last_seen": "2026-11-07T10:07:07+00:00"
+    },
+    {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/.env.dist",
+      "count": 113,
+      "first_seen": "2026-10-29T22:08:19+00:00",
+      "last_seen": "2026-11-07T10:07:07+00:00"
+    },
+    {
+      "rule_id": "web-exposure",
+      "method": "GET",
+      "path": "/.env.dist",
+      "count": 113,
+      "first_seen": "2026-10-29T22:08:19+00:00",
+      "last_seen": "2026-11-07T10:07:07+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/config.yml",
+      "count": 112,
+      "first_seen": "2026-10-29T22:08:21+00:00",
+      "last_seen": "2026-11-07T18:46:09+00:00"
+    },
+    {
+      "rule_id": "oct30-debug",
+      "method": "GET",
+      "path": "/test.php",
+      "count": 111,
+      "first_seen": "2026-10-29T16:46:25+00:00",
+      "last_seen": "2026-11-07T18:46:10+00:00"
+    },
+    {
       "rule_id": "review-react2shell-hex-evaluation",
       "method": "POST",
       "path": "/",
@@ -14232,6 +14272,14 @@
       "count": 15,
       "first_seen": "2026-10-29T18:13:58+00:00",
       "last_seen": "2026-11-06T23:30:07+00:00"
+    },
+    {
+      "rule_id": "oct30-discovery",
+      "method": "GET",
+      "path": "/app",
+      "count": 15,
+      "first_seen": "2026-10-29T22:08:38+00:00",
+      "last_seen": "2026-11-06T19:55:33+00:00"
     },
     {
       "rule_id": "nov03-product-fingerprint",
@@ -16570,118 +16618,6 @@
       "last_seen": "2026-11-07T18:46:12+00:00"
     },
     {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.default",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.dev",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.dist",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.example",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.json",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.local",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.map",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.old",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.orig",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.prod",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.sample",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.save",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js.txt",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/env.js~",
-      "count": 5,
-      "first_seen": "2026-11-05T18:42:23+00:00",
-      "last_seen": "2026-11-07T18:46:12+00:00"
-    },
-    {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.default.1",
@@ -16976,6 +16912,14 @@
       "count": 4,
       "first_seen": "2026-11-07T02:25:20+00:00",
       "last_seen": "2026-11-07T23:52:48+00:00"
+    },
+    {
+      "rule_id": "nov01-service-path-probe",
+      "method": "GET",
+      "path": "/api",
+      "count": 3,
+      "first_seen": "2026-11-01T13:32:17+00:00",
+      "last_seen": "2026-11-07T10:21:45+00:00"
     },
     {
       "rule_id": "nov02-php-cgi-cve-2024-4577",
@@ -18802,12 +18746,28 @@
       "last_seen": "2026-11-02T03:59:22+00:00"
     },
     {
+      "rule_id": "nov03-unidentified-long",
+      "method": "GET",
+      "path": "/[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-11-02T17:36:50+00:00",
+      "last_seen": "2026-11-02T17:36:50+00:00"
+    },
+    {
       "rule_id": "nov07-issabel-command",
       "method": "GET",
       "path": "/pbxapi/manager/originate?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "count": 1,
       "first_seen": "2026-11-05T11:24:27+00:00",
       "last_seen": "2026-11-05T11:24:27+00:00"
+    },
+    {
+      "rule_id": "nov03-unidentified-path",
+      "method": "GET",
+      "path": "/[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-11-06T07:08:41+00:00",
+      "last_seen": "2026-11-06T07:08:41+00:00"
     },
     {
       "rule_id": "web-nginx-alias",
@@ -20904,6 +20864,46 @@
       "count": 1,
       "first_seen": "2026-11-08T03:14:33+00:00",
       "last_seen": "2026-11-08T03:14:33+00:00"
+    },
+    {
+      "rule_id": "nov08-unavailable-post",
+      "method": "POST",
+      "path": "/",
+      "count": 1,
+      "first_seen": "2026-11-08T14:29:48+00:00",
+      "last_seen": "2026-11-08T14:29:48+00:00"
+    },
+    {
+      "rule_id": "nov08-unavailable-post",
+      "method": "POST",
+      "path": "/_next",
+      "count": 1,
+      "first_seen": "2026-11-08T14:29:50+00:00",
+      "last_seen": "2026-11-08T14:29:50+00:00"
+    },
+    {
+      "rule_id": "nov08-unavailable-post",
+      "method": "POST",
+      "path": "/api",
+      "count": 1,
+      "first_seen": "2026-11-08T14:29:52+00:00",
+      "last_seen": "2026-11-08T14:29:52+00:00"
+    },
+    {
+      "rule_id": "nov08-unavailable-post",
+      "method": "POST",
+      "path": "/_next/server",
+      "count": 1,
+      "first_seen": "2026-11-08T14:29:53+00:00",
+      "last_seen": "2026-11-08T14:29:53+00:00"
+    },
+    {
+      "rule_id": "nov08-unavailable-post",
+      "method": "POST",
+      "path": "/app",
+      "count": 1,
+      "first_seen": "2026-11-08T14:29:53+00:00",
+      "last_seen": "2026-11-08T14:29:53+00:00"
     }
   ],
   "outbound": [
