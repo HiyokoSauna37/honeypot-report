@@ -1,6 +1,6 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-12T21:46:47+00:00",
+  "generated_utc": "2026-11-12T22:46:48+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -5918,18 +5918,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 280298,
-    "iot_requests": 610,
-    "unclassified_requests": 1051,
-    "routine_requests": 13950,
+    "classified_requests": 280305,
+    "iot_requests": 612,
+    "unclassified_requests": 1052,
+    "routine_requests": 13967,
     "excluded_checks": 1427
   },
   "counts": {
     "commands": 391615,
-    "login_attempts": 559862,
-    "login_successes": 43826,
-    "ssh_connections": 589278,
-    "web_requests": 295909
+    "login_attempts": 560126,
+    "login_successes": 43841,
+    "ssh_connections": 589699,
+    "web_requests": 295936
   },
   "daily": [
     {
@@ -6014,8 +6014,8 @@
     },
     {
       "date": "2026-11-13",
-      "ssh_connections": 2255,
-      "web_requests": 691
+      "ssh_connections": 2676,
+      "web_requests": 718
     }
   ],
   "http_requests": [
@@ -6063,9 +6063,9 @@
       "method": "GET",
       "path": "/",
       "status": 400,
-      "count": 371,
+      "count": 372,
       "first_seen": "2026-10-28T16:46:40+00:00",
-      "last_seen": "2026-11-12T20:33:26+00:00"
+      "last_seen": "2026-11-12T21:53:16+00:00"
     },
     {
       "method": "CONNECT",
@@ -6119,9 +6119,9 @@
       "method": "GET",
       "path": "/",
       "status": 502,
-      "count": 129,
+      "count": 138,
       "first_seen": "2026-11-12T13:28:48+00:00",
-      "last_seen": "2026-11-12T21:28:32+00:00"
+      "last_seen": "2026-11-12T22:23:02+00:00"
     },
     {
       "method": "POST",
@@ -6333,6 +6333,14 @@
     },
     {
       "method": "GET",
+      "path": "/SDK/webLanguage",
+      "status": 502,
+      "count": 15,
+      "first_seen": "2026-11-12T13:43:55+00:00",
+      "last_seen": "2026-11-12T22:18:48+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "status": 404,
       "count": 14,
@@ -6370,14 +6378,6 @@
       "count": 13,
       "first_seen": "2026-11-02T04:00:58+00:00",
       "last_seen": "2026-11-12T12:59:54+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/SDK/webLanguage",
-      "status": 502,
-      "count": 13,
-      "first_seen": "2026-11-12T13:43:55+00:00",
-      "last_seen": "2026-11-12T21:15:06+00:00"
     },
     {
       "method": "POST",
@@ -8876,14 +8876,6 @@
       "last_seen": "2026-11-09T16:06:02+00:00"
     },
     {
-      "method": "GET",
-      "path": "/config.txt",
-      "status": 429,
-      "count": 3,
-      "first_seen": "2026-11-09T16:06:01+00:00",
-      "last_seen": "2026-11-09T16:06:02+00:00"
-    },
-    {
       "method": "POST",
       "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
       "status": 429,
@@ -10073,9 +10065,9 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 1661,
+      "count": 1663,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-12T21:11:21+00:00"
+      "last_seen": "2026-11-12T22:19:19+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -10217,9 +10209,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 432,
+      "count": 434,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-12T21:15:06+00:00"
+      "last_seen": "2026-11-12T22:18:48+00:00"
     },
     {
       "rule_id": "web-lfi",
@@ -14694,6 +14686,14 @@
       "last_seen": "2026-11-12T21:28:21+00:00"
     },
     {
+      "rule_id": "traffic-legacy-script",
+      "method": "GET",
+      "path": "/hachk.php",
+      "count": 35,
+      "first_seen": "2026-10-29T01:20:42+00:00",
+      "last_seen": "2026-11-12T22:01:13+00:00"
+    },
+    {
       "rule_id": "traffic-download-listing",
       "method": "GET",
       "path": "/downloads/",
@@ -17246,14 +17246,6 @@
       "last_seen": "2026-11-09T16:06:02+00:00"
     },
     {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/config.txt",
-      "count": 3,
-      "first_seen": "2026-11-09T16:06:01+00:00",
-      "last_seen": "2026-11-09T16:06:02+00:00"
-    },
-    {
       "rule_id": "nov10-debug-route-probe",
       "method": "GET",
       "path": "/admin/heapdump",
@@ -18056,12 +18048,12 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 205213,
+    "web_bodies_skipped": 205214,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 384
+    "pending_indicators": 385
   }
 }
