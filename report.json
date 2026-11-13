@@ -1,6 +1,6 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-13T11:47:53+00:00",
+  "generated_utc": "2026-11-13T12:47:40+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -73,9 +73,9 @@
   },
   "notable_activity": {
     "react2shell": {
-      "requests": 792,
+      "requests": 793,
       "first_seen": "2026-10-29T15:52:36+00:00",
-      "last_seen": "2026-11-13T11:11:18+00:00",
+      "last_seen": "2026-11-13T12:07:18+00:00",
       "responses": [
         {
           "status": 200,
@@ -95,12 +95,12 @@
         },
         {
           "status": 502,
-          "count": 27
+          "count": 28
         }
       ],
       "unknown_responses": 0,
       "signals": {
-        "command": 792,
+        "command": 793,
         "download": 1,
         "cron_removal": 1
       },
@@ -4953,9 +4953,9 @@
               "value": "$@0"
             }
           ],
-          "count": 24,
+          "count": 25,
           "first_seen": "2026-11-12T13:31:26+00:00",
-          "last_seen": "2026-11-13T11:11:18+00:00"
+          "last_seen": "2026-11-13T12:07:18+00:00"
         },
         {
           "method": "POST",
@@ -5959,18 +5959,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 281443,
-    "iot_requests": 636,
+    "classified_requests": 281455,
+    "iot_requests": 639,
     "unclassified_requests": 1337,
-    "routine_requests": 14251,
+    "routine_requests": 14254,
     "excluded_checks": 1427
   },
   "counts": {
-    "commands": 392371,
-    "login_attempts": 566404,
-    "login_successes": 43991,
-    "ssh_connections": 597309,
-    "web_requests": 297667
+    "commands": 392536,
+    "login_attempts": 568119,
+    "login_successes": 44019,
+    "ssh_connections": 599369,
+    "web_requests": 297685
   },
   "daily": [
     {
@@ -6055,8 +6055,8 @@
     },
     {
       "date": "2026-11-13",
-      "ssh_connections": 10286,
-      "web_requests": 2449
+      "ssh_connections": 12346,
+      "web_requests": 2467
     }
   ],
   "http_requests": [
@@ -6120,9 +6120,9 @@
       "method": "GET",
       "path": "/",
       "status": 502,
-      "count": 312,
+      "count": 314,
       "first_seen": "2026-11-12T13:28:48+00:00",
-      "last_seen": "2026-11-13T11:29:12+00:00"
+      "last_seen": "2026-11-13T11:54:00+00:00"
     },
     {
       "method": "OPTIONS",
@@ -6253,6 +6253,14 @@
       "last_seen": "2026-11-12T11:59:57+00:00"
     },
     {
+      "method": "GET",
+      "path": "/SDK/webLanguage",
+      "status": 502,
+      "count": 37,
+      "first_seen": "2026-11-12T13:43:55+00:00",
+      "last_seen": "2026-11-13T12:18:16+00:00"
+    },
+    {
       "method": "POST",
       "path": "/cli",
       "status": 404,
@@ -6261,20 +6269,12 @@
       "last_seen": "2026-11-09T19:27:29+00:00"
     },
     {
-      "method": "GET",
-      "path": "/SDK/webLanguage",
-      "status": 502,
-      "count": 34,
-      "first_seen": "2026-11-12T13:43:55+00:00",
-      "last_seen": "2026-11-13T10:53:19+00:00"
-    },
-    {
       "method": "POST",
       "path": "/",
       "status": 502,
-      "count": 31,
+      "count": 32,
       "first_seen": "2026-11-12T13:31:26+00:00",
-      "last_seen": "2026-11-13T11:11:18+00:00"
+      "last_seen": "2026-11-13T12:07:18+00:00"
     },
     {
       "method": "GET",
@@ -9082,9 +9082,9 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 1720,
+      "count": 1721,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-13T11:12:11+00:00"
+      "last_seen": "2026-11-13T11:42:06+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -9138,17 +9138,17 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/HEAD",
-      "count": 578,
+      "count": 582,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-13T11:17:58+00:00"
+      "last_seen": "2026-11-13T12:02:38+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/HEAD",
-      "count": 578,
+      "count": 582,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-13T11:17:58+00:00"
+      "last_seen": "2026-11-13T12:02:38+00:00"
     },
     {
       "rule_id": "traffic-json-config",
@@ -9218,17 +9218,17 @@
       "rule_id": "traffic-empty-target",
       "method": "GET",
       "path": "",
-      "count": 465,
+      "count": 466,
       "first_seen": "2026-10-31T02:44:28+00:00",
-      "last_seen": "2026-11-13T06:45:36+00:00"
+      "last_seen": "2026-11-13T11:44:13+00:00"
     },
     {
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 453,
+      "count": 456,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-13T10:53:19+00:00"
+      "last_seen": "2026-11-13T12:18:16+00:00"
     },
     {
       "rule_id": "web-lfi",
@@ -9626,9 +9626,9 @@
       "rule_id": "review-react2shell-reverse-shell",
       "method": "POST",
       "path": "/",
-      "count": 224,
+      "count": 225,
       "first_seen": "2026-10-30T06:27:45+00:00",
-      "last_seen": "2026-11-13T11:11:18+00:00"
+      "last_seen": "2026-11-13T12:07:18+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -12519,6 +12519,14 @@
       "last_seen": "2026-11-13T00:28:31+00:00"
     },
     {
+      "rule_id": "traffic-pki-update",
+      "method": "GET",
+      "path": "/.well-known/pki-validation/update",
+      "count": 48,
+      "first_seen": "2026-10-29T10:12:54+00:00",
+      "last_seen": "2026-11-13T11:39:24+00:00"
+    },
+    {
       "rule_id": "traffic-security-contact",
       "method": "GET",
       "path": "/security.txt",
@@ -12581,14 +12589,6 @@
       "count": 47,
       "first_seen": "2026-10-29T03:11:18+00:00",
       "last_seen": "2026-11-13T08:18:24+00:00"
-    },
-    {
-      "rule_id": "traffic-pki-update",
-      "method": "GET",
-      "path": "/.well-known/pki-validation/update",
-      "count": 47,
-      "first_seen": "2026-10-29T10:12:54+00:00",
-      "last_seen": "2026-11-13T10:38:49+00:00"
     },
     {
       "rule_id": "oct30-build",
@@ -17065,7 +17065,7 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 205241,
+    "web_bodies_skipped": 205242,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
