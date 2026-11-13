@@ -1,6 +1,6 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-13T14:47:47+00:00",
+  "generated_utc": "2026-11-13T15:47:16+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -73,9 +73,9 @@
   },
   "notable_activity": {
     "react2shell": {
-      "requests": 795,
+      "requests": 796,
       "first_seen": "2026-10-29T15:52:36+00:00",
-      "last_seen": "2026-11-13T14:17:08+00:00",
+      "last_seen": "2026-11-13T14:58:31+00:00",
       "responses": [
         {
           "status": 200,
@@ -95,12 +95,12 @@
         },
         {
           "status": 502,
-          "count": 30
+          "count": 31
         }
       ],
       "unknown_responses": 0,
       "signals": {
-        "command": 795,
+        "command": 796,
         "download": 1,
         "cron_removal": 1
       },
@@ -4953,9 +4953,9 @@
               "value": "$@0"
             }
           ],
-          "count": 27,
+          "count": 28,
           "first_seen": "2026-11-12T13:31:26+00:00",
-          "last_seen": "2026-11-13T14:17:08+00:00"
+          "last_seen": "2026-11-13T14:58:31+00:00"
         },
         {
           "method": "POST",
@@ -5959,18 +5959,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 281486,
-    "iot_requests": 641,
+    "classified_requests": 281503,
+    "iot_requests": 644,
     "unclassified_requests": 1342,
-    "routine_requests": 14303,
+    "routine_requests": 14330,
     "excluded_checks": 1427
   },
   "counts": {
     "commands": 392580,
-    "login_attempts": 569261,
-    "login_successes": 44041,
-    "ssh_connections": 600862,
-    "web_requests": 297772
+    "login_attempts": 569498,
+    "login_successes": 44047,
+    "ssh_connections": 601150,
+    "web_requests": 297819
   },
   "daily": [
     {
@@ -6055,8 +6055,13 @@
     },
     {
       "date": "2026-11-13",
-      "ssh_connections": 13839,
-      "web_requests": 2554
+      "ssh_connections": 14005,
+      "web_requests": 2584
+    },
+    {
+      "date": "2026-11-14",
+      "ssh_connections": 122,
+      "web_requests": 17
     }
   ],
   "http_requests": [
@@ -6104,9 +6109,17 @@
       "method": "GET",
       "path": "/",
       "status": 400,
-      "count": 399,
+      "count": 403,
       "first_seen": "2026-10-28T16:46:40+00:00",
-      "last_seen": "2026-11-13T14:28:18+00:00"
+      "last_seen": "2026-11-13T15:00:10+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 502,
+      "count": 357,
+      "first_seen": "2026-11-12T13:28:48+00:00",
+      "last_seen": "2026-11-13T15:29:02+00:00"
     },
     {
       "method": "CONNECT",
@@ -6115,14 +6128,6 @@
       "count": 347,
       "first_seen": "2026-10-28T19:40:48+00:00",
       "last_seen": "2026-11-13T13:37:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/",
-      "status": 502,
-      "count": 341,
-      "first_seen": "2026-11-12T13:28:48+00:00",
-      "last_seen": "2026-11-13T14:28:17+00:00"
     },
     {
       "method": "OPTIONS",
@@ -6246,6 +6251,14 @@
     },
     {
       "method": "GET",
+      "path": "/SDK/webLanguage",
+      "status": 502,
+      "count": 41,
+      "first_seen": "2026-11-12T13:43:55+00:00",
+      "last_seen": "2026-11-13T14:40:36+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/.ssh/id_ed25519",
       "status": 404,
       "count": 39,
@@ -6253,20 +6266,12 @@
       "last_seen": "2026-11-12T11:59:57+00:00"
     },
     {
-      "method": "GET",
-      "path": "/SDK/webLanguage",
-      "status": 502,
-      "count": 39,
-      "first_seen": "2026-11-12T13:43:55+00:00",
-      "last_seen": "2026-11-13T13:49:56+00:00"
-    },
-    {
       "method": "POST",
       "path": "/",
       "status": 502,
-      "count": 35,
+      "count": 36,
       "first_seen": "2026-11-12T13:31:26+00:00",
-      "last_seen": "2026-11-13T14:21:34+00:00"
+      "last_seen": "2026-11-13T14:58:31+00:00"
     },
     {
       "method": "POST",
@@ -7773,20 +7778,20 @@
       "last_seen": "2026-11-09T16:06:02+00:00"
     },
     {
-      "method": "GET",
-      "path": "/ssl/private.key",
-      "status": 429,
-      "count": 4,
-      "first_seen": "2026-11-09T16:06:00+00:00",
-      "last_seen": "2026-11-09T16:06:02+00:00"
-    },
-    {
       "method": "POST",
       "path": "/vendor/phpunit/src/Util/PHP/eval-stdin.php",
       "status": 404,
       "count": 4,
       "first_seen": "2026-11-09T17:11:45+00:00",
       "last_seen": "2026-11-10T21:03:48+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "status": 502,
+      "count": 4,
+      "first_seen": "2026-11-13T15:06:40+00:00",
+      "last_seen": "2026-11-13T15:06:49+00:00"
     },
     {
       "method": "GET",
@@ -9042,9 +9047,9 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 1735,
+      "count": 1739,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-13T14:17:06+00:00"
+      "last_seen": "2026-11-13T14:57:25+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -9186,9 +9191,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 458,
+      "count": 460,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-13T13:49:56+00:00"
+      "last_seen": "2026-11-13T14:40:36+00:00"
     },
     {
       "rule_id": "web-lfi",
@@ -9210,9 +9215,9 @@
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/phpinfo.php",
-      "count": 355,
+      "count": 356,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-13T10:56:56+00:00"
+      "last_seen": "2026-11-13T15:19:25+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -9559,6 +9564,14 @@
       "last_seen": "2026-11-13T08:58:06+00:00"
     },
     {
+      "rule_id": "review-react2shell-reverse-shell",
+      "method": "POST",
+      "path": "/",
+      "count": 228,
+      "first_seen": "2026-10-30T06:27:45+00:00",
+      "last_seen": "2026-11-13T14:58:31+00:00"
+    },
+    {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/packed-refs",
@@ -9581,14 +9594,6 @@
       "count": 227,
       "first_seen": "2026-10-29T22:09:06+00:00",
       "last_seen": "2026-11-12T11:55:02+00:00"
-    },
-    {
-      "rule_id": "review-react2shell-reverse-shell",
-      "method": "POST",
-      "path": "/",
-      "count": 227,
-      "first_seen": "2026-10-30T06:27:45+00:00",
-      "last_seen": "2026-11-13T14:17:08+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -12303,6 +12308,14 @@
       "last_seen": "2026-11-12T11:55:02+00:00"
     },
     {
+      "rule_id": "geoserver-probe",
+      "method": "GET",
+      "path": "/geoserver/web/",
+      "count": 51,
+      "first_seen": "2026-10-29T05:12:06+00:00",
+      "last_seen": "2026-11-13T14:39:22+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/config/database.yml",
@@ -12429,14 +12442,6 @@
       "count": 50,
       "first_seen": "2026-11-04T09:27:36+00:00",
       "last_seen": "2026-11-13T03:18:16+00:00"
-    },
-    {
-      "rule_id": "geoserver-probe",
-      "method": "GET",
-      "path": "/geoserver/web/",
-      "count": 49,
-      "first_seen": "2026-10-29T05:12:06+00:00",
-      "last_seen": "2026-11-13T09:00:01+00:00"
     },
     {
       "rule_id": "oct30-site-navigation",
@@ -14943,6 +14948,14 @@
       "last_seen": "2026-11-11T05:34:03+00:00"
     },
     {
+      "rule_id": "oct30-service-config",
+      "method": "GET",
+      "path": "/google-key.json",
+      "count": 29,
+      "first_seen": "2026-10-30T11:02:19+00:00",
+      "last_seen": "2026-11-11T05:34:04+00:00"
+    },
+    {
       "rule_id": "nov08-doh-query",
       "method": "GET",
       "path": "/dns-query?param=[REDACTED]",
@@ -15031,6 +15044,14 @@
       "last_seen": "2026-11-12T13:44:28+00:00"
     },
     {
+      "rule_id": "phpunit-code",
+      "method": "POST",
+      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 14,
+      "first_seen": "2026-11-04T19:28:10+00:00",
+      "last_seen": "2026-11-13T15:06:49+00:00"
+    },
+    {
       "rule_id": "nov07-config-file",
       "method": "GET",
       "path": "/config.ts",
@@ -15061,14 +15082,6 @@
       "count": 11,
       "first_seen": "2026-11-09T17:10:46+00:00",
       "last_seen": "2026-11-10T21:03:05+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "POST",
-      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 10,
-      "first_seen": "2026-11-04T19:28:10+00:00",
-      "last_seen": "2026-11-10T14:15:38+00:00"
     },
     {
       "rule_id": "nov10-debug-route-probe",
@@ -16159,14 +16172,6 @@
       "last_seen": "2026-11-09T16:06:02+00:00"
     },
     {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/ssl/private.key",
-      "count": 4,
-      "first_seen": "2026-11-09T16:06:00+00:00",
-      "last_seen": "2026-11-09T16:06:02+00:00"
-    },
-    {
       "rule_id": "nov10-debug-route-probe",
       "method": "GET",
       "path": "/_actuator/env",
@@ -17016,8 +17021,8 @@
     }
   ],
   "coverage": {
-    "web_bodies_read": 99,
-    "web_bodies_skipped": 205246,
+    "web_bodies_read": 100,
+    "web_bodies_skipped": 205251,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
