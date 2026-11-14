@@ -1,6 +1,6 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-14T10:50:53+00:00",
+  "generated_utc": "2026-11-14T11:49:35+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -73,9 +73,9 @@
   },
   "notable_activity": {
     "react2shell": {
-      "requests": 904,
+      "requests": 905,
       "first_seen": "2026-10-29T15:52:36+00:00",
-      "last_seen": "2026-11-14T09:43:50+00:00",
+      "last_seen": "2026-11-14T10:46:30+00:00",
       "responses": [
         {
           "status": 200,
@@ -95,12 +95,12 @@
         },
         {
           "status": 502,
-          "count": 68
+          "count": 69
         }
       ],
       "unknown_responses": 0,
       "signals": {
-        "command": 904,
+        "command": 905,
         "download": 1,
         "cron_removal": 1
       },
@@ -5665,9 +5665,9 @@
               "value": "$@0"
             }
           ],
-          "count": 49,
+          "count": 50,
           "first_seen": "2026-11-12T13:31:26+00:00",
-          "last_seen": "2026-11-14T09:43:50+00:00"
+          "last_seen": "2026-11-14T10:46:30+00:00"
         },
         {
           "method": "POST",
@@ -6652,16 +6652,16 @@
       "unlisted_requests": 0
     },
     "ssh_environment": {
-      "sessions": 463,
+      "sessions": 465,
       "upload_sessions": 335,
       "first_seen": "2026-10-28T15:30:11+00:00",
-      "last_seen": "2026-11-14T10:27:27+00:00",
+      "last_seen": "2026-11-14T11:00:25+00:00",
       "signals": {
-        "arithmetic": 463,
-        "pid": 463,
-        "function": 463,
-        "positional": 463,
-        "control": 463
+        "arithmetic": 465,
+        "pid": 465,
+        "function": 465,
+        "positional": 465,
+        "control": 465
       },
       "limited": false
     }
@@ -6671,18 +6671,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 286620,
-    "iot_requests": 683,
+    "classified_requests": 286627,
+    "iot_requests": 685,
     "unclassified_requests": 19,
-    "routine_requests": 14598,
+    "routine_requests": 14617,
     "excluded_checks": 1427
   },
   "counts": {
-    "commands": 394377,
-    "login_attempts": 577945,
-    "login_successes": 44259,
-    "ssh_connections": 610558,
-    "web_requests": 301920
+    "commands": 394488,
+    "login_attempts": 578211,
+    "login_successes": 44271,
+    "ssh_connections": 610830,
+    "web_requests": 301948
   },
   "daily": [
     {
@@ -6772,8 +6772,8 @@
     },
     {
       "date": "2026-11-14",
-      "ssh_connections": 9530,
-      "web_requests": 4118
+      "ssh_connections": 9802,
+      "web_requests": 4146
     }
   ],
   "http_requests": [
@@ -6805,9 +6805,17 @@
       "method": "GET",
       "path": "/",
       "status": 502,
-      "count": 635,
+      "count": 645,
       "first_seen": "2026-11-12T13:28:48+00:00",
-      "last_seen": "2026-11-14T10:30:22+00:00"
+      "last_seen": "2026-11-14T11:24:34+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 400,
+      "count": 421,
+      "first_seen": "2026-10-28T16:46:40+00:00",
+      "last_seen": "2026-11-14T11:27:43+00:00"
     },
     {
       "method": "GET",
@@ -6818,20 +6826,12 @@
       "last_seen": "2026-11-12T12:57:54+00:00"
     },
     {
-      "method": "GET",
-      "path": "/",
-      "status": 400,
-      "count": 419,
-      "first_seen": "2026-10-28T16:46:40+00:00",
-      "last_seen": "2026-11-14T06:58:10+00:00"
-    },
-    {
       "method": "CONNECT",
       "path": "/",
       "status": 405,
-      "count": 367,
+      "count": 371,
       "first_seen": "2026-10-28T19:40:48+00:00",
-      "last_seen": "2026-11-14T09:28:03+00:00"
+      "last_seen": "2026-11-14T11:05:57+00:00"
     },
     {
       "method": "OPTIONS",
@@ -6901,17 +6901,17 @@
       "method": "POST",
       "path": "/",
       "status": 502,
-      "count": 87,
+      "count": 88,
       "first_seen": "2026-11-12T13:31:26+00:00",
-      "last_seen": "2026-11-14T09:43:50+00:00"
+      "last_seen": "2026-11-14T10:46:30+00:00"
     },
     {
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 502,
-      "count": 73,
+      "count": 75,
       "first_seen": "2026-11-12T13:43:55+00:00",
-      "last_seen": "2026-11-14T09:30:10+00:00"
+      "last_seen": "2026-11-14T10:57:21+00:00"
     },
     {
       "method": "POST",
@@ -7114,6 +7114,14 @@
       "last_seen": "2026-11-13T03:18:08+00:00"
     },
     {
+      "method": "OTHER",
+      "path": "/",
+      "status": 502,
+      "count": 12,
+      "first_seen": "2026-11-12T16:35:00+00:00",
+      "last_seen": "2026-11-14T11:20:15+00:00"
+    },
+    {
       "method": "HEAD",
       "path": "/owncloud/apps/graphapi/vendor/microsoft/microsoft-graph/tests/GetPhpInfo.php",
       "status": 400,
@@ -7176,14 +7184,6 @@
       "count": 10,
       "first_seen": "2026-11-12T13:55:46+00:00",
       "last_seen": "2026-11-12T14:17:49+00:00"
-    },
-    {
-      "method": "OTHER",
-      "path": "/",
-      "status": 502,
-      "count": 10,
-      "first_seen": "2026-11-12T16:35:00+00:00",
-      "last_seen": "2026-11-14T04:55:34+00:00"
     },
     {
       "method": "GET",
@@ -14639,9 +14639,9 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 1833,
+      "count": 1837,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-14T10:30:12+00:00"
+      "last_seen": "2026-11-14T11:29:12+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -14799,9 +14799,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 492,
+      "count": 494,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-14T09:30:10+00:00"
+      "last_seen": "2026-11-14T10:57:21+00:00"
     },
     {
       "rule_id": "web-lfi",
@@ -15079,9 +15079,9 @@
       "rule_id": "review-react2shell-reverse-shell",
       "method": "POST",
       "path": "/",
-      "count": 249,
+      "count": 250,
       "first_seen": "2026-10-30T06:27:45+00:00",
-      "last_seen": "2026-11-14T09:43:50+00:00"
+      "last_seen": "2026-11-14T10:46:30+00:00"
     },
     {
       "rule_id": "review-file-exposure",
@@ -22647,7 +22647,7 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 205316,
+    "web_bodies_skipped": 205317,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
