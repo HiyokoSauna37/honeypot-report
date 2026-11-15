@@ -1,12 +1,12 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-15T11:52:15+00:00",
+  "generated_utc": "2026-11-15T12:52:15+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 271418,
-    "sessions": 59299,
-    "sources": 5063,
+    "requests": 271430,
+    "sessions": 59311,
+    "sources": 5068,
     "largest_source_requests": 24714,
     "behaviors": {
       "cookie": 2134,
@@ -20,16 +20,16 @@
       "robots": 26
     },
     "transport": {
-      "http": 220543,
-      "https": 50875,
+      "http": 220552,
+      "https": 50878,
       "http2": 10790,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "primary-web",
-        "requests": 37544,
-        "sessions": 31453,
+        "requests": 37555,
+        "sessions": 31464,
         "actions": 3
       },
       {
@@ -6695,18 +6695,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 289195,
-    "iot_requests": 753,
+    "classified_requests": 289200,
+    "iot_requests": 754,
     "unclassified_requests": 331,
-    "routine_requests": 15113,
-    "excluded_checks": 1534
+    "routine_requests": 15127,
+    "excluded_checks": 1546
   },
   "counts": {
-    "commands": 502422,
-    "login_attempts": 766324,
-    "login_successes": 54162,
-    "ssh_connections": 800745,
-    "web_requests": 305392
+    "commands": 503715,
+    "login_attempts": 770860,
+    "login_successes": 54291,
+    "ssh_connections": 805291,
+    "web_requests": 305412
   },
   "daily": [
     {
@@ -6801,8 +6801,8 @@
     },
     {
       "date": "2026-11-15",
-      "ssh_connections": 149844,
-      "web_requests": 3288
+      "ssh_connections": 154390,
+      "web_requests": 3308
     }
   ],
   "http_requests": [
@@ -6810,9 +6810,9 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 5651,
+      "count": 5657,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-11-15T11:30:04+00:00"
+      "last_seen": "2026-11-15T12:23:07+00:00"
     },
     {
       "method": "GET",
@@ -6850,9 +6850,9 @@
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 428,
+      "count": 429,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-15T10:57:09+00:00"
+      "last_seen": "2026-11-15T12:11:33+00:00"
     },
     {
       "method": "CONNECT",
@@ -12500,9 +12500,9 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 1939,
+      "count": 1942,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-15T11:21:37+00:00"
+      "last_seen": "2026-11-15T12:16:55+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -12617,6 +12617,14 @@
       "last_seen": "2026-11-14T09:52:33+00:00"
     },
     {
+      "rule_id": "hikvision-probe",
+      "method": "GET",
+      "path": "/SDK/webLanguage",
+      "count": 537,
+      "first_seen": "2026-10-28T13:14:48+00:00",
+      "last_seen": "2026-11-15T12:11:33+00:00"
+    },
+    {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.production",
@@ -12631,14 +12639,6 @@
       "count": 537,
       "first_seen": "2026-10-28T22:47:29+00:00",
       "last_seen": "2026-11-15T07:23:42+00:00"
-    },
-    {
-      "rule_id": "hikvision-probe",
-      "method": "GET",
-      "path": "/SDK/webLanguage",
-      "count": 536,
-      "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-15T10:57:09+00:00"
     },
     {
       "rule_id": "web-graphql",
@@ -15833,6 +15833,14 @@
       "last_seen": "2026-11-15T07:54:27+00:00"
     },
     {
+      "rule_id": "traffic-pki-update",
+      "method": "GET",
+      "path": "/.well-known/pki-validation/update",
+      "count": 54,
+      "first_seen": "2026-10-29T10:12:54+00:00",
+      "last_seen": "2026-11-15T11:44:52+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/terraform.tfstate.backup",
@@ -15855,14 +15863,6 @@
       "count": 54,
       "first_seen": "2026-11-01T15:00:49+00:00",
       "last_seen": "2026-11-14T09:53:05+00:00"
-    },
-    {
-      "rule_id": "traffic-pki-update",
-      "method": "GET",
-      "path": "/.well-known/pki-validation/update",
-      "count": 53,
-      "first_seen": "2026-10-29T10:12:54+00:00",
-      "last_seen": "2026-11-15T10:51:55+00:00"
     },
     {
       "rule_id": "oct30-build",
