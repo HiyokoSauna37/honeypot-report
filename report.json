@@ -1,41 +1,41 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-16T18:40:35+00:00",
+  "generated_utc": "2026-11-16T19:40:36+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 338450,
-    "sessions": 65182,
-    "sources": 5390,
+    "requests": 338488,
+    "sessions": 65208,
+    "sources": 5406,
     "largest_source_requests": 24714,
     "behaviors": {
-      "cookie": 2220,
+      "cookie": 2224,
       "redirect": 1,
       "resource": 80,
       "javascript": 76,
       "revisit": 2,
-      "login": 2204,
+      "login": 2209,
       "upload": 5,
       "action": 0,
       "robots": 26
     },
     "transport": {
-      "http": 281985,
-      "https": 56465,
-      "http2": 12009,
+      "http": 281995,
+      "https": 56493,
+      "http2": 12034,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "primary-web",
-        "requests": 40338,
-        "sessions": 33991,
+        "requests": 40347,
+        "sessions": 34000,
         "actions": 3
       },
       {
         "profile": "wordpress",
-        "requests": 264349,
-        "sessions": 3930,
+        "requests": 264373,
+        "sessions": 3942,
         "actions": 2
       },
       {
@@ -73,9 +73,9 @@
   },
   "notable_activity": {
     "react2shell": {
-      "requests": 1029,
+      "requests": 1033,
       "first_seen": "2026-10-29T15:52:36+00:00",
-      "last_seen": "2026-11-16T17:44:54+00:00",
+      "last_seen": "2026-11-16T19:05:30+00:00",
       "responses": [
         {
           "status": 200,
@@ -83,11 +83,11 @@
         },
         {
           "status": 404,
-          "count": 153
+          "count": 155
         },
         {
           "status": 405,
-          "count": 779
+          "count": 781
         },
         {
           "status": 499,
@@ -100,7 +100,7 @@
       ],
       "unknown_responses": 0,
       "signals": {
-        "command": 1029,
+        "command": 1033,
         "download": 1,
         "cron_removal": 1
       },
@@ -188,9 +188,9 @@
               "value": "[]"
             }
           ],
-          "count": 205,
+          "count": 206,
           "first_seen": "2026-10-30T00:08:59+00:00",
-          "last_seen": "2026-11-16T16:50:26+00:00"
+          "last_seen": "2026-11-16T18:52:03+00:00"
         },
         {
           "method": "POST",
@@ -225,9 +225,9 @@
               "value": "$@0"
             }
           ],
-          "count": 229,
+          "count": 230,
           "first_seen": "2026-10-30T06:27:45+00:00",
-          "last_seen": "2026-11-16T17:44:54+00:00"
+          "last_seen": "2026-11-16T19:05:30+00:00"
         },
         {
           "method": "POST",
@@ -5869,6 +5869,96 @@
           "count": 5,
           "first_seen": "2026-11-16T01:56:57+00:00",
           "last_seen": "2026-11-16T01:57:06+00:00"
+        },
+        {
+          "method": "POST",
+          "path": "/api",
+          "query": [],
+          "status": 404,
+          "content_encoding": "",
+          "body_format": "multipart",
+          "body_fields": [
+            {
+              "name": "0.then",
+              "value": "$1:__proto__:then"
+            },
+            {
+              "name": "0.status",
+              "value": "resolved_model"
+            },
+            {
+              "name": "0.reason",
+              "value": "-1"
+            },
+            {
+              "name": "0.value",
+              "value": "{\"then\":\"$B1337\"}"
+            },
+            {
+              "name": "0._response._chunks",
+              "value": "$Q2"
+            },
+            {
+              "name": "0._response._formData.get",
+              "value": "$1:constructor:constructor"
+            },
+            {
+              "name": "1",
+              "value": "$@0"
+            },
+            {
+              "name": "2",
+              "value": "[]"
+            }
+          ],
+          "count": 1,
+          "first_seen": "2026-11-16T18:52:04+00:00",
+          "last_seen": "2026-11-16T18:52:04+00:00"
+        },
+        {
+          "method": "POST",
+          "path": "/login",
+          "query": [],
+          "status": 404,
+          "content_encoding": "",
+          "body_format": "multipart",
+          "body_fields": [
+            {
+              "name": "0.then",
+              "value": "$1:__proto__:then"
+            },
+            {
+              "name": "0.status",
+              "value": "resolved_model"
+            },
+            {
+              "name": "0.reason",
+              "value": "-1"
+            },
+            {
+              "name": "0.value",
+              "value": "{\"then\":\"$B1337\"}"
+            },
+            {
+              "name": "0._response._chunks",
+              "value": "$Q2"
+            },
+            {
+              "name": "0._response._formData.get",
+              "value": "$1:constructor:constructor"
+            },
+            {
+              "name": "1",
+              "value": "$@0"
+            },
+            {
+              "name": "2",
+              "value": "[]"
+            }
+          ],
+          "count": 1,
+          "first_seen": "2026-11-16T18:52:04+00:00",
+          "last_seen": "2026-11-16T18:52:04+00:00"
         }
       ],
       "unlisted_requests": 2
@@ -6734,16 +6824,16 @@
       "unlisted_requests": 0
     },
     "ssh_environment": {
-      "sessions": 502,
+      "sessions": 503,
       "upload_sessions": 335,
       "first_seen": "2026-10-28T15:30:11+00:00",
-      "last_seen": "2026-11-16T11:57:49+00:00",
+      "last_seen": "2026-11-16T19:27:17+00:00",
       "signals": {
-        "arithmetic": 502,
-        "pid": 502,
-        "function": 502,
-        "positional": 502,
-        "control": 502
+        "arithmetic": 503,
+        "pid": 503,
+        "function": 503,
+        "positional": 503,
+        "control": 503
       },
       "limited": false
     }
@@ -6753,18 +6843,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 357126,
-    "iot_requests": 803,
-    "unclassified_requests": 265,
-    "routine_requests": 16464,
-    "excluded_checks": 1932
+    "classified_requests": 357154,
+    "iot_requests": 805,
+    "unclassified_requests": 267,
+    "routine_requests": 16472,
+    "excluded_checks": 1945
   },
   "counts": {
-    "commands": 611908,
-    "login_attempts": 852838,
-    "login_successes": 64227,
-    "ssh_connections": 888750,
-    "web_requests": 374658
+    "commands": 611933,
+    "login_attempts": 853031,
+    "login_successes": 64233,
+    "ssh_connections": 889015,
+    "web_requests": 374698
   },
   "daily": [
     {
@@ -6869,8 +6959,8 @@
     },
     {
       "date": "2026-11-17",
-      "ssh_connections": 982,
-      "web_requests": 1007
+      "ssh_connections": 1247,
+      "web_requests": 1047
     }
   ],
   "http_requests": [
@@ -6878,17 +6968,17 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 6262,
+      "count": 6269,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-11-16T18:24:25+00:00"
+      "last_seen": "2026-11-16T19:28:35+00:00"
     },
     {
       "method": "POST",
       "path": "/",
       "status": 405,
-      "count": 1172,
+      "count": 1174,
       "first_seen": "2026-10-30T00:08:59+00:00",
-      "last_seen": "2026-11-16T17:44:54+00:00"
+      "last_seen": "2026-11-16T19:05:30+00:00"
     },
     {
       "method": "GET",
@@ -6910,9 +7000,9 @@
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
       "status": 404,
-      "count": 569,
+      "count": 573,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-16T18:26:36+00:00"
+      "last_seen": "2026-11-16T19:19:49+00:00"
     },
     {
       "method": "GET",
@@ -6926,9 +7016,9 @@
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 473,
+      "count": 475,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-16T17:41:54+00:00"
+      "last_seen": "2026-11-16T19:27:03+00:00"
     },
     {
       "method": "CONNECT",
@@ -10268,14 +10358,6 @@
     },
     {
       "method": "GET",
-      "path": "/.well-known/graphql",
-      "status": 404,
-      "count": 7,
-      "first_seen": "2026-11-03T00:44:18+00:00",
-      "last_seen": "2026-11-12T01:00:39+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/vendor/phpunit/phpunit/tests/_files/eval-stdin.php",
       "status": 404,
       "count": 7,
@@ -10532,6 +10614,14 @@
     },
     {
       "method": "POST",
+      "path": "/api",
+      "status": 404,
+      "count": 5,
+      "first_seen": "2026-10-31T02:44:49+00:00",
+      "last_seen": "2026-11-16T18:52:04+00:00"
+    },
+    {
+      "method": "POST",
       "path": "/_ignition/execute-solution",
       "status": 404,
       "count": 5,
@@ -10601,14 +10691,6 @@
       "count": 4,
       "first_seen": "2026-10-31T02:44:20+00:00",
       "last_seen": "2026-11-11T09:49:12+00:00"
-    },
-    {
-      "method": "POST",
-      "path": "/api",
-      "status": 404,
-      "count": 4,
-      "first_seen": "2026-10-31T02:44:49+00:00",
-      "last_seen": "2026-11-09T04:37:33+00:00"
     },
     {
       "method": "POST",
@@ -10715,6 +10797,14 @@
       "last_seen": "2026-11-16T14:27:28+00:00"
     },
     {
+      "method": "POST",
+      "path": "/login",
+      "status": 404,
+      "count": 3,
+      "first_seen": "2026-11-01T13:46:10+00:00",
+      "last_seen": "2026-11-16T18:52:04+00:00"
+    },
+    {
       "method": "GET",
       "path": "/php-cgi/php-cgi.exe?param=[REDACTED]",
       "status": 404,
@@ -10817,14 +10907,6 @@
       "count": 2,
       "first_seen": "2026-10-31T14:57:52+00:00",
       "last_seen": "2026-10-31T14:57:52+00:00"
-    },
-    {
-      "method": "POST",
-      "path": "/login",
-      "status": 404,
-      "count": 2,
-      "first_seen": "2026-11-01T13:46:10+00:00",
-      "last_seen": "2026-11-01T13:46:10+00:00"
     },
     {
       "method": "POST",
@@ -12624,9 +12706,9 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/xmlrpc.php",
-      "count": 258847,
+      "count": 258855,
       "first_seen": "2026-10-29T19:45:21+00:00",
-      "last_seen": "2026-11-16T18:28:18+00:00"
+      "last_seen": "2026-11-16T19:28:49+00:00"
     },
     {
       "rule_id": "traffic-empty-target",
@@ -12656,9 +12738,9 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/wp-login.php",
-      "count": 1435,
+      "count": 1443,
       "first_seen": "2026-11-04T15:32:32+00:00",
-      "last_seen": "2026-11-16T18:26:35+00:00"
+      "last_seen": "2026-11-16T19:19:48+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -12728,9 +12810,9 @@
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
-      "count": 591,
+      "count": 595,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-16T18:26:36+00:00"
+      "last_seen": "2026-11-16T19:19:49+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -12752,17 +12834,17 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 581,
+      "count": 583,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-16T17:41:54+00:00"
+      "last_seen": "2026-11-16T19:27:03+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-login.php",
-      "count": 574,
+      "count": 578,
       "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-11-16T18:26:35+00:00"
+      "last_seen": "2026-11-16T19:19:47+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -13000,9 +13082,9 @@
       "rule_id": "review-react2shell-reverse-shell",
       "method": "POST",
       "path": "/",
-      "count": 300,
+      "count": 301,
       "first_seen": "2026-10-30T06:27:45+00:00",
-      "last_seen": "2026-11-16T17:44:54+00:00"
+      "last_seen": "2026-11-16T19:05:30+00:00"
     },
     {
       "rule_id": "review-file-exposure",
@@ -13016,9 +13098,9 @@
       "rule_id": "review-react2shell",
       "method": "POST",
       "path": "/",
-      "count": 297,
+      "count": 298,
       "first_seen": "2026-10-30T00:08:59+00:00",
-      "last_seen": "2026-11-16T16:50:26+00:00"
+      "last_seen": "2026-11-16T18:52:03+00:00"
     },
     {
       "rule_id": "oct30-php-diagnostic",
@@ -16109,6 +16191,14 @@
       "last_seen": "2026-11-16T17:01:52+00:00"
     },
     {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/env",
+      "count": 58,
+      "first_seen": "2026-11-01T15:00:49+00:00",
+      "last_seen": "2026-11-16T14:27:27+00:00"
+    },
+    {
       "rule_id": "nov14-unidentified-form",
       "method": "POST",
       "path": "/",
@@ -18717,14 +18807,6 @@
       "last_seen": "2026-11-12T01:00:39+00:00"
     },
     {
-      "rule_id": "web-graphql",
-      "method": "GET",
-      "path": "/.well-known/graphql",
-      "count": 8,
-      "first_seen": "2026-11-03T00:44:18+00:00",
-      "last_seen": "2026-11-12T01:00:39+00:00"
-    },
-    {
       "rule_id": "nov03-cloud-secret-probe",
       "method": "GET",
       "path": "/metadata/instance",
@@ -20504,12 +20586,12 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 126205,
+    "web_bodies_skipped": 126216,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 265
+    "pending_indicators": 266
   }
 }
