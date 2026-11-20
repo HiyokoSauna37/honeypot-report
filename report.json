@@ -1,41 +1,41 @@
 {
   "schema_version": 10,
-  "generated_utc": "2026-11-20T03:39:33+00:00",
+  "generated_utc": "2026-11-20T04:39:35+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 364887,
-    "sessions": 83408,
-    "sources": 6965,
+    "requests": 364953,
+    "sessions": 83456,
+    "sources": 6995,
     "largest_source_requests": 24714,
     "behaviors": {
-      "cookie": 2707,
+      "cookie": 2713,
       "redirect": 2,
       "resource": 80,
       "javascript": 76,
       "revisit": 2,
-      "login": 2547,
+      "login": 2553,
       "upload": 5,
       "action": 0,
       "robots": 26
     },
     "transport": {
-      "http": 297732,
-      "https": 67155,
-      "http2": 14917,
+      "http": 297755,
+      "https": 67198,
+      "http2": 14954,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "primary-web",
-        "requests": 47732,
-        "sessions": 40481,
+        "requests": 47751,
+        "sessions": 40500,
         "actions": 3
       },
       {
         "profile": "wordpress",
-        "requests": 270770,
-        "sessions": 5404,
+        "requests": 270806,
+        "sessions": 5422,
         "actions": 2
       },
       {
@@ -6897,18 +6897,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 380822,
-    "iot_requests": 959,
+    "classified_requests": 380876,
+    "iot_requests": 960,
     "unclassified_requests": 5753,
-    "routine_requests": 18970,
-    "excluded_checks": 2973
+    "routine_requests": 18997,
+    "excluded_checks": 2986
   },
   "counts": {
     "commands": 614490,
-    "login_attempts": 880732,
-    "login_successes": 64677,
-    "ssh_connections": 927234,
-    "web_requests": 406504
+    "login_attempts": 880930,
+    "login_successes": 64682,
+    "ssh_connections": 927587,
+    "web_requests": 406586
   },
   "daily": [
     {
@@ -7028,8 +7028,8 @@
     },
     {
       "date": "2026-11-20",
-      "ssh_connections": 6531,
-      "web_requests": 1525
+      "ssh_connections": 6884,
+      "web_requests": 1607
     }
   ],
   "http_requests": [
@@ -7119,25 +7119,25 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/xmlrpc.php",
-      "count": 262810,
+      "count": 262822,
       "first_seen": "2026-10-29T19:45:21+00:00",
-      "last_seen": "2026-11-20T03:26:45+00:00"
+      "last_seen": "2026-11-20T04:23:10+00:00"
     },
     {
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 2430,
+      "count": 2437,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-20T03:02:45+00:00"
+      "last_seen": "2026-11-20T04:12:20+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/wp-login.php",
-      "count": 2079,
+      "count": 2091,
       "first_seen": "2026-11-04T15:32:32+00:00",
-      "last_seen": "2026-11-20T03:19:19+00:00"
+      "last_seen": "2026-11-20T04:22:10+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -7191,17 +7191,17 @@
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
-      "count": 972,
+      "count": 978,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-20T03:19:20+00:00"
+      "last_seen": "2026-11-20T04:22:10+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-login.php",
-      "count": 909,
+      "count": 915,
       "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-11-20T03:19:18+00:00"
+      "last_seen": "2026-11-20T04:22:09+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -7295,9 +7295,9 @@
       "rule_id": "review-debug-endpoint",
       "method": "GET",
       "path": "/info.php",
-      "count": 486,
+      "count": 487,
       "first_seen": "2026-10-29T15:44:57+00:00",
-      "last_seen": "2026-11-20T01:52:26+00:00"
+      "last_seen": "2026-11-20T03:52:26+00:00"
     },
     {
       "rule_id": "web-exposure",
@@ -7727,9 +7727,9 @@
       "rule_id": "nov01-site-navigation",
       "method": "GET",
       "path": "/assets/site.js?param=[REDACTED]",
-      "count": 272,
+      "count": 273,
       "first_seen": "2026-11-01T13:48:45+00:00",
-      "last_seen": "2026-11-20T02:59:07+00:00"
+      "last_seen": "2026-11-20T03:45:35+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -7908,6 +7908,14 @@
       "last_seen": "2026-11-20T00:57:51+00:00"
     },
     {
+      "rule_id": "review-registry-catalog",
+      "method": "GET",
+      "path": "/v2/_catalog",
+      "count": 208,
+      "first_seen": "2026-10-29T15:44:41+00:00",
+      "last_seen": "2026-11-20T03:51:15+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/firebase-adminsdk.json",
@@ -7938,14 +7946,6 @@
       "count": 208,
       "first_seen": "2026-10-30T09:57:37+00:00",
       "last_seen": "2026-11-19T14:24:22+00:00"
-    },
-    {
-      "rule_id": "review-registry-catalog",
-      "method": "GET",
-      "path": "/v2/_catalog",
-      "count": 207,
-      "first_seen": "2026-10-29T15:44:41+00:00",
-      "last_seen": "2026-11-19T14:24:23+00:00"
     },
     {
       "rule_id": "oct30-debug",
@@ -8348,28 +8348,28 @@
       "last_seen": "2026-11-19T15:55:07+00:00"
     },
     {
+      "rule_id": "nov01-site-navigation",
+      "method": "GET",
+      "path": "/assets/alderline.css?param=[REDACTED]",
+      "count": 158,
+      "first_seen": "2026-11-01T13:50:20+00:00",
+      "last_seen": "2026-11-20T03:45:37+00:00"
+    },
+    {
+      "rule_id": "nov01-site-navigation",
+      "method": "GET",
+      "path": "/assets/site.css?param=[REDACTED]",
+      "count": 158,
+      "first_seen": "2026-11-01T13:50:20+00:00",
+      "last_seen": "2026-11-20T03:45:35+00:00"
+    },
+    {
       "rule_id": "oct30-service-config",
       "method": "GET",
       "path": "/gcp-credentials.json",
       "count": 157,
       "first_seen": "2026-10-30T08:25:01+00:00",
       "last_seen": "2026-11-19T13:26:02+00:00"
-    },
-    {
-      "rule_id": "nov01-site-navigation",
-      "method": "GET",
-      "path": "/assets/alderline.css?param=[REDACTED]",
-      "count": 157,
-      "first_seen": "2026-11-01T13:50:20+00:00",
-      "last_seen": "2026-11-20T03:02:49+00:00"
-    },
-    {
-      "rule_id": "nov01-site-navigation",
-      "method": "GET",
-      "path": "/assets/site.css?param=[REDACTED]",
-      "count": 157,
-      "first_seen": "2026-11-01T13:50:20+00:00",
-      "last_seen": "2026-11-20T02:59:46+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -8916,6 +8916,14 @@
       "last_seen": "2026-11-19T11:56:39+00:00"
     },
     {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/sse",
+      "count": 126,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-20T04:25:47+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.live",
@@ -8954,14 +8962,6 @@
       "count": 125,
       "first_seen": "2026-10-28T15:00:06+00:00",
       "last_seen": "2026-11-19T09:15:00+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/sse",
-      "count": 125,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-20T02:13:43+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -9044,20 +9044,20 @@
       "last_seen": "2026-11-19T14:24:21+00:00"
     },
     {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/mcp",
+      "count": 118,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-20T04:25:47+00:00"
+    },
+    {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/core/.env",
       "count": 118,
       "first_seen": "2026-10-30T11:02:00+00:00",
       "last_seen": "2026-11-19T14:24:21+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/mcp",
-      "count": 117,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-20T02:13:42+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -9092,6 +9092,22 @@
       "last_seen": "2026-11-20T00:41:50+00:00"
     },
     {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/api/mcp",
+      "count": 114,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-20T04:25:47+00:00"
+    },
+    {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/mcp/",
+      "count": 114,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-20T04:25:47+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/terraform.tfvars",
@@ -9106,22 +9122,6 @@
       "count": 114,
       "first_seen": "2026-10-29T22:08:38+00:00",
       "last_seen": "2026-11-19T20:13:34+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/api/mcp",
-      "count": 113,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-20T02:13:42+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/mcp/",
-      "count": 113,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-20T02:13:42+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -15127,7 +15127,7 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 66009,
+    "web_bodies_skipped": 66031,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
