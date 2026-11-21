@@ -1,15 +1,236 @@
 {
-  "schema_version": 10,
-  "generated_utc": "2026-11-21T07:44:05+00:00",
+  "schema_version": 11,
+  "shell_watch": {
+    "matched_requests": 2369,
+    "cases": {
+      "ruby2shell": {
+        "name": "Ruby2Shell",
+        "product": "Ruby\uff08CRuby\uff09",
+        "advisory": "CVE-2026-132825 / GHSA-34m4-m9fh-gqp5",
+        "reference": "https://www.cve.org/CVERecord?id=CVE-2026-132825",
+        "mode": "unavailable",
+        "criteria": "Web\u30ed\u30b0\u304b\u3089\u306f\u3001\u53d7\u4fe1\u3057\u305f\u6587\u5b57\u5217\u304cRuby\u306e\u8a72\u5f53\u3059\u308b\u5927\u6587\u5b57\u30fb\u5c0f\u6587\u5b57\u5909\u63db\u51e6\u7406\u306b\u6e21\u3063\u305f\u304b\u78ba\u8a8d\u3067\u304d\u307e\u305b\u3093\u3002",
+        "surface_requests": null,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "nginx2shell": {
+        "name": "NGINX2Shell / nginx2root",
+        "product": "NGINX Open Source / NGINX Plus",
+        "advisory": "CVE-2026-123007 / CVE-2026-123633 / CVE-2026-121810 / CVE-2026-123634 / CVE-2026-113425",
+        "reference": "https://my.f5.com/s/article/K000164058",
+        "mode": "unavailable",
+        "criteria": "HTTP/2\u30fbHTTP/3\u306e\u5236\u5fa1\u30d5\u30ec\u30fc\u30e0\u3084\u3001NGINX\u306e\u540d\u524d\u89e3\u6c7a\u30fb\u30e1\u30fc\u30eb\u30d7\u30ed\u30ad\u30b7\u306e\u5185\u90e8\u72b6\u614b\u306fWeb\u30ed\u30b0\u306e\u53ce\u96c6\u7bc4\u56f2\u5916\u3067\u3059\u3002",
+        "surface_requests": null,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "java4shell": {
+        "name": "Java4Shell / Java2Shell",
+        "product": "OpenJDK HotSpot",
+        "advisory": "CVE-2026-114938",
+        "reference": "https://www.oracle.com/security-alerts/cspunov2026.html",
+        "mode": "unavailable",
+        "criteria": "Web\u30ed\u30b0\u3067\u306f\u3001\u5bfe\u8c61CPU\u3067JVM\u306e\u9ad8\u901f\u5316\u3055\u308c\u305fBase64\u30c7\u30b3\u30fc\u30c0\u30fc\u304c\u5165\u529b\u3092\u51e6\u7406\u3057\u305f\u304b\u78ba\u8a8d\u3067\u304d\u307e\u305b\u3093\u3002",
+        "surface_requests": null,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "fortinet2shell": {
+        "name": "Fortinet2Shell",
+        "product": "FortiClient",
+        "advisory": "CVE-2026-121529 / FG-IR-26-194",
+        "reference": "https://fortiguard.fortinet.com/psirt/FG-IR-26-194",
+        "mode": "unavailable",
+        "criteria": "\u5bfe\u8c61\u306f\u7aef\u672b\u5185\u306eFortiClient\u306e\u30ed\u30fc\u30ab\u30ebAPI\u3067\u3059\u3002\u5229\u7528\u8005\u306e\u30d6\u30e9\u30a6\u30b6\u304b\u3089\u540cAPI\u3078\u306e\u901a\u4fe1\u306fWeb\u30ed\u30b0\u306e\u53ce\u96c6\u7bc4\u56f2\u5916\u3067\u3059\u3002",
+        "surface_requests": null,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "icm2shell": {
+        "name": "ICM2SHELL",
+        "product": "SAP NetWeaver AS ABAP ICM / SAP Web Dispatcher",
+        "advisory": "CVE-2026-76964 / CVE-2026-89126",
+        "reference": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/november-2026.html",
+        "mode": "surface",
+        "criteria": "SAP\u306eABAP Push Channel\u7528\u30b5\u30fc\u30d3\u30b9\u30d1\u30b9\u3078\u306eGET\u3092\u96c6\u8a08\u3057\u307e\u3059\u3002\u63a5\u7d9a\u5f8c\u306eWebSocket\u30d5\u30ec\u30fc\u30e0\u306f\u53ce\u96c6\u3057\u3066\u3044\u307e\u305b\u3093\u3002",
+        "surface_requests": 0,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "paint2shell": {
+        "name": "Paint2Shell",
+        "product": "Microsoft Paint",
+        "advisory": "CVE-2026-83844",
+        "reference": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
+        "mode": "unavailable",
+        "criteria": "Microsoft\u306e\u66f4\u65b0\u60c5\u5831\u3067\u306f\u7aef\u672b\u4e0a\u306e\u5229\u7528\u8005\u64cd\u4f5c\u3092\u4f34\u3044\u307e\u3059\u3002Paint\u306b\u3088\u308b\u30d5\u30a1\u30a4\u30eb\u51e6\u7406\u306fWeb\u30ed\u30b0\u306e\u53ce\u96c6\u7bc4\u56f2\u5916\u3067\u3059\u3002",
+        "surface_requests": null,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "4everable2shell": {
+        "name": "4EverAble2Shell",
+        "product": "N-able N-central \u30b5\u30fc\u30d0\u30fc",
+        "advisory": "CVE-2026-90436\uff08Apache Axis\uff09\u3002\u5f8c\u6bb5\u306e\u6a29\u9650\u6607\u683c\u306f\u756a\u53f7\u672a\u78ba\u8a8d",
+        "reference": "https://blog.previdian.com/n-able-n-central-critical-vulnerabilities-what-we-know-so-far/",
+        "mode": "surface",
+        "criteria": "\u65e7SOAP API\u306eServerUI\u3078\u306ePOST\u3092\u6570\u3048\u308b\u3002\u521d\u51fa\u306eAble2Shell\u3084Agent2Shell\u3082\u4f7f\u3046\u305f\u3081\u3001\u3053\u306e\u6b04\u306b\u4e00\u5ea6\u3060\u3051\u8a08\u4e0a\u3059\u308b\u3002\u30b5\u30fc\u30d0\u30fc\u3067\u306e\u6a29\u9650\u6607\u683c\u306f\u5224\u5225\u3067\u304d\u306a\u3044\u3002",
+        "surface_requests": 0,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "agent2shell": {
+        "name": "Agent2Shell",
+        "product": "N-able N-central Windows Agent / Probe",
+        "advisory": "\u756a\u53f7\u672a\u78ba\u8a8d",
+        "reference": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
+        "mode": "surface",
+        "criteria": "\u7ba1\u7406\u30b5\u30fc\u30d0\u30fc\u306eServerMMS2\u3078\u306ePOST\u3092\u6570\u3048\u308b\u3002\u901a\u5e38\u306e\u7ba1\u7406\u901a\u4fe1\u3082\u542b\u3080\u3002\u7ba1\u7406\u7aef\u672b\u3067\u306e\u30bf\u30b9\u30af\u5b9f\u884c\u3084SYSTEM\u6a29\u9650\u306e\u78ba\u8a8d\u306b\u306f\u7aef\u672b\u5074\u306e\u8a18\u9332\u304c\u5fc5\u8981\u3002",
+        "surface_requests": 0,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "able2shell": {
+        "name": "Able2Shell",
+        "product": "N-able N-central\uff08\u521d\u51fa\u306e\u8106\u5f31\u6027\u7fa4\uff09",
+        "advisory": "HF2\u95a2\u9023\uff1aCVE-2026-125881\u3001CVE-2026-125882\u3001CVE-2026-125883 \u307b\u304b",
+        "reference": "https://status.n-able.com/2026/11/10/n-central-2026-4-hf2-release-notes/",
+        "mode": "surface",
+        "criteria": "\u30ab\u30b9\u30bf\u30e0\u30b5\u30fc\u30d3\u30b9\u53d6\u8fbc\u7528\u30d1\u30b9\u3078\u306ePOST\u3092\u6570\u3048\u308b\u3002\u5171\u6709\u306eServerUI\u3078\u306ePOST\u306f4EverAble2Shell\u6b04\u306b\u96c6\u7d04\u3059\u308b\u3002\u53d6\u8fbc\u5185\u5bb9\u3084\u500b\u3005\u306e\u8106\u5f31\u6027\u306e\u60aa\u7528\u306f\u5224\u5225\u3067\u304d\u306a\u3044\u3002",
+        "surface_requests": 0,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "cwp2shell": {
+        "name": "CWP2Shell",
+        "product": "Control Web Panel",
+        "advisory": "CVE-2026-77877\u3001CVE-2026-77878\u3001CVE-2026-77881\u3001CVE-2026-104080 \u307b\u304b\u516810\u4ef6",
+        "reference": "https://www.vulncheck.com/blog/control-web-panel-pre-auth-module-dispatch-rce",
+        "mode": "surface",
+        "criteria": "CWP\u306e\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u5fa9\u5143\u30fb\u5229\u7528\u8005\u30c0\u30c3\u30b7\u30e5\u30dc\u30fc\u30c9\u7528\u306e\u5185\u90e8API\u3068\u540c\u3058\u30d1\u30b9\u3078\u306e\u5916\u90e8POST\u3092\u6570\u3048\u308b\u3002\u5b9f\u6a5f\u306e\u30eb\u30fc\u30d7\u30d0\u30c3\u30af\u901a\u4fe1\u3084\u516c\u958b\u30d1\u30cd\u30eb\u306e\u5171\u901aPHP\u30d1\u30b9\u3092\u901a\u3058\u305f\u60aa\u7528\u306f\u5224\u5225\u3067\u304d\u306a\u3044\u3002",
+        "surface_requests": 0,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "plex2shell": {
+        "name": "Plex2Shell",
+        "product": "Plex Media Server",
+        "advisory": "CVE-2026-96652\u3001CVE-2026-96654\u3001CVE-2026-96655\u3001CVE-2026-96656",
+        "reference": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319/",
+        "mode": "signal",
+        "criteria": "\u30bf\u30a4\u30e0\u30e9\u30a4\u30f3\u8cfc\u8aad\u3078\u306eGET\u306e\u3046\u3061\u3001\u901a\u5e38\u306f\u65b9\u5f0f\u540d\u3092\u6307\u5b9a\u3059\u308b\u6b04\u306b\u5b9b\u5148\u3092\u542b\u3080HTTP URL\u304c\u5165\u3063\u305f\u8981\u6c42\u3092\u5225\u306b\u6570\u3048\u308b\u3002\u30b5\u30fc\u30d0\u30fc\u304b\u3089\u306e\u8ee2\u9001\u3084\u305d\u306e\u5f8c\u306e\u30b3\u30fc\u30c9\u5b9f\u884c\u306f\u78ba\u8a8d\u3067\u304d\u306a\u3044\u3002",
+        "surface_requests": 0,
+        "indicator_requests": 0,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "mail2shell": {
+        "name": "Mail2Shell",
+        "product": "FreeScout",
+        "advisory": "CVE-2026-28289",
+        "reference": "https://github.com/freescout-help-desk/freescout/security/advisories/GHSA-5gpc-65p8-ffwp",
+        "mode": "signal",
+        "criteria": "FreeScout\u306e\u6570\u50243\u968e\u5c64\u306e\u6dfb\u4ed8\u30d5\u30a1\u30a4\u30eb\u30d1\u30b9\u3067\u3001PHP\u30d5\u30a1\u30a4\u30eb\u3084\u52e7\u544a\u306e\u4f8b\u3068\u540c\u3058\u6dfb\u4ed8\u540d\u3078\u306eGET\u3092\u4e0d\u5be9\u306a\u53d6\u5f97\u8981\u6c42\u3068\u3057\u3066\u6570\u3048\u308b\u3002\u305d\u306e\u4ed6\u306e\u6dfb\u4ed8\u95b2\u89a7\u3082\u5225\u306b\u96c6\u8a08\u3059\u308b\u3002\u30e1\u30fc\u30eb\u306e\u53d7\u4fe1\u30fb\u6dfb\u4ed8\u306e\u4fdd\u5b58\u30fb\u5b9f\u884c\u306fHTTP\u304b\u3089\u78ba\u8a8d\u3067\u304d\u306a\u3044\u3002",
+        "surface_requests": 0,
+        "indicator_requests": 0,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "comment2shell": {
+        "name": "Comment2Shell\uff08\u73fe Comment2XSS\uff09",
+        "product": "WordPress Core \u306e\u30b3\u30e1\u30f3\u30c8",
+        "advisory": "CVE-2026-93485",
+        "reference": "https://idnsec.com/research/comment2xss-zero-click-pre-auth-xss-to-rce-in-wordpress-core/",
+        "mode": "signal",
+        "criteria": "\u6a19\u6e96\u7d4c\u8def\u3078\u306e\u30b3\u30e1\u30f3\u30c8\u6295\u7a3f\u3092\u96c6\u8a08\u3002\u672c\u6587\u306e\u30b3\u30e1\u30f3\u30c8\u6b04\u306b\u30d5\u30a9\u30fc\u30ab\u30b9\u5c5e\u6027\u3068\u30a4\u30d9\u30f3\u30c8\u5c5e\u6027\u304c\u4f75\u8a18\u3055\u308c\u305f\u5165\u529b\u306f\u8981\u8abf\u67fb\u3002\u627f\u8a8d\u30fb\u8868\u793a\u306f\u672a\u78ba\u8a8d\u3067\u3059\u3002",
+        "surface_requests": 0,
+        "indicator_requests": 0,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "click2shell": {
+        "name": "Click2Shell",
+        "product": "WordPress Core \u306e\u30c6\u30fc\u30de\u30d7\u30ec\u30d3\u30e5\u30fc",
+        "advisory": "\u756a\u53f7\u672a\u78ba\u8a8d",
+        "reference": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-5qf7-2r5p-ppj8",
+        "mode": "signal",
+        "criteria": "\u30c6\u30fc\u30de\u6307\u5b9a\u4ed8\u304d\u30d7\u30ec\u30d3\u30e5\u30fc\u8981\u6c42\u3092\u96c6\u8a08\u3002\u6307\u5b9a\u5024\u306b CSS \u30bb\u30ec\u30af\u30bf\u30fc\u306e\u69cb\u6587\u304c\u91cd\u306a\u308b\u5834\u5408\u306f\u8981\u8abf\u67fb\u3002\u7ba1\u7406\u8005\u306e\u64cd\u4f5c\u30fb\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u306f\u672a\u78ba\u8a8d\u3067\u3059\u3002",
+        "surface_requests": 0,
+        "indicator_requests": 0,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "plugin4shell": {
+        "name": "Plugin4Shell",
+        "product": "AI \u30b3\u30fc\u30c7\u30a3\u30f3\u30b0\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u306e\u30d7\u30e9\u30b0\u30a4\u30f3\u53d6\u5f97",
+        "advisory": "CVE-2026-86063\uff08Claude Code\u30fbClaude Desktop \u5206\uff09",
+        "reference": "https://www.air.security/blog-posts/plugin4shell",
+        "mode": "unavailable",
+        "criteria": "\u7167\u5408\u306b\u306f\u914d\u5e03\u5143\u304c\u56fa\u5b9a\u3057\u305f\u30b3\u30df\u30c3\u30c8\u3068\u7aef\u672b\u304c\u5b9f\u969b\u306b\u53d6\u5f97\u3057\u305f\u30b3\u30df\u30c3\u30c8\u304c\u5fc5\u8981\u3067\u3059\u3002\u53d7\u4fe1 HTTP \u30ed\u30b0\u306b\u306f\u8a18\u9332\u3055\u308c\u307e\u305b\u3093\u3002",
+        "surface_requests": null,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "xss2shell": {
+        "name": "XSS2Shell",
+        "product": "WordPress Core \u306e\u30ed\u30b0\u30a4\u30f3\u753b\u9762",
+        "advisory": "CVE-2026-64638",
+        "reference": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-52p2-r8wf-jcrf",
+        "mode": "signal",
+        "criteria": "\u6a19\u6e96\u30ed\u30b0\u30a4\u30f3\u753b\u9762\u3078\u306e POST \u3092\u96c6\u8a08\u3002\u672c\u6587\u306e\u30e6\u30fc\u30b6\u30fc\u540d\u306b id\u30fbname \u5c5e\u6027\u4ed8\u304d\u306e HTML \u8981\u7d20\u304c\u3042\u308b\u5165\u529b\u306f\u8981\u8abf\u67fb\u3002\u53cd\u6620\u30fb\u5b9f\u884c\u306f\u672a\u78ba\u8a8d\u3067\u3059\u3002",
+        "surface_requests": 2368,
+        "indicator_requests": 1,
+        "first_seen": "2026-11-04T15:32:32+00:00",
+        "last_seen": "2026-11-21T04:03:56+00:00"
+      },
+      "kindarails2shell": {
+        "name": "KindaRails2Shell",
+        "product": "Rails Active Storage\uff08libvips\uff09",
+        "advisory": "CVE-2026-66066",
+        "reference": "https://github.com/rails/rails/security/advisories/GHSA-xr9x-r78c-5hrm",
+        "mode": "surface",
+        "criteria": "Active Storage \u6a19\u6e96\u7d4c\u8def\u3067\u306e\u76f4\u63a5\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u306e\u6e96\u5099\u3068\u753b\u50cf\u5909\u63db\u7528 URL \u306e\u53d6\u5f97\u3092\u96c6\u8a08\u3002\u753b\u50cf\u306e\u5185\u5bb9\u30fb\u51e6\u7406\u7d50\u679c\u306f\u672a\u78ba\u8a8d\u3067\u3059\u3002",
+        "surface_requests": 0,
+        "indicator_requests": null,
+        "first_seen": null,
+        "last_seen": null
+      },
+      "metro4shell": {
+        "name": "Metro4Shell",
+        "product": "React Native Community CLI \u306e Metro \u958b\u767a\u30b5\u30fc\u30d0\u30fc",
+        "advisory": "CVE-2025-11953",
+        "reference": "https://research.jfrog.com/vulnerabilities/react-native-cli-command-injection-jfsa-2025-001495618/",
+        "mode": "signal",
+        "criteria": "URL \u8d77\u52d5\u7528\u7d4c\u8def\u3078\u306e POST \u3092\u96c6\u8a08\u3002JSON \u306e URL \u6b04\u304c\u30ed\u30fc\u30ab\u30eb\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u6307\u5b9a\u3059\u308b\u5834\u5408\u306f\u8981\u8abf\u67fb\u3002\u88fd\u54c1\u306e\u7a3c\u50cd\u30fb\u5b9f\u884c\u306f\u672a\u78ba\u8a8d\u3067\u3059\u3002",
+        "surface_requests": 0,
+        "indicator_requests": 0,
+        "first_seen": null,
+        "last_seen": null
+      }
+    }
+  },
+  "generated_utc": "2026-11-21T08:43:51+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 371187,
-    "sessions": 85323,
-    "sources": 7624,
+    "requests": 377107,
+    "sessions": 85342,
+    "sources": 7634,
     "largest_source_requests": 24714,
     "behaviors": {
-      "cookie": 2876,
+      "cookie": 2878,
       "redirect": 4,
       "resource": 80,
       "javascript": 76,
@@ -20,22 +241,22 @@
       "robots": 26
     },
     "transport": {
-      "http": 300694,
-      "https": 70493,
-      "http2": 17351,
+      "http": 306526,
+      "https": 70581,
+      "http2": 17352,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "primary-web",
-        "requests": 48764,
-        "sessions": 41368,
+        "requests": 48781,
+        "sessions": 41381,
         "actions": 3
       },
       {
         "profile": "wordpress",
-        "requests": 273915,
-        "sessions": 5872,
+        "requests": 279778,
+        "sessions": 5874,
         "actions": 2
       },
       {
@@ -6915,18 +7136,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 393272,
-    "iot_requests": 1015,
+    "classified_requests": 399181,
+    "iot_requests": 1017,
     "unclassified_requests": 458,
-    "routine_requests": 19791,
-    "excluded_checks": 3334
+    "routine_requests": 19806,
+    "excluded_checks": 3351
   },
   "counts": {
-    "commands": 615704,
-    "login_attempts": 888150,
-    "login_successes": 64895,
-    "ssh_connections": 938710,
-    "web_requests": 414536
+    "commands": 616368,
+    "login_attempts": 890471,
+    "login_successes": 64956,
+    "ssh_connections": 941186,
+    "web_requests": 420462
   },
   "daily": [
     {
@@ -7051,8 +7272,8 @@
     },
     {
       "date": "2026-11-21",
-      "ssh_connections": 7698,
-      "web_requests": 3666
+      "ssh_connections": 10174,
+      "web_requests": 9592
     }
   ],
   "http_requests": [
@@ -7068,25 +7289,25 @@
       "method": "GET",
       "path": "/?param=[REDACTED]",
       "status": 200,
-      "count": 1247,
+      "count": 1250,
       "first_seen": "2026-10-29T15:45:11+00:00",
-      "last_seen": "2026-11-21T00:39:13+00:00"
+      "last_seen": "2026-11-21T08:07:35+00:00"
     },
     {
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 627,
+      "count": 629,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-21T06:44:17+00:00"
+      "last_seen": "2026-11-21T07:40:11+00:00"
     },
     {
       "method": "GET",
       "path": "/?param=[REDACTED]&param=[REDACTED]",
       "status": 200,
-      "count": 320,
+      "count": 329,
       "first_seen": "2026-11-02T01:44:41+00:00",
-      "last_seen": "2026-11-21T06:06:39+00:00"
+      "last_seen": "2026-11-21T08:16:17+00:00"
     },
     {
       "method": "GET",
@@ -7116,9 +7337,9 @@
       "method": "POST",
       "path": "/?param=[REDACTED]",
       "status": 405,
-      "count": 157,
+      "count": 158,
       "first_seen": "2026-10-30T04:20:28+00:00",
-      "last_seen": "2026-11-20T03:25:04+00:00"
+      "last_seen": "2026-11-21T07:34:02+00:00"
     },
     {
       "method": "POST",
@@ -7188,9 +7409,9 @@
       "method": "GET",
       "path": "/developmentserver/metadatauploader",
       "status": 404,
-      "count": 43,
+      "count": 44,
       "first_seen": "2026-10-29T02:31:54+00:00",
-      "last_seen": "2026-11-20T22:17:50+00:00"
+      "last_seen": "2026-11-21T08:05:38+00:00"
     },
     {
       "method": "GET",
@@ -7252,9 +7473,9 @@
       "method": "GET",
       "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "status": 404,
-      "count": 27,
+      "count": 30,
       "first_seen": "2026-11-04T10:02:57+00:00",
-      "last_seen": "2026-11-21T06:06:37+00:00"
+      "last_seen": "2026-11-21T08:16:50+00:00"
     },
     {
       "method": "POST",
@@ -11870,17 +12091,17 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/xmlrpc.php",
-      "count": 265096,
+      "count": 270912,
       "first_seen": "2026-10-29T19:45:21+00:00",
-      "last_seen": "2026-11-21T06:06:46+00:00"
+      "last_seen": "2026-11-21T08:31:50+00:00"
     },
     {
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 2543,
+      "count": 2544,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-21T07:03:09+00:00"
+      "last_seen": "2026-11-21T08:06:14+00:00"
     },
     {
       "rule_id": "wordpress-probe",
@@ -11926,25 +12147,25 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/config",
-      "count": 1420,
+      "count": 1422,
       "first_seen": "2026-10-28T18:07:13+00:00",
-      "last_seen": "2026-11-21T05:38:03+00:00"
+      "last_seen": "2026-11-21T08:31:31+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/config",
-      "count": 1420,
+      "count": 1422,
       "first_seen": "2026-10-28T18:07:13+00:00",
-      "last_seen": "2026-11-21T05:38:03+00:00"
+      "last_seen": "2026-11-21T08:31:31+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
-      "count": 1126,
+      "count": 1130,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-21T06:06:48+00:00"
+      "last_seen": "2026-11-21T08:17:09+00:00"
     },
     {
       "rule_id": "wordpress-probe",
@@ -11958,25 +12179,25 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/HEAD",
-      "count": 775,
+      "count": 777,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-21T05:38:03+00:00"
+      "last_seen": "2026-11-21T08:08:17+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/HEAD",
-      "count": 775,
+      "count": 777,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-21T05:38:03+00:00"
+      "last_seen": "2026-11-21T08:08:17+00:00"
     },
     {
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 735,
+      "count": 737,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-21T06:44:17+00:00"
+      "last_seen": "2026-11-21T07:40:11+00:00"
     },
     {
       "rule_id": "traffic-json-config",
@@ -12006,9 +12227,9 @@
       "rule_id": "web-graphql",
       "method": "POST",
       "path": "/graphql",
-      "count": 641,
+      "count": 643,
       "first_seen": "2026-10-29T15:44:48+00:00",
-      "last_seen": "2026-11-21T06:06:41+00:00"
+      "last_seen": "2026-11-21T08:17:02+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -12315,6 +12536,14 @@
       "last_seen": "2026-11-18T11:44:02+00:00"
     },
     {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/?param=[REDACTED]&param=[REDACTED]",
+      "count": 327,
+      "first_seen": "2026-11-04T09:27:23+00:00",
+      "last_seen": "2026-11-21T08:16:17+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.example",
@@ -12337,14 +12566,6 @@
       "count": 323,
       "first_seen": "2026-10-29T16:46:23+00:00",
       "last_seen": "2026-11-21T05:38:02+00:00"
-    },
-    {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/?param=[REDACTED]&param=[REDACTED]",
-      "count": 318,
-      "first_seen": "2026-11-04T09:27:23+00:00",
-      "last_seen": "2026-11-21T06:06:39+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -12614,9 +12835,9 @@
       "rule_id": "review-file-exposure",
       "method": "GET",
       "path": "/.svn/wc.db",
-      "count": 226,
+      "count": 227,
       "first_seen": "2026-10-29T15:44:11+00:00",
-      "last_seen": "2026-11-21T05:38:03+00:00"
+      "last_seen": "2026-11-21T07:32:04+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -12766,9 +12987,9 @@
       "rule_id": "oct30-author-query",
       "method": "GET",
       "path": "/?param=[REDACTED]",
-      "count": 195,
+      "count": 198,
       "first_seen": "2026-10-29T19:45:20+00:00",
-      "last_seen": "2026-11-20T13:22:35+00:00"
+      "last_seen": "2026-11-21T08:07:35+00:00"
     },
     {
       "rule_id": "review-discovery-page",
@@ -13267,20 +13488,20 @@
       "last_seen": "2026-11-10T21:09:18+00:00"
     },
     {
+      "rule_id": "review-wordpress-rest",
+      "method": "POST",
+      "path": "/?param=[REDACTED]",
+      "count": 150,
+      "first_seen": "2026-10-29T15:45:07+00:00",
+      "last_seen": "2026-11-21T07:34:02+00:00"
+    },
+    {
       "rule_id": "oct30-js-runtime-config",
       "method": "GET",
       "path": "/app.js",
       "count": 150,
       "first_seen": "2026-10-30T14:14:52+00:00",
       "last_seen": "2026-11-20T15:28:24+00:00"
-    },
-    {
-      "rule_id": "review-wordpress-rest",
-      "method": "POST",
-      "path": "/?param=[REDACTED]",
-      "count": 149,
-      "first_seen": "2026-10-29T15:45:07+00:00",
-      "last_seen": "2026-11-20T03:25:04+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -13403,6 +13624,14 @@
       "last_seen": "2026-11-21T00:39:06+00:00"
     },
     {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 144,
+      "first_seen": "2026-11-04T09:27:27+00:00",
+      "last_seen": "2026-11-21T08:16:13+00:00"
+    },
+    {
       "rule_id": "oct30-debug",
       "method": "GET",
       "path": "/i.php",
@@ -13473,14 +13702,6 @@
       "count": 140,
       "first_seen": "2026-10-29T23:36:23+00:00",
       "last_seen": "2026-11-21T05:38:02+00:00"
-    },
-    {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 140,
-      "first_seen": "2026-11-04T09:27:27+00:00",
-      "last_seen": "2026-11-21T06:06:39+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -13835,6 +14056,14 @@
       "last_seen": "2026-11-21T01:17:59+00:00"
     },
     {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wemail/v1/subscribers",
+      "count": 121,
+      "first_seen": "2026-11-04T09:27:36+00:00",
+      "last_seen": "2026-11-21T08:17:08+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/terraform.tfvars",
@@ -13857,14 +14086,6 @@
       "count": 119,
       "first_seen": "2026-10-30T11:02:03+00:00",
       "last_seen": "2026-11-21T01:17:59+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wemail/v1/subscribers",
-      "count": 118,
-      "first_seen": "2026-11-04T09:27:36+00:00",
-      "last_seen": "2026-11-21T06:06:46+00:00"
     },
     {
       "rule_id": "mcp-probe",
@@ -14587,6 +14808,14 @@
       "last_seen": "2026-11-18T04:25:55+00:00"
     },
     {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/",
+      "count": 91,
+      "first_seen": "2026-10-29T15:44:07+00:00",
+      "last_seen": "2026-11-21T08:16:06+00:00"
+    },
+    {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/refs/heads/dev",
@@ -14681,14 +14910,6 @@
       "count": 90,
       "first_seen": "2026-10-29T04:35:11+00:00",
       "last_seen": "2026-11-20T23:50:06+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/",
-      "count": 90,
-      "first_seen": "2026-10-29T15:44:07+00:00",
-      "last_seen": "2026-11-21T06:06:36+00:00"
     },
     {
       "rule_id": "oct30-actuator",
@@ -15059,6 +15280,14 @@
       "last_seen": "2026-11-21T00:38:53+00:00"
     },
     {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 79,
+      "first_seen": "2026-11-04T09:27:20+00:00",
+      "last_seen": "2026-11-21T08:16:51+00:00"
+    },
+    {
       "rule_id": "web-rfi",
       "method": "GET",
       "path": "/?param=[REDACTED]",
@@ -15089,14 +15318,6 @@
       "count": 78,
       "first_seen": "2026-10-29T22:09:21+00:00",
       "last_seen": "2026-11-19T10:36:27+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
-      "count": 78,
-      "first_seen": "2026-11-04T09:27:20+00:00",
-      "last_seen": "2026-11-21T06:06:31+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15211,6 +15432,14 @@
       "last_seen": "2026-11-19T15:40:34+00:00"
     },
     {
+      "rule_id": "nov05-wordpress-author-probe",
+      "method": "GET",
+      "path": "/wp-sitemap-users-1.xml",
+      "count": 75,
+      "first_seen": "2026-11-04T09:27:20+00:00",
+      "last_seen": "2026-11-21T08:15:54+00:00"
+    },
+    {
       "rule_id": "geoserver-probe",
       "method": "GET",
       "path": "/geoserver/web/",
@@ -15275,12 +15504,12 @@
       "last_seen": "2026-11-21T00:39:11+00:00"
     },
     {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/wp-sitemap-users-1.xml",
+      "rule_id": "web-graphql",
+      "method": "POST",
+      "path": "/api/graphql",
       "count": 73,
-      "first_seen": "2026-11-04T09:27:20+00:00",
-      "last_seen": "2026-11-21T06:06:33+00:00"
+      "first_seen": "2026-11-04T09:27:33+00:00",
+      "last_seen": "2026-11-21T08:17:03+00:00"
     },
     {
       "rule_id": "nov07-client-assets",
@@ -15371,12 +15600,20 @@
       "last_seen": "2026-11-20T14:59:24+00:00"
     },
     {
-      "rule_id": "web-graphql",
-      "method": "POST",
-      "path": "/api/graphql",
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "count": 71,
-      "first_seen": "2026-11-04T09:27:33+00:00",
-      "last_seen": "2026-11-21T06:06:42+00:00"
+      "first_seen": "2026-11-04T09:27:19+00:00",
+      "last_seen": "2026-11-21T08:16:07+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "POST",
+      "path": "/wp-admin/admin-ajax.php",
+      "count": 71,
+      "first_seen": "2026-11-04T09:27:32+00:00",
+      "last_seen": "2026-11-21T08:16:24+00:00"
     },
     {
       "rule_id": "nov02-js-asset-probe",
@@ -15387,12 +15624,12 @@
       "last_seen": "2026-11-20T09:50:59+00:00"
     },
     {
-      "rule_id": "wordpress-probe",
+      "rule_id": "nov05-wordpress-author-probe",
       "method": "GET",
-      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "path": "/author-sitemap.xml",
       "count": 70,
-      "first_seen": "2026-11-04T09:27:19+00:00",
-      "last_seen": "2026-11-21T06:06:36+00:00"
+      "first_seen": "2026-11-04T09:27:20+00:00",
+      "last_seen": "2026-11-21T08:15:52+00:00"
     },
     {
       "rule_id": "review-file-exposure",
@@ -15412,11 +15649,11 @@
     },
     {
       "rule_id": "wordpress-probe",
-      "method": "POST",
-      "path": "/wp-admin/admin-ajax.php",
+      "method": "GET",
+      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]",
       "count": 69,
-      "first_seen": "2026-11-04T09:27:32+00:00",
-      "last_seen": "2026-11-21T06:06:41+00:00"
+      "first_seen": "2026-11-04T09:27:31+00:00",
+      "last_seen": "2026-11-21T08:17:05+00:00"
     },
     {
       "rule_id": "oct30-build",
@@ -15425,6 +15662,14 @@
       "count": 68,
       "first_seen": "2026-10-29T16:46:23+00:00",
       "last_seen": "2026-11-21T00:39:09+00:00"
+    },
+    {
+      "rule_id": "wordpress-probe",
+      "method": "GET",
+      "path": "/wp-json/oembed/1.0/embed?url=[REDACTED]",
+      "count": 68,
+      "first_seen": "2026-10-29T19:45:20+00:00",
+      "last_seen": "2026-11-21T08:07:36+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15459,22 +15704,6 @@
       "last_seen": "2026-11-21T00:39:13+00:00"
     },
     {
-      "rule_id": "nov05-wordpress-author-probe",
-      "method": "GET",
-      "path": "/author-sitemap.xml",
-      "count": 68,
-      "first_seen": "2026-11-04T09:27:20+00:00",
-      "last_seen": "2026-11-21T06:06:32+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]",
-      "count": 68,
-      "first_seen": "2026-11-04T09:27:31+00:00",
-      "last_seen": "2026-11-21T06:06:43+00:00"
-    },
-    {
       "rule_id": "nov10-flight-redirect-probe",
       "method": "POST",
       "path": "/",
@@ -15497,14 +15726,6 @@
       "count": 67,
       "first_seen": "2026-10-29T16:46:25+00:00",
       "last_seen": "2026-11-19T09:05:20+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/oembed/1.0/embed?url=[REDACTED]",
-      "count": 67,
-      "first_seen": "2026-10-29T19:45:20+00:00",
-      "last_seen": "2026-11-20T13:22:36+00:00"
     },
     {
       "rule_id": "oct30-js-runtime-config",
@@ -15611,6 +15832,14 @@
       "last_seen": "2026-11-21T00:38:50+00:00"
     },
     {
+      "rule_id": "oct30-cms-metadata",
+      "method": "GET",
+      "path": "/wp-includes/wlwmanifest.xml",
+      "count": 65,
+      "first_seen": "2026-10-29T19:45:19+00:00",
+      "last_seen": "2026-11-21T08:07:35+00:00"
+    },
+    {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/refs/tags/v2.0.0",
@@ -15643,12 +15872,12 @@
       "last_seen": "2026-11-21T01:17:59+00:00"
     },
     {
-      "rule_id": "oct30-cms-metadata",
+      "rule_id": "wordpress-probe",
       "method": "GET",
-      "path": "/wp-includes/wlwmanifest.xml",
+      "path": "/wp-json/wp/v2/users/",
       "count": 64,
-      "first_seen": "2026-10-29T19:45:19+00:00",
-      "last_seen": "2026-11-19T22:54:51+00:00"
+      "first_seen": "2026-10-29T19:45:20+00:00",
+      "last_seen": "2026-11-21T08:07:36+00:00"
     },
     {
       "rule_id": "oct30-js-runtime-config",
@@ -15673,14 +15902,6 @@
       "count": 64,
       "first_seen": "2026-10-31T15:12:04+00:00",
       "last_seen": "2026-11-20T09:50:58+00:00"
-    },
-    {
-      "rule_id": "wordpress-probe",
-      "method": "GET",
-      "path": "/wp-json/wp/v2/users/",
-      "count": 63,
-      "first_seen": "2026-10-29T19:45:20+00:00",
-      "last_seen": "2026-11-20T13:22:35+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -16014,9 +16235,9 @@
       "rule_id": "sap-metadata-probe",
       "method": "GET",
       "path": "/developmentserver/metadatauploader",
-      "count": 50,
+      "count": 51,
       "first_seen": "2026-10-29T02:31:54+00:00",
-      "last_seen": "2026-11-20T22:17:50+00:00"
+      "last_seen": "2026-11-21T08:05:38+00:00"
     },
     {
       "rule_id": "review-jira-metadata",
@@ -19854,12 +20075,12 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 68548,
+    "web_bodies_skipped": 74492,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 461
+    "pending_indicators": 462
   }
 }
