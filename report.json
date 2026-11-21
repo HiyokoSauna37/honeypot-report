@@ -1,5 +1,5 @@
 {
-  "schema_version": 11,
+  "schema_version": 12,
   "shell_watch": {
     "matched_requests": 2369,
     "cases": {
@@ -221,7 +221,7 @@
       }
     }
   },
-  "generated_utc": "2026-11-21T08:43:51+00:00",
+  "generated_utc": "2026-11-21T09:03:24+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -6916,6 +6916,36 @@
           "count": 3,
           "first_seen": "2026-11-12T16:30:20+00:00",
           "last_seen": "2026-11-15T05:01:47+00:00"
+        }
+      ],
+      "unlisted_requests": 0
+    },
+    "xss2shell": {
+      "requests": 1,
+      "first_seen": "2026-11-19T22:11:33+00:00",
+      "last_seen": "2026-11-19T22:11:33+00:00",
+      "responses": [
+        {
+          "status": 401,
+          "count": 1
+        }
+      ],
+      "unknown_responses": 0,
+      "signals": {
+        "login_markup": 1
+      },
+      "request_details": [
+        {
+          "method": "POST",
+          "path": "/wp-login.php",
+          "query": [],
+          "status": 401,
+          "content_encoding": "",
+          "body_format": "form",
+          "body_fields": [],
+          "count": 1,
+          "first_seen": "2026-11-19T22:11:33+00:00",
+          "last_seen": "2026-11-19T22:11:33+00:00"
         }
       ],
       "unlisted_requests": 0
