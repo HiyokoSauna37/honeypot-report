@@ -221,7 +221,7 @@
       }
     }
   },
-  "generated_utc": "2026-11-22T02:47:54+00:00",
+  "generated_utc": "2026-11-22T03:08:14+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -7178,9 +7178,9 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 415776,
+    "classified_requests": 415827,
     "iot_requests": 1060,
-    "unclassified_requests": 51,
+    "unclassified_requests": 0,
     "routine_requests": 20451,
     "excluded_checks": 3598
   },
@@ -9366,6 +9366,62 @@
     },
     {
       "method": "GET",
+      "path": "/.dbeaver/credentials-config.json",
+      "status": 429,
+      "count": 14,
+      "first_seen": "2026-11-14T02:11:05+00:00",
+      "last_seen": "2026-11-21T14:29:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.hg/hgrc",
+      "status": 429,
+      "count": 14,
+      "first_seen": "2026-11-14T02:11:05+00:00",
+      "last_seen": "2026-11-21T14:29:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/[REDACTED]/home/ubuntu/.aws/credentials",
+      "status": 429,
+      "count": 14,
+      "first_seen": "2026-11-14T02:11:05+00:00",
+      "last_seen": "2026-11-21T14:29:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/[REDACTED]/root/.aws/credentials",
+      "status": 429,
+      "count": 14,
+      "first_seen": "2026-11-14T02:11:05+00:00",
+      "last_seen": "2026-11-21T14:29:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/telescope",
+      "status": 404,
+      "count": 13,
+      "first_seen": "2026-11-02T04:00:59+00:00",
+      "last_seen": "2026-11-21T00:39:42+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/web/debug/default/view",
+      "status": 404,
+      "count": 13,
+      "first_seen": "2026-11-02T04:55:51+00:00",
+      "last_seen": "2026-11-19T15:39:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/configs.json",
+      "status": 404,
+      "count": 13,
+      "first_seen": "2026-11-02T04:55:57+00:00",
+      "last_seen": "2026-11-19T15:39:59+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "status": 502,
       "count": 13,
@@ -9582,6 +9638,14 @@
     },
     {
       "method": "GET",
+      "path": "/remote/login?param=[REDACTED]",
+      "status": 404,
+      "count": 7,
+      "first_seen": "2026-11-21T15:01:38+00:00",
+      "last_seen": "2026-11-22T02:07:21+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/phpunit/Util/PHP/eval-stdin.php",
       "status": 404,
       "count": 6,
@@ -9662,11 +9726,27 @@
     },
     {
       "method": "GET",
+      "path": "/docs/handover-checklist",
+      "status": 200,
+      "count": 6,
+      "first_seen": "2026-11-21T10:53:49+00:00",
+      "last_seen": "2026-11-21T15:39:11+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/docs",
       "status": 200,
       "count": 6,
       "first_seen": "2026-11-21T11:33:27+00:00",
       "last_seen": "2026-11-21T15:00:08+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mark_lang.w.xml?param=[REDACTED]",
+      "status": 404,
+      "count": 6,
+      "first_seen": "2026-11-21T12:24:49+00:00",
+      "last_seen": "2026-11-21T12:24:51+00:00"
     },
     {
       "method": "GET",
@@ -10693,6 +10773,30 @@
       "last_seen": "2026-11-19T08:55:01+00:00"
     },
     {
+      "method": "GET",
+      "path": "/api/v1/auth/status",
+      "status": 404,
+      "count": 4,
+      "first_seen": "2026-11-21T09:55:27+00:00",
+      "last_seen": "2026-11-21T10:02:31+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/user/status",
+      "status": 404,
+      "count": 4,
+      "first_seen": "2026-11-21T09:55:28+00:00",
+      "last_seen": "2026-11-21T10:02:32+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/view/",
+      "status": 404,
+      "count": 4,
+      "first_seen": "2026-11-21T09:55:31+00:00",
+      "last_seen": "2026-11-21T10:02:35+00:00"
+    },
+    {
       "method": "POST",
       "path": "/auth",
       "status": 404,
@@ -10755,6 +10859,14 @@
       "count": 3,
       "first_seen": "2026-11-09T19:25:26+00:00",
       "last_seen": "2026-11-13T15:56:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/docs",
+      "status": 404,
+      "count": 3,
+      "first_seen": "2026-11-19T00:58:12+00:00",
+      "last_seen": "2026-11-19T06:03:13+00:00"
     },
     {
       "method": "GET",
@@ -14155,6 +14267,30 @@
       "count": 1,
       "first_seen": "2026-11-21T00:39:46+00:00",
       "last_seen": "2026-11-21T00:39:46+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/device.rsp?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T17:46:48+00:00",
+      "last_seen": "2026-11-21T17:46:48+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/device.rsp?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T17:46:48+00:00",
+      "last_seen": "2026-11-21T17:46:48+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/_nodes/_local/jvm%2Cos",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-22T00:40:11+00:00",
+      "last_seen": "2026-11-22T00:40:11+00:00"
     }
   ],
   "findings": [
@@ -15423,132 +15559,12 @@
       "last_seen": "2026-11-21T19:46:56+00:00"
     },
     {
-      "rule_id": "oct30-build",
-      "method": "GET",
-      "path": "/.github/workflows/deploy.yml",
-      "count": 163,
-      "first_seen": "2026-10-30T17:08:55+00:00",
-      "last_seen": "2026-11-21T14:29:05+00:00"
-    },
-    {
-      "rule_id": "web-lfi",
-      "method": "POST",
-      "path": "/php-cgi/php-cgi.exe?param=[REDACTED]",
-      "count": 162,
-      "first_seen": "2026-10-29T15:45:00+00:00",
-      "last_seen": "2026-11-19T11:04:07+00:00"
-    },
-    {
-      "rule_id": "web-upload",
-      "method": "POST",
-      "path": "/php-cgi/php-cgi.exe?param=[REDACTED]",
-      "count": 161,
-      "first_seen": "2026-10-29T15:45:00+00:00",
-      "last_seen": "2026-11-19T11:04:07+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/public/.env",
-      "count": 161,
-      "first_seen": "2026-10-30T11:01:58+00:00",
-      "last_seen": "2026-11-21T19:46:56+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/wp-config.php~",
-      "count": 160,
-      "first_seen": "2026-10-29T23:36:34+00:00",
-      "last_seen": "2026-11-21T05:38:03+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/refs/heads/master",
-      "count": 159,
-      "first_seen": "2026-10-29T22:09:08+00:00",
-      "last_seen": "2026-11-22T00:17:49+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/refs/heads/master",
-      "count": 159,
-      "first_seen": "2026-10-29T22:09:08+00:00",
-      "last_seen": "2026-11-22T00:17:49+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/refs/heads/master",
-      "count": 159,
-      "first_seen": "2026-10-29T22:09:08+00:00",
-      "last_seen": "2026-11-22T00:17:49+00:00"
-    },
-    {
       "rule_id": "review-react2shell-hex-evaluation",
       "method": "POST",
       "path": "/",
       "count": 159,
       "first_seen": "2026-10-31T22:55:16+00:00",
       "last_seen": "2026-11-21T01:55:58+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/appsettings.Production.json",
-      "count": 158,
-      "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-21T14:29:05+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/ORIG_HEAD",
-      "count": 158,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-22T00:17:48+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/ORIG_HEAD",
-      "count": 158,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-22T00:17:48+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/ORIG_HEAD",
-      "count": 158,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-22T00:17:48+00:00"
-    },
-    {
-      "rule_id": "oct30-build",
-      "method": "GET",
-      "path": "/.gitlab-ci.yml",
-      "count": 156,
-      "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-21T14:29:05+00:00"
-    },
-    {
-      "rule_id": "review-file-exposure",
-      "method": "GET",
-      "path": "/backup.sql",
-      "count": 154,
-      "first_seen": "2026-10-29T15:44:09+00:00",
-      "last_seen": "2026-11-21T14:29:06+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/appsettings.Development.json",
-      "count": 154,
-      "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-21T14:29:05+00:00"
     },
     {
       "rule_id": "nov05-wordpress-author-probe",
@@ -16399,6 +16415,14 @@
       "last_seen": "2026-11-19T13:25:51+00:00"
     },
     {
+      "rule_id": "oct30-repository",
+      "method": "GET",
+      "path": "/.hg/hgrc",
+      "count": 27,
+      "first_seen": "2026-11-06T12:06:06+00:00",
+      "last_seen": "2026-11-21T14:29:05+00:00"
+    },
+    {
       "rule_id": "nov03-cloud-secret-probe",
       "method": "GET",
       "path": "/api/v1/namespaces/default/secrets",
@@ -16847,6 +16871,22 @@
       "last_seen": "2026-11-18T04:25:51+00:00"
     },
     {
+      "rule_id": "nov03-debug-tool-probe",
+      "method": "GET",
+      "path": "/telescope",
+      "count": 18,
+      "first_seen": "2026-11-02T04:00:59+00:00",
+      "last_seen": "2026-11-21T00:39:42+00:00"
+    },
+    {
+      "rule_id": "nov03-yii-debug-probe",
+      "method": "GET",
+      "path": "/web/debug/default/view",
+      "count": 18,
+      "first_seen": "2026-11-02T04:55:51+00:00",
+      "last_seen": "2026-11-19T15:39:57+00:00"
+    },
+    {
       "rule_id": "nov02-js-asset-probe",
       "method": "GET",
       "path": "/index.js.map",
@@ -17033,6 +17073,14 @@
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
+      "path": "/assets/configs.json",
+      "count": 15,
+      "first_seen": "2026-11-02T04:55:57+00:00",
+      "last_seen": "2026-11-19T15:39:59+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
       "path": "/config.old",
       "count": 15,
       "first_seen": "2026-11-02T08:21:39+00:00",
@@ -17053,6 +17101,14 @@
       "count": 15,
       "first_seen": "2026-11-06T12:08:57+00:00",
       "last_seen": "2026-11-19T10:35:49+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/.dbeaver/credentials-config.json",
+      "count": 15,
+      "first_seen": "2026-11-14T02:11:05+00:00",
+      "last_seen": "2026-11-21T14:29:06+00:00"
     },
     {
       "rule_id": "nov21-flight-reference-post",
@@ -17173,6 +17229,22 @@
       "count": 14,
       "first_seen": "2026-11-14T02:11:04+00:00",
       "last_seen": "2026-11-21T14:29:04+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/[REDACTED]/home/ubuntu/.aws/credentials",
+      "count": 14,
+      "first_seen": "2026-11-14T02:11:05+00:00",
+      "last_seen": "2026-11-21T14:29:05+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/[REDACTED]/root/.aws/credentials",
+      "count": 14,
+      "first_seen": "2026-11-14T02:11:05+00:00",
+      "last_seen": "2026-11-21T14:29:05+00:00"
     },
     {
       "rule_id": "phpunit-code",
@@ -17359,6 +17431,14 @@
       "last_seen": "2026-11-10T00:26:56+00:00"
     },
     {
+      "rule_id": "nov22-public-docs",
+      "method": "GET",
+      "path": "/docs",
+      "count": 8,
+      "first_seen": "2026-11-19T01:02:07+00:00",
+      "last_seen": "2026-11-21T15:00:08+00:00"
+    },
+    {
       "rule_id": "phpunit-code",
       "method": "GET",
       "path": "/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
@@ -17535,6 +17615,14 @@
       "last_seen": "2026-11-13T15:56:32+00:00"
     },
     {
+      "rule_id": "nov22-vpn-login-language",
+      "method": "GET",
+      "path": "/remote/login?param=[REDACTED]",
+      "count": 7,
+      "first_seen": "2026-11-21T15:01:38+00:00",
+      "last_seen": "2026-11-22T02:07:21+00:00"
+    },
+    {
       "rule_id": "phpunit-code",
       "method": "GET",
       "path": "/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
@@ -17597,6 +17685,22 @@
       "count": 6,
       "first_seen": "2026-11-09T17:11:45+00:00",
       "last_seen": "2026-11-13T15:56:30+00:00"
+    },
+    {
+      "rule_id": "nov22-public-docs",
+      "method": "GET",
+      "path": "/docs/handover-checklist",
+      "count": 6,
+      "first_seen": "2026-11-21T10:53:49+00:00",
+      "last_seen": "2026-11-21T15:39:11+00:00"
+    },
+    {
+      "rule_id": "nov22-xml-time-parameter",
+      "method": "GET",
+      "path": "/mark_lang.w.xml?param=[REDACTED]",
+      "count": 6,
+      "first_seen": "2026-11-21T12:24:49+00:00",
+      "last_seen": "2026-11-21T12:24:51+00:00"
     },
     {
       "rule_id": "oct30-unidentified-path",
@@ -18119,6 +18223,38 @@
       "last_seen": "2026-11-18T09:09:06+00:00"
     },
     {
+      "rule_id": "nov22-h2-console",
+      "method": "GET",
+      "path": "/h2-console",
+      "count": 4,
+      "first_seen": "2026-11-19T08:36:14+00:00",
+      "last_seen": "2026-11-21T17:06:14+00:00"
+    },
+    {
+      "rule_id": "nov22-status-api",
+      "method": "GET",
+      "path": "/api/v1/auth/status",
+      "count": 4,
+      "first_seen": "2026-11-21T09:55:27+00:00",
+      "last_seen": "2026-11-21T10:02:31+00:00"
+    },
+    {
+      "rule_id": "nov22-status-api",
+      "method": "GET",
+      "path": "/api/v1/user/status",
+      "count": 4,
+      "first_seen": "2026-11-21T09:55:28+00:00",
+      "last_seen": "2026-11-21T10:02:32+00:00"
+    },
+    {
+      "rule_id": "nov22-status-api",
+      "method": "GET",
+      "path": "/api/v1/view/",
+      "count": 4,
+      "first_seen": "2026-11-21T09:55:31+00:00",
+      "last_seen": "2026-11-21T10:02:35+00:00"
+    },
+    {
       "rule_id": "review-react2shell-unicode",
       "method": "POST",
       "path": "/auth",
@@ -18173,14 +18309,6 @@
       "count": 3,
       "first_seen": "2026-11-06T06:43:38+00:00",
       "last_seen": "2026-11-09T04:37:34+00:00"
-    },
-    {
-      "rule_id": "nov21-surface",
-      "method": "GET",
-      "path": "/docs",
-      "count": 3,
-      "first_seen": "2026-11-19T00:58:12+00:00",
-      "last_seen": "2026-11-19T06:03:13+00:00"
     },
     {
       "rule_id": "web-php-session",
@@ -18421,14 +18549,6 @@
       "count": 3,
       "first_seen": "2026-11-19T08:36:13+00:00",
       "last_seen": "2026-11-19T09:05:00+00:00"
-    },
-    {
-      "rule_id": "nov21-survey",
-      "method": "GET",
-      "path": "/h2-console",
-      "count": 3,
-      "first_seen": "2026-11-19T08:36:14+00:00",
-      "last_seen": "2026-11-19T09:05:01+00:00"
     },
     {
       "rule_id": "nov21-survey",
@@ -21101,6 +21221,30 @@
       "count": 1,
       "first_seen": "2026-11-21T00:39:46+00:00",
       "last_seen": "2026-11-21T00:39:46+00:00"
+    },
+    {
+      "rule_id": "nov22-command-shaped-query",
+      "method": "GET",
+      "path": "/device.rsp?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-11-21T17:46:48+00:00",
+      "last_seen": "2026-11-21T17:46:48+00:00"
+    },
+    {
+      "rule_id": "nov22-command-shaped-query",
+      "method": "POST",
+      "path": "/device.rsp?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
+      "count": 1,
+      "first_seen": "2026-11-21T17:46:48+00:00",
+      "last_seen": "2026-11-21T17:46:48+00:00"
+    },
+    {
+      "rule_id": "nov22-elasticsearch-node-info",
+      "method": "GET",
+      "path": "/_nodes/_local/jvm%2Cos",
+      "count": 1,
+      "first_seen": "2026-11-22T00:40:11+00:00",
+      "last_seen": "2026-11-22T00:40:11+00:00"
     }
   ],
   "outbound": [
@@ -21176,6 +21320,6 @@
     "invalid_events": 0,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 16
+    "pending_indicators": 0
   }
 }
