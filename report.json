@@ -1,7 +1,7 @@
 {
   "schema_version": 12,
   "shell_watch": {
-    "matched_requests": 2639,
+    "matched_requests": 2645,
     "cases": {
       "ruby2shell": {
         "name": "Ruby2Shell",
@@ -190,10 +190,10 @@
         "reference": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-52p2-r8wf-jcrf",
         "mode": "signal",
         "criteria": "\u6a19\u6e96\u30ed\u30b0\u30a4\u30f3\u753b\u9762\u3078\u306e POST \u3092\u96c6\u8a08\u3002\u672c\u6587\u306e\u30e6\u30fc\u30b6\u30fc\u540d\u306b id\u30fbname \u5c5e\u6027\u4ed8\u304d\u306e HTML \u8981\u7d20\u304c\u3042\u308b\u5165\u529b\u306f\u8981\u8abf\u67fb\u3002\u53cd\u6620\u30fb\u5b9f\u884c\u306f\u672a\u78ba\u8a8d\u3067\u3059\u3002",
-        "surface_requests": 2637,
+        "surface_requests": 2643,
         "indicator_requests": 2,
         "first_seen": "2026-11-04T15:32:32+00:00",
-        "last_seen": "2026-11-24T13:56:45+00:00"
+        "last_seen": "2026-11-24T15:01:06+00:00"
       },
       "kindarails2shell": {
         "name": "KindaRails2Shell",
@@ -221,42 +221,42 @@
       }
     }
   },
-  "generated_utc": "2026-11-24T14:46:51+00:00",
+  "generated_utc": "2026-11-24T15:45:55+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
-    "requests": 470198,
-    "sessions": 99823,
-    "sources": 8578,
+    "requests": 470248,
+    "sessions": 99864,
+    "sources": 8596,
     "largest_source_requests": 24714,
     "behaviors": {
-      "cookie": 3169,
+      "cookie": 3172,
       "redirect": 6,
       "resource": 101,
       "javascript": 98,
       "revisit": 2,
-      "login": 2835,
+      "login": 2838,
       "upload": 11,
       "action": 0,
       "robots": 26
     },
     "transport": {
-      "http": 390764,
-      "https": 79434,
-      "http2": 19619,
+      "http": 390776,
+      "https": 79472,
+      "http2": 19637,
       "unknown": 0
     },
     "profiles": [
       {
         "profile": "primary-web",
-        "requests": 58063,
-        "sessions": 50006,
+        "requests": 58094,
+        "sessions": 50037,
         "actions": 3
       },
       {
         "profile": "wordpress",
-        "requests": 356880,
-        "sessions": 6614,
+        "requests": 356898,
+        "sessions": 6623,
         "actions": 2
       },
       {
@@ -294,9 +294,9 @@
   },
   "notable_activity": {
     "react2shell": {
-      "requests": 1306,
+      "requests": 1307,
       "first_seen": "2026-10-29T15:52:36+00:00",
-      "last_seen": "2026-11-24T13:43:22+00:00",
+      "last_seen": "2026-11-24T15:06:31+00:00",
       "responses": [
         {
           "status": 200,
@@ -308,7 +308,7 @@
         },
         {
           "status": 405,
-          "count": 934
+          "count": 935
         },
         {
           "status": 499,
@@ -321,7 +321,7 @@
       ],
       "unknown_responses": 0,
       "signals": {
-        "command": 1306,
+        "command": 1307,
         "download": 1,
         "cron_removal": 1
       },
@@ -446,9 +446,9 @@
               "value": "$@0"
             }
           ],
-          "count": 297,
+          "count": 298,
           "first_seen": "2026-10-30T06:27:45+00:00",
-          "last_seen": "2026-11-24T13:43:22+00:00"
+          "last_seen": "2026-11-24T15:06:31+00:00"
         },
         {
           "method": "POST",
@@ -7227,18 +7227,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 495203,
-    "iot_requests": 1224,
+    "classified_requests": 495241,
+    "iot_requests": 1227,
     "unclassified_requests": 203,
-    "routine_requests": 23007,
-    "excluded_checks": 4371
+    "routine_requests": 23029,
+    "excluded_checks": 4384
   },
   "counts": {
-    "commands": 1294715,
-    "login_attempts": 1432231,
-    "login_successes": 127515,
-    "ssh_connections": 1490866,
-    "web_requests": 519637
+    "commands": 1297567,
+    "login_attempts": 1439224,
+    "login_successes": 127782,
+    "ssh_connections": 1497860,
+    "web_requests": 519700
   },
   "daily": [
     {
@@ -7378,8 +7378,13 @@
     },
     {
       "date": "2026-11-24",
-      "ssh_connections": 209261,
-      "web_requests": 36170
+      "ssh_connections": 213022,
+      "web_requests": 36214
+    },
+    {
+      "date": "2026-11-25",
+      "ssh_connections": 3233,
+      "web_requests": 19
     }
   ],
   "http_requests": [
@@ -7387,9 +7392,9 @@
       "method": "POST",
       "path": "/",
       "status": 405,
-      "count": 1539,
+      "count": 1540,
       "first_seen": "2026-10-30T00:08:59+00:00",
-      "last_seen": "2026-11-24T14:11:52+00:00"
+      "last_seen": "2026-11-24T15:06:31+00:00"
     },
     {
       "method": "GET",
@@ -7403,9 +7408,9 @@
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 750,
+      "count": 752,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-24T12:46:59+00:00"
+      "last_seen": "2026-11-24T15:11:03+00:00"
     },
     {
       "method": "GET",
@@ -7513,19 +7518,19 @@
     },
     {
       "method": "GET",
+      "path": "/developmentserver/metadatauploader",
+      "status": 404,
+      "count": 51,
+      "first_seen": "2026-10-29T02:31:54+00:00",
+      "last_seen": "2026-11-24T15:11:16+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/sendgrid.env",
       "status": 404,
       "count": 51,
       "first_seen": "2026-11-01T00:42:54+00:00",
       "last_seen": "2026-11-24T08:41:25+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/developmentserver/metadatauploader",
-      "status": 404,
-      "count": 50,
-      "first_seen": "2026-10-29T02:31:54+00:00",
-      "last_seen": "2026-11-24T10:37:52+00:00"
     },
     {
       "method": "GET",
@@ -14501,25 +14506,25 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/xmlrpc.php",
-      "count": 346726,
+      "count": 346732,
       "first_seen": "2026-10-29T19:45:21+00:00",
-      "last_seen": "2026-11-24T14:15:55+00:00"
+      "last_seen": "2026-11-24T15:22:25+00:00"
     },
     {
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 2926,
+      "count": 2929,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-24T14:21:18+00:00"
+      "last_seen": "2026-11-24T15:20:20+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/wp-login.php",
-      "count": 2639,
+      "count": 2645,
       "first_seen": "2026-11-04T15:32:32+00:00",
-      "last_seen": "2026-11-24T13:56:45+00:00"
+      "last_seen": "2026-11-24T15:01:06+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -14573,17 +14578,17 @@
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
-      "count": 1281,
+      "count": 1284,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-24T13:56:46+00:00"
+      "last_seen": "2026-11-24T15:01:07+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-login.php",
-      "count": 1205,
+      "count": 1208,
       "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-11-24T13:56:45+00:00"
+      "last_seen": "2026-11-24T15:01:06+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -14605,9 +14610,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 858,
+      "count": 860,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-24T12:46:59+00:00"
+      "last_seen": "2026-11-24T15:11:03+00:00"
     },
     {
       "rule_id": "traffic-json-config",
@@ -14917,9 +14922,9 @@
       "rule_id": "review-react2shell-reverse-shell",
       "method": "POST",
       "path": "/",
-      "count": 368,
+      "count": 369,
       "first_seen": "2026-10-30T06:27:45+00:00",
-      "last_seen": "2026-11-24T13:43:22+00:00"
+      "last_seen": "2026-11-24T15:06:31+00:00"
     },
     {
       "rule_id": "nov01-site-navigation",
@@ -17133,9 +17138,9 @@
       "rule_id": "sap-metadata-probe",
       "method": "GET",
       "path": "/developmentserver/metadatauploader",
-      "count": 57,
+      "count": 58,
       "first_seen": "2026-10-29T02:31:54+00:00",
-      "last_seen": "2026-11-24T10:37:52+00:00"
+      "last_seen": "2026-11-24T15:11:16+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -22189,7 +22194,7 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 90058,
+    "web_bodies_skipped": 90048,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
