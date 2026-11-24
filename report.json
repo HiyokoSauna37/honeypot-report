@@ -1,7 +1,7 @@
 {
   "schema_version": 12,
   "shell_watch": {
-    "matched_requests": 2675,
+    "matched_requests": 2679,
     "cases": {
       "ruby2shell": {
         "name": "Ruby2Shell",
@@ -190,10 +190,10 @@
         "reference": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-52p2-r8wf-jcrf",
         "mode": "signal",
         "criteria": "\u6a19\u6e96\u30ed\u30b0\u30a4\u30f3\u753b\u9762\u3078\u306e POST \u3092\u96c6\u8a08\u3002\u672c\u6587\u306e\u30e6\u30fc\u30b6\u30fc\u540d\u306b id\u30fbname \u5c5e\u6027\u4ed8\u304d\u306e HTML \u8981\u7d20\u304c\u3042\u308b\u5165\u529b\u306f\u8981\u8abf\u67fb\u3002\u53cd\u6620\u30fb\u5b9f\u884c\u306f\u672a\u78ba\u8a8d\u3067\u3059\u3002",
-        "surface_requests": 2673,
+        "surface_requests": 2677,
         "indicator_requests": 2,
         "first_seen": "2026-11-04T15:32:32+00:00",
-        "last_seen": "2026-11-24T20:29:51+00:00"
+        "last_seen": "2026-11-24T21:27:08+00:00"
       },
       "kindarails2shell": {
         "name": "KindaRails2Shell",
@@ -221,7 +221,7 @@
       }
     }
   },
-  "generated_utc": "2026-11-24T20:46:51+00:00",
+  "generated_utc": "2026-11-24T21:46:30+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -294,9 +294,9 @@
   },
   "notable_activity": {
     "react2shell": {
-      "requests": 1316,
+      "requests": 1317,
       "first_seen": "2026-10-29T15:52:36+00:00",
-      "last_seen": "2026-11-24T20:20:42+00:00",
+      "last_seen": "2026-11-24T21:05:10+00:00",
       "responses": [
         {
           "status": 200,
@@ -308,7 +308,7 @@
         },
         {
           "status": 405,
-          "count": 944
+          "count": 945
         },
         {
           "status": 499,
@@ -321,7 +321,7 @@
       ],
       "unknown_responses": 0,
       "signals": {
-        "command": 1316,
+        "command": 1317,
         "download": 1,
         "cron_removal": 1
       },
@@ -446,9 +446,9 @@
               "value": "$@0"
             }
           ],
-          "count": 303,
+          "count": 304,
           "first_seen": "2026-10-30T06:27:45+00:00",
-          "last_seen": "2026-11-24T20:20:42+00:00"
+          "last_seen": "2026-11-24T21:05:10+00:00"
         },
         {
           "method": "POST",
@@ -7227,18 +7227,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 499504,
-    "iot_requests": 1243,
+    "classified_requests": 501918,
+    "iot_requests": 1245,
     "unclassified_requests": 771,
-    "routine_requests": 23154,
-    "excluded_checks": 4447
+    "routine_requests": 23169,
+    "excluded_checks": 4460
   },
   "counts": {
     "commands": 1303951,
-    "login_attempts": 1466963,
-    "login_successes": 128973,
-    "ssh_connections": 1534805,
-    "web_requests": 524672
+    "login_attempts": 1470517,
+    "login_successes": 129173,
+    "ssh_connections": 1541710,
+    "web_requests": 527103
   },
   "daily": [
     {
@@ -7383,8 +7383,8 @@
     },
     {
       "date": "2026-11-25",
-      "ssh_connections": 40178,
-      "web_requests": 4991
+      "ssh_connections": 47083,
+      "web_requests": 7422
     }
   ],
   "http_requests": [
@@ -7392,25 +7392,25 @@
       "method": "POST",
       "path": "/",
       "status": 405,
-      "count": 1549,
+      "count": 1550,
       "first_seen": "2026-10-30T00:08:59+00:00",
-      "last_seen": "2026-11-24T20:20:42+00:00"
+      "last_seen": "2026-11-24T21:05:10+00:00"
     },
     {
       "method": "GET",
       "path": "/?param=[REDACTED]",
       "status": 200,
-      "count": 1336,
+      "count": 1338,
       "first_seen": "2026-10-29T15:45:11+00:00",
-      "last_seen": "2026-11-24T18:50:52+00:00"
+      "last_seen": "2026-11-24T20:44:47+00:00"
     },
     {
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 760,
+      "count": 762,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-24T19:43:37+00:00"
+      "last_seen": "2026-11-24T21:30:03+00:00"
     },
     {
       "method": "GET",
@@ -14298,25 +14298,25 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/xmlrpc.php",
-      "count": 347760,
+      "count": 350156,
       "first_seen": "2026-10-29T19:45:21+00:00",
-      "last_seen": "2026-11-24T20:29:52+00:00"
+      "last_seen": "2026-11-24T21:27:36+00:00"
     },
     {
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 2957,
+      "count": 2960,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-24T20:27:51+00:00"
+      "last_seen": "2026-11-24T21:19:21+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/wp-login.php",
-      "count": 2675,
+      "count": 2679,
       "first_seen": "2026-11-04T15:32:32+00:00",
-      "last_seen": "2026-11-24T20:29:51+00:00"
+      "last_seen": "2026-11-24T21:27:08+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -14338,17 +14338,17 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env",
-      "count": 1550,
+      "count": 1552,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-24T20:01:24+00:00"
+      "last_seen": "2026-11-24T21:05:32+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env",
-      "count": 1550,
+      "count": 1552,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-24T20:01:24+00:00"
+      "last_seen": "2026-11-24T21:05:32+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -14370,17 +14370,17 @@
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
-      "count": 1299,
+      "count": 1301,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-24T20:29:51+00:00"
+      "last_seen": "2026-11-24T21:27:09+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-login.php",
-      "count": 1223,
+      "count": 1225,
       "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-11-24T20:29:51+00:00"
+      "last_seen": "2026-11-24T21:27:08+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -14402,9 +14402,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 868,
+      "count": 870,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-24T19:43:37+00:00"
+      "last_seen": "2026-11-24T21:30:03+00:00"
     },
     {
       "rule_id": "traffic-json-config",
@@ -14687,6 +14687,14 @@
       "last_seen": "2026-11-24T13:20:09+00:00"
     },
     {
+      "rule_id": "review-react2shell-reverse-shell",
+      "method": "POST",
+      "path": "/",
+      "count": 375,
+      "first_seen": "2026-10-30T06:27:45+00:00",
+      "last_seen": "2026-11-24T21:05:10+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.development",
@@ -14709,14 +14717,6 @@
       "count": 374,
       "first_seen": "2026-10-29T16:46:23+00:00",
       "last_seen": "2026-11-24T20:01:38+00:00"
-    },
-    {
-      "rule_id": "review-react2shell-reverse-shell",
-      "method": "POST",
-      "path": "/",
-      "count": 374,
-      "first_seen": "2026-10-30T06:27:45+00:00",
-      "last_seen": "2026-11-24T20:20:42+00:00"
     },
     {
       "rule_id": "nov01-site-navigation",
@@ -15154,9 +15154,9 @@
       "rule_id": "oct30-author-query",
       "method": "GET",
       "path": "/?param=[REDACTED]",
-      "count": 230,
+      "count": 232,
       "first_seen": "2026-10-29T19:45:20+00:00",
-      "last_seen": "2026-11-24T18:50:52+00:00"
+      "last_seen": "2026-11-24T20:44:47+00:00"
     },
     {
       "rule_id": "review-registry-catalog",
@@ -22010,7 +22010,7 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 90010,
+    "web_bodies_skipped": 92391,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
