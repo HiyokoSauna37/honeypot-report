@@ -1,7 +1,7 @@
 {
   "schema_version": 12,
   "shell_watch": {
-    "matched_requests": 2663,
+    "matched_requests": 2669,
     "cases": {
       "ruby2shell": {
         "name": "Ruby2Shell",
@@ -190,10 +190,10 @@
         "reference": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-52p2-r8wf-jcrf",
         "mode": "signal",
         "criteria": "\u6a19\u6e96\u30ed\u30b0\u30a4\u30f3\u753b\u9762\u3078\u306e POST \u3092\u96c6\u8a08\u3002\u672c\u6587\u306e\u30e6\u30fc\u30b6\u30fc\u540d\u306b id\u30fbname \u5c5e\u6027\u4ed8\u304d\u306e HTML \u8981\u7d20\u304c\u3042\u308b\u5165\u529b\u306f\u8981\u8abf\u67fb\u3002\u53cd\u6620\u30fb\u5b9f\u884c\u306f\u672a\u78ba\u8a8d\u3067\u3059\u3002",
-        "surface_requests": 2661,
+        "surface_requests": 2667,
         "indicator_requests": 2,
         "first_seen": "2026-11-04T15:32:32+00:00",
-        "last_seen": "2026-11-24T18:17:52+00:00"
+        "last_seen": "2026-11-24T19:26:51+00:00"
       },
       "kindarails2shell": {
         "name": "KindaRails2Shell",
@@ -221,7 +221,7 @@
       }
     }
   },
-  "generated_utc": "2026-11-24T18:46:12+00:00",
+  "generated_utc": "2026-11-24T19:46:09+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -294,9 +294,9 @@
   },
   "notable_activity": {
     "react2shell": {
-      "requests": 1310,
+      "requests": 1312,
       "first_seen": "2026-10-29T15:52:36+00:00",
-      "last_seen": "2026-11-24T17:30:14+00:00",
+      "last_seen": "2026-11-24T18:56:07+00:00",
       "responses": [
         {
           "status": 200,
@@ -308,7 +308,7 @@
         },
         {
           "status": 405,
-          "count": 938
+          "count": 940
         },
         {
           "status": 499,
@@ -321,7 +321,7 @@
       ],
       "unknown_responses": 0,
       "signals": {
-        "command": 1310,
+        "command": 1312,
         "download": 1,
         "cron_removal": 1
       },
@@ -446,9 +446,9 @@
               "value": "$@0"
             }
           ],
-          "count": 300,
+          "count": 301,
           "first_seen": "2026-10-30T06:27:45+00:00",
-          "last_seen": "2026-11-24T17:20:49+00:00"
+          "last_seen": "2026-11-24T18:56:07+00:00"
         },
         {
           "method": "POST",
@@ -483,9 +483,9 @@
               "value": "$@0"
             }
           ],
-          "count": 280,
+          "count": 281,
           "first_seen": "2026-10-30T14:14:21+00:00",
-          "last_seen": "2026-11-24T17:30:14+00:00"
+          "last_seen": "2026-11-24T18:44:30+00:00"
         },
         {
           "method": "POST",
@@ -7208,16 +7208,16 @@
       "unlisted_requests": 0
     },
     "ssh_environment": {
-      "sessions": 618,
+      "sessions": 619,
       "upload_sessions": 335,
       "first_seen": "2026-10-28T15:30:11+00:00",
-      "last_seen": "2026-11-24T17:58:52+00:00",
+      "last_seen": "2026-11-24T19:18:36+00:00",
       "signals": {
-        "arithmetic": 618,
-        "pid": 618,
-        "function": 618,
-        "positional": 618,
-        "control": 618
+        "arithmetic": 619,
+        "pid": 619,
+        "function": 619,
+        "positional": 619,
+        "control": 619
       },
       "limited": false
     }
@@ -7227,18 +7227,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 495974,
-    "iot_requests": 1234,
+    "classified_requests": 497009,
+    "iot_requests": 1237,
     "unclassified_requests": 239,
-    "routine_requests": 23111,
-    "excluded_checks": 4421
+    "routine_requests": 23129,
+    "excluded_checks": 4434
   },
   "counts": {
-    "commands": 1303873,
-    "login_attempts": 1458985,
-    "login_successes": 128454,
-    "ssh_connections": 1519573,
-    "web_requests": 520558
+    "commands": 1303901,
+    "login_attempts": 1462829,
+    "login_successes": 128690,
+    "ssh_connections": 1526902,
+    "web_requests": 521614
   },
   "daily": [
     {
@@ -7383,8 +7383,8 @@
     },
     {
       "date": "2026-11-25",
-      "ssh_connections": 24946,
-      "web_requests": 877
+      "ssh_connections": 32275,
+      "web_requests": 1933
     }
   ],
   "http_requests": [
@@ -7392,25 +7392,25 @@
       "method": "POST",
       "path": "/",
       "status": 405,
-      "count": 1543,
+      "count": 1545,
       "first_seen": "2026-10-30T00:08:59+00:00",
-      "last_seen": "2026-11-24T17:30:14+00:00"
+      "last_seen": "2026-11-24T18:56:07+00:00"
     },
     {
       "method": "GET",
       "path": "/?param=[REDACTED]",
       "status": 200,
-      "count": 1334,
+      "count": 1336,
       "first_seen": "2026-10-29T15:45:11+00:00",
-      "last_seen": "2026-11-24T08:41:27+00:00"
+      "last_seen": "2026-11-24T18:50:52+00:00"
     },
     {
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 757,
+      "count": 759,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-24T18:17:49+00:00"
+      "last_seen": "2026-11-24T19:17:59+00:00"
     },
     {
       "method": "GET",
@@ -14370,25 +14370,25 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/xmlrpc.php",
-      "count": 346748,
+      "count": 347754,
       "first_seen": "2026-10-29T19:45:21+00:00",
-      "last_seen": "2026-11-24T18:18:02+00:00"
+      "last_seen": "2026-11-24T19:26:58+00:00"
     },
     {
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 2947,
+      "count": 2949,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-24T18:26:10+00:00"
+      "last_seen": "2026-11-24T19:07:57+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/wp-login.php",
-      "count": 2663,
+      "count": 2669,
       "first_seen": "2026-11-04T15:32:32+00:00",
-      "last_seen": "2026-11-24T18:17:52+00:00"
+      "last_seen": "2026-11-24T19:26:51+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -14410,17 +14410,17 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env",
-      "count": 1546,
+      "count": 1549,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-24T16:00:03+00:00"
+      "last_seen": "2026-11-24T19:21:13+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env",
-      "count": 1546,
+      "count": 1549,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-24T16:00:03+00:00"
+      "last_seen": "2026-11-24T19:21:13+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -14442,17 +14442,17 @@
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
-      "count": 1293,
+      "count": 1296,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-24T18:17:53+00:00"
+      "last_seen": "2026-11-24T19:26:51+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-login.php",
-      "count": 1217,
+      "count": 1220,
       "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-11-24T18:17:51+00:00"
+      "last_seen": "2026-11-24T19:26:51+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -14474,9 +14474,9 @@
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 865,
+      "count": 867,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-24T18:17:49+00:00"
+      "last_seen": "2026-11-24T19:17:59+00:00"
     },
     {
       "rule_id": "traffic-json-config",
@@ -14786,9 +14786,9 @@
       "rule_id": "review-react2shell-reverse-shell",
       "method": "POST",
       "path": "/",
-      "count": 371,
+      "count": 372,
       "first_seen": "2026-10-30T06:27:45+00:00",
-      "last_seen": "2026-11-24T17:20:49+00:00"
+      "last_seen": "2026-11-24T18:56:07+00:00"
     },
     {
       "rule_id": "nov01-site-navigation",
@@ -15223,20 +15223,20 @@
       "last_seen": "2026-11-24T15:57:33+00:00"
     },
     {
+      "rule_id": "oct30-author-query",
+      "method": "GET",
+      "path": "/?param=[REDACTED]",
+      "count": 230,
+      "first_seen": "2026-10-29T19:45:20+00:00",
+      "last_seen": "2026-11-24T18:50:52+00:00"
+    },
+    {
       "rule_id": "review-registry-catalog",
       "method": "GET",
       "path": "/v2/_catalog",
       "count": 229,
       "first_seen": "2026-10-29T15:44:41+00:00",
       "last_seen": "2026-11-24T15:57:34+00:00"
-    },
-    {
-      "rule_id": "oct30-author-query",
-      "method": "GET",
-      "path": "/?param=[REDACTED]",
-      "count": 228,
-      "first_seen": "2026-10-29T19:45:20+00:00",
-      "last_seen": "2026-11-24T08:37:46+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -15935,6 +15935,14 @@
       "last_seen": "2026-11-24T15:57:34+00:00"
     },
     {
+      "rule_id": "review-react2shell-hex-evaluation",
+      "method": "POST",
+      "path": "/",
+      "count": 161,
+      "first_seen": "2026-10-31T22:55:16+00:00",
+      "last_seen": "2026-11-24T18:44:30+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.sample",
@@ -15981,14 +15989,6 @@
       "count": 160,
       "first_seen": "2026-10-30T09:57:39+00:00",
       "last_seen": "2026-11-24T11:29:05+00:00"
-    },
-    {
-      "rule_id": "review-react2shell-hex-evaluation",
-      "method": "POST",
-      "path": "/",
-      "count": 160,
-      "first_seen": "2026-10-31T22:55:16+00:00",
-      "last_seen": "2026-11-24T17:30:14+00:00"
     },
     {
       "rule_id": "nov05-wordpress-author-probe",
@@ -16111,6 +16111,14 @@
       "last_seen": "2026-11-10T21:09:18+00:00"
     },
     {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/sse",
+      "count": 150,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-24T18:32:58+00:00"
+    },
+    {
       "rule_id": "oct30-api",
       "method": "GET",
       "path": "/api/config",
@@ -16125,14 +16133,6 @@
       "count": 150,
       "first_seen": "2026-11-03T10:33:31+00:00",
       "last_seen": "2026-11-23T02:05:45+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/sse",
-      "count": 149,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-24T13:51:41+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -16290,9 +16290,9 @@
       "rule_id": "mcp-probe",
       "method": "GET",
       "path": "/mcp",
-      "count": 138,
+      "count": 139,
       "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-24T13:51:41+00:00"
+      "last_seen": "2026-11-24T18:32:57+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -16319,28 +16319,28 @@
       "last_seen": "2026-11-24T04:03:41+00:00"
     },
     {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/api/mcp",
+      "count": 135,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-24T18:32:57+00:00"
+    },
+    {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/mcp/",
+      "count": 135,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-24T18:32:57+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.pypirc",
       "count": 135,
       "first_seen": "2026-10-29T22:08:22+00:00",
       "last_seen": "2026-11-24T15:57:33+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/api/mcp",
-      "count": 134,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-24T13:51:41+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/mcp/",
-      "count": 134,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-24T13:51:41+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -22154,12 +22154,12 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 89641,
+    "web_bodies_skipped": 90016,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 98
+    "pending_indicators": 99
   }
 }
