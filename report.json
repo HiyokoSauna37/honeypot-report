@@ -1,7 +1,7 @@
 {
   "schema_version": 12,
   "shell_watch": {
-    "matched_requests": 2699,
+    "matched_requests": 2705,
     "cases": {
       "ruby2shell": {
         "name": "Ruby2Shell",
@@ -190,10 +190,10 @@
         "reference": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-52p2-r8wf-jcrf",
         "mode": "signal",
         "criteria": "\u6a19\u6e96\u30ed\u30b0\u30a4\u30f3\u753b\u9762\u3078\u306e POST \u3092\u96c6\u8a08\u3002\u672c\u6587\u306e\u30e6\u30fc\u30b6\u30fc\u540d\u306b id\u30fbname \u5c5e\u6027\u4ed8\u304d\u306e HTML \u8981\u7d20\u304c\u3042\u308b\u5165\u529b\u306f\u8981\u8abf\u67fb\u3002\u53cd\u6620\u30fb\u5b9f\u884c\u306f\u672a\u78ba\u8a8d\u3067\u3059\u3002",
-        "surface_requests": 2697,
+        "surface_requests": 2703,
         "indicator_requests": 2,
         "first_seen": "2026-11-04T15:32:32+00:00",
-        "last_seen": "2026-11-25T00:23:10+00:00"
+        "last_seen": "2026-11-25T01:21:34+00:00"
       },
       "kindarails2shell": {
         "name": "KindaRails2Shell",
@@ -221,7 +221,7 @@
       }
     }
   },
-  "generated_utc": "2026-11-25T00:47:53+00:00",
+  "generated_utc": "2026-11-25T01:47:53+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -294,9 +294,9 @@
   },
   "notable_activity": {
     "react2shell": {
-      "requests": 1318,
+      "requests": 1319,
       "first_seen": "2026-10-29T15:52:36+00:00",
-      "last_seen": "2026-11-24T22:46:34+00:00",
+      "last_seen": "2026-11-25T00:44:34+00:00",
       "responses": [
         {
           "status": 200,
@@ -308,7 +308,7 @@
         },
         {
           "status": 405,
-          "count": 946
+          "count": 947
         },
         {
           "status": 499,
@@ -321,7 +321,7 @@
       ],
       "unknown_responses": 0,
       "signals": {
-        "command": 1318,
+        "command": 1319,
         "download": 1,
         "cron_removal": 1
       },
@@ -446,9 +446,9 @@
               "value": "$@0"
             }
           ],
-          "count": 305,
+          "count": 306,
           "first_seen": "2026-10-30T06:27:45+00:00",
-          "last_seen": "2026-11-24T22:46:34+00:00"
+          "last_seen": "2026-11-25T00:44:34+00:00"
         },
         {
           "method": "POST",
@@ -7227,18 +7227,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 502531,
+    "classified_requests": 502569,
     "iot_requests": 1251,
     "unclassified_requests": 780,
-    "routine_requests": 23244,
-    "excluded_checks": 4498
+    "routine_requests": 23270,
+    "excluded_checks": 4511
   },
   "counts": {
-    "commands": 1304150,
-    "login_attempts": 1482531,
-    "login_successes": 129822,
-    "ssh_connections": 1563163,
-    "web_requests": 527806
+    "commands": 1304198,
+    "login_attempts": 1486464,
+    "login_successes": 130008,
+    "ssh_connections": 1570302,
+    "web_requests": 527870
   },
   "daily": [
     {
@@ -7383,8 +7383,8 @@
     },
     {
       "date": "2026-11-25",
-      "ssh_connections": 68536,
-      "web_requests": 8125
+      "ssh_connections": 75675,
+      "web_requests": 8189
     }
   ],
   "http_requests": [
@@ -7392,9 +7392,9 @@
       "method": "POST",
       "path": "/",
       "status": 405,
-      "count": 1551,
+      "count": 1552,
       "first_seen": "2026-10-30T00:08:59+00:00",
-      "last_seen": "2026-11-24T22:46:34+00:00"
+      "last_seen": "2026-11-25T00:44:34+00:00"
     },
     {
       "method": "GET",
@@ -14298,25 +14298,25 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/xmlrpc.php",
-      "count": 350175,
+      "count": 350181,
       "first_seen": "2026-10-29T19:45:21+00:00",
-      "last_seen": "2026-11-25T00:23:14+00:00"
+      "last_seen": "2026-11-25T01:21:37+00:00"
     },
     {
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 2975,
+      "count": 2979,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-25T00:23:24+00:00"
+      "last_seen": "2026-11-25T01:22:06+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/wp-login.php",
-      "count": 2699,
+      "count": 2705,
       "first_seen": "2026-11-04T15:32:32+00:00",
-      "last_seen": "2026-11-25T00:23:10+00:00"
+      "last_seen": "2026-11-25T01:21:34+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -14370,33 +14370,33 @@
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
-      "count": 1311,
+      "count": 1314,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-25T00:23:10+00:00"
+      "last_seen": "2026-11-25T01:21:35+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-login.php",
-      "count": 1236,
+      "count": 1239,
       "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-11-25T00:24:45+00:00"
+      "last_seen": "2026-11-25T01:21:34+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/HEAD",
-      "count": 895,
+      "count": 896,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-25T00:24:36+00:00"
+      "last_seen": "2026-11-25T00:32:35+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/HEAD",
-      "count": 895,
+      "count": 896,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-25T00:24:36+00:00"
+      "last_seen": "2026-11-25T00:32:35+00:00"
     },
     {
       "rule_id": "hikvision-probe",
@@ -14687,6 +14687,14 @@
       "last_seen": "2026-11-24T13:20:09+00:00"
     },
     {
+      "rule_id": "review-react2shell-reverse-shell",
+      "method": "POST",
+      "path": "/",
+      "count": 377,
+      "first_seen": "2026-10-30T06:27:45+00:00",
+      "last_seen": "2026-11-25T00:44:34+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.development",
@@ -14709,14 +14717,6 @@
       "count": 376,
       "first_seen": "2026-10-29T16:46:23+00:00",
       "last_seen": "2026-11-25T00:14:02+00:00"
-    },
-    {
-      "rule_id": "review-react2shell-reverse-shell",
-      "method": "POST",
-      "path": "/",
-      "count": 376,
-      "first_seen": "2026-10-30T06:27:45+00:00",
-      "last_seen": "2026-11-24T22:46:34+00:00"
     },
     {
       "rule_id": "nov01-site-navigation",
@@ -14770,9 +14770,9 @@
       "rule_id": "review-debug-endpoint",
       "method": "GET",
       "path": "/.DS_Store",
-      "count": 355,
+      "count": 356,
       "first_seen": "2026-10-29T15:44:42+00:00",
-      "last_seen": "2026-11-24T23:02:00+00:00"
+      "last_seen": "2026-11-25T00:32:28+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -15010,9 +15010,9 @@
       "rule_id": "review-file-exposure",
       "method": "GET",
       "path": "/.svn/wc.db",
-      "count": 274,
+      "count": 275,
       "first_seen": "2026-10-29T15:44:11+00:00",
-      "last_seen": "2026-11-25T00:04:59+00:00"
+      "last_seen": "2026-11-25T00:32:26+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15711,6 +15711,14 @@
       "last_seen": "2026-11-23T02:05:45+00:00"
     },
     {
+      "rule_id": "oct30-repository",
+      "method": "GET",
+      "path": "/.svn/entries",
+      "count": 174,
+      "first_seen": "2026-10-29T21:35:47+00:00",
+      "last_seen": "2026-11-25T00:32:26+00:00"
+    },
+    {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/public/.env",
@@ -15725,14 +15733,6 @@
       "count": 173,
       "first_seen": "2026-10-29T15:45:00+00:00",
       "last_seen": "2026-11-23T02:05:45+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.svn/entries",
-      "count": 173,
-      "first_seen": "2026-10-29T21:35:47+00:00",
-      "last_seen": "2026-11-24T23:01:57+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -22010,7 +22010,7 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 92366,
+    "web_bodies_skipped": 92362,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
