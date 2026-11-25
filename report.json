@@ -1,7 +1,7 @@
 {
   "schema_version": 12,
   "shell_watch": {
-    "matched_requests": 2795,
+    "matched_requests": 2854,
     "cases": {
       "ruby2shell": {
         "name": "Ruby2Shell",
@@ -190,10 +190,10 @@
         "reference": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-52p2-r8wf-jcrf",
         "mode": "signal",
         "criteria": "\u6a19\u6e96\u30ed\u30b0\u30a4\u30f3\u753b\u9762\u3078\u306e POST \u3092\u96c6\u8a08\u3002\u672c\u6587\u306e\u30e6\u30fc\u30b6\u30fc\u540d\u306b id\u30fbname \u5c5e\u6027\u4ed8\u304d\u306e HTML \u8981\u7d20\u304c\u3042\u308b\u5165\u529b\u306f\u8981\u8abf\u67fb\u3002\u53cd\u6620\u30fb\u5b9f\u884c\u306f\u672a\u78ba\u8a8d\u3067\u3059\u3002",
-        "surface_requests": 2793,
+        "surface_requests": 2852,
         "indicator_requests": 2,
         "first_seen": "2026-11-04T15:32:32+00:00",
-        "last_seen": "2026-11-25T17:29:41+00:00"
+        "last_seen": "2026-11-25T18:32:25+00:00"
       },
       "kindarails2shell": {
         "name": "KindaRails2Shell",
@@ -221,7 +221,7 @@
       }
     }
   },
-  "generated_utc": "2026-11-25T18:17:15+00:00",
+  "generated_utc": "2026-11-25T18:59:10+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -294,9 +294,9 @@
   },
   "notable_activity": {
     "react2shell": {
-      "requests": 1340,
+      "requests": 1341,
       "first_seen": "2026-10-29T15:52:36+00:00",
-      "last_seen": "2026-11-25T17:06:39+00:00",
+      "last_seen": "2026-11-25T18:17:11+00:00",
       "responses": [
         {
           "status": 200,
@@ -308,7 +308,7 @@
         },
         {
           "status": 405,
-          "count": 968
+          "count": 969
         },
         {
           "status": 499,
@@ -321,7 +321,7 @@
       ],
       "unknown_responses": 0,
       "signals": {
-        "command": 1340,
+        "command": 1341,
         "download": 1,
         "cron_removal": 1
       },
@@ -446,9 +446,9 @@
               "value": "$@0"
             }
           ],
-          "count": 321,
+          "count": 322,
           "first_seen": "2026-10-30T06:27:45+00:00",
-          "last_seen": "2026-11-25T17:06:39+00:00"
+          "last_seen": "2026-11-25T18:17:11+00:00"
         },
         {
           "method": "POST",
@@ -6951,9 +6951,9 @@
       "unlisted_requests": 0
     },
     "php2shell": {
-      "requests": 136,
+      "requests": 138,
       "first_seen": "2026-10-29T16:51:14+00:00",
-      "last_seen": "2026-11-25T16:55:28+00:00",
+      "last_seen": "2026-11-25T17:44:52+00:00",
       "responses": [
         {
           "status": 200,
@@ -6965,7 +6965,7 @@
         },
         {
           "status": 404,
-          "count": 77
+          "count": 79
         },
         {
           "status": 405,
@@ -6979,7 +6979,7 @@
       "unknown_responses": 0,
       "signals": {
         "related_endpoint": 43,
-        "session_input": 94,
+        "session_input": 96,
         "field_pressure": 0
       },
       "request_details": [
@@ -7025,9 +7025,9 @@
               "value": "[REDACTED]"
             }
           ],
-          "count": 77,
+          "count": 79,
           "first_seen": "2026-10-30T16:06:40+00:00",
-          "last_seen": "2026-11-25T16:55:28+00:00"
+          "last_seen": "2026-11-25T17:44:52+00:00"
         },
         {
           "method": "GET",
@@ -7208,16 +7208,16 @@
       "unlisted_requests": 0
     },
     "ssh_environment": {
-      "sessions": 632,
+      "sessions": 638,
       "upload_sessions": 335,
       "first_seen": "2026-10-28T15:30:11+00:00",
-      "last_seen": "2026-11-25T12:04:21+00:00",
+      "last_seen": "2026-11-25T18:34:38+00:00",
       "signals": {
-        "arithmetic": 632,
-        "pid": 632,
-        "function": 632,
-        "positional": 632,
-        "control": 632
+        "arithmetic": 638,
+        "pid": 638,
+        "function": 638,
+        "positional": 638,
+        "control": 638
       },
       "limited": false
     }
@@ -7227,18 +7227,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 519163,
-    "iot_requests": 1287,
-    "unclassified_requests": 0,
-    "routine_requests": 23895,
-    "excluded_checks": 4721
+    "classified_requests": 519498,
+    "iot_requests": 1289,
+    "unclassified_requests": 29,
+    "routine_requests": 23971,
+    "excluded_checks": 4737
   },
   "counts": {
-    "commands": 1304618,
-    "login_attempts": 1537318,
-    "login_successes": 133000,
-    "ssh_connections": 1665921,
-    "web_requests": 544345
+    "commands": 1304768,
+    "login_attempts": 1540722,
+    "login_successes": 133188,
+    "ssh_connections": 1672322,
+    "web_requests": 544787
   },
   "daily": [
     {
@@ -7388,8 +7388,8 @@
     },
     {
       "date": "2026-11-26",
-      "ssh_connections": 15073,
-      "web_requests": 13142
+      "ssh_connections": 21474,
+      "web_requests": 13584
     }
   ],
   "http_requests": [
@@ -7397,25 +7397,25 @@
       "method": "POST",
       "path": "/",
       "status": 405,
-      "count": 1584,
+      "count": 1586,
       "first_seen": "2026-10-30T00:08:59+00:00",
-      "last_seen": "2026-11-25T17:06:39+00:00"
+      "last_seen": "2026-11-25T18:17:11+00:00"
     },
     {
       "method": "GET",
       "path": "/?param=[REDACTED]",
       "status": 200,
-      "count": 1346,
+      "count": 1356,
       "first_seen": "2026-10-29T15:45:11+00:00",
-      "last_seen": "2026-11-25T15:17:59+00:00"
+      "last_seen": "2026-11-25T18:33:00+00:00"
     },
     {
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 793,
+      "count": 795,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-25T16:48:19+00:00"
+      "last_seen": "2026-11-25T18:28:55+00:00"
     },
     {
       "method": "GET",
@@ -7482,20 +7482,20 @@
       "last_seen": "2026-11-19T22:50:00+00:00"
     },
     {
+      "method": "POST",
+      "path": "/bitsight/internet_census/probe",
+      "status": 404,
+      "count": 79,
+      "first_seen": "2026-10-30T16:06:40+00:00",
+      "last_seen": "2026-11-25T17:44:52+00:00"
+    },
+    {
       "method": "GET",
       "path": "/app_dev.php/_profiler/open?param=[REDACTED]",
       "status": 404,
       "count": 78,
       "first_seen": "2026-10-30T14:14:57+00:00",
       "last_seen": "2026-11-24T08:41:22+00:00"
-    },
-    {
-      "method": "POST",
-      "path": "/bitsight/internet_census/probe",
-      "status": 404,
-      "count": 77,
-      "first_seen": "2026-10-30T16:06:40+00:00",
-      "last_seen": "2026-11-25T16:55:28+00:00"
     },
     {
       "method": "POST",
@@ -7691,6 +7691,14 @@
     },
     {
       "method": "GET",
+      "path": "/docs",
+      "status": 200,
+      "count": 25,
+      "first_seen": "2026-11-21T11:33:27+00:00",
+      "last_seen": "2026-11-25T18:32:43+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/sendgrid.env",
       "status": 429,
       "count": 24,
@@ -7704,14 +7712,6 @@
       "count": 24,
       "first_seen": "2026-11-12T23:39:53+00:00",
       "last_seen": "2026-11-15T01:06:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/docs",
-      "status": 200,
-      "count": 24,
-      "first_seen": "2026-11-21T11:33:27+00:00",
-      "last_seen": "2026-11-25T14:11:27+00:00"
     },
     {
       "method": "GET",
@@ -14895,25 +14895,25 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/xmlrpc.php",
-      "count": 363820,
+      "count": 363882,
       "first_seen": "2026-10-29T19:45:21+00:00",
-      "last_seen": "2026-11-25T17:30:06+00:00"
+      "last_seen": "2026-11-25T18:34:13+00:00"
     },
     {
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 3068,
+      "count": 3088,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-25T16:19:26+00:00"
+      "last_seen": "2026-11-25T18:31:09+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/wp-login.php",
-      "count": 2795,
+      "count": 2854,
       "first_seen": "2026-11-04T15:32:32+00:00",
-      "last_seen": "2026-11-25T17:29:41+00:00"
+      "last_seen": "2026-11-25T18:32:25+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -14935,73 +14935,73 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env",
-      "count": 1580,
+      "count": 1581,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-25T14:54:19+00:00"
+      "last_seen": "2026-11-25T18:11:51+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env",
-      "count": 1580,
+      "count": 1581,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-25T14:54:19+00:00"
+      "last_seen": "2026-11-25T18:11:51+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/config",
-      "count": 1553,
+      "count": 1555,
       "first_seen": "2026-10-28T18:07:13+00:00",
-      "last_seen": "2026-11-25T14:54:18+00:00"
+      "last_seen": "2026-11-25T18:30:53+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/config",
-      "count": 1553,
+      "count": 1555,
       "first_seen": "2026-10-28T18:07:13+00:00",
-      "last_seen": "2026-11-25T14:54:18+00:00"
+      "last_seen": "2026-11-25T18:30:53+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
-      "count": 1398,
+      "count": 1427,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-25T17:29:41+00:00"
+      "last_seen": "2026-11-25T18:32:25+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-login.php",
-      "count": 1294,
+      "count": 1324,
       "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-11-25T17:29:41+00:00"
+      "last_seen": "2026-11-25T18:32:53+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/HEAD",
-      "count": 912,
+      "count": 915,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-25T14:54:29+00:00"
+      "last_seen": "2026-11-25T18:30:52+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/HEAD",
-      "count": 912,
+      "count": 915,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-25T14:54:29+00:00"
+      "last_seen": "2026-11-25T18:30:52+00:00"
     },
     {
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 901,
+      "count": 903,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-25T16:48:19+00:00"
+      "last_seen": "2026-11-25T18:28:55+00:00"
     },
     {
       "rule_id": "traffic-json-config",
@@ -15071,9 +15071,9 @@
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/phpinfo.php",
-      "count": 555,
+      "count": 558,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-25T14:53:05+00:00"
+      "last_seen": "2026-11-25T17:52:28+00:00"
     },
     {
       "rule_id": "review-debug-endpoint",
@@ -15199,33 +15199,33 @@
       "rule_id": "web-lfi",
       "method": "GET",
       "path": "/?param=[REDACTED]",
-      "count": 427,
+      "count": 432,
       "first_seen": "2026-11-03T00:01:22+00:00",
-      "last_seen": "2026-11-24T08:41:24+00:00"
+      "last_seen": "2026-11-25T18:33:00+00:00"
     },
     {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/logs/HEAD",
-      "count": 426,
+      "count": 427,
       "first_seen": "2026-10-29T22:09:03+00:00",
-      "last_seen": "2026-11-25T14:54:30+00:00"
+      "last_seen": "2026-11-25T18:30:54+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/logs/HEAD",
-      "count": 426,
+      "count": 427,
       "first_seen": "2026-10-29T22:09:03+00:00",
-      "last_seen": "2026-11-25T14:54:30+00:00"
+      "last_seen": "2026-11-25T18:30:54+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/logs/HEAD",
-      "count": 426,
+      "count": 427,
       "first_seen": "2026-10-29T22:09:03+00:00",
-      "last_seen": "2026-11-25T14:54:30+00:00"
+      "last_seen": "2026-11-25T18:30:54+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -15287,9 +15287,17 @@
       "rule_id": "review-react2shell-reverse-shell",
       "method": "POST",
       "path": "/",
-      "count": 392,
+      "count": 393,
       "first_seen": "2026-10-30T06:27:45+00:00",
-      "last_seen": "2026-11-25T17:06:39+00:00"
+      "last_seen": "2026-11-25T18:17:11+00:00"
+    },
+    {
+      "rule_id": "nov01-site-navigation",
+      "method": "GET",
+      "path": "/assets/site.js?param=[REDACTED]",
+      "count": 385,
+      "first_seen": "2026-11-01T13:48:45+00:00",
+      "last_seen": "2026-11-25T17:50:41+00:00"
     },
     {
       "rule_id": "review-react2shell",
@@ -15298,14 +15306,6 @@
       "count": 383,
       "first_seen": "2026-10-30T00:08:59+00:00",
       "last_seen": "2026-11-25T12:17:56+00:00"
-    },
-    {
-      "rule_id": "nov01-site-navigation",
-      "method": "GET",
-      "path": "/assets/site.js?param=[REDACTED]",
-      "count": 383,
-      "first_seen": "2026-11-01T13:48:45+00:00",
-      "last_seen": "2026-11-25T16:46:55+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15383,25 +15383,25 @@
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/packed-refs",
-      "count": 353,
+      "count": 354,
       "first_seen": "2026-10-29T22:09:06+00:00",
-      "last_seen": "2026-11-24T23:02:15+00:00"
+      "last_seen": "2026-11-25T18:30:59+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/packed-refs",
-      "count": 353,
+      "count": 354,
       "first_seen": "2026-10-29T22:09:06+00:00",
-      "last_seen": "2026-11-24T23:02:15+00:00"
+      "last_seen": "2026-11-25T18:30:59+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/packed-refs",
-      "count": 353,
+      "count": 354,
       "first_seen": "2026-10-29T22:09:06+00:00",
-      "last_seen": "2026-11-24T23:02:15+00:00"
+      "last_seen": "2026-11-25T18:30:59+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15511,9 +15511,9 @@
       "rule_id": "review-discovery-page",
       "method": "GET",
       "path": "/about",
-      "count": 325,
+      "count": 326,
       "first_seen": "2026-10-29T15:44:36+00:00",
-      "last_seen": "2026-11-25T14:11:27+00:00"
+      "last_seen": "2026-11-25T18:32:42+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15527,65 +15527,65 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/index",
-      "count": 318,
+      "count": 319,
       "first_seen": "2026-10-29T22:09:28+00:00",
-      "last_seen": "2026-11-24T23:02:30+00:00"
+      "last_seen": "2026-11-25T18:30:51+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/index",
-      "count": 318,
+      "count": 319,
       "first_seen": "2026-10-29T22:09:28+00:00",
-      "last_seen": "2026-11-24T23:02:30+00:00"
+      "last_seen": "2026-11-25T18:30:51+00:00"
     },
     {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/objects/info/packs",
-      "count": 300,
+      "count": 301,
       "first_seen": "2026-10-29T22:09:31+00:00",
-      "last_seen": "2026-11-24T23:02:32+00:00"
+      "last_seen": "2026-11-25T18:30:51+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/objects/info/packs",
-      "count": 300,
+      "count": 301,
       "first_seen": "2026-10-29T22:09:31+00:00",
-      "last_seen": "2026-11-24T23:02:32+00:00"
+      "last_seen": "2026-11-25T18:30:51+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/objects/info/packs",
-      "count": 300,
+      "count": 301,
       "first_seen": "2026-10-29T22:09:31+00:00",
-      "last_seen": "2026-11-24T23:02:32+00:00"
+      "last_seen": "2026-11-25T18:30:51+00:00"
     },
     {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/refs/heads/main",
-      "count": 296,
+      "count": 297,
       "first_seen": "2026-10-29T22:09:01+00:00",
-      "last_seen": "2026-11-24T23:02:16+00:00"
+      "last_seen": "2026-11-25T18:31:00+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/refs/heads/main",
-      "count": 296,
+      "count": 297,
       "first_seen": "2026-10-29T22:09:01+00:00",
-      "last_seen": "2026-11-24T23:02:16+00:00"
+      "last_seen": "2026-11-25T18:31:00+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/refs/heads/main",
-      "count": 296,
+      "count": 297,
       "first_seen": "2026-10-29T22:09:01+00:00",
-      "last_seen": "2026-11-24T23:02:16+00:00"
+      "last_seen": "2026-11-25T18:31:00+00:00"
     },
     {
       "rule_id": "review-file-exposure",
@@ -15684,36 +15684,36 @@
       "last_seen": "2026-11-25T14:47:15+00:00"
     },
     {
+      "rule_id": "oct30-repository",
+      "method": "GET",
+      "path": "/.git/COMMIT_EDITMSG",
+      "count": 258,
+      "first_seen": "2026-10-30T09:57:37+00:00",
+      "last_seen": "2026-11-25T18:30:51+00:00"
+    },
+    {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/.git/COMMIT_EDITMSG",
+      "count": 258,
+      "first_seen": "2026-10-30T09:57:37+00:00",
+      "last_seen": "2026-11-25T18:30:51+00:00"
+    },
+    {
+      "rule_id": "web-exposure",
+      "method": "GET",
+      "path": "/.git/COMMIT_EDITMSG",
+      "count": 258,
+      "first_seen": "2026-10-30T09:57:37+00:00",
+      "last_seen": "2026-11-25T18:30:51+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.aws/config",
       "count": 257,
       "first_seen": "2026-10-29T16:46:23+00:00",
       "last_seen": "2026-11-25T14:47:14+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/COMMIT_EDITMSG",
-      "count": 257,
-      "first_seen": "2026-10-30T09:57:37+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/COMMIT_EDITMSG",
-      "count": 257,
-      "first_seen": "2026-10-30T09:57:37+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/COMMIT_EDITMSG",
-      "count": 257,
-      "first_seen": "2026-10-30T09:57:37+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
     },
     {
       "rule_id": "oct30-debug",
@@ -15756,28 +15756,28 @@
       "last_seen": "2026-11-25T15:17:59+00:00"
     },
     {
+      "rule_id": "nov01-site-navigation",
+      "method": "GET",
+      "path": "/assets/alderline.css?param=[REDACTED]",
+      "count": 230,
+      "first_seen": "2026-11-01T13:50:20+00:00",
+      "last_seen": "2026-11-25T17:50:51+00:00"
+    },
+    {
+      "rule_id": "nov01-site-navigation",
+      "method": "GET",
+      "path": "/assets/site.css?param=[REDACTED]",
+      "count": 230,
+      "first_seen": "2026-11-01T13:50:20+00:00",
+      "last_seen": "2026-11-25T17:50:50+00:00"
+    },
+    {
       "rule_id": "review-registry-catalog",
       "method": "GET",
       "path": "/v2/_catalog",
       "count": 229,
       "first_seen": "2026-10-29T15:44:41+00:00",
       "last_seen": "2026-11-24T15:57:34+00:00"
-    },
-    {
-      "rule_id": "nov01-site-navigation",
-      "method": "GET",
-      "path": "/assets/alderline.css?param=[REDACTED]",
-      "count": 229,
-      "first_seen": "2026-11-01T13:50:20+00:00",
-      "last_seen": "2026-11-25T16:47:36+00:00"
-    },
-    {
-      "rule_id": "nov01-site-navigation",
-      "method": "GET",
-      "path": "/assets/site.css?param=[REDACTED]",
-      "count": 229,
-      "first_seen": "2026-11-01T13:50:20+00:00",
-      "last_seen": "2026-11-25T16:47:28+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15791,25 +15791,25 @@
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/FETCH_HEAD",
-      "count": 227,
+      "count": 228,
       "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
+      "last_seen": "2026-11-25T18:30:52+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/FETCH_HEAD",
-      "count": 227,
+      "count": 228,
       "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
+      "last_seen": "2026-11-25T18:30:52+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/FETCH_HEAD",
-      "count": 227,
+      "count": 228,
       "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
+      "last_seen": "2026-11-25T18:30:52+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15823,49 +15823,49 @@
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/info/refs",
-      "count": 225,
+      "count": 226,
       "first_seen": "2026-10-29T22:09:07+00:00",
-      "last_seen": "2026-11-24T23:02:16+00:00"
+      "last_seen": "2026-11-25T18:30:53+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/info/refs",
-      "count": 225,
+      "count": 226,
       "first_seen": "2026-10-29T22:09:07+00:00",
-      "last_seen": "2026-11-24T23:02:16+00:00"
+      "last_seen": "2026-11-25T18:30:53+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/info/refs",
-      "count": 225,
+      "count": 226,
       "first_seen": "2026-10-29T22:09:07+00:00",
-      "last_seen": "2026-11-24T23:02:16+00:00"
+      "last_seen": "2026-11-25T18:30:53+00:00"
     },
     {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/logs/refs/heads/main",
-      "count": 223,
+      "count": 224,
       "first_seen": "2026-10-29T22:09:04+00:00",
-      "last_seen": "2026-11-24T23:02:09+00:00"
+      "last_seen": "2026-11-25T18:30:54+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/logs/refs/heads/main",
-      "count": 223,
+      "count": 224,
       "first_seen": "2026-10-29T22:09:04+00:00",
-      "last_seen": "2026-11-24T23:02:09+00:00"
+      "last_seen": "2026-11-25T18:30:54+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/logs/refs/heads/main",
-      "count": 223,
+      "count": 224,
       "first_seen": "2026-10-29T22:09:04+00:00",
-      "last_seen": "2026-11-24T23:02:09+00:00"
+      "last_seen": "2026-11-25T18:30:54+00:00"
     },
     {
       "rule_id": "review-debug-endpoint",
@@ -15916,36 +15916,36 @@
       "last_seen": "2026-11-24T05:44:11+00:00"
     },
     {
+      "rule_id": "oct30-repository",
+      "method": "GET",
+      "path": "/.git/description",
+      "count": 214,
+      "first_seen": "2026-10-30T09:57:37+00:00",
+      "last_seen": "2026-11-25T18:30:51+00:00"
+    },
+    {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/.git/description",
+      "count": 214,
+      "first_seen": "2026-10-30T09:57:37+00:00",
+      "last_seen": "2026-11-25T18:30:51+00:00"
+    },
+    {
+      "rule_id": "web-exposure",
+      "method": "GET",
+      "path": "/.git/description",
+      "count": 214,
+      "first_seen": "2026-10-30T09:57:37+00:00",
+      "last_seen": "2026-11-25T18:30:51+00:00"
+    },
+    {
       "rule_id": "review-exchange-export",
       "method": "GET",
       "path": "/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application",
       "count": 213,
       "first_seen": "2026-10-29T15:44:45+00:00",
       "last_seen": "2026-11-23T15:23:02+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/description",
-      "count": 213,
-      "first_seen": "2026-10-30T09:57:37+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/description",
-      "count": 213,
-      "first_seen": "2026-10-30T09:57:37+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/description",
-      "count": 213,
-      "first_seen": "2026-10-30T09:57:37+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15999,25 +15999,25 @@
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/logs/refs/heads/master",
-      "count": 209,
+      "count": 210,
       "first_seen": "2026-10-29T22:09:04+00:00",
-      "last_seen": "2026-11-24T23:02:09+00:00"
+      "last_seen": "2026-11-25T18:30:55+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/logs/refs/heads/master",
-      "count": 209,
+      "count": 210,
       "first_seen": "2026-10-29T22:09:04+00:00",
-      "last_seen": "2026-11-24T23:02:09+00:00"
+      "last_seen": "2026-11-25T18:30:55+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/logs/refs/heads/master",
-      "count": 209,
+      "count": 210,
       "first_seen": "2026-10-29T22:09:04+00:00",
-      "last_seen": "2026-11-24T23:02:09+00:00"
+      "last_seen": "2026-11-25T18:30:55+00:00"
     },
     {
       "rule_id": "review-discovery-page",
@@ -16142,34 +16142,34 @@
     {
       "rule_id": "oct30-repository",
       "method": "GET",
-      "path": "/.gitmodules",
-      "count": 188,
-      "first_seen": "2026-10-30T12:05:22+00:00",
-      "last_seen": "2026-11-25T14:54:29+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
       "path": "/.git/refs/heads/master",
-      "count": 187,
+      "count": 188,
       "first_seen": "2026-10-29T22:09:08+00:00",
-      "last_seen": "2026-11-24T23:02:16+00:00"
+      "last_seen": "2026-11-25T18:31:00+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/refs/heads/master",
-      "count": 187,
+      "count": 188,
       "first_seen": "2026-10-29T22:09:08+00:00",
-      "last_seen": "2026-11-24T23:02:16+00:00"
+      "last_seen": "2026-11-25T18:31:00+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/refs/heads/master",
-      "count": 187,
+      "count": 188,
       "first_seen": "2026-10-29T22:09:08+00:00",
-      "last_seen": "2026-11-24T23:02:16+00:00"
+      "last_seen": "2026-11-25T18:31:00+00:00"
+    },
+    {
+      "rule_id": "oct30-repository",
+      "method": "GET",
+      "path": "/.gitmodules",
+      "count": 188,
+      "first_seen": "2026-10-30T12:05:22+00:00",
+      "last_seen": "2026-11-25T14:54:29+00:00"
     },
     {
       "rule_id": "oct30-service-config",
@@ -16236,6 +16236,30 @@
       "last_seen": "2026-11-25T11:41:08+00:00"
     },
     {
+      "rule_id": "oct30-repository",
+      "method": "GET",
+      "path": "/.git/ORIG_HEAD",
+      "count": 178,
+      "first_seen": "2026-10-30T09:57:39+00:00",
+      "last_seen": "2026-11-25T18:30:52+00:00"
+    },
+    {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/.git/ORIG_HEAD",
+      "count": 178,
+      "first_seen": "2026-10-30T09:57:39+00:00",
+      "last_seen": "2026-11-25T18:30:52+00:00"
+    },
+    {
+      "rule_id": "web-exposure",
+      "method": "GET",
+      "path": "/.git/ORIG_HEAD",
+      "count": 178,
+      "first_seen": "2026-10-30T09:57:39+00:00",
+      "last_seen": "2026-11-25T18:30:52+00:00"
+    },
+    {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/public/.env",
@@ -16246,26 +16270,26 @@
     {
       "rule_id": "oct30-repository",
       "method": "GET",
-      "path": "/.git/ORIG_HEAD",
+      "path": "/.git/refs/heads/production",
       "count": 177,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
+      "first_seen": "2026-10-29T22:09:11+00:00",
+      "last_seen": "2026-11-25T18:31:01+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
-      "path": "/.git/ORIG_HEAD",
+      "path": "/.git/refs/heads/production",
       "count": 177,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
+      "first_seen": "2026-10-29T22:09:11+00:00",
+      "last_seen": "2026-11-25T18:31:01+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
-      "path": "/.git/ORIG_HEAD",
+      "path": "/.git/refs/heads/production",
       "count": 177,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
+      "first_seen": "2026-10-29T22:09:11+00:00",
+      "last_seen": "2026-11-25T18:31:01+00:00"
     },
     {
       "rule_id": "review-file-exposure",
@@ -16286,26 +16310,26 @@
     {
       "rule_id": "oct30-repository",
       "method": "GET",
-      "path": "/.git/refs/heads/production",
+      "path": "/.git/refs/heads/staging",
       "count": 176,
-      "first_seen": "2026-10-29T22:09:11+00:00",
-      "last_seen": "2026-11-24T23:02:17+00:00"
+      "first_seen": "2026-10-29T22:09:10+00:00",
+      "last_seen": "2026-11-25T18:31:01+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
-      "path": "/.git/refs/heads/production",
+      "path": "/.git/refs/heads/staging",
       "count": 176,
-      "first_seen": "2026-10-29T22:09:11+00:00",
-      "last_seen": "2026-11-24T23:02:17+00:00"
+      "first_seen": "2026-10-29T22:09:10+00:00",
+      "last_seen": "2026-11-25T18:31:01+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
-      "path": "/.git/refs/heads/production",
+      "path": "/.git/refs/heads/staging",
       "count": 176,
-      "first_seen": "2026-10-29T22:09:11+00:00",
-      "last_seen": "2026-11-24T23:02:17+00:00"
+      "first_seen": "2026-10-29T22:09:10+00:00",
+      "last_seen": "2026-11-25T18:31:01+00:00"
     },
     {
       "rule_id": "web-lfi",
@@ -16314,30 +16338,6 @@
       "count": 175,
       "first_seen": "2026-10-29T15:45:00+00:00",
       "last_seen": "2026-11-25T07:23:49+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/refs/heads/staging",
-      "count": 175,
-      "first_seen": "2026-10-29T22:09:10+00:00",
-      "last_seen": "2026-11-24T23:02:17+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/refs/heads/staging",
-      "count": 175,
-      "first_seen": "2026-10-29T22:09:10+00:00",
-      "last_seen": "2026-11-24T23:02:17+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/refs/heads/staging",
-      "count": 175,
-      "first_seen": "2026-10-29T22:09:10+00:00",
-      "last_seen": "2026-11-24T23:02:17+00:00"
     },
     {
       "rule_id": "web-upload",
@@ -16359,25 +16359,25 @@
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/info/exclude",
-      "count": 173,
+      "count": 174,
       "first_seen": "2026-10-30T09:57:37+00:00",
-      "last_seen": "2026-11-24T11:28:47+00:00"
+      "last_seen": "2026-11-25T18:30:51+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/info/exclude",
-      "count": 173,
+      "count": 174,
       "first_seen": "2026-10-30T09:57:37+00:00",
-      "last_seen": "2026-11-24T11:28:47+00:00"
+      "last_seen": "2026-11-25T18:30:51+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/info/exclude",
-      "count": 173,
+      "count": 174,
       "first_seen": "2026-10-30T09:57:37+00:00",
-      "last_seen": "2026-11-24T11:28:47+00:00"
+      "last_seen": "2026-11-25T18:30:51+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -16508,6 +16508,30 @@
       "last_seen": "2026-11-25T00:24:46+00:00"
     },
     {
+      "rule_id": "oct30-repository",
+      "method": "GET",
+      "path": "/.git/logs/refs/heads/staging",
+      "count": 161,
+      "first_seen": "2026-10-30T09:57:39+00:00",
+      "last_seen": "2026-11-25T18:30:55+00:00"
+    },
+    {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/.git/logs/refs/heads/staging",
+      "count": 161,
+      "first_seen": "2026-10-30T09:57:39+00:00",
+      "last_seen": "2026-11-25T18:30:55+00:00"
+    },
+    {
+      "rule_id": "web-exposure",
+      "method": "GET",
+      "path": "/.git/logs/refs/heads/staging",
+      "count": 161,
+      "first_seen": "2026-10-30T09:57:39+00:00",
+      "last_seen": "2026-11-25T18:30:55+00:00"
+    },
+    {
       "rule_id": "oct30-js-runtime-config",
       "method": "GET",
       "path": "/app.js",
@@ -16518,26 +16542,10 @@
     {
       "rule_id": "oct30-repository",
       "method": "GET",
-      "path": "/.git/logs/refs/heads/staging",
-      "count": 160,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T11:29:05+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/logs/refs/heads/staging",
-      "count": 160,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T11:29:05+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/logs/refs/heads/staging",
-      "count": 160,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T11:29:05+00:00"
+      "path": "/.gitignore",
+      "count": 159,
+      "first_seen": "2026-10-30T09:57:37+00:00",
+      "last_seen": "2026-11-25T18:30:51+00:00"
     },
     {
       "rule_id": "oct30-debug",
@@ -16546,14 +16554,6 @@
       "count": 158,
       "first_seen": "2026-10-29T16:46:25+00:00",
       "last_seen": "2026-11-25T12:18:01+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.gitignore",
-      "count": 158,
-      "first_seen": "2026-10-30T09:57:37+00:00",
-      "last_seen": "2026-11-25T14:54:29+00:00"
     },
     {
       "rule_id": "oct30-php-diagnostic",
@@ -16583,25 +16583,25 @@
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/logs/refs/heads/production",
-      "count": 156,
+      "count": 157,
       "first_seen": "2026-10-30T09:57:38+00:00",
-      "last_seen": "2026-11-24T11:29:04+00:00"
+      "last_seen": "2026-11-25T18:30:56+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/logs/refs/heads/production",
-      "count": 156,
+      "count": 157,
       "first_seen": "2026-10-30T09:57:38+00:00",
-      "last_seen": "2026-11-24T11:29:04+00:00"
+      "last_seen": "2026-11-25T18:30:56+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/logs/refs/heads/production",
-      "count": 156,
+      "count": 157,
       "first_seen": "2026-10-30T09:57:38+00:00",
-      "last_seen": "2026-11-24T11:29:04+00:00"
+      "last_seen": "2026-11-25T18:30:56+00:00"
     },
     {
       "rule_id": "oct30-api",
@@ -16626,6 +16626,14 @@
       "count": 154,
       "first_seen": "2026-10-30T17:08:56+00:00",
       "last_seen": "2026-11-25T14:54:37+00:00"
+    },
+    {
+      "rule_id": "mcp-probe",
+      "method": "GET",
+      "path": "/sse",
+      "count": 153,
+      "first_seen": "2026-10-28T15:42:43+00:00",
+      "last_seen": "2026-11-25T17:32:45+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -16658,14 +16666,6 @@
       "count": 153,
       "first_seen": "2026-10-29T23:36:23+00:00",
       "last_seen": "2026-11-24T15:57:31+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/sse",
-      "count": 152,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-25T12:58:13+00:00"
     },
     {
       "rule_id": "nov10-fetch-parameter-probe",
@@ -16804,6 +16804,14 @@
       "last_seen": "2026-11-23T13:32:36+00:00"
     },
     {
+      "rule_id": "web-php-session",
+      "method": "POST",
+      "path": "/bitsight/internet_census/probe",
+      "count": 79,
+      "first_seen": "2026-10-30T16:06:40+00:00",
+      "last_seen": "2026-11-25T17:44:52+00:00"
+    },
+    {
       "rule_id": "nov14-unidentified-form",
       "method": "POST",
       "path": "/",
@@ -16818,14 +16826,6 @@
       "count": 78,
       "first_seen": "2026-11-01T00:42:54+00:00",
       "last_seen": "2026-11-25T14:47:36+00:00"
-    },
-    {
-      "rule_id": "web-php-session",
-      "method": "POST",
-      "path": "/bitsight/internet_census/probe",
-      "count": 77,
-      "first_seen": "2026-10-30T16:06:40+00:00",
-      "last_seen": "2026-11-25T16:55:28+00:00"
     },
     {
       "rule_id": "nov10-flight-redirect-probe",
@@ -16980,6 +16980,14 @@
       "last_seen": "2026-11-22T18:11:32+00:00"
     },
     {
+      "rule_id": "phpunit-code",
+      "method": "GET",
+      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "count": 26,
+      "first_seen": "2026-10-28T21:27:03+00:00",
+      "last_seen": "2026-11-25T18:11:54+00:00"
+    },
+    {
       "rule_id": "nov10-wp2shell-posts",
       "method": "POST",
       "path": "/wp-json/batch/v1",
@@ -16994,14 +17002,6 @@
       "count": 26,
       "first_seen": "2026-11-06T03:11:04+00:00",
       "last_seen": "2026-11-25T00:14:05+00:00"
-    },
-    {
-      "rule_id": "phpunit-code",
-      "method": "GET",
-      "path": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
-      "count": 25,
-      "first_seen": "2026-10-28T21:27:03+00:00",
-      "last_seen": "2026-11-21T14:52:26+00:00"
     },
     {
       "rule_id": "nov14-react-extended-hex",
@@ -17020,20 +17020,20 @@
       "last_seen": "2026-11-18T04:25:23+00:00"
     },
     {
+      "rule_id": "nov22-public-docs",
+      "method": "GET",
+      "path": "/docs",
+      "count": 24,
+      "first_seen": "2026-11-19T01:02:07+00:00",
+      "last_seen": "2026-11-25T18:32:43+00:00"
+    },
+    {
       "rule_id": "oct30-laravel-ignition",
       "method": "GET",
       "path": "/_ignition/execute-solution",
       "count": 23,
       "first_seen": "2026-10-31T13:27:16+00:00",
       "last_seen": "2026-11-24T05:44:06+00:00"
-    },
-    {
-      "rule_id": "nov22-public-docs",
-      "method": "GET",
-      "path": "/docs",
-      "count": 23,
-      "first_seen": "2026-11-19T01:02:07+00:00",
-      "last_seen": "2026-11-25T14:11:27+00:00"
     },
     {
       "rule_id": "web-lfi",
@@ -22375,12 +22375,12 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 104846,
+    "web_bodies_skipped": 104962,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 0
+    "pending_indicators": 51
   }
 }
