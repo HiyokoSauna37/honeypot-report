@@ -221,7 +221,7 @@
       }
     }
   },
-  "generated_utc": "2026-11-25T17:49:16+00:00",
+  "generated_utc": "2026-11-25T18:17:15+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -7227,9 +7227,9 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 518352,
+    "classified_requests": 519163,
     "iot_requests": 1287,
-    "unclassified_requests": 811,
+    "unclassified_requests": 0,
     "routine_requests": 23895,
     "excluded_checks": 4721
   },
@@ -12947,6 +12947,446 @@
     },
     {
       "method": "GET",
+      "path": "/config/phpinfo.php",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T14:27:29+00:00",
+      "last_seen": "2026-11-23T17:10:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/var/log/dev.log",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T14:27:29+00:00",
+      "last_seen": "2026-11-23T20:37:01+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/webroot/info.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T14:27:29+00:00",
+      "last_seen": "2026-11-23T20:36:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/webroot/phpinfo.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T14:27:29+00:00",
+      "last_seen": "2026-11-23T17:10:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/setup/phpinfo.php",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T14:27:30+00:00",
+      "last_seen": "2026-11-23T17:10:07+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/Web.config.old",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T14:27:44+00:00",
+      "last_seen": "2026-11-24T04:56:56+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/horizon/api/stats",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T14:27:45+00:00",
+      "last_seen": "2026-11-24T04:56:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/server.xml",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T14:27:46+00:00",
+      "last_seen": "2026-11-23T20:37:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/env.local",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T17:09:53+00:00",
+      "last_seen": "2026-11-23T20:36:47+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config/packages/security.yaml",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:09:54+00:00",
+      "last_seen": "2026-11-24T04:56:40+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config/env.local",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:09:55+00:00",
+      "last_seen": "2026-11-24T04:56:39+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/protected/config/main.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:09:56+00:00",
+      "last_seen": "2026-11-23T20:36:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/protected/config/database.php",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T17:09:57+00:00",
+      "last_seen": "2026-11-24T04:56:40+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/administrator/configuration.php",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T17:09:58+00:00",
+      "last_seen": "2026-11-24T04:56:43+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/writable/.env",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:09:58+00:00",
+      "last_seen": "2026-11-24T04:56:40+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/app/Config/App.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:09:59+00:00",
+      "last_seen": "2026-11-24T04:56:43+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config/system/settings.php",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T17:09:59+00:00",
+      "last_seen": "2026-11-24T04:56:40+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/site/.env.local",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:09:59+00:00",
+      "last_seen": "2026-11-24T04:56:39+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/test.php.old",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:04+00:00",
+      "last_seen": "2026-11-24T04:56:49+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin-dev/phpinfo.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:07+00:00",
+      "last_seen": "2026-11-23T20:36:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/install/phpinfo.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:07+00:00",
+      "last_seen": "2026-11-23T20:36:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/public/phpinfo.php.bak",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:07+00:00",
+      "last_seen": "2026-11-23T20:36:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/status?param=[REDACTED]",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:07+00:00",
+      "last_seen": "2026-11-24T04:56:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/webroot/info.php",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:07+00:00",
+      "last_seen": "2026-11-24T04:56:51+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/info.php",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:08+00:00",
+      "last_seen": "2026-11-23T20:36:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/app/info.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:08+00:00",
+      "last_seen": "2026-11-24T04:56:53+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/bootstrap/phpinfo.php",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:08+00:00",
+      "last_seen": "2026-11-23T20:36:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/frontend/info.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:08+00:00",
+      "last_seen": "2026-11-24T04:56:49+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/web/info.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:08+00:00",
+      "last_seen": "2026-11-23T20:36:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/backend_dev.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:09+00:00",
+      "last_seen": "2026-11-23T20:36:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/var/log/dev.log",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:09+00:00",
+      "last_seen": "2026-11-24T04:56:52+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config.old",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:13+00:00",
+      "last_seen": "2026-11-24T04:56:56+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/Web.config.old",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:15+00:00",
+      "last_seen": "2026-11-23T20:37:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/server.xml",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:15+00:00",
+      "last_seen": "2026-11-24T04:56:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/database.yml.bak",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T17:10:16+00:00",
+      "last_seen": "2026-11-23T20:37:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/aws_credentials.ini",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T18:00:52+00:00",
+      "last_seen": "2026-11-23T18:13:18+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/app/Config/Email.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T20:36:49+00:00",
+      "last_seen": "2026-11-24T04:56:40+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/bootstrap/cache/services.php",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T20:36:50+00:00",
+      "last_seen": "2026-11-24T04:56:40+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config/development.yml",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T20:36:50+00:00",
+      "last_seen": "2026-11-24T04:56:43+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/app_dev.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T20:36:59+00:00",
+      "last_seen": "2026-11-24T04:56:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config/phpinfo.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T20:36:59+00:00",
+      "last_seen": "2026-11-24T04:56:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/phpinfo/info.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T20:36:59+00:00",
+      "last_seen": "2026-11-24T04:56:49+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-includes/phpinfo.php",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T20:36:59+00:00",
+      "last_seen": "2026-11-24T04:56:50+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/backend/web/phpinfo.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T20:37:00+00:00",
+      "last_seen": "2026-11-24T04:56:52+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/setup/phpinfo.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T20:37:00+00:00",
+      "last_seen": "2026-11-24T04:56:51+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/application/info.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T20:37:01+00:00",
+      "last_seen": "2026-11-24T04:56:52+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/webroot/phpinfo.php",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T20:37:01+00:00",
+      "last_seen": "2026-11-24T04:56:51+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-admin/info.php",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-23T20:37:01+00:00",
+      "last_seen": "2026-11-24T04:56:52+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sqoop/version",
+      "status": 404,
+      "count": 2,
+      "first_seen": "2026-11-23T21:01:16+00:00",
+      "last_seen": "2026-11-23T22:15:18+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.backup.zip",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:37+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/data.zip",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:37+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/old.tar.gz",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:37+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/old.zip",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:37+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/public_html.tar.gz",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:36+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/website.zip",
+      "status": 429,
+      "count": 2,
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:36+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/aws_credentials.ini",
       "status": 400,
       "count": 2,
@@ -13290,6 +13730,14 @@
       "last_seen": "2026-11-02T01:06:24+00:00"
     },
     {
+      "method": "GET",
+      "path": "/status?param=[REDACTED]",
+      "status": 400,
+      "count": 1,
+      "first_seen": "2026-11-02T01:44:40+00:00",
+      "last_seen": "2026-11-02T01:44:40+00:00"
+    },
+    {
       "method": "POST",
       "path": "/upload.php",
       "status": 202,
@@ -13315,6 +13763,30 @@
     },
     {
       "method": "GET",
+      "path": "/api/shared/config.env",
+      "status": 429,
+      "count": 1,
+      "first_seen": "2026-11-06T12:06:12+00:00",
+      "last_seen": "2026-11-06T12:06:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.mysql_history",
+      "status": 503,
+      "count": 1,
+      "first_seen": "2026-11-06T22:00:17+00:00",
+      "last_seen": "2026-11-06T22:00:17+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/secrets.env",
+      "status": 503,
+      "count": 1,
+      "first_seen": "2026-11-08T15:53:14+00:00",
+      "last_seen": "2026-11-08T15:53:14+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/phpunit/src/Util/PHP/eval-stdin.php",
       "status": 429,
       "count": 1,
@@ -13328,6 +13800,22 @@
       "count": 1,
       "first_seen": "2026-11-08T18:41:12+00:00",
       "last_seen": "2026-11-08T18:41:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/instance/config.py",
+      "status": 503,
+      "count": 1,
+      "first_seen": "2026-11-08T21:29:09+00:00",
+      "last_seen": "2026-11-08T21:29:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/env.txt",
+      "status": 503,
+      "count": 1,
+      "first_seen": "2026-11-09T10:49:42+00:00",
+      "last_seen": "2026-11-09T10:49:42+00:00"
     },
     {
       "method": "POST",
@@ -13354,12 +13842,28 @@
       "last_seen": "2026-11-09T19:55:11+00:00"
     },
     {
+      "method": "GET",
+      "path": "/package-lock.json",
+      "status": 503,
+      "count": 1,
+      "first_seen": "2026-11-10T21:03:04+00:00",
+      "last_seen": "2026-11-10T21:03:04+00:00"
+    },
+    {
       "method": "POST",
       "path": "/vendor/phpunit/src/Util/PHP/eval-stdin.php",
       "status": 429,
       "count": 1,
       "first_seen": "2026-11-10T21:03:06+00:00",
       "last_seen": "2026-11-10T21:03:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wordpress.sql",
+      "status": 429,
+      "count": 1,
+      "first_seen": "2026-11-10T21:03:14+00:00",
+      "last_seen": "2026-11-10T21:03:14+00:00"
     },
     {
       "method": "GET",
@@ -13376,6 +13880,14 @@
       "count": 1,
       "first_seen": "2026-11-11T05:18:53+00:00",
       "last_seen": "2026-11-11T05:18:53+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/openapi.json",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-12T15:10:33+00:00",
+      "last_seen": "2026-11-12T15:10:33+00:00"
     },
     {
       "method": "GET",
@@ -13418,6 +13930,14 @@
       "last_seen": "2026-11-13T15:58:20+00:00"
     },
     {
+      "method": "GET",
+      "path": "/wordpress.sql",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-13T16:05:25+00:00",
+      "last_seen": "2026-11-13T16:05:25+00:00"
+    },
+    {
       "method": "POST",
       "path": "/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php",
       "status": 502,
@@ -13451,6 +13971,14 @@
     },
     {
       "method": "GET",
+      "path": "/?param=[REDACTED]&param=[REDACTED]",
+      "status": 400,
+      "count": 1,
+      "first_seen": "2026-11-14T04:33:45+00:00",
+      "last_seen": "2026-11-14T04:33:45+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/Telerik.Web.UI.WebResource.axd?param=[REDACTED]",
       "status": 502,
       "count": 1,
@@ -13459,11 +13987,91 @@
     },
     {
       "method": "GET",
+      "path": "/secrets.env",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-14T09:52:46+00:00",
+      "last_seen": "2026-11-14T09:52:46+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/server.js",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-14T09:52:54+00:00",
+      "last_seen": "2026-11-14T09:52:54+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/env.example",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-14T09:53:01+00:00",
+      "last_seen": "2026-11-14T09:53:01+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/package-lock.json",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-14T09:53:24+00:00",
+      "last_seen": "2026-11-14T09:53:24+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/laravel.log",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-14T09:53:25+00:00",
+      "last_seen": "2026-11-14T09:53:25+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/admin.php",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-14T15:56:13+00:00",
+      "last_seen": "2026-11-14T15:56:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/settings.py.bak",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-14T22:31:38+00:00",
+      "last_seen": "2026-11-14T22:31:38+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/web.config.bak",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-14T22:31:39+00:00",
+      "last_seen": "2026-11-14T22:31:39+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.ssh/id_ecdsa",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-14T22:31:43+00:00",
+      "last_seen": "2026-11-14T22:31:43+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/_ignition/execute-solution",
       "status": 502,
       "count": 1,
       "first_seen": "2026-11-14T22:31:45+00:00",
       "last_seen": "2026-11-14T22:31:45+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/_info.php",
+      "status": 502,
+      "count": 1,
+      "first_seen": "2026-11-15T01:06:39+00:00",
+      "last_seen": "2026-11-15T01:06:39+00:00"
     },
     {
       "method": "GET",
@@ -13787,11 +14395,43 @@
     },
     {
       "method": "GET",
+      "path": "/api/secrets",
+      "status": 429,
+      "count": 1,
+      "first_seen": "2026-11-19T10:35:47+00:00",
+      "last_seen": "2026-11-19T10:35:47+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/[REDACTED]",
+      "status": 503,
+      "count": 1,
+      "first_seen": "2026-11-19T13:40:58+00:00",
+      "last_seen": "2026-11-19T13:40:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-config.php.disabled",
+      "status": 503,
+      "count": 1,
+      "first_seen": "2026-11-19T13:40:58+00:00",
+      "last_seen": "2026-11-19T13:40:58+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/?param=[REDACTED]",
       "status": 400,
       "count": 1,
       "first_seen": "2026-11-20T12:50:20+00:00",
       "last_seen": "2026-11-20T12:50:20+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/configuration.js",
+      "status": 503,
+      "count": 1,
+      "first_seen": "2026-11-20T23:16:30+00:00",
+      "last_seen": "2026-11-20T23:16:30+00:00"
     },
     {
       "method": "POST",
@@ -13810,492 +14450,444 @@
       "last_seen": "2026-11-21T00:38:40+00:00"
     },
     {
+      "method": "GET",
+      "path": "/.ssl/privkey.pem",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:44+00:00",
+      "last_seen": "2026-11-21T00:38:44+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/db-credentials.json",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:45+00:00",
+      "last_seen": "2026-11-21T00:38:45+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mongo-credentials.json",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:46+00:00",
+      "last_seen": "2026-11-21T00:38:46+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/stripe-credentials.json",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:46+00:00",
+      "last_seen": "2026-11-21T00:38:46+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/1password.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:51+00:00",
+      "last_seen": "2026-11-21T00:38:51+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/billing.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:54+00:00",
+      "last_seen": "2026-11-21T00:38:54+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config/database.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:55+00:00",
+      "last_seen": "2026-11-21T00:38:55+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config/db.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:55+00:00",
+      "last_seen": "2026-11-21T00:38:55+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config/keys.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:55+00:00",
+      "last_seen": "2026-11-21T00:38:55+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config/nexmo.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:55+00:00",
+      "last_seen": "2026-11-21T00:38:55+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/configs/prod.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:56+00:00",
+      "last_seen": "2026-11-21T00:38:56+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/example.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:57+00:00",
+      "last_seen": "2026-11-21T00:38:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/mandrill.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:59+00:00",
+      "last_seen": "2026-11-21T00:38:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/payment.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:00+00:00",
+      "last_seen": "2026-11-21T00:39:00+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/resend.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:00+00:00",
+      "last_seen": "2026-11-21T00:39:00+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/sparkpost.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:02+00:00",
+      "last_seen": "2026-11-21T00:39:02+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/stripe-webhook-secret.txt",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:03+00:00",
+      "last_seen": "2026-11-21T00:39:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/stripe/webhook_secret.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:03+00:00",
+      "last_seen": "2026-11-21T00:39:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/stripe_secret_key.txt",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:03+00:00",
+      "last_seen": "2026-11-21T00:39:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wp-config.env",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:04+00:00",
+      "last_seen": "2026-11-21T00:39:04+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.github/renovate.json",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:05+00:00",
+      "last_seen": "2026-11-21T00:39:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.github/workflows/coverage.yml",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:05+00:00",
+      "last_seen": "2026-11-21T00:39:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.github/workflows/lint.yml",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:06+00:00",
+      "last_seen": "2026-11-21T00:39:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.github/workflows/push.yml",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:06+00:00",
+      "last_seen": "2026-11-21T00:39:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.github/workflows/snyk.yml",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:06+00:00",
+      "last_seen": "2026-11-21T00:39:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.github/workflows/test.yml",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:06+00:00",
+      "last_seen": "2026-11-21T00:39:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.github/workflows/tests.yml",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:06+00:00",
+      "last_seen": "2026-11-21T00:39:06+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/-/health",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:07+00:00",
+      "last_seen": "2026-11-21T00:39:07+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/-/healthy",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:07+00:00",
+      "last_seen": "2026-11-21T00:39:07+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/-/readiness",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:07+00:00",
+      "last_seen": "2026-11-21T00:39:07+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/-/liveness",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:08+00:00",
+      "last_seen": "2026-11-21T00:39:08+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/-/ready",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:08+00:00",
+      "last_seen": "2026-11-21T00:39:08+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.chef/config.rb",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:09+00:00",
+      "last_seen": "2026-11-21T00:39:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.circleci/configs/production.yml",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:09+00:00",
+      "last_seen": "2026-11-21T00:39:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.circleci/scripts/deploy.sh",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:09+00:00",
+      "last_seen": "2026-11-21T00:39:09+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.dockerignore",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:10+00:00",
+      "last_seen": "2026-11-21T00:39:10+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.eslintrc.json",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:10+00:00",
+      "last_seen": "2026-11-21T00:39:10+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.hg",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:11+00:00",
+      "last_seen": "2026-11-21T00:39:11+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.idea",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:11+00:00",
+      "last_seen": "2026-11-21T00:39:11+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.serverless.yml",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:12+00:00",
+      "last_seen": "2026-11-21T00:39:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/ai-plugin.json",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:12+00:00",
+      "last_seen": "2026-11-21T00:39:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/envoy",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:12+00:00",
+      "last_seen": "2026-11-21T00:39:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/host-meta",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:12+00:00",
+      "last_seen": "2026-11-21T00:39:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/oauth-authorization-server",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:12+00:00",
+      "last_seen": "2026-11-21T00:39:12+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/host-meta.json",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/matrix/client",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/matrix/server",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/okta-organization",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/stripe",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.well-known/stripe.txt",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/1.sql",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/___graphql",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:14+00:00",
+      "last_seen": "2026-11-21T00:39:14+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/__clockwork/latest",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:14+00:00",
+      "last_seen": "2026-11-21T00:39:14+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/__debug__",
+      "status": 404,
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:14+00:00",
+      "last_seen": "2026-11-21T00:39:14+00:00"
+    },
+    {
       "method": "POST",
       "path": "/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php",
       "status": 429,
       "count": 1,
       "first_seen": "2026-11-22T07:52:04+00:00",
       "last_seen": "2026-11-22T07:52:04+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/var/logs/debug.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:50:36+00:00",
-      "last_seen": "2026-11-24T19:50:36+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/storage/logs/rails.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:50:45+00:00",
-      "last_seen": "2026-11-24T19:50:45+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/config/private/aws_credentials.json",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:50:47+00:00",
-      "last_seen": "2026-11-24T19:50:47+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mailer/crm/phpinfo.php",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:50:49+00:00",
-      "last_seen": "2026-11-24T19:50:49+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/dump.sqlite",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:50:54+00:00",
-      "last_seen": "2026-11-24T19:50:54+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/storage/logs/sendgrid.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:50:54+00:00",
-      "last_seen": "2026-11-24T19:50:54+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpinfo.php.orig.bak",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:50:55+00:00",
-      "last_seen": "2026-11-24T19:50:55+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/services/laravel.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:50:57+00:00",
-      "last_seen": "2026-11-24T19:50:57+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mailer/dev/phpinfo.php",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:04+00:00",
-      "last_seen": "2026-11-24T19:51:04+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/keys/test.php",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:07+00:00",
-      "last_seen": "2026-11-24T19:51:07+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/dev/laravel.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:07+00:00",
-      "last_seen": "2026-11-24T19:51:07+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/admin/log/error.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:13+00:00",
-      "last_seen": "2026-11-24T19:51:13+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/core/config/debug.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:16+00:00",
-      "last_seen": "2026-11-24T19:51:16+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/php/debug.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:28+00:00",
-      "last_seen": "2026-11-24T19:51:28+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/config/.ssh/authorized_keys",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:32+00:00",
-      "last_seen": "2026-11-24T19:51:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/admin/test/debug.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:35+00:00",
-      "last_seen": "2026-11-24T19:51:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/user/.vscode/sftp.json",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:37+00:00",
-      "last_seen": "2026-11-24T19:51:37+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-content/plugins/aws_credentials.js",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:40+00:00",
-      "last_seen": "2026-11-24T19:51:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/core/env/debug.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:49+00:00",
-      "last_seen": "2026-11-24T19:51:49+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/customer/laravel.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:51+00:00",
-      "last_seen": "2026-11-24T19:51:51+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/var/logs/error.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:52+00:00",
-      "last_seen": "2026-11-24T19:51:52+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/private/aws_credentials",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:53+00:00",
-      "last_seen": "2026-11-24T19:51:53+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/db/debug.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:51:57+00:00",
-      "last_seen": "2026-11-24T19:51:57+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/smtp.env",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:03+00:00",
-      "last_seen": "2026-11-24T19:52:03+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mailer/api/phpinfo.php",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:05+00:00",
-      "last_seen": "2026-11-24T19:52:05+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mailer/dashboard/phpinfo.php",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:15+00:00",
-      "last_seen": "2026-11-24T19:52:15+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/config/default.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:17+00:00",
-      "last_seen": "2026-11-24T19:52:17+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/logs/wp-content/debug.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:18+00:00",
-      "last_seen": "2026-11-24T19:52:18+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/.aws/wp-config.bak.orig",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:19+00:00",
-      "last_seen": "2026-11-24T19:52:19+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/.well-known/aws.json",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:36+00:00",
-      "last_seen": "2026-11-24T19:52:36+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/site/logs/error.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:40+00:00",
-      "last_seen": "2026-11-24T19:52:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/secrets/aws_credentials.js",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:48+00:00",
-      "last_seen": "2026-11-24T19:52:48+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/config.env",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:51+00:00",
-      "last_seen": "2026-11-24T19:52:51+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/storage/logs/app.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:51+00:00",
-      "last_seen": "2026-11-24T19:52:51+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/src/access.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:54+00:00",
-      "last_seen": "2026-11-24T19:52:54+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/config/sample.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:52:59+00:00",
-      "last_seen": "2026-11-24T19:52:59+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/config/tmp/debug.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:04+00:00",
-      "last_seen": "2026-11-24T19:53:04+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/.ssh/authorized_keys.tmp",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:08+00:00",
-      "last_seen": "2026-11-24T19:53:08+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/app/Secrets/aws_credentials.php",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:08+00:00",
-      "last_seen": "2026-11-24T19:53:08+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/config/secret.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:09+00:00",
-      "last_seen": "2026-11-24T19:53:09+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/client/.vscode/sftp.json",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:10+00:00",
-      "last_seen": "2026-11-24T19:53:10+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/phpinfo.php.copy.bak.bak",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:14+00:00",
-      "last_seen": "2026-11-24T19:53:14+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/sql/debug.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:15+00:00",
-      "last_seen": "2026-11-24T19:53:15+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/cache/error.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:22+00:00",
-      "last_seen": "2026-11-24T19:53:22+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/_/.ssh/authorized_keys",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:25+00:00",
-      "last_seen": "2026-11-24T19:53:25+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/services/.ssh/authorized_keys",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:26+00:00",
-      "last_seen": "2026-11-24T19:53:26+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/admin/laravel.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:28+00:00",
-      "last_seen": "2026-11-24T19:53:28+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/dashboard/laravel.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:29+00:00",
-      "last_seen": "2026-11-24T19:53:29+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/log/access.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:31+00:00",
-      "last_seen": "2026-11-24T19:53:31+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/config/database.json",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:39+00:00",
-      "last_seen": "2026-11-24T19:53:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mailer/dev/info.php",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:40+00:00",
-      "last_seen": "2026-11-24T19:53:40+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/blog/.vscode/sftp.json",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:41+00:00",
-      "last_seen": "2026-11-24T19:53:41+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/config/new/debug.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:47+00:00",
-      "last_seen": "2026-11-24T19:53:47+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wp-includes/aws_credentials.json",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:47+00:00",
-      "last_seen": "2026-11-24T19:53:47+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api/config/wp-config.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:50+00:00",
-      "last_seen": "2026-11-24T19:53:50+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/config/access.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:55+00:00",
-      "last_seen": "2026-11-24T19:53:55+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/.config/aws_credentials.env.disabled",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:53:56+00:00",
-      "last_seen": "2026-11-24T19:53:56+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/admin/logs/error.log",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:54:01+00:00",
-      "last_seen": "2026-11-24T19:54:01+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/mailer/backup/phpinfo.php",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:54:03+00:00",
-      "last_seen": "2026-11-24T19:54:03+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/resources/.vscode/sftp.json",
-      "status": 400,
-      "count": 1,
-      "first_seen": "2026-11-24T19:54:08+00:00",
-      "last_seen": "2026-11-24T19:54:08+00:00"
     }
   ],
   "findings": [
@@ -16188,454 +16780,6 @@
       "last_seen": "2026-11-24T15:57:32+00:00"
     },
     {
-      "rule_id": "oct30-js-runtime-config",
-      "method": "GET",
-      "path": "/main.js",
-      "count": 143,
-      "first_seen": "2026-10-30T14:14:53+00:00",
-      "last_seen": "2026-11-24T13:25:04+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/wrangler.toml",
-      "count": 142,
-      "first_seen": "2026-10-29T22:08:24+00:00",
-      "last_seen": "2026-11-25T11:30:45+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/mcp",
-      "count": 141,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-25T12:58:13+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/.env.live",
-      "count": 140,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.env.live",
-      "count": 140,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.env.live",
-      "count": 140,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/google-services.json",
-      "count": 140,
-      "first_seen": "2026-10-29T22:08:28+00:00",
-      "last_seen": "2026-11-25T11:30:59+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.env.json",
-      "count": 140,
-      "first_seen": "2026-10-30T11:01:56+00:00",
-      "last_seen": "2026-11-24T04:56:38+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.env.json",
-      "count": 140,
-      "first_seen": "2026-10-30T11:01:56+00:00",
-      "last_seen": "2026-11-24T04:56:38+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/api/mcp",
-      "count": 137,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-25T12:58:13+00:00"
-    },
-    {
-      "rule_id": "mcp-probe",
-      "method": "GET",
-      "path": "/mcp/",
-      "count": 137,
-      "first_seen": "2026-10-28T15:42:43+00:00",
-      "last_seen": "2026-11-25T12:58:13+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/.env.php",
-      "count": 136,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-25T11:48:08+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.env.php",
-      "count": 136,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-25T11:48:08+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.env.php",
-      "count": 136,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-25T11:48:08+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/actuator/health",
-      "count": 135,
-      "first_seen": "2026-10-28T15:00:06+00:00",
-      "last_seen": "2026-11-25T14:47:22+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/.dev.vars",
-      "count": 135,
-      "first_seen": "2026-10-29T22:08:16+00:00",
-      "last_seen": "2026-11-25T11:30:26+00:00"
-    },
-    {
-      "rule_id": "oct30-php-diagnostic",
-      "method": "GET",
-      "path": "/php-info.php",
-      "count": 135,
-      "first_seen": "2026-10-30T11:02:07+00:00",
-      "last_seen": "2026-11-25T12:18:08+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/application.properties",
-      "count": 134,
-      "first_seen": "2026-10-29T22:09:48+00:00",
-      "last_seen": "2026-11-25T14:47:26+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/config/config.js",
-      "count": 134,
-      "first_seen": "2026-10-30T00:13:55+00:00",
-      "last_seen": "2026-11-25T00:14:39+00:00"
-    },
-    {
-      "rule_id": "oct30-php-script",
-      "method": "GET",
-      "path": "/php.php",
-      "count": 134,
-      "first_seen": "2026-10-30T11:02:02+00:00",
-      "last_seen": "2026-11-25T12:18:00+00:00"
-    },
-    {
-      "rule_id": "oct30-php-diagnostic",
-      "method": "GET",
-      "path": "/info",
-      "count": 133,
-      "first_seen": "2026-10-30T11:02:07+00:00",
-      "last_seen": "2026-11-25T12:18:07+00:00"
-    },
-    {
-      "rule_id": "oct30-php-diagnostic",
-      "method": "GET",
-      "path": "/_phpinfo.php",
-      "count": 131,
-      "first_seen": "2026-10-30T11:02:08+00:00",
-      "last_seen": "2026-11-25T12:18:09+00:00"
-    },
-    {
-      "rule_id": "review-file-exposure",
-      "method": "GET",
-      "path": "/.ssh/id_rsa",
-      "count": 130,
-      "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-24T20:01:52+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/refs/remotes/origin/main",
-      "count": 130,
-      "first_seen": "2026-10-29T22:09:24+00:00",
-      "last_seen": "2026-11-24T23:02:29+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/refs/remotes/origin/main",
-      "count": 130,
-      "first_seen": "2026-10-29T22:09:24+00:00",
-      "last_seen": "2026-11-24T23:02:29+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/refs/remotes/origin/main",
-      "count": 130,
-      "first_seen": "2026-10-29T22:09:24+00:00",
-      "last_seen": "2026-11-24T23:02:29+00:00"
-    },
-    {
-      "rule_id": "oct30-php-script",
-      "method": "GET",
-      "path": "/pi.php",
-      "count": 130,
-      "first_seen": "2026-10-30T11:02:03+00:00",
-      "last_seen": "2026-11-25T12:18:01+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/.kube/config",
-      "count": 129,
-      "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-25T11:48:08+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/refs/remotes/origin/master",
-      "count": 129,
-      "first_seen": "2026-10-29T22:09:25+00:00",
-      "last_seen": "2026-11-24T23:02:29+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/refs/remotes/origin/master",
-      "count": 129,
-      "first_seen": "2026-10-29T22:09:25+00:00",
-      "last_seen": "2026-11-24T23:02:29+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/refs/remotes/origin/master",
-      "count": 129,
-      "first_seen": "2026-10-29T22:09:25+00:00",
-      "last_seen": "2026-11-24T23:02:29+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/refs/heads/develop",
-      "count": 128,
-      "first_seen": "2026-10-29T22:09:09+00:00",
-      "last_seen": "2026-11-24T23:02:17+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/refs/heads/develop",
-      "count": 128,
-      "first_seen": "2026-10-29T22:09:09+00:00",
-      "last_seen": "2026-11-24T23:02:17+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/refs/heads/develop",
-      "count": 128,
-      "first_seen": "2026-10-29T22:09:09+00:00",
-      "last_seen": "2026-11-24T23:02:17+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/refs/remotes/origin/staging",
-      "count": 127,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T11:28:51+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/refs/remotes/origin/staging",
-      "count": 127,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T11:28:51+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/refs/remotes/origin/staging",
-      "count": 127,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T11:28:51+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/env.json",
-      "count": 125,
-      "first_seen": "2026-10-29T22:08:35+00:00",
-      "last_seen": "2026-11-25T11:48:08+00:00"
-    },
-    {
-      "rule_id": "nov10-rsc-reference-probe",
-      "method": "POST",
-      "path": "/",
-      "count": 124,
-      "first_seen": "2026-10-30T05:47:29+00:00",
-      "last_seen": "2026-11-25T08:50:13+00:00"
-    },
-    {
-      "rule_id": "oct30-php-script",
-      "method": "GET",
-      "path": "/p.php",
-      "count": 124,
-      "first_seen": "2026-10-30T11:02:04+00:00",
-      "last_seen": "2026-11-25T12:18:03+00:00"
-    },
-    {
-      "rule_id": "web-lfi",
-      "method": "GET",
-      "path": "/index.php?param=[REDACTED]",
-      "count": 123,
-      "first_seen": "2026-10-28T21:27:17+00:00",
-      "last_seen": "2026-11-18T04:25:25+00:00"
-    },
-    {
-      "rule_id": "oct30-build",
-      "method": "GET",
-      "path": "/serverless.yml",
-      "count": 122,
-      "first_seen": "2026-10-29T16:46:25+00:00",
-      "last_seen": "2026-11-25T00:25:00+00:00"
-    },
-    {
-      "rule_id": "oct30-service-config",
-      "method": "GET",
-      "path": "/.config/gcloud/application_default_credentials.json",
-      "count": 122,
-      "first_seen": "2026-10-30T11:02:19+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/.env.docker",
-      "count": 121,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.env.docker",
-      "count": 121,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.env.docker",
-      "count": 121,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-24T15:57:32+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/site/.env",
-      "count": 121,
-      "first_seen": "2026-10-30T11:01:58+00:00",
-      "last_seen": "2026-11-25T14:47:37+00:00"
-    },
-    {
-      "rule_id": "oct30-php-diagnostic",
-      "method": "GET",
-      "path": "/phpversion.php",
-      "count": 120,
-      "first_seen": "2026-10-30T11:02:08+00:00",
-      "last_seen": "2026-11-25T12:18:08+00:00"
-    },
-    {
-      "rule_id": "oct30-actuator",
-      "method": "GET",
-      "path": "/actuator/configprops",
-      "count": 119,
-      "first_seen": "2026-10-29T16:46:25+00:00",
-      "last_seen": "2026-11-25T14:47:22+00:00"
-    },
-    {
-      "rule_id": "web-product-probe",
-      "method": "GET",
-      "path": "/actuator/configprops",
-      "count": 119,
-      "first_seen": "2026-10-29T16:46:25+00:00",
-      "last_seen": "2026-11-25T14:47:22+00:00"
-    },
-    {
-      "rule_id": "oct30-site-navigation",
-      "method": "GET",
-      "path": "/download?param=[REDACTED]",
-      "count": 118,
-      "first_seen": "2026-10-29T16:51:13+00:00",
-      "last_seen": "2026-11-23T03:09:04+00:00"
-    },
-    {
-      "rule_id": "oct30-repository",
-      "method": "GET",
-      "path": "/.git/logs/refs/remotes/origin/master",
-      "count": 118,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T11:29:05+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.git/logs/refs/remotes/origin/master",
-      "count": 118,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T11:29:05+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.git/logs/refs/remotes/origin/master",
-      "count": 118,
-      "first_seen": "2026-10-30T09:57:39+00:00",
-      "last_seen": "2026-11-24T11:29:05+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.env.yaml",
-      "count": 118,
-      "first_seen": "2026-10-30T11:01:56+00:00",
-      "last_seen": "2026-11-24T04:56:38+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.env.yml",
-      "count": 118,
-      "first_seen": "2026-10-30T11:01:56+00:00",
-      "last_seen": "2026-11-24T04:56:38+00:00"
-    },
-    {
       "rule_id": "review-wordpress-wp2shell",
       "method": "POST",
       "path": "/?param=[REDACTED]",
@@ -17740,6 +17884,14 @@
       "last_seen": "2026-11-10T00:26:56+00:00"
     },
     {
+      "rule_id": "nov24-api",
+      "method": "GET",
+      "path": "/api/v1/workspaces",
+      "count": 8,
+      "first_seen": "2026-11-23T02:07:11+00:00",
+      "last_seen": "2026-11-25T09:39:46+00:00"
+    },
+    {
       "rule_id": "phpunit-code",
       "method": "GET",
       "path": "/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
@@ -17972,6 +18124,14 @@
       "last_seen": "2026-11-23T02:54:51+00:00"
     },
     {
+      "rule_id": "nov24-api",
+      "method": "GET",
+      "path": "/api/v1/workflows",
+      "count": 7,
+      "first_seen": "2026-11-23T02:07:11+00:00",
+      "last_seen": "2026-11-25T09:39:47+00:00"
+    },
+    {
       "rule_id": "phpunit-code",
       "method": "GET",
       "path": "/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
@@ -18148,12 +18308,36 @@
       "last_seen": "2026-11-21T12:24:51+00:00"
     },
     {
+      "rule_id": "nov24-api",
+      "method": "GET",
+      "path": "/api/v1/datasets",
+      "count": 6,
+      "first_seen": "2026-11-23T02:07:12+00:00",
+      "last_seen": "2026-11-25T09:39:49+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/api/v1/api_key",
+      "count": 6,
+      "first_seen": "2026-11-23T02:07:12+00:00",
+      "last_seen": "2026-11-25T09:39:46+00:00"
+    },
+    {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/site/.env.local",
       "count": 6,
       "first_seen": "2026-11-23T14:27:08+00:00",
       "last_seen": "2026-11-24T20:10:03+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/database.yml.bak",
+      "count": 6,
+      "first_seen": "2026-11-23T14:27:44+00:00",
+      "last_seen": "2026-11-24T20:00:17+00:00"
     },
     {
       "rule_id": "oct30-unidentified-path",
@@ -18182,42 +18366,18 @@
     {
       "rule_id": "nov24-api",
       "method": "GET",
-      "path": "/api/v1/workflows",
+      "path": "/__admin/health",
       "count": 5,
-      "first_seen": "2026-11-23T02:07:11+00:00",
-      "last_seen": "2026-11-24T00:04:30+00:00"
+      "first_seen": "2026-11-23T21:01:13+00:00",
+      "last_seen": "2026-11-25T10:36:20+00:00"
     },
     {
-      "rule_id": "nov24-api",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/api/v1/workspaces",
+      "path": "/[REDACTED]",
       "count": 5,
-      "first_seen": "2026-11-23T02:07:11+00:00",
-      "last_seen": "2026-11-24T00:04:30+00:00"
-    },
-    {
-      "rule_id": "nov24-api",
-      "method": "GET",
-      "path": "/api/v1/datasets",
-      "count": 5,
-      "first_seen": "2026-11-23T02:07:12+00:00",
-      "last_seen": "2026-11-24T00:04:30+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/api/v1/api_key",
-      "count": 5,
-      "first_seen": "2026-11-23T02:07:12+00:00",
-      "last_seen": "2026-11-24T00:04:30+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/database.yml.bak",
-      "count": 5,
-      "first_seen": "2026-11-23T14:27:44+00:00",
-      "last_seen": "2026-11-24T04:56:56+00:00"
+      "first_seen": "2026-11-24T09:29:28+00:00",
+      "last_seen": "2026-11-25T00:13:57+00:00"
     },
     {
       "rule_id": "telerik-rau-probe",
@@ -19460,6 +19620,14 @@
       "last_seen": "2026-11-24T04:56:52+00:00"
     },
     {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/var/log/dev.log",
+      "count": 4,
+      "first_seen": "2026-11-23T14:27:29+00:00",
+      "last_seen": "2026-11-24T04:56:52+00:00"
+    },
+    {
       "rule_id": "nov24-diagnostic",
       "method": "GET",
       "path": "/app/Config/phpinfo.php",
@@ -19482,6 +19650,14 @@
       "count": 4,
       "first_seen": "2026-11-23T14:27:29+00:00",
       "last_seen": "2026-11-24T04:56:52+00:00"
+    },
+    {
+      "rule_id": "nov24-diagnostic",
+      "method": "GET",
+      "path": "/config/phpinfo.php",
+      "count": 4,
+      "first_seen": "2026-11-23T14:27:29+00:00",
+      "last_seen": "2026-11-24T04:56:50+00:00"
     },
     {
       "rule_id": "nov24-diagnostic",
@@ -19519,6 +19695,22 @@
       "rule_id": "nov24-diagnostic",
       "method": "GET",
       "path": "/sites/default/phpinfo.php",
+      "count": 4,
+      "first_seen": "2026-11-23T14:27:29+00:00",
+      "last_seen": "2026-11-24T04:56:51+00:00"
+    },
+    {
+      "rule_id": "nov24-diagnostic",
+      "method": "GET",
+      "path": "/webroot/info.php",
+      "count": 4,
+      "first_seen": "2026-11-23T14:27:29+00:00",
+      "last_seen": "2026-11-24T04:56:51+00:00"
+    },
+    {
+      "rule_id": "nov24-diagnostic",
+      "method": "GET",
+      "path": "/webroot/phpinfo.php",
       "count": 4,
       "first_seen": "2026-11-23T14:27:29+00:00",
       "last_seen": "2026-11-24T04:56:51+00:00"
@@ -19572,12 +19764,28 @@
       "last_seen": "2026-11-24T04:56:48+00:00"
     },
     {
+      "rule_id": "nov24-diagnostic",
+      "method": "GET",
+      "path": "/setup/phpinfo.php",
+      "count": 4,
+      "first_seen": "2026-11-23T14:27:30+00:00",
+      "last_seen": "2026-11-24T04:56:51+00:00"
+    },
+    {
       "rule_id": "nov24-config",
       "method": "GET",
       "path": "/Web.config.bak",
       "count": 4,
       "first_seen": "2026-11-23T14:27:44+00:00",
       "last_seen": "2026-11-24T04:56:55+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/Web.config.old",
+      "count": 4,
+      "first_seen": "2026-11-23T14:27:44+00:00",
+      "last_seen": "2026-11-24T04:56:56+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -19596,6 +19804,14 @@
       "last_seen": "2026-11-24T04:56:58+00:00"
     },
     {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/server.xml",
+      "count": 4,
+      "first_seen": "2026-11-23T14:27:46+00:00",
+      "last_seen": "2026-11-24T04:56:57+00:00"
+    },
+    {
       "rule_id": "nov24-diagnostic",
       "method": "GET",
       "path": "/admin/telescope",
@@ -19610,6 +19826,22 @@
       "count": 4,
       "first_seen": "2026-11-23T14:27:47+00:00",
       "last_seen": "2026-11-24T04:56:56+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/aws_credentials.ini",
+      "count": 4,
+      "first_seen": "2026-11-23T18:00:52+00:00",
+      "last_seen": "2026-11-24T20:13:15+00:00"
+    },
+    {
+      "rule_id": "nov25-local-file-read",
+      "method": "GET",
+      "path": "/test.php?param=[REDACTED]",
+      "count": 4,
+      "first_seen": "2026-11-24T07:49:14+00:00",
+      "last_seen": "2026-11-24T07:49:17+00:00"
     },
     {
       "rule_id": "review-react2shell-unicode",
@@ -20398,10 +20630,50 @@
     {
       "rule_id": "nov24-config",
       "method": "GET",
+      "path": "/gateway/actuator/env",
+      "count": 3,
+      "first_seen": "2026-11-22T17:58:08+00:00",
+      "last_seen": "2026-11-24T20:06:54+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/api/config/config.json",
+      "count": 3,
+      "first_seen": "2026-11-22T17:58:10+00:00",
+      "last_seen": "2026-11-24T20:05:02+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
       "path": "/config/php/readme.bak",
       "count": 3,
       "first_seen": "2026-11-22T17:58:14+00:00",
       "last_seen": "2026-11-24T20:06:53+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/index.php.bak",
+      "count": 3,
+      "first_seen": "2026-11-22T17:58:16+00:00",
+      "last_seen": "2026-11-25T07:37:25+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/logs/wp-content/debug.log",
+      "count": 3,
+      "first_seen": "2026-11-22T17:58:17+00:00",
+      "last_seen": "2026-11-24T19:52:18+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/wordpress/wp-content/debug.log",
+      "count": 3,
+      "first_seen": "2026-11-22T17:58:17+00:00",
+      "last_seen": "2026-11-24T20:07:33+00:00"
     },
     {
       "rule_id": "nov24-config",
@@ -20438,6 +20710,14 @@
     {
       "rule_id": "nov24-config",
       "method": "GET",
+      "path": "/customer/laravel.log",
+      "count": 3,
+      "first_seen": "2026-11-22T17:58:21+00:00",
+      "last_seen": "2026-11-24T19:51:51+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
       "path": "/config/config.php.bak",
       "count": 3,
       "first_seen": "2026-11-22T17:58:22+00:00",
@@ -20460,12 +20740,60 @@
       "last_seen": "2026-11-24T19:51:14+00:00"
     },
     {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/var/log/error.log",
+      "count": 3,
+      "first_seen": "2026-11-22T17:58:23+00:00",
+      "last_seen": "2026-11-24T20:14:33+00:00"
+    },
+    {
       "rule_id": "nov24-file-series",
       "method": "GET",
       "path": "/.php",
       "count": 3,
       "first_seen": "2026-11-23T14:27:28+00:00",
       "last_seen": "2026-11-24T04:56:51+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/settings.env",
+      "count": 3,
+      "first_seen": "2026-11-23T18:05:06+00:00",
+      "last_seen": "2026-11-24T19:59:00+00:00"
+    },
+    {
+      "rule_id": "nov24-config",
+      "method": "GET",
+      "path": "/home/admin/.aws/credentials",
+      "count": 3,
+      "first_seen": "2026-11-23T18:10:14+00:00",
+      "last_seen": "2026-11-24T20:07:49+00:00"
+    },
+    {
+      "rule_id": "nov24-api",
+      "method": "OPTIONS",
+      "path": "/svn/",
+      "count": 3,
+      "first_seen": "2026-11-23T21:01:14+00:00",
+      "last_seen": "2026-11-24T08:25:21+00:00"
+    },
+    {
+      "rule_id": "nov24-opaque",
+      "method": "HEAD",
+      "path": "/website.tar.gz",
+      "count": 3,
+      "first_seen": "2026-11-24T10:29:43+00:00",
+      "last_seen": "2026-11-25T07:37:27+00:00"
+    },
+    {
+      "rule_id": "nov24-opaque",
+      "method": "HEAD",
+      "path": "/web.tar.gz",
+      "count": 3,
+      "first_seen": "2026-11-24T10:29:45+00:00",
+      "last_seen": "2026-11-25T07:37:27+00:00"
     },
     {
       "rule_id": "cisco-wsma-cli",
@@ -20510,26 +20838,10 @@
     {
       "rule_id": "oct30-wordpress-config",
       "method": "GET",
-      "path": "/wp-content/backup.sql",
-      "count": 2,
-      "first_seen": "2026-11-06T12:06:13+00:00",
-      "last_seen": "2026-11-06T12:06:14+00:00"
-    },
-    {
-      "rule_id": "oct30-wordpress-config",
-      "method": "GET",
       "path": "/wp-content/db.sql",
       "count": 2,
       "first_seen": "2026-11-06T12:06:13+00:00",
       "last_seen": "2026-11-06T12:06:15+00:00"
-    },
-    {
-      "rule_id": "oct30-build",
-      "method": "GET",
-      "path": "/.travis.yml.bak",
-      "count": 2,
-      "first_seen": "2026-11-06T12:06:18+00:00",
-      "last_seen": "2026-11-06T12:06:21+00:00"
     },
     {
       "rule_id": "review-wordpress-wave-xxe",
@@ -20717,14 +21029,6 @@
     },
     {
       "rule_id": "nov21-config",
-      "method": "GET",
-      "path": "/index.php.bak",
-      "count": 2,
-      "first_seen": "2026-11-20T01:52:31+00:00",
-      "last_seen": "2026-11-24T10:29:37+00:00"
-    },
-    {
-      "rule_id": "nov21-config",
       "method": "HEAD",
       "path": "/wwwroot.tar.gz",
       "count": 2,
@@ -20782,74 +21086,122 @@
     {
       "rule_id": "nov24-config",
       "method": "GET",
-      "path": "/gateway/actuator/env",
+      "path": "/.travis.yml.bak",
       "count": 2,
-      "first_seen": "2026-11-22T17:58:08+00:00",
-      "last_seen": "2026-11-23T18:09:38+00:00"
+      "first_seen": "2026-11-23T18:03:32+00:00",
+      "last_seen": "2026-11-24T19:56:12+00:00"
     },
     {
       "rule_id": "nov24-config",
       "method": "GET",
-      "path": "/api/config/config.json",
+      "path": "/application.yml.bak",
       "count": 2,
-      "first_seen": "2026-11-22T17:58:10+00:00",
-      "last_seen": "2026-11-23T18:08:37+00:00"
+      "first_seen": "2026-11-23T18:03:42+00:00",
+      "last_seen": "2026-11-24T19:56:30+00:00"
     },
     {
       "rule_id": "nov24-config",
       "method": "GET",
-      "path": "/logs/wp-content/debug.log",
+      "path": "/var/log/nginx/access.log",
       "count": 2,
-      "first_seen": "2026-11-22T17:58:17+00:00",
-      "last_seen": "2026-11-23T18:01:27+00:00"
+      "first_seen": "2026-11-23T18:06:36+00:00",
+      "last_seen": "2026-11-24T20:01:47+00:00"
     },
     {
       "rule_id": "nov24-config",
       "method": "GET",
-      "path": "/wordpress/wp-content/debug.log",
+      "path": "/wp-content/backup.sql",
       "count": 2,
-      "first_seen": "2026-11-22T17:58:17+00:00",
-      "last_seen": "2026-11-23T18:10:05+00:00"
+      "first_seen": "2026-11-23T18:08:52+00:00",
+      "last_seen": "2026-11-24T20:05:29+00:00"
     },
     {
       "rule_id": "nov24-config",
       "method": "GET",
-      "path": "/customer/laravel.log",
+      "path": "/application.properties.bak",
       "count": 2,
-      "first_seen": "2026-11-22T17:58:21+00:00",
-      "last_seen": "2026-11-23T18:01:13+00:00"
+      "first_seen": "2026-11-23T18:11:25+00:00",
+      "last_seen": "2026-11-24T20:09:53+00:00"
     },
     {
       "rule_id": "nov24-config",
       "method": "GET",
-      "path": "/var/log/error.log",
+      "path": "/dbdump.sql",
       "count": 2,
-      "first_seen": "2026-11-22T17:58:23+00:00",
-      "last_seen": "2026-11-23T18:13:58+00:00"
+      "first_seen": "2026-11-23T18:13:45+00:00",
+      "last_seen": "2026-11-24T20:14:07+00:00"
     },
     {
       "rule_id": "nov24-config",
       "method": "GET",
-      "path": "/aws_credentials.ini",
+      "path": "/var/log/apache2/error.log",
       "count": 2,
-      "first_seen": "2026-11-23T18:00:52+00:00",
-      "last_seen": "2026-11-23T18:13:18+00:00"
+      "first_seen": "2026-11-23T18:14:07+00:00",
+      "last_seen": "2026-11-24T20:14:49+00:00"
     },
     {
       "rule_id": "nov24-api",
       "method": "GET",
-      "path": "/__admin/health",
+      "path": "/sqoop/version",
       "count": 2,
-      "first_seen": "2026-11-23T21:01:13+00:00",
-      "last_seen": "2026-11-23T22:15:14+00:00"
+      "first_seen": "2026-11-23T21:01:16+00:00",
+      "last_seen": "2026-11-23T22:15:18+00:00"
     },
     {
-      "rule_id": "nov24-api",
-      "method": "OPTIONS",
-      "path": "/svn/",
+      "rule_id": "nov25-backup-archive",
+      "method": "GET",
+      "path": "/.backup.zip",
       "count": 2,
-      "first_seen": "2026-11-23T21:01:14+00:00",
-      "last_seen": "2026-11-23T22:15:16+00:00"
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:37+00:00"
+    },
+    {
+      "rule_id": "nov25-backup-archive",
+      "method": "GET",
+      "path": "/data.zip",
+      "count": 2,
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:37+00:00"
+    },
+    {
+      "rule_id": "nov25-backup-archive",
+      "method": "GET",
+      "path": "/old.tar.gz",
+      "count": 2,
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:37+00:00"
+    },
+    {
+      "rule_id": "nov25-backup-archive",
+      "method": "GET",
+      "path": "/old.zip",
+      "count": 2,
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:37+00:00"
+    },
+    {
+      "rule_id": "nov25-backup-archive",
+      "method": "GET",
+      "path": "/public_html.tar.gz",
+      "count": 2,
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:36+00:00"
+    },
+    {
+      "rule_id": "nov25-backup-archive",
+      "method": "GET",
+      "path": "/website.zip",
+      "count": 2,
+      "first_seen": "2026-11-24T15:57:36+00:00",
+      "last_seen": "2026-11-24T15:57:36+00:00"
+    },
+    {
+      "rule_id": "nov24-opaque",
+      "method": "HEAD",
+      "path": "/wwwroot.tar.gz",
+      "count": 2,
+      "first_seen": "2026-11-24T22:09:22+00:00",
+      "last_seen": "2026-11-25T07:37:26+00:00"
     },
     {
       "rule_id": "hikvision-injection",
@@ -20916,22 +21268,6 @@
       "last_seen": "2026-11-06T07:08:42+00:00"
     },
     {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/application.yml.bak",
-      "count": 1,
-      "first_seen": "2026-11-06T16:45:17+00:00",
-      "last_seen": "2026-11-06T16:45:17+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/application.properties.bak",
-      "count": 1,
-      "first_seen": "2026-11-06T16:45:25+00:00",
-      "last_seen": "2026-11-06T16:45:25+00:00"
-    },
-    {
       "rule_id": "nov08-unavailable-post",
       "method": "POST",
       "path": "/",
@@ -20954,14 +21290,6 @@
       "count": 1,
       "first_seen": "2026-11-08T14:29:53+00:00",
       "last_seen": "2026-11-08T14:29:53+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/dbdump.sql",
-      "count": 1,
-      "first_seen": "2026-11-10T21:03:13+00:00",
-      "last_seen": "2026-11-10T21:03:13+00:00"
     },
     {
       "rule_id": "nov08-unavailable-post",
@@ -21028,20 +21356,12 @@
       "last_seen": "2026-11-19T12:54:38+00:00"
     },
     {
-      "rule_id": "nov21-config",
-      "method": "HEAD",
-      "path": "/website.tar.gz",
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/configuration.js",
       "count": 1,
-      "first_seen": "2026-11-20T01:52:38+00:00",
-      "last_seen": "2026-11-20T01:52:38+00:00"
-    },
-    {
-      "rule_id": "nov21-config",
-      "method": "HEAD",
-      "path": "/web.tar.gz",
-      "count": 1,
-      "first_seen": "2026-11-20T01:52:39+00:00",
-      "last_seen": "2026-11-20T01:52:39+00:00"
+      "first_seen": "2026-11-20T23:16:30+00:00",
+      "last_seen": "2026-11-20T23:16:30+00:00"
     },
     {
       "rule_id": "nov21-evening-cloud",
@@ -21050,6 +21370,14 @@
       "count": 1,
       "first_seen": "2026-11-21T00:38:43+00:00",
       "last_seen": "2026-11-21T00:38:43+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/.ssl/privkey.pem",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:44+00:00",
+      "last_seen": "2026-11-21T00:38:44+00:00"
     },
     {
       "rule_id": "nov21-evening-cloud",
@@ -21068,20 +21396,20 @@
       "last_seen": "2026-11-21T00:38:45+00:00"
     },
     {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/db-credentials.json",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:45+00:00",
+      "last_seen": "2026-11-21T00:38:45+00:00"
+    },
+    {
       "rule_id": "nov21-evening-group",
       "method": "GET",
       "path": "/gcp_credentials.json",
       "count": 1,
       "first_seen": "2026-11-21T00:38:45+00:00",
       "last_seen": "2026-11-21T00:38:45+00:00"
-    },
-    {
-      "rule_id": "nov21-evening-cloud",
-      "method": "GET",
-      "path": "/home/admin/.aws/credentials",
-      "count": 1,
-      "first_seen": "2026-11-21T00:38:46+00:00",
-      "last_seen": "2026-11-21T00:38:46+00:00"
     },
     {
       "rule_id": "nov21-evening-cloud",
@@ -21095,6 +21423,22 @@
       "rule_id": "nov21-evening-cloud",
       "method": "GET",
       "path": "/latest/meta-data/iam/security-credentials",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:46+00:00",
+      "last_seen": "2026-11-21T00:38:46+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/mongo-credentials.json",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:46+00:00",
+      "last_seen": "2026-11-21T00:38:46+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/stripe-credentials.json",
       "count": 1,
       "first_seen": "2026-11-21T00:38:46+00:00",
       "last_seen": "2026-11-21T00:38:46+00:00"
@@ -21126,10 +21470,74 @@
     {
       "rule_id": "nov21-evening-config",
       "method": "GET",
+      "path": "/1password.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:51+00:00",
+      "last_seen": "2026-11-21T00:38:51+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/billing.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:54+00:00",
+      "last_seen": "2026-11-21T00:38:54+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/config/database.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:55+00:00",
+      "last_seen": "2026-11-21T00:38:55+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/config/db.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:55+00:00",
+      "last_seen": "2026-11-21T00:38:55+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/config/keys.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:55+00:00",
+      "last_seen": "2026-11-21T00:38:55+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/config/nexmo.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:55+00:00",
+      "last_seen": "2026-11-21T00:38:55+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
       "path": "/config/smtp.env",
       "count": 1,
       "first_seen": "2026-11-21T00:38:55+00:00",
       "last_seen": "2026-11-21T00:38:55+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/configs/prod.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:56+00:00",
+      "last_seen": "2026-11-21T00:38:56+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/example.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:57+00:00",
+      "last_seen": "2026-11-21T00:38:57+00:00"
     },
     {
       "rule_id": "nov21-evening-os-file",
@@ -21166,6 +21574,30 @@
     {
       "rule_id": "nov21-evening-config",
       "method": "GET",
+      "path": "/mandrill.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:38:59+00:00",
+      "last_seen": "2026-11-21T00:38:59+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/payment.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:00+00:00",
+      "last_seen": "2026-11-21T00:39:00+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/resend.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:00+00:00",
+      "last_seen": "2026-11-21T00:39:00+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
       "path": "/secrets.bak",
       "count": 1,
       "first_seen": "2026-11-21T00:39:00+00:00",
@@ -21182,15 +21614,175 @@
     {
       "rule_id": "nov21-evening-config",
       "method": "GET",
-      "path": "/settings.env",
+      "path": "/sparkpost.env",
       "count": 1,
       "first_seen": "2026-11-21T00:39:02+00:00",
       "last_seen": "2026-11-21T00:39:02+00:00"
     },
     {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/stripe-webhook-secret.txt",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:03+00:00",
+      "last_seen": "2026-11-21T00:39:03+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/stripe/webhook_secret.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:03+00:00",
+      "last_seen": "2026-11-21T00:39:03+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-group",
+      "method": "GET",
+      "path": "/stripe_secret_key.txt",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:03+00:00",
+      "last_seen": "2026-11-21T00:39:03+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-wp",
+      "method": "GET",
+      "path": "/wp-config.env",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:04+00:00",
+      "last_seen": "2026-11-21T00:39:04+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-project",
+      "method": "GET",
+      "path": "/.github/renovate.json",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:05+00:00",
+      "last_seen": "2026-11-21T00:39:05+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-project",
+      "method": "GET",
+      "path": "/.github/workflows/coverage.yml",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:05+00:00",
+      "last_seen": "2026-11-21T00:39:05+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-project",
+      "method": "GET",
+      "path": "/.github/workflows/lint.yml",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:06+00:00",
+      "last_seen": "2026-11-21T00:39:06+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-project",
+      "method": "GET",
+      "path": "/.github/workflows/push.yml",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:06+00:00",
+      "last_seen": "2026-11-21T00:39:06+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-project",
+      "method": "GET",
+      "path": "/.github/workflows/snyk.yml",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:06+00:00",
+      "last_seen": "2026-11-21T00:39:06+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-project",
+      "method": "GET",
+      "path": "/.github/workflows/test.yml",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:06+00:00",
+      "last_seen": "2026-11-21T00:39:06+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-project",
+      "method": "GET",
+      "path": "/.github/workflows/tests.yml",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:06+00:00",
+      "last_seen": "2026-11-21T00:39:06+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/-/health",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:07+00:00",
+      "last_seen": "2026-11-21T00:39:07+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/-/healthy",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:07+00:00",
+      "last_seen": "2026-11-21T00:39:07+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/-/readiness",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:07+00:00",
+      "last_seen": "2026-11-21T00:39:07+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-group",
+      "method": "GET",
+      "path": "/-/ready",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:08+00:00",
+      "last_seen": "2026-11-21T00:39:08+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/-/liveness",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:08+00:00",
+      "last_seen": "2026-11-21T00:39:08+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/.chef/config.rb",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:09+00:00",
+      "last_seen": "2026-11-21T00:39:09+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-project",
+      "method": "GET",
+      "path": "/.circleci/configs/production.yml",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:09+00:00",
+      "last_seen": "2026-11-21T00:39:09+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-project",
+      "method": "GET",
+      "path": "/.circleci/scripts/deploy.sh",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:09+00:00",
+      "last_seen": "2026-11-21T00:39:09+00:00"
+    },
+    {
       "rule_id": "nov21-evening-group",
       "method": "GET",
       "path": "/.devcontainer/devcontainer.json",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:10+00:00",
+      "last_seen": "2026-11-21T00:39:10+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-group",
+      "method": "GET",
+      "path": "/.dockerignore",
       "count": 1,
       "first_seen": "2026-11-21T00:39:10+00:00",
       "last_seen": "2026-11-21T00:39:10+00:00"
@@ -21204,12 +21796,44 @@
       "last_seen": "2026-11-21T00:39:10+00:00"
     },
     {
+      "rule_id": "nov21-evening-group",
+      "method": "GET",
+      "path": "/.eslintrc.json",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:10+00:00",
+      "last_seen": "2026-11-21T00:39:10+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-project",
+      "method": "GET",
+      "path": "/.hg",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:11+00:00",
+      "last_seen": "2026-11-21T00:39:11+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-project",
+      "method": "GET",
+      "path": "/.idea",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:11+00:00",
+      "last_seen": "2026-11-21T00:39:11+00:00"
+    },
+    {
       "rule_id": "nov21-evening-project",
       "method": "GET",
       "path": "/.vscode",
       "count": 1,
       "first_seen": "2026-11-21T00:39:11+00:00",
       "last_seen": "2026-11-21T00:39:11+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/.serverless.yml",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:12+00:00",
+      "last_seen": "2026-11-21T00:39:12+00:00"
     },
     {
       "rule_id": "nov21-evening-config",
@@ -21222,10 +21846,122 @@
     {
       "rule_id": "nov21-evening-web",
       "method": "GET",
+      "path": "/.well-known/ai-plugin.json",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:12+00:00",
+      "last_seen": "2026-11-21T00:39:12+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/.well-known/envoy",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:12+00:00",
+      "last_seen": "2026-11-21T00:39:12+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/.well-known/host-meta",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:12+00:00",
+      "last_seen": "2026-11-21T00:39:12+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/.well-known/oauth-authorization-server",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:12+00:00",
+      "last_seen": "2026-11-21T00:39:12+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-config",
+      "method": "GET",
+      "path": "/1.sql",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/.well-known/host-meta.json",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/.well-known/matrix/client",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/.well-known/matrix/server",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/.well-known/okta-organization",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
       "path": "/.well-known/openai-plugin.json",
       "count": 1,
       "first_seen": "2026-11-21T00:39:13+00:00",
       "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/.well-known/stripe",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-web",
+      "method": "GET",
+      "path": "/.well-known/stripe.txt",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:13+00:00",
+      "last_seen": "2026-11-21T00:39:13+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-group",
+      "method": "GET",
+      "path": "/___graphql",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:14+00:00",
+      "last_seen": "2026-11-21T00:39:14+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-group",
+      "method": "GET",
+      "path": "/__clockwork/latest",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:14+00:00",
+      "last_seen": "2026-11-21T00:39:14+00:00"
+    },
+    {
+      "rule_id": "nov21-evening-group",
+      "method": "GET",
+      "path": "/__debug__",
+      "count": 1,
+      "first_seen": "2026-11-21T00:39:14+00:00",
+      "last_seen": "2026-11-21T00:39:14+00:00"
     },
     {
       "rule_id": "nov21-evening-group",
@@ -21462,22 +22198,6 @@
     {
       "rule_id": "nov21-evening-os-file",
       "method": "GET",
-      "path": "/var/log/apache2/error.log",
-      "count": 1,
-      "first_seen": "2026-11-21T00:39:44+00:00",
-      "last_seen": "2026-11-21T00:39:44+00:00"
-    },
-    {
-      "rule_id": "nov21-evening-os-file",
-      "method": "GET",
-      "path": "/var/log/nginx/access.log",
-      "count": 1,
-      "first_seen": "2026-11-21T00:39:44+00:00",
-      "last_seen": "2026-11-21T00:39:44+00:00"
-    },
-    {
-      "rule_id": "nov21-evening-os-file",
-      "method": "GET",
       "path": "/var/task/next.config.js",
       "count": 1,
       "first_seen": "2026-11-21T00:39:44+00:00",
@@ -21492,14 +22212,6 @@
       "last_seen": "2026-11-21T00:39:45+00:00"
     },
     {
-      "rule_id": "nov22-session-file",
-      "method": "GET",
-      "path": "/test.php?param=[REDACTED]",
-      "count": 1,
-      "first_seen": "2026-11-22T02:58:44+00:00",
-      "last_seen": "2026-11-22T02:58:44+00:00"
-    },
-    {
       "rule_id": "nov24-opaque",
       "method": "GET",
       "path": "/.php",
@@ -21508,444 +22220,92 @@
       "last_seen": "2026-11-23T17:10:06+00:00"
     },
     {
-      "rule_id": "nov24-config",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/var/logs/debug.log",
+      "path": "/gcloud-service-account.json",
       "count": 1,
-      "first_seen": "2026-11-23T18:00:34+00:00",
-      "last_seen": "2026-11-23T18:00:34+00:00"
+      "first_seen": "2026-11-24T08:41:17+00:00",
+      "last_seen": "2026-11-24T08:41:17+00:00"
     },
     {
-      "rule_id": "nov24-config",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/storage/logs/rails.log",
+      "path": "/?param=[REDACTED]&param=[REDACTED]",
       "count": 1,
-      "first_seen": "2026-11-23T18:00:39+00:00",
-      "last_seen": "2026-11-23T18:00:39+00:00"
+      "first_seen": "2026-11-24T08:41:26+00:00",
+      "last_seen": "2026-11-24T08:41:26+00:00"
     },
     {
-      "rule_id": "nov24-config",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/config/private/aws_credentials.json",
+      "path": "/.well-known/openai-plugin.json",
       "count": 1,
-      "first_seen": "2026-11-23T18:00:40+00:00",
-      "last_seen": "2026-11-23T18:00:40+00:00"
+      "first_seen": "2026-11-24T08:41:27+00:00",
+      "last_seen": "2026-11-24T08:41:27+00:00"
     },
     {
-      "rule_id": "nov24-diagnostic",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/mailer/crm/phpinfo.php",
+      "path": "/?param=[REDACTED]",
       "count": 1,
-      "first_seen": "2026-11-23T18:00:41+00:00",
-      "last_seen": "2026-11-23T18:00:41+00:00"
+      "first_seen": "2026-11-24T08:41:27+00:00",
+      "last_seen": "2026-11-24T08:41:27+00:00"
     },
     {
-      "rule_id": "nov24-config",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/storage/logs/sendgrid.log",
+      "path": "/.devcontainer/devcontainer.json",
       "count": 1,
-      "first_seen": "2026-11-23T18:00:43+00:00",
-      "last_seen": "2026-11-23T18:00:43+00:00"
+      "first_seen": "2026-11-24T08:41:28+00:00",
+      "last_seen": "2026-11-24T08:41:28+00:00"
     },
     {
-      "rule_id": "nov24-config",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/dump.sqlite",
+      "path": "/.vscode",
       "count": 1,
-      "first_seen": "2026-11-23T18:00:44+00:00",
-      "last_seen": "2026-11-23T18:00:44+00:00"
+      "first_seen": "2026-11-24T08:41:28+00:00",
+      "last_seen": "2026-11-24T08:41:28+00:00"
     },
     {
-      "rule_id": "nov24-diagnostic",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/phpinfo.php.orig.bak",
+      "path": "/_next/data",
       "count": 1,
-      "first_seen": "2026-11-23T18:00:44+00:00",
-      "last_seen": "2026-11-23T18:00:44+00:00"
+      "first_seen": "2026-11-24T08:41:28+00:00",
+      "last_seen": "2026-11-24T08:41:28+00:00"
     },
     {
-      "rule_id": "nov24-config",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/services/laravel.log",
+      "path": "/_nitro/openapi.json",
       "count": 1,
-      "first_seen": "2026-11-23T18:00:45+00:00",
-      "last_seen": "2026-11-23T18:00:45+00:00"
+      "first_seen": "2026-11-24T08:41:28+00:00",
+      "last_seen": "2026-11-24T08:41:28+00:00"
     },
     {
-      "rule_id": "nov24-diagnostic",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/mailer/dev/phpinfo.php",
+      "path": "/app/vercel.json",
       "count": 1,
-      "first_seen": "2026-11-23T18:00:49+00:00",
-      "last_seen": "2026-11-23T18:00:49+00:00"
+      "first_seen": "2026-11-24T08:41:30+00:00",
+      "last_seen": "2026-11-24T08:41:30+00:00"
     },
     {
-      "rule_id": "nov24-config",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/api/keys/test.php",
+      "path": "/etc/environment",
       "count": 1,
-      "first_seen": "2026-11-23T18:00:50+00:00",
-      "last_seen": "2026-11-23T18:00:50+00:00"
+      "first_seen": "2026-11-24T08:41:32+00:00",
+      "last_seen": "2026-11-24T08:41:32+00:00"
     },
     {
-      "rule_id": "nov24-config",
+      "rule_id": "nov24-opaque",
       "method": "GET",
-      "path": "/dev/laravel.log",
+      "path": "/var/task/vercel.json",
       "count": 1,
-      "first_seen": "2026-11-23T18:00:50+00:00",
-      "last_seen": "2026-11-23T18:00:50+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/admin/log/error.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:00:53+00:00",
-      "last_seen": "2026-11-23T18:00:53+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/core/config/debug.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:00:55+00:00",
-      "last_seen": "2026-11-23T18:00:55+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/api/php/debug.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:01+00:00",
-      "last_seen": "2026-11-23T18:01:01+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/config/.ssh/authorized_keys",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:03+00:00",
-      "last_seen": "2026-11-23T18:01:03+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/admin/test/debug.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:05+00:00",
-      "last_seen": "2026-11-23T18:01:05+00:00"
-    },
-    {
-      "rule_id": "nov24-file-series",
-      "method": "GET",
-      "path": "/user/.vscode/sftp.json",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:06+00:00",
-      "last_seen": "2026-11-23T18:01:06+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/wp-content/plugins/aws_credentials.js",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:07+00:00",
-      "last_seen": "2026-11-23T18:01:07+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/core/env/debug.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:12+00:00",
-      "last_seen": "2026-11-23T18:01:12+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/var/logs/error.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:13+00:00",
-      "last_seen": "2026-11-23T18:01:13+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/private/aws_credentials",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:14+00:00",
-      "last_seen": "2026-11-23T18:01:14+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/api/db/debug.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:16+00:00",
-      "last_seen": "2026-11-23T18:01:16+00:00"
-    },
-    {
-      "rule_id": "nov24-diagnostic",
-      "method": "GET",
-      "path": "/mailer/api/phpinfo.php",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:20+00:00",
-      "last_seen": "2026-11-23T18:01:20+00:00"
-    },
-    {
-      "rule_id": "nov24-diagnostic",
-      "method": "GET",
-      "path": "/mailer/dashboard/phpinfo.php",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:25+00:00",
-      "last_seen": "2026-11-23T18:01:25+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/api/config/default.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:26+00:00",
-      "last_seen": "2026-11-23T18:01:26+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/.aws/wp-config.bak.orig",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:27+00:00",
-      "last_seen": "2026-11-23T18:01:27+00:00"
-    },
-    {
-      "rule_id": "nov24-file-series",
-      "method": "GET",
-      "path": "/.well-known/aws.json",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:36+00:00",
-      "last_seen": "2026-11-23T18:01:36+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/site/logs/error.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:38+00:00",
-      "last_seen": "2026-11-23T18:01:38+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/secrets/aws_credentials.js",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:42+00:00",
-      "last_seen": "2026-11-23T18:01:42+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/storage/logs/app.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:44+00:00",
-      "last_seen": "2026-11-23T18:01:44+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/src/access.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:45+00:00",
-      "last_seen": "2026-11-23T18:01:45+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/api/config/sample.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:48+00:00",
-      "last_seen": "2026-11-23T18:01:48+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/config/tmp/debug.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:51+00:00",
-      "last_seen": "2026-11-23T18:01:51+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/app/Secrets/aws_credentials.php",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:53+00:00",
-      "last_seen": "2026-11-23T18:01:53+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/.ssh/authorized_keys.tmp",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:54+00:00",
-      "last_seen": "2026-11-23T18:01:54+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/api/config/secret.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:54+00:00",
-      "last_seen": "2026-11-23T18:01:54+00:00"
-    },
-    {
-      "rule_id": "nov24-file-series",
-      "method": "GET",
-      "path": "/client/.vscode/sftp.json",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:54+00:00",
-      "last_seen": "2026-11-23T18:01:54+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/api/sql/debug.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:57+00:00",
-      "last_seen": "2026-11-23T18:01:57+00:00"
-    },
-    {
-      "rule_id": "nov24-diagnostic",
-      "method": "GET",
-      "path": "/phpinfo.php.copy.bak.bak",
-      "count": 1,
-      "first_seen": "2026-11-23T18:01:57+00:00",
-      "last_seen": "2026-11-23T18:01:57+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/cache/error.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:01+00:00",
-      "last_seen": "2026-11-23T18:02:01+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/_/.ssh/authorized_keys",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:02+00:00",
-      "last_seen": "2026-11-23T18:02:02+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/services/.ssh/authorized_keys",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:03+00:00",
-      "last_seen": "2026-11-23T18:02:03+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/dashboard/laravel.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:05+00:00",
-      "last_seen": "2026-11-23T18:02:05+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/log/access.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:06+00:00",
-      "last_seen": "2026-11-23T18:02:06+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/api/config/database.json",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:10+00:00",
-      "last_seen": "2026-11-23T18:02:10+00:00"
-    },
-    {
-      "rule_id": "nov24-diagnostic",
-      "method": "GET",
-      "path": "/mailer/dev/info.php",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:10+00:00",
-      "last_seen": "2026-11-23T18:02:10+00:00"
-    },
-    {
-      "rule_id": "nov24-file-series",
-      "method": "GET",
-      "path": "/blog/.vscode/sftp.json",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:11+00:00",
-      "last_seen": "2026-11-23T18:02:11+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/config/new/debug.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:14+00:00",
-      "last_seen": "2026-11-23T18:02:14+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/wp-includes/aws_credentials.json",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:15+00:00",
-      "last_seen": "2026-11-23T18:02:15+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/api/config/wp-config.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:16+00:00",
-      "last_seen": "2026-11-23T18:02:16+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/config/access.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:18+00:00",
-      "last_seen": "2026-11-23T18:02:18+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/.config/aws_credentials.env.disabled",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:19+00:00",
-      "last_seen": "2026-11-23T18:02:19+00:00"
-    },
-    {
-      "rule_id": "nov24-config",
-      "method": "GET",
-      "path": "/admin/logs/error.log",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:22+00:00",
-      "last_seen": "2026-11-23T18:02:22+00:00"
-    },
-    {
-      "rule_id": "nov24-diagnostic",
-      "method": "GET",
-      "path": "/mailer/backup/phpinfo.php",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:23+00:00",
-      "last_seen": "2026-11-23T18:02:23+00:00"
-    },
-    {
-      "rule_id": "nov24-file-series",
-      "method": "GET",
-      "path": "/resources/.vscode/sftp.json",
-      "count": 1,
-      "first_seen": "2026-11-23T18:02:25+00:00",
-      "last_seen": "2026-11-23T18:02:25+00:00"
+      "first_seen": "2026-11-24T08:41:35+00:00",
+      "last_seen": "2026-11-24T08:41:35+00:00"
     }
   ],
   "outbound": [
@@ -22021,6 +22381,6 @@
     "invalid_events": 0,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 120
+    "pending_indicators": 0
   }
 }
