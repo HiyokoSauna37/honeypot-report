@@ -221,7 +221,7 @@
       }
     }
   },
-  "generated_utc": "2026-11-26T15:51:34+00:00",
+  "generated_utc": "2026-11-26T16:52:49+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -294,9 +294,9 @@
   },
   "notable_activity": {
     "react2shell": {
-      "requests": 1365,
+      "requests": 1366,
       "first_seen": "2026-10-29T15:52:36+00:00",
-      "last_seen": "2026-11-26T15:07:24+00:00",
+      "last_seen": "2026-11-26T16:06:33+00:00",
       "responses": [
         {
           "status": 200,
@@ -308,7 +308,7 @@
         },
         {
           "status": 405,
-          "count": 993
+          "count": 994
         },
         {
           "status": 499,
@@ -321,7 +321,7 @@
       ],
       "unknown_responses": 0,
       "signals": {
-        "command": 1365,
+        "command": 1366,
         "download": 1,
         "cron_removal": 1
       },
@@ -446,9 +446,9 @@
               "value": "$@0"
             }
           ],
-          "count": 343,
+          "count": 344,
           "first_seen": "2026-10-30T06:27:45+00:00",
-          "last_seen": "2026-11-26T15:07:24+00:00"
+          "last_seen": "2026-11-26T16:06:33+00:00"
         },
         {
           "method": "POST",
@@ -7175,13 +7175,17 @@
       "unlisted_requests": 0
     },
     "node2shell": {
-      "requests": 16,
+      "requests": 17,
       "first_seen": "2026-11-21T00:38:40+00:00",
-      "last_seen": "2026-11-26T12:31:34+00:00",
+      "last_seen": "2026-11-26T16:31:16+00:00",
       "responses": [
         {
           "status": 202,
           "count": 14
+        },
+        {
+          "status": 405,
+          "count": 1
         },
         {
           "status": 415,
@@ -7190,10 +7194,10 @@
       ],
       "unknown_responses": 0,
       "signals": {
-        "brotli_input": 16,
+        "brotli_input": 17,
         "node_endpoint": 0,
         "http2_transport": 16,
-        "sample_recorded": 16
+        "sample_recorded": 17
       },
       "request_details": [
         {
@@ -7243,6 +7247,18 @@
           "count": 7,
           "first_seen": "2026-11-24T05:12:31+00:00",
           "last_seen": "2026-11-26T12:31:34+00:00"
+        },
+        {
+          "method": "POST",
+          "path": "/",
+          "query": [],
+          "status": 405,
+          "content_encoding": "br",
+          "body_format": "unavailable",
+          "body_fields": [],
+          "count": 1,
+          "first_seen": "2026-11-26T16:31:16+00:00",
+          "last_seen": "2026-11-26T16:31:16+00:00"
         }
       ],
       "unlisted_requests": 0
@@ -7267,18 +7283,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 549598,
+    "classified_requests": 549612,
     "iot_requests": 1332,
-    "unclassified_requests": 626,
-    "routine_requests": 24716,
-    "excluded_checks": 5004
+    "unclassified_requests": 629,
+    "routine_requests": 24751,
+    "excluded_checks": 5017
   },
   "counts": {
     "commands": 1304912,
-    "login_attempts": 1596181,
-    "login_successes": 136200,
-    "ssh_connections": 1779071,
-    "web_requests": 576272
+    "login_attempts": 1598682,
+    "login_successes": 136326,
+    "ssh_connections": 1783723,
+    "web_requests": 576324
   },
   "daily": [
     {
@@ -7433,8 +7449,8 @@
     },
     {
       "date": "2026-11-27",
-      "ssh_connections": 2318,
-      "web_requests": 346
+      "ssh_connections": 6970,
+      "web_requests": 398
     }
   ],
   "http_requests": [
@@ -7442,9 +7458,9 @@
       "method": "POST",
       "path": "/",
       "status": 405,
-      "count": 1619,
+      "count": 1621,
       "first_seen": "2026-10-30T00:08:59+00:00",
-      "last_seen": "2026-11-26T15:07:24+00:00"
+      "last_seen": "2026-11-26T16:31:16+00:00"
     },
     {
       "method": "GET",
@@ -14900,9 +14916,9 @@
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 3175,
+      "count": 3183,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-26T15:15:02+00:00"
+      "last_seen": "2026-11-26T16:26:19+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -14932,17 +14948,17 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env",
-      "count": 1598,
+      "count": 1599,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-26T15:08:08+00:00"
+      "last_seen": "2026-11-26T15:51:03+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env",
-      "count": 1598,
+      "count": 1599,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-26T15:08:08+00:00"
+      "last_seen": "2026-11-26T15:51:03+00:00"
     },
     {
       "rule_id": "wordpress-probe",
@@ -15060,9 +15076,9 @@
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/phpinfo.php",
-      "count": 565,
+      "count": 566,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-26T14:25:22+00:00"
+      "last_seen": "2026-11-26T15:45:47+00:00"
     },
     {
       "rule_id": "review-debug-endpoint",
@@ -15260,9 +15276,9 @@
       "rule_id": "review-react2shell-reverse-shell",
       "method": "POST",
       "path": "/",
-      "count": 414,
+      "count": 415,
       "first_seen": "2026-10-30T06:27:45+00:00",
-      "last_seen": "2026-11-26T15:07:24+00:00"
+      "last_seen": "2026-11-26T16:06:33+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15284,9 +15300,9 @@
       "rule_id": "nov01-site-navigation",
       "method": "GET",
       "path": "/assets/site.js?param=[REDACTED]",
-      "count": 397,
+      "count": 398,
       "first_seen": "2026-11-01T13:48:45+00:00",
-      "last_seen": "2026-11-26T13:10:49+00:00"
+      "last_seen": "2026-11-26T15:46:26+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15747,15 +15763,15 @@
     {
       "rule_id": "nov01-site-navigation",
       "method": "GET",
-      "path": "/assets/alderline.css?param=[REDACTED]",
-      "count": 236,
+      "path": "/assets/site.css?param=[REDACTED]",
+      "count": 237,
       "first_seen": "2026-11-01T13:50:20+00:00",
-      "last_seen": "2026-11-26T13:01:57+00:00"
+      "last_seen": "2026-11-26T15:47:20+00:00"
     },
     {
       "rule_id": "nov01-site-navigation",
       "method": "GET",
-      "path": "/assets/site.css?param=[REDACTED]",
+      "path": "/assets/alderline.css?param=[REDACTED]",
       "count": 236,
       "first_seen": "2026-11-01T13:50:20+00:00",
       "last_seen": "2026-11-26T13:01:57+00:00"
@@ -22308,12 +22324,12 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 129530,
+    "web_bodies_skipped": 129499,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 360
+    "pending_indicators": 364
   }
 }
