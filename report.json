@@ -1,7 +1,7 @@
 {
   "schema_version": 12,
   "shell_watch": {
-    "matched_requests": 3761,
+    "matched_requests": 3767,
     "cases": {
       "ruby2shell": {
         "name": "Ruby2Shell",
@@ -190,10 +190,10 @@
         "reference": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-52p2-r8wf-jcrf",
         "mode": "signal",
         "criteria": "\u6a19\u6e96\u30ed\u30b0\u30a4\u30f3\u753b\u9762\u3078\u306e POST \u3092\u96c6\u8a08\u3002\u672c\u6587\u306e\u30e6\u30fc\u30b6\u30fc\u540d\u306b id\u30fbname \u5c5e\u6027\u4ed8\u304d\u306e HTML \u8981\u7d20\u304c\u3042\u308b\u5165\u529b\u306f\u8981\u8abf\u67fb\u3002\u53cd\u6620\u30fb\u5b9f\u884c\u306f\u672a\u78ba\u8a8d\u3067\u3059\u3002",
-        "surface_requests": 3759,
+        "surface_requests": 3765,
         "indicator_requests": 2,
         "first_seen": "2026-11-04T15:32:32+00:00",
-        "last_seen": "2026-11-28T03:27:34+00:00"
+        "last_seen": "2026-11-28T03:52:33+00:00"
       },
       "kindarails2shell": {
         "name": "KindaRails2Shell",
@@ -221,7 +221,7 @@
       }
     }
   },
-  "generated_utc": "2026-11-28T03:46:25+00:00",
+  "generated_utc": "2026-11-28T04:47:00+00:00",
   "daily_timezone": "Asia/Tokyo",
   "engagement": {
     "started_utc": "2026-10-28T15:26:30+00:00",
@@ -7283,18 +7283,18 @@
     "started_utc": "2026-10-28T11:48:35+00:00"
   },
   "web_summary": {
-    "classified_requests": 561645,
-    "iot_requests": 1436,
-    "unclassified_requests": 584,
-    "routine_requests": 26319,
-    "excluded_checks": 5463
+    "classified_requests": 562304,
+    "iot_requests": 1437,
+    "unclassified_requests": 585,
+    "routine_requests": 26353,
+    "excluded_checks": 5475
   },
   "counts": {
     "commands": 1305335,
-    "login_attempts": 1672951,
-    "login_successes": 139739,
-    "ssh_connections": 1915785,
-    "web_requests": 589984
+    "login_attempts": 1674384,
+    "login_successes": 139803,
+    "ssh_connections": 1918403,
+    "web_requests": 590679
   },
   "daily": [
     {
@@ -7454,8 +7454,8 @@
     },
     {
       "date": "2026-11-28",
-      "ssh_connections": 41365,
-      "web_requests": 3001
+      "ssh_connections": 43983,
+      "web_requests": 3696
     }
   ],
   "http_requests": [
@@ -7463,17 +7463,17 @@
       "method": "GET",
       "path": "/",
       "status": 200,
-      "count": 10755,
+      "count": 10767,
       "first_seen": "2026-10-28T12:03:41+00:00",
-      "last_seen": "2026-11-28T03:28:15+00:00"
+      "last_seen": "2026-11-28T04:11:44+00:00"
     },
     {
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
       "status": 404,
-      "count": 1875,
+      "count": 1878,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-28T03:27:35+00:00"
+      "last_seen": "2026-11-28T03:52:34+00:00"
     },
     {
       "method": "POST",
@@ -7495,9 +7495,9 @@
       "method": "GET",
       "path": "/SDK/webLanguage",
       "status": 404,
-      "count": 872,
+      "count": 873,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-28T02:12:34+00:00"
+      "last_seen": "2026-11-28T04:02:31+00:00"
     },
     {
       "method": "GET",
@@ -7511,9 +7511,9 @@
       "method": "GET",
       "path": "/",
       "status": 400,
-      "count": 771,
+      "count": 772,
       "first_seen": "2026-10-28T16:46:40+00:00",
-      "last_seen": "2026-11-28T02:31:50+00:00"
+      "last_seen": "2026-11-28T03:48:19+00:00"
     },
     {
       "method": "CONNECT",
@@ -7551,9 +7551,9 @@
       "method": "GET",
       "path": "/assets/site.css?param=[REDACTED]",
       "status": 200,
-      "count": 276,
+      "count": 277,
       "first_seen": "2026-10-30T00:52:18+00:00",
-      "last_seen": "2026-11-28T01:57:59+00:00"
+      "last_seen": "2026-11-28T03:48:49+00:00"
     },
     {
       "method": "GET",
@@ -7567,9 +7567,9 @@
       "method": "GET",
       "path": "/assets/alderline.css?param=[REDACTED]",
       "status": 200,
-      "count": 253,
+      "count": 254,
       "first_seen": "2026-11-01T13:50:20+00:00",
-      "last_seen": "2026-11-28T01:57:59+00:00"
+      "last_seen": "2026-11-28T03:48:51+00:00"
     },
     {
       "method": "GET",
@@ -7845,6 +7845,14 @@
     },
     {
       "method": "GET",
+      "path": "/environment.json",
+      "status": 404,
+      "count": 52,
+      "first_seen": "2026-11-06T12:08:54+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "status": 200,
       "count": 49,
@@ -7914,14 +7922,6 @@
       "count": 49,
       "first_seen": "2026-11-04T09:27:28+00:00",
       "last_seen": "2026-11-26T15:03:42+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/environment.json",
-      "status": 404,
-      "count": 49,
-      "first_seen": "2026-11-06T12:08:54+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
     },
     {
       "method": "GET",
@@ -8165,6 +8165,14 @@
     },
     {
       "method": "GET",
+      "path": "/.terraform/terraform.tfstate",
+      "status": 404,
+      "count": 43,
+      "first_seen": "2026-11-06T12:06:18+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/?param=[REDACTED]&param=[REDACTED]",
       "status": 502,
       "count": 43,
@@ -8221,6 +8229,14 @@
     },
     {
       "method": "GET",
+      "path": "/env.txt",
+      "status": 429,
+      "count": 40,
+      "first_seen": "2026-11-01T15:00:49+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/_nuxt/entry.js",
       "status": 404,
       "count": 40,
@@ -8237,11 +8253,11 @@
     },
     {
       "method": "GET",
-      "path": "/.terraform/terraform.tfstate",
-      "status": 404,
+      "path": "/server.js",
+      "status": 429,
       "count": 39,
-      "first_seen": "2026-11-06T12:06:18+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
+      "first_seen": "2026-11-01T18:38:57+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
     },
     {
       "method": "GET",
@@ -8260,28 +8276,12 @@
       "last_seen": "2026-11-28T03:08:07+00:00"
     },
     {
-      "method": "GET",
-      "path": "/env.txt",
-      "status": 429,
-      "count": 37,
-      "first_seen": "2026-11-01T15:00:49+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
       "method": "POST",
       "path": "/index.php?param=[REDACTED]",
       "status": 405,
       "count": 36,
       "first_seen": "2026-10-30T04:20:29+00:00",
       "last_seen": "2026-11-09T19:25:44+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/server.js",
-      "status": 429,
-      "count": 36,
-      "first_seen": "2026-11-01T18:38:57+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
     },
     {
       "method": "GET",
@@ -8322,6 +8322,14 @@
       "count": 35,
       "first_seen": "2026-11-06T12:09:14+00:00",
       "last_seen": "2026-11-22T07:52:49+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/serviceAccountKey.json",
+      "status": 429,
+      "count": 35,
+      "first_seen": "2026-11-08T21:29:10+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
     },
     {
       "method": "GET",
@@ -8373,6 +8381,14 @@
     },
     {
       "method": "GET",
+      "path": "/config/secrets.env",
+      "status": 429,
+      "count": 33,
+      "first_seen": "2026-11-09T10:49:43+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/assets/site.js.map?param=[REDACTED]",
       "status": 404,
       "count": 32,
@@ -8413,11 +8429,27 @@
     },
     {
       "method": "GET",
-      "path": "/serviceAccountKey.json",
+      "path": "/aws/config",
       "status": 429,
       "count": 31,
-      "first_seen": "2026-11-08T21:29:10+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
+      "first_seen": "2026-11-09T10:49:42+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/service-account-key.json",
+      "status": 429,
+      "count": 31,
+      "first_seen": "2026-11-13T08:58:07+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/js/config.js",
+      "status": 429,
+      "count": 31,
+      "first_seen": "2026-11-14T02:11:06+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "method": "PUT",
@@ -8477,11 +8509,11 @@
     },
     {
       "method": "GET",
-      "path": "/config/secrets.env",
-      "status": 429,
+      "path": "/",
+      "status": 499,
       "count": 29,
-      "first_seen": "2026-11-09T10:49:43+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
+      "first_seen": "2026-11-05T04:26:29+00:00",
+      "last_seen": "2026-11-28T04:24:05+00:00"
     },
     {
       "method": "POST",
@@ -8557,14 +8589,6 @@
     },
     {
       "method": "GET",
-      "path": "/js/config.js",
-      "status": 429,
-      "count": 28,
-      "first_seen": "2026-11-14T02:11:06+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/download.php?param=[REDACTED]",
       "status": 404,
       "count": 27,
@@ -8581,19 +8605,19 @@
     },
     {
       "method": "GET",
-      "path": "/",
-      "status": 499,
+      "path": "/js/app.js",
+      "status": 429,
       "count": 27,
-      "first_seen": "2026-11-05T04:26:29+00:00",
-      "last_seen": "2026-11-25T10:21:04+00:00"
+      "first_seen": "2026-11-03T02:01:22+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "method": "GET",
-      "path": "/aws/config",
-      "status": 429,
+      "path": "/.netlify/state.json",
+      "status": 404,
       "count": 27,
-      "first_seen": "2026-11-09T10:49:42+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
+      "first_seen": "2026-11-06T12:06:23+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "method": "GET",
@@ -8610,14 +8634,6 @@
       "count": 27,
       "first_seen": "2026-11-12T16:29:50+00:00",
       "last_seen": "2026-11-15T04:43:14+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/service-account-key.json",
-      "status": 429,
-      "count": 27,
-      "first_seen": "2026-11-13T08:58:07+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
     },
     {
       "method": "HEAD",
@@ -8650,6 +8666,14 @@
       "count": 26,
       "first_seen": "2026-11-05T18:42:19+00:00",
       "last_seen": "2026-11-27T13:48:22+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/credentials.yaml",
+      "status": 404,
+      "count": 26,
+      "first_seen": "2026-11-06T03:14:27+00:00",
+      "last_seen": "2026-11-28T03:56:47+00:00"
     },
     {
       "method": "POST",
@@ -8693,6 +8717,22 @@
     },
     {
       "method": "GET",
+      "path": "/secret.json",
+      "status": 429,
+      "count": 26,
+      "first_seen": "2026-11-09T17:52:47+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/wrangler.json",
+      "status": 429,
+      "count": 26,
+      "first_seen": "2026-11-09T17:54:02+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/app",
       "status": 404,
       "count": 25,
@@ -8706,6 +8746,14 @@
       "count": 25,
       "first_seen": "2026-11-02T21:36:53+00:00",
       "last_seen": "2026-11-27T13:48:05+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/dist/main.js",
+      "status": 429,
+      "count": 25,
+      "first_seen": "2026-11-03T02:01:20+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "method": "GET",
@@ -8725,11 +8773,11 @@
     },
     {
       "method": "GET",
-      "path": "/credentials.yaml",
-      "status": 404,
+      "path": "/firebase-config.json",
+      "status": 429,
       "count": 25,
-      "first_seen": "2026-11-06T03:14:27+00:00",
-      "last_seen": "2026-11-27T17:55:09+00:00"
+      "first_seen": "2026-11-06T12:06:15+00:00",
+      "last_seen": "2026-11-28T03:56:58+00:00"
     },
     {
       "method": "GET",
@@ -8738,6 +8786,14 @@
       "count": 25,
       "first_seen": "2026-11-06T12:08:41+00:00",
       "last_seen": "2026-11-22T07:52:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config.local.json",
+      "status": 429,
+      "count": 25,
+      "first_seen": "2026-11-09T17:52:47+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "method": "GET",
@@ -8797,6 +8853,14 @@
     },
     {
       "method": "GET",
+      "path": "/secrets.env",
+      "status": 429,
+      "count": 24,
+      "first_seen": "2026-11-06T12:06:12+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/configuration.php.old",
       "status": 429,
       "count": 24,
@@ -8805,11 +8869,27 @@
     },
     {
       "method": "GET",
+      "path": "/.env.vault",
+      "status": 404,
+      "count": 24,
+      "first_seen": "2026-11-12T11:58:48+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/?param=[REDACTED]",
       "status": 502,
       "count": 24,
       "first_seen": "2026-11-12T23:39:53+00:00",
       "last_seen": "2026-11-15T01:06:35+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/parameters.json",
+      "status": 429,
+      "count": 24,
+      "first_seen": "2026-11-13T00:18:08+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "method": "GET",
@@ -8853,14 +8933,6 @@
     },
     {
       "method": "GET",
-      "path": "/js/app.js",
-      "status": 429,
-      "count": 23,
-      "first_seen": "2026-11-03T02:01:22+00:00",
-      "last_seen": "2026-11-28T01:45:58+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/.hg/store/requires",
       "status": 404,
       "count": 23,
@@ -8877,19 +8949,11 @@
     },
     {
       "method": "GET",
-      "path": "/firebase-config.json",
+      "path": "/.vercel/project.json",
       "status": 429,
       "count": 23,
-      "first_seen": "2026-11-06T12:06:15+00:00",
-      "last_seen": "2026-11-27T07:31:07+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/.netlify/state.json",
-      "status": 404,
-      "count": 23,
-      "first_seen": "2026-11-06T12:06:23+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
+      "first_seen": "2026-11-06T12:06:20+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "method": "GET",
@@ -8898,6 +8962,14 @@
       "count": 23,
       "first_seen": "2026-11-06T12:11:12+00:00",
       "last_seen": "2026-11-22T07:52:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/appsettings.Staging.json",
+      "status": 429,
+      "count": 23,
+      "first_seen": "2026-11-09T17:10:47+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "method": "POST",
@@ -8965,6 +9037,14 @@
     },
     {
       "method": "GET",
+      "path": "/server.js",
+      "status": 404,
+      "count": 22,
+      "first_seen": "2026-11-01T18:38:56+00:00",
+      "last_seen": "2026-11-28T03:56:59+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/assets/",
       "status": 404,
       "count": 22,
@@ -8989,6 +9069,14 @@
     },
     {
       "method": "GET",
+      "path": "/vendor/autoload.php",
+      "status": 429,
+      "count": 22,
+      "first_seen": "2026-11-06T12:06:05+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/.git/modules",
       "status": 404,
       "count": 22,
@@ -9010,30 +9098,6 @@
       "count": 22,
       "first_seen": "2026-11-08T18:40:48+00:00",
       "last_seen": "2026-11-24T15:57:34+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/secret.json",
-      "status": 429,
-      "count": 22,
-      "first_seen": "2026-11-09T17:52:47+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/wrangler.json",
-      "status": 429,
-      "count": 22,
-      "first_seen": "2026-11-09T17:54:02+00:00",
-      "last_seen": "2026-11-27T07:31:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/.env.vault",
-      "status": 404,
-      "count": 22,
-      "first_seen": "2026-11-12T11:58:48+00:00",
-      "last_seen": "2026-11-27T07:31:06+00:00"
     },
     {
       "method": "GET",
@@ -9074,14 +9138,6 @@
       "count": 22,
       "first_seen": "2026-11-21T10:53:49+00:00",
       "last_seen": "2026-11-28T02:36:39+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/server.js",
-      "status": 404,
-      "count": 21,
-      "first_seen": "2026-11-01T18:38:56+00:00",
-      "last_seen": "2026-11-22T17:56:58+00:00"
     },
     {
       "method": "POST",
@@ -9130,14 +9186,6 @@
       "count": 21,
       "first_seen": "2026-11-03T00:01:03+00:00",
       "last_seen": "2026-11-26T17:44:53+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/dist/main.js",
-      "status": 429,
-      "count": 21,
-      "first_seen": "2026-11-03T02:01:20+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
     },
     {
       "method": "GET",
@@ -9245,11 +9293,11 @@
     },
     {
       "method": "GET",
-      "path": "/config.local.json",
+      "path": "/settings/production.json",
       "status": 429,
       "count": 21,
       "first_seen": "2026-11-09T17:52:47+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
+      "last_seen": "2026-11-28T04:03:59+00:00"
     },
     {
       "method": "GET",
@@ -9258,6 +9306,30 @@
       "count": 21,
       "first_seen": "2026-11-14T02:11:05+00:00",
       "last_seen": "2026-11-27T16:23:42+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/.config",
+      "status": 404,
+      "count": 21,
+      "first_seen": "2026-11-16T14:25:22+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/build/main.js",
+      "status": 429,
+      "count": 21,
+      "first_seen": "2026-11-16T14:25:22+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/credentials.php",
+      "status": 429,
+      "count": 21,
+      "first_seen": "2026-11-16T14:25:23+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "method": "GET",
@@ -9341,22 +9413,6 @@
     },
     {
       "method": "GET",
-      "path": "/secrets.env",
-      "status": 429,
-      "count": 20,
-      "first_seen": "2026-11-06T12:06:12+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/.vercel/project.json",
-      "status": 429,
-      "count": 20,
-      "first_seen": "2026-11-06T12:06:20+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/public/config.json",
       "status": 404,
       "count": 20,
@@ -9373,27 +9429,19 @@
     },
     {
       "method": "GET",
-      "path": "/appsettings.Staging.json",
-      "status": 429,
-      "count": 20,
-      "first_seen": "2026-11-09T17:10:47+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/parameters.json",
-      "status": 429,
-      "count": 20,
-      "first_seen": "2026-11-13T00:18:08+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
-      "method": "GET",
       "path": "/.claude/.credentials.json",
       "status": 429,
       "count": 20,
       "first_seen": "2026-11-13T00:31:03+00:00",
       "last_seen": "2026-11-24T15:57:34+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/js/config.js",
+      "status": 404,
+      "count": 19,
+      "first_seen": "2026-11-02T08:21:57+00:00",
+      "last_seen": "2026-11-28T03:56:48+00:00"
     },
     {
       "method": "GET",
@@ -9525,6 +9573,22 @@
     },
     {
       "method": "GET",
+      "path": "/api_keys.json",
+      "status": 429,
+      "count": 19,
+      "first_seen": "2026-11-16T14:25:22+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/credentials.yaml",
+      "status": 429,
+      "count": 19,
+      "first_seen": "2026-11-16T14:25:23+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "status": 200,
       "count": 18,
@@ -9554,14 +9618,6 @@
       "count": 18,
       "first_seen": "2026-11-02T08:21:42+00:00",
       "last_seen": "2026-11-27T17:55:29+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/js/config.js",
-      "status": 404,
-      "count": 18,
-      "first_seen": "2026-11-02T08:21:57+00:00",
-      "last_seen": "2026-11-27T17:55:34+00:00"
     },
     {
       "method": "GET",
@@ -9642,14 +9698,6 @@
       "count": 18,
       "first_seen": "2026-11-06T03:14:22+00:00",
       "last_seen": "2026-11-27T13:48:32+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/vendor/autoload.php",
-      "status": 429,
-      "count": 18,
-      "first_seen": "2026-11-06T12:06:05+00:00",
-      "last_seen": "2026-11-27T07:31:39+00:00"
     },
     {
       "method": "GET",
@@ -9810,6 +9858,22 @@
       "count": 18,
       "first_seen": "2026-11-16T09:14:46+00:00",
       "last_seen": "2026-11-22T07:52:16+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/secrets.php",
+      "status": 429,
+      "count": 18,
+      "first_seen": "2026-11-16T14:25:24+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/environment",
+      "status": 429,
+      "count": 18,
+      "first_seen": "2026-11-18T06:09:53+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "method": "GET",
@@ -9989,6 +10053,14 @@
     },
     {
       "method": "GET",
+      "path": "/env.txt",
+      "status": 404,
+      "count": 17,
+      "first_seen": "2026-11-09T10:54:56+00:00",
+      "last_seen": "2026-11-28T03:56:47+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/api/v3/.env",
       "status": 429,
       "count": 17,
@@ -9997,11 +10069,19 @@
     },
     {
       "method": "GET",
-      "path": "/settings/production.json",
+      "path": "/credentials.csv",
+      "status": 404,
+      "count": 17,
+      "first_seen": "2026-11-09T16:06:00+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config.ts",
       "status": 429,
       "count": 17,
-      "first_seen": "2026-11-09T17:52:47+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
+      "first_seen": "2026-11-10T07:56:26+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "method": "GET",
@@ -10053,27 +10133,11 @@
     },
     {
       "method": "GET",
-      "path": "/.config",
-      "status": 404,
-      "count": 17,
-      "first_seen": "2026-11-16T14:25:22+00:00",
-      "last_seen": "2026-11-27T07:31:36+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/build/main.js",
-      "status": 429,
-      "count": 17,
-      "first_seen": "2026-11-16T14:25:22+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/credentials.php",
+      "path": "/keys.php",
       "status": 429,
       "count": 17,
       "first_seen": "2026-11-16T14:25:23+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "method": "POST",
@@ -10485,11 +10549,27 @@
     },
     {
       "method": "GET",
-      "path": "/env.txt",
+      "path": "/firebase-config.json",
       "status": 404,
       "count": 16,
-      "first_seen": "2026-11-09T10:54:56+00:00",
-      "last_seen": "2026-11-27T07:31:07+00:00"
+      "first_seen": "2026-11-08T20:22:08+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/config.ts",
+      "status": 404,
+      "count": 16,
+      "first_seen": "2026-11-09T10:49:42+00:00",
+      "last_seen": "2026-11-28T03:57:03+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/secrets/service-account.json",
+      "status": 429,
+      "count": 16,
+      "first_seen": "2026-11-09T17:52:46+00:00",
+      "last_seen": "2026-11-28T03:56:59+00:00"
     },
     {
       "method": "GET",
@@ -10541,11 +10621,11 @@
     },
     {
       "method": "GET",
-      "path": "/credentials.yaml",
-      "status": 429,
+      "path": "/appsettings.Staging.json",
+      "status": 404,
       "count": 16,
-      "first_seen": "2026-11-16T14:25:23+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
+      "first_seen": "2026-11-15T19:57:18+00:00",
+      "last_seen": "2026-11-28T03:56:47+00:00"
     },
     {
       "method": "GET",
@@ -11541,35 +11621,11 @@
     },
     {
       "method": "GET",
-      "path": "/config.ts",
-      "status": 429,
-      "count": 15,
-      "first_seen": "2026-11-10T07:56:26+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/appsettings.Staging.json",
-      "status": 404,
-      "count": 15,
-      "first_seen": "2026-11-15T19:57:18+00:00",
-      "last_seen": "2026-11-27T07:31:07+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/api_keys.json",
+      "path": "/api-keys.json",
       "status": 429,
       "count": 15,
       "first_seen": "2026-11-16T14:25:22+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/keys.php",
-      "status": 429,
-      "count": 15,
-      "first_seen": "2026-11-16T14:25:23+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "method": "GET",
@@ -11765,22 +11821,6 @@
     },
     {
       "method": "GET",
-      "path": "/firebase-config.json",
-      "status": 404,
-      "count": 14,
-      "first_seen": "2026-11-08T20:22:08+00:00",
-      "last_seen": "2026-11-27T17:55:33+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/config.ts",
-      "status": 404,
-      "count": 14,
-      "first_seen": "2026-11-09T10:49:42+00:00",
-      "last_seen": "2026-11-19T11:25:59+00:00"
-    },
-    {
-      "method": "GET",
       "path": "//.aws/credentials",
       "status": 404,
       "count": 14,
@@ -11796,36 +11836,12 @@
       "last_seen": "2026-11-24T15:57:35+00:00"
     },
     {
-      "method": "GET",
-      "path": "/credentials.csv",
-      "status": 404,
-      "count": 14,
-      "first_seen": "2026-11-09T16:06:00+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/secrets/service-account.json",
-      "status": 429,
-      "count": 14,
-      "first_seen": "2026-11-09T17:52:46+00:00",
-      "last_seen": "2026-11-27T07:31:08+00:00"
-    },
-    {
       "method": "OTHER",
       "path": "/",
       "status": 502,
       "count": 14,
       "first_seen": "2026-11-12T16:35:00+00:00",
       "last_seen": "2026-11-14T19:36:06+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/secrets.php",
-      "status": 429,
-      "count": 14,
-      "first_seen": "2026-11-16T14:25:24+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
     },
     {
       "method": "GET",
@@ -11874,14 +11890,6 @@
       "count": 14,
       "first_seen": "2026-11-17T19:27:32+00:00",
       "last_seen": "2026-11-24T15:57:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/environment",
-      "status": 429,
-      "count": 14,
-      "first_seen": "2026-11-18T06:09:53+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
     },
     {
       "method": "GET",
@@ -12269,6 +12277,14 @@
     },
     {
       "method": "GET",
+      "path": "/secrets/service-account.json",
+      "status": 404,
+      "count": 13,
+      "first_seen": "2026-11-09T17:53:02+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "method": "GET",
       "path": "/index.php?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
       "status": 502,
       "count": 13,
@@ -12290,22 +12306,6 @@
       "count": 13,
       "first_seen": "2026-11-16T17:01:54+00:00",
       "last_seen": "2026-11-23T18:03:11+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/.cache/huggingface/token",
-      "status": 429,
-      "count": 13,
-      "first_seen": "2026-11-17T19:27:31+00:00",
-      "last_seen": "2026-11-24T15:57:35+00:00"
-    },
-    {
-      "method": "GET",
-      "path": "/.config/aichat/config.yaml",
-      "status": 429,
-      "count": 13,
-      "first_seen": "2026-11-17T19:27:31+00:00",
-      "last_seen": "2026-11-24T15:57:35+00:00"
     },
     {
       "method": "POST",
@@ -15105,41 +15105,41 @@
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/xmlrpc.php",
-      "count": 392157,
+      "count": 392161,
       "first_seen": "2026-10-29T19:45:21+00:00",
-      "last_seen": "2026-11-28T03:27:48+00:00"
+      "last_seen": "2026-11-28T03:52:37+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "POST",
       "path": "/wp-login.php",
-      "count": 3761,
+      "count": 3767,
       "first_seen": "2026-11-04T15:32:32+00:00",
-      "last_seen": "2026-11-28T03:27:34+00:00"
+      "last_seen": "2026-11-28T03:52:33+00:00"
     },
     {
       "rule_id": "traffic-empty-target",
       "method": "",
       "path": "",
-      "count": 3332,
+      "count": 3337,
       "first_seen": "2026-10-28T12:00:02+00:00",
-      "last_seen": "2026-11-28T03:12:01+00:00"
+      "last_seen": "2026-11-28T03:49:53+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-json/wp/v2/users/me",
-      "count": 1897,
+      "count": 1900,
       "first_seen": "2026-11-04T09:27:37+00:00",
-      "last_seen": "2026-11-28T03:27:35+00:00"
+      "last_seen": "2026-11-28T03:52:34+00:00"
     },
     {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp-login.php",
-      "count": 1794,
+      "count": 1797,
       "first_seen": "2026-10-29T16:51:16+00:00",
-      "last_seen": "2026-11-28T03:27:34+00:00"
+      "last_seen": "2026-11-28T03:52:32+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -15161,97 +15161,97 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env",
-      "count": 1716,
+      "count": 1720,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T02:37:48+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env",
-      "count": 1716,
+      "count": 1720,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T02:37:48+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/config",
-      "count": 1678,
+      "count": 1682,
       "first_seen": "2026-10-28T18:07:13+00:00",
-      "last_seen": "2026-11-28T03:18:15+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/config",
-      "count": 1678,
+      "count": 1682,
       "first_seen": "2026-10-28T18:07:13+00:00",
-      "last_seen": "2026-11-28T03:18:15+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/HEAD",
-      "count": 991,
+      "count": 995,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-28T02:37:48+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/HEAD",
-      "count": 991,
+      "count": 995,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-28T02:37:48+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "hikvision-probe",
       "method": "GET",
       "path": "/SDK/webLanguage",
-      "count": 980,
+      "count": 981,
       "first_seen": "2026-10-28T13:14:48+00:00",
-      "last_seen": "2026-11-28T02:12:34+00:00"
+      "last_seen": "2026-11-28T04:02:31+00:00"
     },
     {
       "rule_id": "traffic-json-config",
       "method": "GET",
       "path": "/config.json",
-      "count": 815,
+      "count": 819,
       "first_seen": "2026-10-29T12:45:48+00:00",
-      "last_seen": "2026-11-28T02:37:54+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.production",
-      "count": 813,
+      "count": 817,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T02:37:48+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env.production",
-      "count": 813,
+      "count": 817,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T02:37:48+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.local",
-      "count": 772,
+      "count": 776,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T02:37:48+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env.local",
-      "count": 772,
+      "count": 776,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T02:37:48+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-graphql",
@@ -15281,9 +15281,9 @@
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/phpinfo.php",
-      "count": 604,
+      "count": 608,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-28T01:58:17+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "review-debug-endpoint",
@@ -15297,89 +15297,89 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.backup",
-      "count": 561,
+      "count": 565,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T02:44:02+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env.backup",
-      "count": 561,
+      "count": 565,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T02:44:02+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.bak",
-      "count": 536,
+      "count": 540,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T02:38:01+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env.bak",
-      "count": 536,
+      "count": 540,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T02:38:01+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.staging",
-      "count": 525,
+      "count": 529,
       "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.staging",
-      "count": 525,
+      "count": 529,
       "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env.staging",
-      "count": 525,
+      "count": 529,
       "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.aws/credentials",
-      "count": 524,
+      "count": 528,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T02:37:54+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.old",
-      "count": 517,
+      "count": 521,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T02:38:00+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.old",
-      "count": 517,
+      "count": 521,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T02:38:00+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env.old",
-      "count": 517,
+      "count": 521,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T02:38:00+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-product-probe",
@@ -15401,81 +15401,81 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/api/.env",
-      "count": 465,
+      "count": 469,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/logs/HEAD",
-      "count": 463,
+      "count": 467,
       "first_seen": "2026-10-29T22:09:03+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.git/logs/HEAD",
-      "count": 463,
+      "count": 467,
       "first_seen": "2026-10-29T22:09:03+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.git/logs/HEAD",
-      "count": 463,
+      "count": 467,
       "first_seen": "2026-10-29T22:09:03+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.save",
-      "count": 452,
+      "count": 456,
       "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-28T02:38:01+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.save",
-      "count": 452,
+      "count": 456,
       "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-28T02:38:01+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env.save",
-      "count": 452,
+      "count": 456,
       "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-28T02:38:01+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/credentials.json",
-      "count": 447,
+      "count": 451,
       "first_seen": "2026-10-29T16:46:25+00:00",
-      "last_seen": "2026-11-28T02:49:44+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.prod",
-      "count": 438,
+      "count": 442,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env.prod",
-      "count": 438,
+      "count": 442,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-lfi",
@@ -15486,20 +15486,44 @@
       "last_seen": "2026-11-27T17:55:13+00:00"
     },
     {
-      "rule_id": "nov01-site-navigation",
-      "method": "GET",
-      "path": "/assets/site.js?param=[REDACTED]",
-      "count": 424,
-      "first_seen": "2026-11-01T13:48:45+00:00",
-      "last_seen": "2026-11-28T02:37:35+00:00"
-    },
-    {
       "rule_id": "review-file-exposure",
       "method": "GET",
       "path": "/docker-compose.yml",
-      "count": 421,
+      "count": 425,
       "first_seen": "2026-10-29T15:44:08+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "rule_id": "nov01-site-navigation",
+      "method": "GET",
+      "path": "/assets/site.js?param=[REDACTED]",
+      "count": 425,
+      "first_seen": "2026-11-01T13:48:45+00:00",
+      "last_seen": "2026-11-28T03:48:40+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/.env.development",
+      "count": 422,
+      "first_seen": "2026-10-29T16:46:23+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/.env.development",
+      "count": 422,
+      "first_seen": "2026-10-29T16:46:23+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "rule_id": "web-exposure",
+      "method": "GET",
+      "path": "/.env.development",
+      "count": 422,
+      "first_seen": "2026-10-29T16:46:23+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "review-react2shell-reverse-shell",
@@ -15508,30 +15532,6 @@
       "count": 421,
       "first_seen": "2026-10-30T06:27:45+00:00",
       "last_seen": "2026-11-26T23:39:46+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/.env.development",
-      "count": 418,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-27T17:29:01+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.env.development",
-      "count": 418,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-27T17:29:01+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.env.development",
-      "count": 418,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-27T17:29:01+00:00"
     },
     {
       "rule_id": "review-react2shell",
@@ -15545,25 +15545,57 @@
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.dev",
-      "count": 402,
+      "count": 406,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env.dev",
-      "count": 402,
+      "count": 406,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/backend/.env",
-      "count": 391,
+      "count": 395,
       "first_seen": "2026-10-30T06:31:31+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/wp-config.php.bak",
+      "count": 391,
+      "first_seen": "2026-10-29T16:46:25+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/.env.test",
+      "count": 389,
+      "first_seen": "2026-10-29T16:46:24+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/.env.test",
+      "count": 389,
+      "first_seen": "2026-10-29T16:46:24+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "rule_id": "web-exposure",
+      "method": "GET",
+      "path": "/.env.test",
+      "count": 389,
+      "first_seen": "2026-10-29T16:46:24+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-php-diagnostic",
@@ -15582,76 +15614,44 @@
       "last_seen": "2026-11-27T14:00:34+00:00"
     },
     {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/wp-config.php.bak",
-      "count": 387,
-      "first_seen": "2026-10-29T16:46:25+00:00",
-      "last_seen": "2026-11-28T02:37:54+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/.env.test",
-      "count": 385,
-      "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-28T02:38:01+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.env.test",
-      "count": 385,
-      "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-28T02:38:01+00:00"
-    },
-    {
-      "rule_id": "web-exposure",
-      "method": "GET",
-      "path": "/.env.test",
-      "count": 385,
-      "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-28T02:38:01+00:00"
-    },
-    {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/app/.env",
-      "count": 381,
+      "count": 385,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "review-file-exposure",
       "method": "GET",
       "path": "/.npmrc",
-      "count": 380,
+      "count": 384,
       "first_seen": "2026-10-29T15:44:09+00:00",
-      "last_seen": "2026-11-27T17:28:30+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.example",
-      "count": 380,
+      "count": 384,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.example",
-      "count": 380,
+      "count": 384,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env.example",
-      "count": 380,
+      "count": 384,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -15681,9 +15681,9 @@
       "rule_id": "review-file-exposure",
       "method": "GET",
       "path": "/wp-config.php",
-      "count": 370,
+      "count": 374,
       "first_seen": "2026-10-29T15:44:11+00:00",
-      "last_seen": "2026-11-28T02:37:54+00:00"
+      "last_seen": "2026-11-28T04:03:59+00:00"
     },
     {
       "rule_id": "traffic-acme-validation",
@@ -15697,25 +15697,25 @@
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/service-account.json",
-      "count": 363,
+      "count": 367,
       "first_seen": "2026-10-29T23:36:31+00:00",
-      "last_seen": "2026-11-28T02:49:42+00:00"
+      "last_seen": "2026-11-28T04:03:59+00:00"
     },
     {
       "rule_id": "review-file-exposure",
       "method": "GET",
       "path": "/config.php",
-      "count": 360,
+      "count": 364,
       "first_seen": "2026-10-29T15:44:09+00:00",
-      "last_seen": "2026-11-27T20:51:07+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/config.js",
-      "count": 358,
+      "count": 362,
       "first_seen": "2026-10-30T00:13:41+00:00",
-      "last_seen": "2026-11-28T01:45:55+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "review-discovery-page",
@@ -15774,6 +15774,14 @@
       "last_seen": "2026-11-27T17:25:06+00:00"
     },
     {
+      "rule_id": "review-file-exposure",
+      "method": "GET",
+      "path": "/secrets.json",
+      "count": 318,
+      "first_seen": "2026-10-29T15:44:09+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/refs/heads/main",
@@ -15800,18 +15808,18 @@
     {
       "rule_id": "review-file-exposure",
       "method": "GET",
-      "path": "/secrets.json",
-      "count": 314,
-      "first_seen": "2026-10-29T15:44:09+00:00",
-      "last_seen": "2026-11-28T02:37:54+00:00"
-    },
-    {
-      "rule_id": "review-file-exposure",
-      "method": "GET",
       "path": "/.svn/wc.db",
       "count": 312,
       "first_seen": "2026-10-29T15:44:11+00:00",
       "last_seen": "2026-11-27T17:28:05+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/appsettings.json",
+      "count": 311,
+      "first_seen": "2026-10-29T16:46:24+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "review-debug-endpoint",
@@ -15824,42 +15832,42 @@
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
-      "path": "/appsettings.json",
-      "count": 307,
-      "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
       "path": "/config.yml",
-      "count": 294,
+      "count": 298,
       "first_seen": "2026-10-29T22:08:21+00:00",
-      "last_seen": "2026-11-28T02:38:06+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/config/.env",
-      "count": 292,
+      "count": 296,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/config/.env",
-      "count": 292,
+      "count": 296,
       "first_seen": "2026-10-28T22:47:29+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.docker/config.json",
-      "count": 283,
+      "count": 287,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T02:38:07+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/settings.json",
+      "count": 286,
+      "first_seen": "2026-10-29T16:46:25+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -15888,10 +15896,18 @@
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
-      "path": "/settings.json",
-      "count": 282,
-      "first_seen": "2026-10-29T16:46:25+00:00",
-      "last_seen": "2026-11-27T17:55:37+00:00"
+      "path": "/.aws/config",
+      "count": 280,
+      "first_seen": "2026-10-29T16:46:23+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/firebase-adminsdk.json",
+      "count": 278,
+      "first_seen": "2026-10-30T00:13:58+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -15920,26 +15936,10 @@
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
-      "path": "/.aws/config",
-      "count": 276,
-      "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/firebase-adminsdk.json",
-      "count": 274,
-      "first_seen": "2026-10-30T00:13:58+00:00",
-      "last_seen": "2026-11-28T02:49:46+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
       "path": "/config.yaml",
-      "count": 264,
+      "count": 268,
       "first_seen": "2026-10-29T22:08:22+00:00",
-      "last_seen": "2026-11-28T02:38:07+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "oct30-debug",
@@ -15966,28 +15966,28 @@
       "last_seen": "2026-11-27T16:23:45+00:00"
     },
     {
-      "rule_id": "nov01-site-navigation",
-      "method": "GET",
-      "path": "/assets/site.css?param=[REDACTED]",
-      "count": 253,
-      "first_seen": "2026-11-01T13:50:20+00:00",
-      "last_seen": "2026-11-28T01:57:59+00:00"
-    },
-    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/settings.py",
-      "count": 252,
+      "count": 256,
       "first_seen": "2026-10-29T16:46:25+00:00",
-      "last_seen": "2026-11-28T01:45:51+00:00"
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "rule_id": "nov01-site-navigation",
+      "method": "GET",
+      "path": "/assets/site.css?param=[REDACTED]",
+      "count": 254,
+      "first_seen": "2026-11-01T13:50:20+00:00",
+      "last_seen": "2026-11-28T03:48:49+00:00"
     },
     {
       "rule_id": "nov01-site-navigation",
       "method": "GET",
       "path": "/assets/alderline.css?param=[REDACTED]",
-      "count": 251,
+      "count": 252,
       "first_seen": "2026-11-01T13:50:20+00:00",
-      "last_seen": "2026-11-28T01:57:59+00:00"
+      "last_seen": "2026-11-28T03:48:51+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -16028,6 +16028,14 @@
       "count": 242,
       "first_seen": "2026-10-29T22:09:07+00:00",
       "last_seen": "2026-11-27T17:25:09+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/google-credentials.json",
+      "count": 241,
+      "first_seen": "2026-10-29T22:08:25+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -16084,14 +16092,6 @@
       "count": 240,
       "first_seen": "2026-10-29T22:09:04+00:00",
       "last_seen": "2026-11-27T17:25:09+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/google-credentials.json",
-      "count": 237,
-      "first_seen": "2026-10-29T22:08:25+00:00",
-      "last_seen": "2026-11-28T01:01:21+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -16161,25 +16161,25 @@
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.env.production.local",
-      "count": 226,
+      "count": 230,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T02:38:06+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "sensitive-file",
       "method": "GET",
       "path": "/.env.production.local",
-      "count": 226,
+      "count": 230,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T02:38:06+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "web-exposure",
       "method": "GET",
       "path": "/.env.production.local",
-      "count": 226,
+      "count": 230,
       "first_seen": "2026-10-29T16:46:23+00:00",
-      "last_seen": "2026-11-28T02:38:06+00:00"
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -16230,6 +16230,14 @@
       "last_seen": "2026-11-27T14:01:02+00:00"
     },
     {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/env.js",
+      "count": 220,
+      "first_seen": "2026-10-29T22:08:35+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
       "rule_id": "review-discovery-page",
       "method": "GET",
       "path": "/login.action",
@@ -16238,20 +16246,12 @@
       "last_seen": "2026-11-26T17:15:13+00:00"
     },
     {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/env.js",
-      "count": 216,
-      "first_seen": "2026-10-29T22:08:35+00:00",
-      "last_seen": "2026-11-28T01:45:58+00:00"
-    },
-    {
       "rule_id": "oct30-service-config",
       "method": "GET",
       "path": "/gcp-credentials.json",
-      "count": 213,
+      "count": 217,
       "first_seen": "2026-10-30T08:25:01+00:00",
-      "last_seen": "2026-11-28T01:01:18+00:00"
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "review-wordpress-rest",
@@ -16260,6 +16260,14 @@
       "count": 212,
       "first_seen": "2026-10-29T15:45:11+00:00",
       "last_seen": "2026-11-26T17:15:44+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/wp-config.php.old",
+      "count": 212,
+      "first_seen": "2026-10-29T16:46:25+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
     },
     {
       "rule_id": "review-discovery-page",
@@ -16326,14 +16334,6 @@
       "last_seen": "2026-11-28T01:45:51+00:00"
     },
     {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/wp-config.php.old",
-      "count": 208,
-      "first_seen": "2026-10-29T16:46:25+00:00",
-      "last_seen": "2026-11-28T01:45:55+00:00"
-    },
-    {
       "rule_id": "nov05-wordpress-author-probe",
       "method": "GET",
       "path": "/?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
@@ -16358,28 +16358,36 @@
       "last_seen": "2026-11-28T01:45:51+00:00"
     },
     {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/web/.env",
+      "count": 207,
+      "first_seen": "2026-10-29T16:46:26+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/web/.env",
+      "count": 207,
+      "first_seen": "2026-10-29T16:46:26+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/appsettings.Development.json",
+      "count": 205,
+      "first_seen": "2026-10-29T16:46:24+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.svn/entries",
       "count": 204,
       "first_seen": "2026-10-29T21:35:47+00:00",
       "last_seen": "2026-11-27T20:29:06+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/web/.env",
-      "count": 203,
-      "first_seen": "2026-10-29T16:46:26+00:00",
-      "last_seen": "2026-11-27T17:55:19+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/web/.env",
-      "count": 203,
-      "first_seen": "2026-10-29T16:46:26+00:00",
-      "last_seen": "2026-11-27T17:55:19+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -16390,14 +16398,6 @@
       "last_seen": "2026-11-27T17:28:34+00:00"
     },
     {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/appsettings.Development.json",
-      "count": 201,
-      "first_seen": "2026-10-29T16:46:24+00:00",
-      "last_seen": "2026-11-27T17:55:26+00:00"
-    },
-    {
       "rule_id": "oct30-repository",
       "method": "GET",
       "path": "/.git/refs/heads/master",
@@ -16420,30 +16420,54 @@
       "count": 200,
       "first_seen": "2026-10-29T22:09:08+00:00",
       "last_seen": "2026-11-27T17:25:10+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/.env~",
-      "count": 196,
-      "first_seen": "2026-10-29T23:36:53+00:00",
-      "last_seen": "2026-11-27T11:36:47+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.env~",
-      "count": 196,
-      "first_seen": "2026-10-29T23:36:53+00:00",
-      "last_seen": "2026-11-27T11:36:47+00:00"
     },
     {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/terraform.tfstate",
-      "count": 195,
+      "count": 199,
       "first_seen": "2026-10-29T16:46:25+00:00",
-      "last_seen": "2026-11-28T01:45:54+00:00"
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/wp-config.php~",
+      "count": 197,
+      "first_seen": "2026-10-29T23:36:34+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/server/.env",
+      "count": 197,
+      "first_seen": "2026-10-30T11:01:59+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/.env~",
+      "count": 196,
+      "first_seen": "2026-10-29T23:36:53+00:00",
+      "last_seen": "2026-11-27T11:36:47+00:00"
+    },
+    {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/.env~",
+      "count": 196,
+      "first_seen": "2026-10-29T23:36:53+00:00",
+      "last_seen": "2026-11-27T11:36:47+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/appsettings.Production.json",
+      "count": 194,
+      "first_seen": "2026-10-29T16:46:24+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-repository",
@@ -16470,28 +16494,12 @@
       "last_seen": "2026-11-27T17:25:10+00:00"
     },
     {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/wp-config.php~",
-      "count": 193,
-      "first_seen": "2026-10-29T23:36:34+00:00",
-      "last_seen": "2026-11-28T01:45:56+00:00"
-    },
-    {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/server/.env",
-      "count": 193,
-      "first_seen": "2026-10-30T11:01:59+00:00",
-      "last_seen": "2026-11-27T17:55:18+00:00"
-    },
-    {
       "rule_id": "oct30-repository",
       "method": "GET",
-      "path": "/.git/refs/heads/staging",
-      "count": 192,
-      "first_seen": "2026-10-29T22:09:10+00:00",
-      "last_seen": "2026-11-27T17:25:10+00:00"
+      "path": "/.gitignore",
+      "count": 193,
+      "first_seen": "2026-10-30T09:57:37+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "wordpress-probe",
@@ -16529,9 +16537,9 @@
       "rule_id": "oct30-service-config",
       "method": "GET",
       "path": "/serviceAccountKey.json",
-      "count": 130,
+      "count": 134,
       "first_seen": "2026-11-06T03:13:17+00:00",
-      "last_seen": "2026-11-28T01:02:54+00:00"
+      "last_seen": "2026-11-28T04:03:59+00:00"
     },
     {
       "rule_id": "review-wordpress-wp2shell",
@@ -16609,9 +16617,9 @@
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/service-account-key.json",
-      "count": 89,
+      "count": 93,
       "first_seen": "2026-11-02T03:59:42+00:00",
-      "last_seen": "2026-11-28T01:02:58+00:00"
+      "last_seen": "2026-11-28T04:03:59+00:00"
     },
     {
       "rule_id": "nov01-config-file-probe",
@@ -16638,6 +16646,14 @@
       "last_seen": "2026-11-27T17:19:21+00:00"
     },
     {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/.terraform/terraform.tfstate",
+      "count": 76,
+      "first_seen": "2026-11-06T12:06:18+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
       "rule_id": "nov07-client-assets",
       "method": "GET",
       "path": "/_next/static/chunks/main.js.map",
@@ -16652,14 +16668,6 @@
       "count": 72,
       "first_seen": "2026-11-02T04:00:58+00:00",
       "last_seen": "2026-11-27T17:55:46+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/.terraform/terraform.tfstate",
-      "count": 72,
-      "first_seen": "2026-11-06T12:06:18+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
     },
     {
       "rule_id": "nov10-flight-redirect-probe",
@@ -16726,6 +16734,30 @@
       "last_seen": "2026-11-26T15:03:42+00:00"
     },
     {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/environment.json",
+      "count": 63,
+      "first_seen": "2026-11-06T12:08:54+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "rule_id": "nov02-js-asset-probe",
+      "method": "GET",
+      "path": "/server.js",
+      "count": 61,
+      "first_seen": "2026-11-01T18:38:56+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/env.txt",
+      "count": 60,
+      "first_seen": "2026-11-01T15:00:49+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/.aws/credentials.bak",
@@ -16742,28 +16774,12 @@
       "last_seen": "2026-11-27T13:48:13+00:00"
     },
     {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/environment.json",
-      "count": 59,
-      "first_seen": "2026-11-06T12:08:54+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
       "rule_id": "nov05-wordpress-author-probe",
       "method": "GET",
       "path": "/sitemap_index.xml",
       "count": 58,
       "first_seen": "2026-11-04T09:27:22+00:00",
       "last_seen": "2026-11-26T17:11:07+00:00"
-    },
-    {
-      "rule_id": "nov02-js-asset-probe",
-      "method": "GET",
-      "path": "/server.js",
-      "count": 57,
-      "first_seen": "2026-11-01T18:38:56+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
     },
     {
       "rule_id": "nov03-langflow-definition-probe",
@@ -16782,14 +16798,6 @@
       "last_seen": "2026-11-28T03:08:07+00:00"
     },
     {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/env.txt",
-      "count": 56,
-      "first_seen": "2026-11-01T15:00:49+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
       "rule_id": "wordpress-probe",
       "method": "GET",
       "path": "/wp/wp-json/wp/v2/users?param=[REDACTED]&param=[REDACTED]&param=[REDACTED]",
@@ -16804,6 +16812,22 @@
       "count": 55,
       "first_seen": "2026-10-30T14:15:05+00:00",
       "last_seen": "2026-11-27T14:02:12+00:00"
+    },
+    {
+      "rule_id": "nov02-js-asset-probe",
+      "method": "GET",
+      "path": "/js/app.js",
+      "count": 54,
+      "first_seen": "2026-11-03T00:01:16+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/secret.json",
+      "count": 54,
+      "first_seen": "2026-11-05T18:42:19+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "review-jira-metadata",
@@ -16878,6 +16902,14 @@
       "last_seen": "2026-11-26T15:03:42+00:00"
     },
     {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/js/config.js",
+      "count": 52,
+      "first_seen": "2026-11-02T08:21:57+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
       "rule_id": "nov03-unidentified-path",
       "method": "GET",
       "path": "/aab8",
@@ -16924,6 +16956,14 @@
       "count": 52,
       "first_seen": "2026-11-06T12:08:40+00:00",
       "last_seen": "2026-11-22T07:52:06+00:00"
+    },
+    {
+      "rule_id": "nov09-secret-file-probe",
+      "method": "GET",
+      "path": "/aws/config",
+      "count": 52,
+      "first_seen": "2026-11-08T15:53:14+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "wordpress-probe",
@@ -17102,22 +17142,6 @@
       "last_seen": "2026-11-26T15:03:55+00:00"
     },
     {
-      "rule_id": "nov02-js-asset-probe",
-      "method": "GET",
-      "path": "/js/app.js",
-      "count": 50,
-      "first_seen": "2026-11-03T00:01:16+00:00",
-      "last_seen": "2026-11-28T01:45:58+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/secret.json",
-      "count": 50,
-      "first_seen": "2026-11-05T18:42:19+00:00",
-      "last_seen": "2026-11-27T13:48:22+00:00"
-    },
-    {
       "rule_id": "nov07-client-assets",
       "method": "GET",
       "path": "/_nuxt/entry.js",
@@ -17134,12 +17158,12 @@
       "last_seen": "2026-11-28T01:50:00+00:00"
     },
     {
-      "rule_id": "oct30-file-config",
+      "rule_id": "nov07-config-file",
       "method": "GET",
-      "path": "/js/config.js",
+      "path": "/secrets.env",
       "count": 48,
-      "first_seen": "2026-11-02T08:21:57+00:00",
-      "last_seen": "2026-11-27T17:55:34+00:00"
+      "first_seen": "2026-11-06T07:08:42+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "nov07-debug-interface",
@@ -17158,20 +17182,20 @@
       "last_seen": "2026-11-27T17:55:24+00:00"
     },
     {
-      "rule_id": "nov09-secret-file-probe",
-      "method": "GET",
-      "path": "/aws/config",
-      "count": 48,
-      "first_seen": "2026-11-08T15:53:14+00:00",
-      "last_seen": "2026-11-27T17:55:27+00:00"
-    },
-    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/config.env",
       "count": 47,
       "first_seen": "2026-11-01T15:00:49+00:00",
       "last_seen": "2026-11-27T17:55:16+00:00"
+    },
+    {
+      "rule_id": "oct30-file-config",
+      "method": "GET",
+      "path": "/config.local.json",
+      "count": 47,
+      "first_seen": "2026-11-02T04:56:01+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -17188,6 +17212,14 @@
       "count": 47,
       "first_seen": "2026-11-04T09:27:36+00:00",
       "last_seen": "2026-11-26T15:03:50+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/credentials.yaml",
+      "count": 47,
+      "first_seen": "2026-11-06T03:14:27+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "oct30-owncloud-cve-2023-49103",
@@ -17262,14 +17294,6 @@
       "last_seen": "2026-11-22T07:52:28+00:00"
     },
     {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/secrets.env",
-      "count": 44,
-      "first_seen": "2026-11-06T07:08:42+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
       "rule_id": "nov07-client-assets",
       "method": "GET",
       "path": "/_astro/hoisted.js",
@@ -17284,22 +17308,6 @@
       "count": 43,
       "first_seen": "2026-11-01T13:32:17+00:00",
       "last_seen": "2026-11-28T02:44:06+00:00"
-    },
-    {
-      "rule_id": "oct30-file-config",
-      "method": "GET",
-      "path": "/config.local.json",
-      "count": 43,
-      "first_seen": "2026-11-02T04:56:01+00:00",
-      "last_seen": "2026-11-27T14:01:18+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/credentials.yaml",
-      "count": 43,
-      "first_seen": "2026-11-06T03:14:27+00:00",
-      "last_seen": "2026-11-27T17:55:09+00:00"
     },
     {
       "rule_id": "phpunit-code",
@@ -17350,6 +17358,14 @@
       "last_seen": "2026-11-27T13:48:31+00:00"
     },
     {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/firebase-config.json",
+      "count": 41,
+      "first_seen": "2026-11-06T12:06:15+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/api/v1/config",
@@ -17380,6 +17396,14 @@
       "count": 40,
       "first_seen": "2026-11-05T18:42:18+00:00",
       "last_seen": "2026-11-27T13:48:11+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/appsettings.Staging.json",
+      "count": 40,
+      "first_seen": "2026-11-09T17:10:47+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "oct30-file-config",
@@ -17422,6 +17446,14 @@
       "last_seen": "2026-11-28T02:18:02+00:00"
     },
     {
+      "rule_id": "nov09-secret-file-probe",
+      "method": "GET",
+      "path": "/config/secrets.env",
+      "count": 39,
+      "first_seen": "2026-11-08T15:53:14+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
       "rule_id": "nov22-public-docs",
       "method": "GET",
       "path": "/docs",
@@ -17438,12 +17470,12 @@
       "last_seen": "2026-11-27T09:34:31+00:00"
     },
     {
-      "rule_id": "nov07-config-file",
+      "rule_id": "nov02-js-asset-probe",
       "method": "GET",
-      "path": "/firebase-config.json",
+      "path": "/dist/main.js",
       "count": 37,
-      "first_seen": "2026-11-06T12:06:15+00:00",
-      "last_seen": "2026-11-27T17:55:33+00:00"
+      "first_seen": "2026-11-03T00:01:17+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "nov07-config-file",
@@ -17488,26 +17520,18 @@
     {
       "rule_id": "nov07-config-file",
       "method": "GET",
-      "path": "/appsettings.Staging.json",
-      "count": 36,
-      "first_seen": "2026-11-09T17:10:47+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
       "path": "/azure-credentials.json",
       "count": 35,
       "first_seen": "2026-11-06T12:06:15+00:00",
       "last_seen": "2026-11-27T13:48:13+00:00"
     },
     {
-      "rule_id": "nov09-secret-file-probe",
+      "rule_id": "nov10-debug-route-probe",
       "method": "GET",
-      "path": "/config/secrets.env",
+      "path": "/environment",
       "count": 35,
-      "first_seen": "2026-11-08T15:53:14+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
+      "first_seen": "2026-11-09T10:49:42+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "nov07-config-file",
@@ -17518,12 +17542,36 @@
       "last_seen": "2026-11-27T13:48:13+00:00"
     },
     {
+      "rule_id": "sensitive-file",
+      "method": "GET",
+      "path": "/.env.vault",
+      "count": 34,
+      "first_seen": "2026-11-06T12:06:04+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "rule_id": "oct30-build",
+      "method": "GET",
+      "path": "/.vercel/project.json",
+      "count": 34,
+      "first_seen": "2026-11-06T12:06:20+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
       "rule_id": "nov07-client-assets",
       "method": "GET",
       "path": "/_nuxt/manifest.json",
       "count": 34,
       "first_seen": "2026-11-06T12:08:43+00:00",
       "last_seen": "2026-11-22T07:52:05+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/config.ts",
+      "count": 34,
+      "first_seen": "2026-11-09T10:49:42+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "nov03-debug-tool-probe",
@@ -17542,20 +17590,20 @@
       "last_seen": "2026-11-26T17:44:53+00:00"
     },
     {
-      "rule_id": "nov02-js-asset-probe",
-      "method": "GET",
-      "path": "/dist/main.js",
-      "count": 33,
-      "first_seen": "2026-11-03T00:01:17+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
       "rule_id": "nov07-config-file",
       "method": "GET",
       "path": "/.vault-token",
       "count": 33,
       "first_seen": "2026-11-06T12:06:18+00:00",
       "last_seen": "2026-11-26T18:19:44+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/.netlify/state.json",
+      "count": 33,
+      "first_seen": "2026-11-06T12:06:20+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "nov07-client-assets",
@@ -17580,6 +17628,14 @@
       "count": 32,
       "first_seen": "2026-11-03T00:44:23+00:00",
       "last_seen": "2026-11-28T01:45:58+00:00"
+    },
+    {
+      "rule_id": "oct30-build",
+      "method": "GET",
+      "path": "/vendor/autoload.php",
+      "count": 32,
+      "first_seen": "2026-11-06T12:06:04+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -17614,14 +17670,6 @@
       "last_seen": "2026-11-27T16:23:41+00:00"
     },
     {
-      "rule_id": "nov10-debug-route-probe",
-      "method": "GET",
-      "path": "/environment",
-      "count": 31,
-      "first_seen": "2026-11-09T10:49:42+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
       "rule_id": "hikvision-probe",
       "method": "PUT",
       "path": "/SDK/webLanguage",
@@ -17646,22 +17694,6 @@
       "last_seen": "2026-11-27T17:55:23+00:00"
     },
     {
-      "rule_id": "sensitive-file",
-      "method": "GET",
-      "path": "/.env.vault",
-      "count": 30,
-      "first_seen": "2026-11-06T12:06:04+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
-    },
-    {
-      "rule_id": "oct30-build",
-      "method": "GET",
-      "path": "/.vercel/project.json",
-      "count": 30,
-      "first_seen": "2026-11-06T12:06:20+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
-    },
-    {
       "rule_id": "nov07-config-file",
       "method": "GET",
       "path": "/public/config.json",
@@ -17670,20 +17702,20 @@
       "last_seen": "2026-11-22T07:52:10+00:00"
     },
     {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/config.ts",
-      "count": 30,
-      "first_seen": "2026-11-09T10:49:42+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
-    },
-    {
       "rule_id": "web-graphql",
       "method": "GET",
       "path": "/v1/graphql",
       "count": 29,
       "first_seen": "2026-11-03T00:01:03+00:00",
       "last_seen": "2026-11-22T07:53:28+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/api_keys.json",
+      "count": 29,
+      "first_seen": "2026-11-05T18:42:19+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
     },
     {
       "rule_id": "nov07-config-file",
@@ -17712,10 +17744,26 @@
     {
       "rule_id": "nov07-config-file",
       "method": "GET",
-      "path": "/.netlify/state.json",
+      "path": "/secrets/service-account.json",
       "count": 29,
-      "first_seen": "2026-11-06T12:06:20+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
+      "first_seen": "2026-11-09T17:52:46+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/settings/production.json",
+      "count": 29,
+      "first_seen": "2026-11-09T17:52:47+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/wrangler.json",
+      "count": 29,
+      "first_seen": "2026-11-09T17:52:48+00:00",
+      "last_seen": "2026-11-28T04:03:59+00:00"
     },
     {
       "rule_id": "nov07-debug-interface",
@@ -17780,14 +17828,6 @@
       "count": 28,
       "first_seen": "2026-11-06T03:12:19+00:00",
       "last_seen": "2026-11-27T16:23:41+00:00"
-    },
-    {
-      "rule_id": "oct30-build",
-      "method": "GET",
-      "path": "/vendor/autoload.php",
-      "count": 28,
-      "first_seen": "2026-11-06T12:06:04+00:00",
-      "last_seen": "2026-11-27T07:31:39+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -17918,6 +17958,22 @@
       "last_seen": "2026-11-22T07:52:19+00:00"
     },
     {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/credentials.csv",
+      "count": 27,
+      "first_seen": "2026-11-09T16:06:00+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/api-keys.json",
+      "count": 27,
+      "first_seen": "2026-11-16T14:25:22+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
       "rule_id": "oct30-file-config",
       "method": "GET",
       "path": "/wp-config-sample.php",
@@ -17990,6 +18046,14 @@
       "last_seen": "2026-11-25T09:39:49+00:00"
     },
     {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/secrets.php",
+      "count": 26,
+      "first_seen": "2026-11-16T14:25:24+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
       "rule_id": "nov03-yii-debug-probe",
       "method": "GET",
       "path": "/web/debug/default/view",
@@ -18012,14 +18076,6 @@
       "count": 25,
       "first_seen": "2026-11-03T20:31:41+00:00",
       "last_seen": "2026-11-27T13:48:18+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/api_keys.json",
-      "count": 25,
-      "first_seen": "2026-11-05T18:42:19+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
     },
     {
       "rule_id": "sensitive-file",
@@ -18102,36 +18158,20 @@
       "last_seen": "2026-11-22T07:52:18+00:00"
     },
     {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/secrets/service-account.json",
-      "count": 25,
-      "first_seen": "2026-11-09T17:52:46+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/settings/production.json",
-      "count": 25,
-      "first_seen": "2026-11-09T17:52:47+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/wrangler.json",
-      "count": 25,
-      "first_seen": "2026-11-09T17:52:48+00:00",
-      "last_seen": "2026-11-27T07:31:39+00:00"
-    },
-    {
       "rule_id": "nov14-react-extended-hex",
       "method": "POST",
       "path": "/",
       "count": 25,
       "first_seen": "2026-11-11T04:12:51+00:00",
       "last_seen": "2026-11-12T01:36:32+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/parameters.json",
+      "count": 25,
+      "first_seen": "2026-11-13T00:18:08+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "nov03-public-form-probe",
@@ -18302,14 +18342,6 @@
       "last_seen": "2026-11-22T07:52:26+00:00"
     },
     {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/credentials.csv",
-      "count": 23,
-      "first_seen": "2026-11-09T16:06:00+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
       "rule_id": "nov10-php-diagnostic-probe",
       "method": "GET",
       "path": "/symfony/_profiler/phpinfo",
@@ -18340,6 +18372,14 @@
       "count": 23,
       "first_seen": "2026-11-14T02:11:05+00:00",
       "last_seen": "2026-11-27T17:55:08+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/credentials.php",
+      "count": 23,
+      "first_seen": "2026-11-16T14:25:23+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "nov16-nextauth-entry-probe",
@@ -18468,14 +18508,6 @@
       "count": 22,
       "first_seen": "2026-11-06T16:45:33+00:00",
       "last_seen": "2026-11-09T19:31:33+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/secrets.php",
-      "count": 22,
-      "first_seen": "2026-11-16T14:25:24+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
     },
     {
       "rule_id": "nov18-web-directory-probe",
@@ -18656,18 +18688,34 @@
     {
       "rule_id": "nov07-config-file",
       "method": "GET",
-      "path": "/parameters.json",
-      "count": 21,
-      "first_seen": "2026-11-13T00:18:08+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
       "path": "/.azure/accessTokens.json",
       "count": 21,
       "first_seen": "2026-11-14T02:11:04+00:00",
       "last_seen": "2026-11-24T15:57:32+00:00"
+    },
+    {
+      "rule_id": "nov02-js-asset-probe",
+      "method": "GET",
+      "path": "/build/main.js",
+      "count": 21,
+      "first_seen": "2026-11-16T14:25:22+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/.config",
+      "count": 21,
+      "first_seen": "2026-11-16T14:25:22+00:00",
+      "last_seen": "2026-11-28T04:03:57+00:00"
+    },
+    {
+      "rule_id": "nov07-config-file",
+      "method": "GET",
+      "path": "/keys.php",
+      "count": 21,
+      "first_seen": "2026-11-16T14:25:23+00:00",
+      "last_seen": "2026-11-28T04:03:58+00:00"
     },
     {
       "rule_id": "nov03-yii-debug-probe",
@@ -19212,14 +19260,6 @@
       "count": 19,
       "first_seen": "2026-11-10T03:20:23+00:00",
       "last_seen": "2026-11-15T19:55:59+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/credentials.php",
-      "count": 19,
-      "first_seen": "2026-11-16T14:25:23+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
     },
     {
       "rule_id": "phpunit-code",
@@ -20022,30 +20062,6 @@
       "last_seen": "2026-11-09T19:37:59+00:00"
     },
     {
-      "rule_id": "nov02-js-asset-probe",
-      "method": "GET",
-      "path": "/build/main.js",
-      "count": 17,
-      "first_seen": "2026-11-16T14:25:22+00:00",
-      "last_seen": "2026-11-27T07:31:37+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/.config",
-      "count": 17,
-      "first_seen": "2026-11-16T14:25:22+00:00",
-      "last_seen": "2026-11-27T07:31:36+00:00"
-    },
-    {
-      "rule_id": "nov07-config-file",
-      "method": "GET",
-      "path": "/keys.php",
-      "count": 17,
-      "first_seen": "2026-11-16T14:25:23+00:00",
-      "last_seen": "2026-11-27T07:31:38+00:00"
-    },
-    {
       "rule_id": "phpunit-code",
       "method": "POST",
       "path": "/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
@@ -20206,14 +20222,6 @@
       "last_seen": "2026-11-27T17:55:20+00:00"
     },
     {
-      "rule_id": "nov18-ai-client-config-probe",
-      "method": "GET",
-      "path": "/.cache/huggingface/token",
-      "count": 15,
-      "first_seen": "2026-11-17T19:27:31+00:00",
-      "last_seen": "2026-11-24T15:57:35+00:00"
-    },
-    {
       "rule_id": "nov21-flight-reference-post",
       "method": "POST",
       "path": "/api/auth/callback",
@@ -20316,14 +20324,6 @@
       "count": 14,
       "first_seen": "2026-11-09T15:06:32+00:00",
       "last_seen": "2026-11-27T17:55:07+00:00"
-    },
-    {
-      "rule_id": "nov18-ai-client-config-probe",
-      "method": "GET",
-      "path": "/.config/aichat/config.yaml",
-      "count": 14,
-      "first_seen": "2026-11-17T19:27:31+00:00",
-      "last_seen": "2026-11-24T15:57:35+00:00"
     },
     {
       "rule_id": "nov18-ai-client-config-probe",
@@ -22737,12 +22737,12 @@
   ],
   "coverage": {
     "web_bodies_read": 100,
-    "web_bodies_skipped": 129358,
+    "web_bodies_skipped": 129353,
     "manifest_read": true,
     "dionaea_lines_read": 13,
     "invalid_events": 0,
     "rows_limited": true,
     "history_days": 90,
-    "pending_indicators": 201
+    "pending_indicators": 202
   }
 }
